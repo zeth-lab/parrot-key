@@ -1,0 +1,283 @@
+[
+ {
+  "id": "vini-sinotoi",
+  "sci": "Vini sinotoi",
+  "en": "Sinoto's Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sinoto's_lorikeet",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Sinoto's lorikeet (Vini sinotoi) is a species of parrot that became extinct 700–1300 years ago.  It was identified from fossils on the Marquesas Islands.\nThe species epithet commemorates anthropologist Yosihiko H. Sinoto who collected the holotype in 1965."
+ },
+ {
+  "id": "cyanoramphus-subflavescens",
+  "sci": "Cyanoramphus subflavescens",
+  "en": "Lord Howe Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lord_Howe_parakeet",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Lord Howe parakeet was a medium-sized green parrot with a crimson cap and eye-stripe. Measurements of specimens indicate that it was slightly larger than the nominate subspecies, as well as having yellower plumage and less extensive red markings on the head."
+ },
+ {
+  "id": "psittacula-bensoni",
+  "sci": "Psittacula bensoni",
+  "en": "Mauritius Gray Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mascarene_grey_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/412799855/medium.jpg",
+   "credit": "(c) FunkMonk, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Contemporary accounts describe the Mascarene grey parakeet as a grey, long-tailed parrot. Subfossils show that its beak was about 29% longer than that of the sympatric echo parakeet, and comparatively broad, since the rami of each half of the mandible were deflected more outwards to the sides. Members of the Psittacula commonly have large, red beaks, and long tail feathers, with the central ones being the longest. It also differed from its congeners in other osteological details. It was skeletally similar to the Alexandrine parakeet, but some of its bones were larger and more robust. Its colouration also separated it from all other members of Psittacula, the majority of which are green or partially green.\nBased on subfossils, the Mascarene grey parakeet was smaller than the broad-billed parrot and the Rodrigues parrot, but similar in size to the Mascarene parrot, though with a wider beak. The mandibular symphysis (central jaw ridge) was 2.7–2.9 mm (0.11–0.11 in) thick along the mid-line, the palatine (part of the palate) was 31.1 mm (1.22 in), and the tarsometatarsus (bone in the lower leg) was 22–22.5 mm (0.87–0.89 in). The grey parrots from Réunion were described as being larger than the sympatric echo parakeet."
+ },
+ {
+  "id": "amazona-martinicana",
+  "sci": "Amazona martinicana",
+  "en": "Martinique Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Martinique_amazon",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Jean-Baptiste Labat described them as follows in 1742:\n\nThose of Dominica have some red feathers on the wings, under the throat, and in the tail; all the rest is green (Amazona bouqueti, w.r.). Those of Martinique have the same plumage as the last mentioned, but the top of the head is slate colour with a small amount of red.\nAssuming it was a genuine and distinct taxon, it was endemic to Martinique and became extinct due to habitat loss as Martinique was cleared for agriculture. It has not been recorded since 1722.\nThe Guadeloupe amazon (\"A. violacea\"), a similarly speculative \"species\", was said to inhabit the island of Guadeloupe. It is sometimes considered to be the same as  \"A. martinicana\". However, it is more widely held to be related or identical to the imperial amazon (A. imperialis), the second Amazona species of Dominica."
+ },
+ {
+  "id": "tanygnathus-everetti",
+  "sci": "Tanygnathus everetti",
+  "en": "Blue-backed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-backed_parrot",
+  "photo": null,
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "It is of medium size (32 cm), primarily green with yellowish edging to the wings, a blue rump, and blue wing bends. The head, mantle, wings and tail are darker green, the belly and collar are lighter green. It is sexually dimorphic, with the male having a red beak and the female a pale yellow or horn colored beak.  \nIt is often confused for the Blue-naped parrot, but is differentiated by its red iris, more plain green plummage on wings,  more pronounced sexual dimorphism, slightly larger size and vocalizations. In the Sulu archipelago where both species are still present, it prefers more inland and deep forest compared to the Blue-naped parrot."
+ },
+ {
+  "id": "cyanoramphus-ulietanus",
+  "sci": "Cyanoramphus ulietanus",
+  "en": "Raiatea Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Society_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159025597/medium.jpg",
+   "credit": "(c) Mr intelo, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The Raiatea parakeet averaged 25 cm (9.75 to 10 inches) in length. Its head was chocolate brown, paler on the neck, rump, and wings. The bill showed a pale bluish grey hue and had a black tip. The lower back and tail coverts exhibited a rufous brown colouring. The underwing coverts and outer webs to flight feathers were greyish blue. The breast, abdomen, and undertail coverts were olive yellow. The mid-rectrices were olive brown and outer rectrices grey. The irises were orange red in adults and brown in juveniles. The feet were greyish brown. Males and females were not sexually dimorphic."
+ },
+ {
+  "id": "psittacula-exsul",
+  "sci": "Psittacula exsul",
+  "en": "Newton's Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Newton's_parakeet",
+  "photo": null,
+  "size_cm_hint": 40.0,
+  "desc_thin": false,
+  "description": "Newton's parakeet was about 40 cm (16 in) long – roughly the size of the rose-ringed parakeet. The wing of the male specimen was 198 mm (7.8 in), the tail 206 mm (8.1 in), the culmen 25 mm (0.98 in), and the tarsus was 22 mm (0.87 in). The wing of the female specimen was 191 mm (7.5 in), the tail 210 mm (8.3 in), the culmen 24 mm (0.94 in), and the tarsus was 22 mm (0.87 in). The male specimen was greyish blue (also described as \"slatey blue\") tinged with green, and darker above. The head was bluer, with a dark line running from the eye to the cere. It had a broad black collar running from the chin to the nape, where it became gradually narrower. The underside of the tail was greyish, the upper beak was dark reddish brown, and the mandible was black. The legs were grey and the iris yellow. The female was similar but had a greyer head and a black beak. The black collar was not so prominent as that of the male and did not extend to the back of the neck.\nThe general appearance of Newton's parakeet was similar to the extant Psittacula species, including the black collar, but the bluish grey colouration set it apart from other members of its genus, which are mostly green. It differed from its Mascarene relatives in some skeletal details, including in that the internal margin of the mandibular symphysis (where the two halves of the lower jaw connected) was oval instead of square-shaped when seen from above, and in that the upper end of the humerus (upper arm bone) was less expanded than in the Mascarene grey parakeet and the echo parakeet.\n\n\n=== Possible colour variation ===\n \nThe French naturalist Philibert Commerson received a live specimen on Mauritius in the 1770s and described it as \"greyish blue\". French artist Paul Philippe Sanguin de Jossigny made two illustrations of this specimen, the only known depictions of Newton's parakeet in life, unpublished until 2007. Though both existing specimens are blue, some early accounts from Rodrigues have caused confusion over the colouration of the plumage. One of these is Leguat's following statement:\n\nThere are abundance of green and blew Parrets, they are of a midling and equal bigness; when they are young, their Flesh is as good as young Pigeons.\nIf the green parrots Leguat referred to were not the Rodrigues parrot (Necropsittacus rodericanus), they might perhaps have been a green colour morph of Newton's parakeet, as Hume has suggested. As A. Newton observed in his original description, some feathers of the female specimen display both blue and green tinges, depending on the light. This may explain some of the discrepancies. According to Fuller, the green parrots mentioned could also instead have been storm-blown members of Psittacula species from other islands, that survived on Rodrigues for a short time.\nThe two existing specimens were originally preserved in alcohol, but though this can discolour specimens, it is not probable that it could turn green to blue. Hume and the Dutch orhinthologist Hein van Grouw have also suggested that due to an inheritable mutation, some Newton's parakeets may have lacked psittacin, a pigment that together with eumelanin produces green colouration in parrot feathers. Complete lack of psittacin produces blue colouration, whereas reduced psittacin can produce a colour between green and blue called parblue, which corresponds to the colour of the two preserved Newton's parakeet specimens. The reason why only parblue specimens are known today may be due to collecting bias, as unusually coloured specimens are more likely to be collected than those of normal colour.\nTafforet also described what appears to be green Newton's parakeets, but the issue of colouration was further complicated by the mention of red plumage:\n\nThe parrots are of three kinds, and in quantity ... The second species [mature male Newton's parakeet?] is slightly smaller and more beautiful, because they have their plumage green like the preceding [Rodrigues Parrot], a little more blue, and above the wings a little red as well as their beak. The third species [Newton's parakeet] is small and altogether green, and the beak black.\nIn 1987, the British ecologist Anthony S. Cheke proposed that the last two types mentioned were male and female Newton's parakeets, and that the differences between them were due to sexual dimorphism. The last bird mentioned had earlier been identified as introduced grey-headed lovebirds (Agapornis canus) by A. Newton, but Cheke did not find this likely, as their beaks are grey. Pingré also mentioned green birds, perhaps with some red colours, but his account is partially unintelligible and therefore ambiguous. A red shoulder patch is also present on the related Alexandrine parakeet. None of the existing Newton's parakeet specimens have red patches. Fuller suggested the single known male specimen may have been immature, judged on the colour of its beak, and this may also explain the absence of the red patch. When Psittacula are bred by aviculturalists, blue is easily produced from green; the production of blue may suppress red colouration, so blue morphs may have lacked the red patch."
+ },
+ {
+  "id": "psittacula-wardi",
+  "sci": "Psittacula wardi",
+  "en": "Seychelles Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Seychelles_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/146760/medium.jpg",
+   "credit": "(c) Biodiversity Heritage Library, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 41.0,
+  "desc_thin": false,
+  "description": "The Seychelles parakeet was about 41 cm (16 in) in length, with a long, pointed tail. The wing of a male measured 204–208 mm (8.0–8.2 in), the tail 184–187 mm (7.2–7.4 in), the culmen (upper surface of the beak) 33–34 mm (1.3–1.3 in), and the tarsometatarsus (lower leg bone also known as tarsus) 22 mm (0.9 in). The wing of a female measured 182–204 mm (7.2–8.0 in), the tail 200–261 mm (7.9–10.3 in), the culmen 29–34 mm (1.1–1.3 in), and the tarsometatarsus 20–22 mm (0.8–0.9 in).\nThe male was generally green, slightly paler and more yellowish on the underparts, with the back of the head, nape, and narrow stripes on the cheeks washed with pale blue. It had a broad, black cheek-stripe (also termed a band or incomplete collar) and an obscure, narrow line from the cere (the bare patch around the nostrils) to the eye. The abdomen was yellowish green, and there was a purple-red or deep maroon patch (also termed a speculum) on the wing covert-feathers. The upper side of the central tail feathers was blue with yellow tips, the tail feathers on the sides were green, and the underside of the tail was yellow. The bill was red with a yellow tip, the iris was yellowish, and the feet were grey. The female lacked the black cheek-stripe, and the immature bird was similar to the female, but with shorter tail feathers.\nThe preserved specimens show that the Seychelles parakeet was smaller and had shorter wings, as well as a slightly less robust bill, than the Alexandrine parakeet. While all skeletal elements of the male Alexandrine parakeet were larger than those of the male Seychelles parakeet, an x-radiograph of a female Seychelles parakeet shows that it had a larger cranium, rostrum (upper jaw), mandible, ulna (a lower wing bone), and tibiotarsus (shin bone) than the female Alexandrine parakeet, but a shorter tarsometatarsus and carpometacarpus (outermost wing or hand bone). The male Seychelles parakeet differed from the male Alexandrine parakeet in lacking a rosy collar, in that the cheeks and back of the neck were suffused with blue instead of blue-grey, in that the black band that encircled the cheeks was finer, extending to the back of the neck, and in that its underside was more yellowish. The wings and tail were shorter and broader.\nThe British artist Marianne North worked on the Seychelles from 1883 to 1884, where she produced at least 46 paintings, mainly depicting botanical subjects, but also some animals. Apart from a few mentions, her animal paintings from the Seychelles were neglected in the literature until 2013, when the British ecologist Anthony S. Cheke discussed them in depth and identified the depicted species. Cheke found the paintings to be a useful snapshot of the local wildlife during the period, and he located and published for the first time an 1883 painting by North of the Seychelles parakeet, which had previously only been mentioned in writing. The depicted birds were a captive male and juvenile (shown with the tropical American plant Caesalpinia pulcherrima) that had been brought to Mahé from Silhouette, kept by the British medical officer James Brooks and his wife. It is the only known depiction of the species in life, and the appearance of the juvenile is only known from the painting. While unpublished, the painting was known from North's writings, such as an 1884 account describing the birds, the only mention of this species in captivity, and the painting was purchased by a relative of hers at an auction in the 1990s. The colours of this painting are more muted than North's other paintings from this time, perhaps because of fading resulting from experiencing different conditions."
+ },
+ {
+  "id": "amazona-violacea",
+  "sci": "Amazona violacea",
+  "en": "Guadeloupe Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Guadeloupe_amazon",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Du Tertre described the Guadeloupe amazon as follows in 1654:\n\nThe Parrot of Guadeloupe is almost as large as a fowl. The beak and the eye are bordered with carnation. All the feathers of the head, neck, and underparts are of a violet color, mixed with a little green and black, and changeable like the throat of a pigeon. All the upper part of the back is brownish green. The long quills are black, the others yellow, green, and red, and it has on the wing-coverts two rosettes of rose color.\nLabat described the bird as follows in 1742:\n\nThe Parrots of these islands are distinguishable from those of the mainland of Guinea (? Guiana) by their different plumage; those of Guadeloupe are a little smaller than the Macaws. The head, neck, and underparts are slaty, with a few green and black feathers; the back is wholly green, the wings green, yellow, and red.\nClark noted that the iridescent feathers described are not unique to the Guadeloupe amazon, as other freshly killed amazons also show this to a greater or lesser degree, especially the Saint Vincent amazon (Amazona guildingii). He suggested that the black of the head and underparts of the Guadeloupe bird could have been the borders of the feathers, as seen in the imperial amazon, whereas the green may have been a sign of immaturity, like in the Saint Vincent amazon. He also likened the brownish green upperparts to those of a young Saint Vincent amazon, and suggested that the red \"rosettes\" mentioned by Du Tertre may have been scattered feathers in the wing covert feathers. Clark listed features of the imperial amazon which contrasted with those of the Guadeloupe amazon, such as its deep purple head and underparts, green upperparts, wings with dark brown, purple, green, blue and red feathers.\nAs well as being described as violet by Du Tertre and slate by Labat, the head and underparts of the bird were described as ashy blue by Brisson. Greenway suggested some of this discrepancy may have been because Labat confused the Guadeloupe amazon with the Martinique amazon, as he appears not to have distinguished between the birds. Hume consolidated these descriptions under the term \"slaty-blue\".\nRothschild featured an illustration of the Guadeloupe amazon in his 1907 book Extinct Birds by the Dutch artist John Gerrard Keulemans, based on the early descriptions. In 1916, the American ornithologist Robert Ridgway criticised the illustration for differing from Du Tertre's description; Du Tertre supposedly only meant that the proximal primary feathers were yellow, whereas all the covert feathers are yellow in the illustration, apart from a red edge, and the head and underparts are slate."
+ },
+ {
+  "id": "prioniturus-verticalis",
+  "sci": "Prioniturus verticalis",
+  "en": "Blue-winged Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-winged_racket-tail",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The blue-winged racket-tail or Sulu racquet-tail (Prioniturus verticalis) is a species of parrot in the family Psittaculidae.\nIt is endemic to Tawi-Tawi island in the Philippines and is one of the most endangered parrots in the world. It is threatened by habitat loss and the poaching for the cage-bird trade."
+ },
+ {
+  "id": "lorius-albidinucha",
+  "sci": "Lorius albidinucha",
+  "en": "White-naped Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-naped_lory",
+  "photo": null,
+  "size_cm_hint": 26.0,
+  "desc_thin": false,
+  "description": "The white-naped lory is 26 cm (10 in) long. It is mostly red with black on top of head and white on back of neck. It has green wings, and a narrow yellow transverse line on each side of body below neck. It has dark-grey legs. It has an orange-red beak, dark-grey eyerings, and orange-yellow pupils."
+ },
+ {
+  "id": "loriculus-tener",
+  "sci": "Loriculus tener",
+  "en": "Green-fronted Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bismarck_hanging_parrot",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Both sexes feature a mainly green body with a bright red patch on its throat, a black beak, and yellow eyes. Males have a yellow/green rump with a yellow tail. Females feature green cheeks (along with males) but, have a slight green/blue wash. Juvenile birds have no throat patches, and have a brown beak and eyes."
+ },
+ {
+  "id": "ara-autochthones",
+  "sci": "Ara autochthones",
+  "en": "St. Croix Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Saint_Croix_macaw",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Since only bones are known of the St. Croix macaw, nothing can be said about its coloration. While the holotype tibiotarsus appears to belong to a fully grown individual, the fact that the bone is slightly spongy at the ends indicates it was immature. This left tibiotarsus is 77.7 mm (3.06 in) in total length, 9.4 mm (0.37 in) in breadth from side to side across the lower end, and the smallest breadth from side to side of the shaft is 3.9 mm (0.15 in). Though similar to the same bone in the Cuban macaw, it is wider from side to side (comparisons between the lower ends of their tibiotarsi indicate it was a slightly larger bird). It is slender compared to those of larger macaws. The holotype tibiotarsus is intermediate in size between those of large macaws such as the scarlet macaw (Ara macao) and the military macaw (Ara militaris), and the small chestnut-fronted macaw (Ara severus). Compared to the tibiotarsi of extant macaws, the bone is more slender and has a slightly greater hindwards development of the upper end. Apart from this, its only distinguishing feature is that its dimensions do not fall within those of other known species. The slender proportions of the bone and more elongated ridges around the upper end show it is a macaw and distinguishes it from the Amazon parrots such as the large imperial amazon (Amazona imperialis).\nThe tibiotarsus of the assigned specimen is essentially identical in size to the holotype. It is 74.5 mm (2.93 in) from the upper articular surface, 47.2 mm (1.86 in) from the lower end of the fibular crest to the external condyle (the round prominences at the end of a bone), 11.4 mm (0.45 in) deep through the inner cnemial crest (a ridge at the front side of the head), 5.2 by 4.0 mm (0.20 by 0.16 in) wide and deep at the mid shaft, and 10.1 mm (0.40 in) wide at the lower end. The estimated length of the coracoid is 43.5 mm (1.71 in) from its head to the internal corner of the sternal facet, 26.5 mm (1.04 in) from the base of the procoracoid process to the internal corner of the sternal facet, the glenoid facet is 10.5 by 6.1 mm (0.41 by 0.24 in) wide and deep, the shaft is 5.2 by 4.4 mm (0.20 by 0.17 in) wide and deep at midpoint, and the sternal facet is 10.5 mm (0.41 in) wide. The upper width of the humerus is 19.9 mm (0.78 in), the depth through its external tuberosity is 12.8 mm (0.50 in), the depth of its head is 6.2 mm (0.24 in), the width of the lower end is about 15.5 mm (0.61 in), and the height and width of the radial condyle is 7.4 by 5.0 mm (0.29 by 0.20 in). The carpometacarpus is 55.8 mm (2.20 in) long, its upper depth is 14.3 mm (0.56 in), the trochlea (a grooved structure where bones join) is 5.7 mm (0.22 in) wide, and the shaft is 4.5 by 5.0 mm (0.18 by 0.20 in) at midpoint. The upper part of the radius is 6.0 mm (0.24 in) at its greatest diameter. The estimated length of the femur is 51.5 mm (2.03 in), its upper width is 12.5 mm (0.49 in), the depth through its trochanter is 8.2 mm (0.32 in), the head is 6.2 mm (0.24 in) deep, and the shaft is 4.9 by 5.4 mm (0.19 by 0.21 in) wide and deep at its midpoint.\n\nOlson and Máiz López stated that extant macaws fall into two size-clusters, representing large and small species. In contrast, the St. Croix macaw was distinct in being intermediate between the two clusters, with only the blue-throated macaw (Ara glaucogularis) and Lear's macaw (Anodorhynchus leari) being similar in size. They observed that the pectoral attachment on the humerus is less excavated compared to those two macaws. In contrast, the capital groove (a groove separating two parts of the humerus's head) is wider. The head of the femur is more massive, and when seen from the back, is more excavated under the head, neck, and trochanter. In contrast, the femur's more robust shaft is similar to that of Ara but dissimilar to Anodorhynchus. The tibiotarsus is more robust with a flared lower extremity. The tibiotarsus' length is shorter than in the blue-throated macaw but longer than in Lear's macaw. In contrast, the lengths of the coracoid, carpometacarpus, and femur are smaller than in either.\nOlson and Máiz López ruled out the specimen from Puerto Rico belonging to the Amazon parrots by pointing out characters found only in Ara macaws. The coracoid is more elongated and has a relatively narrow shaft, and the ventral lip of the glenoid facet (equivalent to the glenoid fossa of mammals) protrudes more. The carpometacarpus is proportionally much longer with a process on the alular metacarpal that is not curved at its upper part, while the ectepicondylar process (a bony elevation) and the attachment of pronator brevis (one of the two pronation muscles in the wing) on the humerus is placed farther upwards. The femur has a proportionally larger head, and the tibiotarsus has a narrower internal condyle and a distinctive inner cnemial crest that is more pointed and extends further upwards."
+ },
+ {
+  "id": "eclectus-infectus",
+  "sci": "Eclectus infectus",
+  "en": "Oceanic Eclectus",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oceanic_eclectus_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473044920/medium.png",
+   "credit": "(c) solidstatesystem, osa oikeuksista pidätetään (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The oceanic eclectus (Eclectus infectus) is an extinct parrot species which occurred on Tonga, Vanuatu and possibly on Fiji. Its closest living relative is the Moluccan eclectus (E. roratus sensu lato), which has proportionally larger wings than the oceanic eclectus parrot. The fossil material unearthed in November 1989 in Late Pleistocene and Holocene deposits on 'Eua, Lifuka, 'Uiha and Vanuatu and described in 2006 by David William Steadman include a complete femur, five radii, a quadrate bone, a mandible, a coracoid, two sterna, two humeri, two ulnae, two tibiotarsi, a carpometacarpus, a tarsometatarsus, and three pedal phalanges.\n\n \nThe oceanic eclectus parrot became extinct on Tonga during the early settlement 3,000 years ago, presumably due to human-caused factors. On Vava'u, it may have survived into historic times because among the drawings which were created in 1793 during Alessandro Malaspina's Pacific expedition, there is one sketch which appears to portray an Oceanic eclectus.\nFossil remains of the oceanic eclectus have been found in archaeological sites in the islands of Tonga and Vanuatu. The species presumably existed in Fiji, as well. E. infectus had proportionally smaller wings than the Moluccan eclectus. The species became extinct after the arrival of humans 3000 years ago, presumably due to human-caused factors (habitat loss, introduced species)."
+ },
+ {
+  "id": "lophopsittacus-mauritianus",
+  "sci": "Lophopsittacus mauritianus",
+  "en": "Broad-billed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Broad-billed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/146770/medium.jpg",
+   "credit": "(c) Biodiversity Heritage Library, osa oikeuksista pidätetään (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 65.0,
+  "desc_thin": false,
+  "description": "The broad-billed parrot had a disproportionately large head and jaws, and the skull was flattened from top to bottom, unlike in other Mascarene parrots. Ridges on the skull indicate that its distinct frontal crest of feathers was firmly attached, and that the bird, unlike cockatoos, could not raise or lower it. The width of the hind edge of the mandibular symphysis (where the two halves of the lower jaw connected) indicate that the jaws were comparatively broad. The 1601 Gelderland sketch was examined in 2003 by Hume, who compared the ink finish with the underlying pencil sketch and found that the latter showed several additional details. The pencil sketch depicts the crest as a tuft of rounded feathers attached to the front of the head at the base of the beak, and shows rounded wings with long primary covert feathers, large secondary feathers, and a slightly bifurcated tail, with the two central feathers longer than the rest. Measurements of some of the first known bones show that the mandible was 65–78 millimetres (2.6–3.1 in) in length, 65 mm (2.6 in) in width, the femur was 58–63 mm (2.3–2.5 in) in length, the tibia was 88–99 mm (3.5–3.9 in), and the metatarsus 35 mm (1.4 in). The sternum was relatively reduced.\nSubfossils show that the males were larger, measuring 55–65 centimetres (22–26 in) to the females' 45–55 cm (18–22 in). The sexual dimorphism in size between male and female skulls is the largest among parrots. Differences in the bones of the rest of the body and limbs are less pronounced; nevertheless, it had greater sexual dimorphism in overall size than any living parrot. The size differences between the two birds in the 1601 sketch may be due to this feature. A 1602 account by the Dutch sailor Reyer Cornelisz has traditionally been interpreted as the only contemporary mention of size differences among broad-billed parrots, listing \"large and small Indian crows\" among the animals of the island. A full transcript of the original text was only published in 2003, and showed that a comma had been incorrectly placed in the English translation; \"large and small\" instead referred to \"field-hens\", possibly the red rail and the smaller Cheke's wood rail.\n\n\n=== Possible colouration ===\n\nThere has been some confusion over the colouration of the broad-billed parrot. The report of van Neck's 1598 voyage, published in 1601, contained the first illustration of the parrot, with a caption stating that the bird had \"two or three colours\". The last account of the bird, and the only mention of specific colours, was by the German preacher Johann Christian Hoffman in 1673–75:\n\nThere are also geese, flamingos, three species of pigeon of varied colours, mottled and green perroquets, red crows with recurved beaks and with blue heads, which fly with difficulty and have received from the Dutch the name of Indian crow.\nIn spite of the mention of several colours, authors such as the British naturalist Walter Rothschild claimed that the Gelderland journal described the bird as entirely blue-grey, and it was restored this way in Rothschild's 1907 book Extinct Birds. Examination of the journal by Hume in 2003 revealed only a description of the dodo. He suggested that the distinctively drawn facial mask may represent a separate colour. Hume suggested in 1987 that in addition to size dimorphism, the sexes may have had different colours, which would explain some of the discrepancies in the old descriptions. The head was evidently blue, and in 2007, Hume suggested the beak may have been red, and the rest of the plumage greyish or blackish, which also occurs in other members of Psittaculini.\nIn 2015, a translation of the 1660s report of the Dutch soldier Johannes Pretorius about his stay on Mauritius (from 1666 to 1669) was published, wherein he described the bird as \"very beautifully coloured\". Hume accordingly reinterpreted Hoffman's account, and suggested the bird may have been brightly coloured with a red body, blue head, and red beak; the bird was illustrated as such in the paper. Possible iridescent or glossy feathers that changed appearance according to angle of light may also have given the impression that it had even more colours. The Australian ornithologist Joseph M. Forshaw agreed in 2017 that the bill was red (at least in males), but interpreted Hoffman's account as suggesting a more subdued reddish-brown colouration in general, with a pale bluish-grey head, similar to the Mascarene parrot."
+ },
+ {
+  "id": "eclectus-riedeli",
+  "sci": "Eclectus riedeli",
+  "en": "Tanimbar Eclectus",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tanimbar_eclectus",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Tanimbar eclectus, or Riedel's eclectus (Eclectus riedeli) is a parrot species which is native to the Tanimbar Islands. It is smaller than the Moluccan eclectus. The male has a more bluish tinge to its green cheeks and neck, and its tail is edged with a broad band of yellow. The female has an all red plumage, except for royal blue primaries, yellow under-tail coverts and a broad band of yellow to edge the tail."
+ },
+ {
+  "id": "vini-vidivici",
+  "sci": "Vini vidivici",
+  "en": "Conquered Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Conquered_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/297211257/medium.jpg",
+   "credit": "(c) FunkMonk, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "It was a large species; the only larger species in Vini was V. sinotoi."
+ },
+ {
+  "id": "vini-palmarum",
+  "sci": "Vini palmarum",
+  "en": "Palm Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Palm_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/69541250/medium.jpg",
+   "credit": "(c) Auckland Museum, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The palm lorikeet (Vini palmarum) is a species of parrot in the family Psittaculidae. It is found in the Santa Cruz Islands and Vanuatu. Its natural habitats are subtropical or tropical moist lowland forest, subtropical or tropical moist montane forest and plantations. It is threatened by habitat loss."
+ },
+ {
+  "id": "vini-amabilis",
+  "sci": "Vini amabilis",
+  "en": "Red-throated Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-throated_lorikeet",
+  "photo": null,
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "The red-throated lorikeet (Vini amabilis) is a critically endangered lorikeet endemic to Fiji. It is 18 cm (7.1 in) long and is bright green overall, with red cheeks, throat and thighs. \n\n \nThis bird has been found on the islands of Viti Levu, Vanua Levu, Taveuni and Ovalau. Ten specimens were collected in 1923, but it was last recorded in 1993, although it may also have been seen on Mount Tomanivi on Viti Levu in 2001. A search of Viti Levu in 2001-2 failed to find any birds, as did a second series of surveys in 2003. It continues to be threatened by habitat loss, the introduced black rat, as well as introduced feral cats and small Indian mongooses. It is known as the Kulawai in Fiji and is the bird found on the Fijian $5 bills."
+ },
+ {
+  "id": "vini-meeki",
+  "sci": "Vini meeki",
+  "en": "Meek's Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Meek's_lorikeet",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Meek's lorikeet (Vini meeki) is a species of parrot in the family Psittaculidae.\nIt is found on Bougainville Island in Papua New Guinea and the Solomon Islands.\nIts natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest.\nIt is threatened by habitat loss."
+ }
+]

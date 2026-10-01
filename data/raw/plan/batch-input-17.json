@@ -1,0 +1,322 @@
+[
+ {
+  "id": "cyanopsitta-spixii",
+  "sci": "Cyanopsitta spixii",
+  "en": "Spix's Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spix's_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157825506/medium.jpg",
+   "credit": "(c) Etna 1984, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 56.0,
+  "desc_thin": false,
+  "description": "Spix's macaw is easy to identify being the only small blue macaw and also by the bare grey facial skin of its lores and eyerings. It is about 56 cm (22 in) long including tail length of 26–38 cm (10–15 in). It has a wing length of 24.7–30.0 cm (9.7–11.8 in). The external appearance of adult male and female are identical; however, the average weight of captive males is about 318 g (11.2 oz) and captive females average about 288 g (10.2 oz). Its plumage is grey-blue on the head, pale blue on the underparts, and vivid blue on the upperparts, wings and tail. The legs and feet are brownish-black. In adults the bare facial skin is grey, the beak is entirely dark grey, and the irises are yellow. Juveniles are similar to adults, but they have pale grey bare facial skin, brown irises, and a white stripe along the top-center of their beaks (along the culmen)."
+ },
+ {
+  "id": "charmosynopsis-pulchella",
+  "sci": "Charmosynopsis pulchella",
+  "en": "Fairy Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fairy_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159020705/medium.jpg",
+   "credit": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "The fairy lorikeet grows to a length of about 18 cm (7 in) and weighs between 24 and 34 g (0.8 and 1.2 oz). The male of the nominate subspecies, C. p. pulchella, has the head, nape, breast and underparts red, the breast sometimes being streaked with yellow. The back of the crown has a purplish spot. The mantle, back and wings are dark green, as are the upper tail coverts. The upper side of the tail is green tipped with yellow and the central tail feathers are red towards their tips. The underside of the tail is yellow and the thighs are dark purple. The beak is orange and the eye yellowish-orange. The female is similar but the lower back is yellowish-green and the sides of the rump and flanks are yellow.\nThe male C. p. rothschildi differs in that the breast is green streaked with yellow, while the dark spot on the crown is larger and extends forward to the eye and fades backwards into the green mantle. The upper tail coverts are washed with yellow and the belly is dark purple. The female has a wide green breast band streaked with yellow and a greenish-yellow patch on the side of the rump."
+ },
+ {
+  "id": "cyclopsitta-edwardsii",
+  "sci": "Cyclopsitta edwardsii",
+  "en": "Edwards's Fig Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Edwards's_fig_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/141356624/medium.jpg",
+   "credit": "(c) http://www.birdphotos.com, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "A medium-sized parrot with a stocky build and short tail, it measures 18 cm (7.1 in) in length. The adult male has bright green wings, back, and tail. The feathers of the cheeks and ear coverts are long and narrow, giving the face a ruffed appearance. The cheek feathers are red and the ear coverts golden-yellow. The throat and breast are red with a dark blue-black band on the upper breast. The bill is a dark grey-black and the eye (iris) red. The feet are dark grey. The adult female is similar, but has a wider blue-black band on the otherwise green-yellow breast. Immature birds resemble the female.\nCalls include a high-pitched screett or zseet, and a short sharp ks, described as \"coins dropping on concrete\"."
+ },
+ {
+  "id": "pyrilia-aurantiocephala",
+  "sci": "Pyrilia aurantiocephala",
+  "en": "Bald Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bald_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/307293772/medium.jpg",
+   "credit": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The bald parrot is a medium-small, overall green parrot with a bald, brownish-orange head. As several other members of the genus Pyrilia, it has red underwing coverts that barely are visible when perched, but highly conspicuous in flight. The bald parrot communicates with sounds that consist of a high pitched \"skee-skee-skee\" and a rolling slightly nasal of a \"chow-chow-chow\". Their diet includes flowers, seeds, fruits, and insects. This medium-sized bird is known for its bare skin and orange head. It has the complexion of intensely orange skin, a paler and more yellow color around the eye, black(ish) coloring around the neck, a mostly green lower neck, light yellow tint to the green wings, and tinged with blue on the lower belly. The unique coloring and baldness of this parrot's head give it its name."
+ },
+ {
+  "id": "hapalopsittaca-melanotis",
+  "sci": "Hapalopsittaca melanotis",
+  "en": "Black-winged Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-winged_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/66329570/medium.jpg",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "The black-winged parrot is about 24 cm (9.4 in) long. Adults of both subspecies are mostly green that is more yellowish on their underparts. Their crown has a blue-gray tinge, their lores are blue, and pinkish feathers surround the eye. The nominate subspecies has black ear coverts; those of H. m. peruviana are buff. The nominate has a wide blue-gray collar; that of peruviana is narrower. Both subspecies have largely black wings  but for the mostly blue primaries. Their tail is green tipped, with blackish blue."
+ },
+ {
+  "id": "trichoglossus-flavoviridis",
+  "sci": "Trichoglossus flavoviridis",
+  "en": "Sula Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Citrine_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/143748751/medium.jpg",
+   "credit": "(c) Peter Wilton, some rights reserved (CC BY-NC), uploaded by Peter Wilton (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "Citrine lorikeet has been split into the following species:\n\nSula lorikeet, Saudareos flavoviridis\nYellow-cheeked lorikeet, Saudareos meyeri"
+ },
+ {
+  "id": "loriculus-bonapartei",
+  "sci": "Loriculus bonapartei",
+  "en": "Black-billed Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black-billed_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/308656640/medium.jpg",
+   "credit": "(c) abdel1980, osa oikeuksista pidätetään (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The black-billed hanging parrot (Loriculus bonapartei) is a hanging parrot native to the Sulu Archipelago of the Philippines. It was formerly conspecific with the Philippine hanging parrot."
+ },
+ {
+  "id": "vini-ultramarina",
+  "sci": "Vini ultramarina",
+  "en": "Ultramarine Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ultramarine_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160179416/medium.jpg",
+   "credit": "(c) peterodekerken, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The ultramarine lorikeet (Vini ultramarina) is a species of parrot in the family Psittaculidae, endemic to the Marquesas Islands. Its natural habitats are subtropical or tropical moist lowland forest, subtropical or tropical moist montane forest and plantations. It is critically endangered, threatened mainly by introduction of the black rat and by deforestation."
+ },
+ {
+  "id": "prioniturus-mada",
+  "sci": "Prioniturus mada",
+  "en": "Buru Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Buru_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67552490/medium.jpg",
+   "credit": "(c) Quartl, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "The Buru racket-tail is a mainly green parrot about 32 cm (13 in) long. The beak is blackish and lighter at the base, and the long undertail-coverts are yellow. The adult male has blue upper-parts from the back of its head to mid-back and which extends into the upper surfaces of the forewings. The female has a small area of blue on the nape. Juveniles do not have racket-shaped tail feathers. The male juvenile has a little blue on the nape and the female juvenile has all-green upper-parts."
+ },
+ {
+  "id": "touit-stictopterus",
+  "sci": "Touit stictopterus",
+  "en": "Spot-winged Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spot-winged_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/231273993/medium.jpg",
+   "credit": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "The spot-winged parrotlet is 17 to 18 cm (6.7 to 7.1 in) long and weighs 71 to 84 g (2.5 to 3.0 oz). Its head, body, and tail are green, with the body darker above than below. The male's wings are dusky brown with whitish tips on their coverts that give the species its English name; two of the coverts have orange tips. Females have green coverts with black bases."
+ },
+ {
+  "id": "psittinus-abbotti",
+  "sci": "Psittinus abbotti",
+  "en": "Simeulue Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Simeulue_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/178431995/medium.jpg",
+   "credit": "(c) Mehd Halaouate, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Mehd Halaouate (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 19.0,
+  "desc_thin": false,
+  "description": "The Simeulue parrot is a small, short-tailed bird of stocky build, measuring approximately 19 cm (7.5 in). It has a bright green colouration, which in adult males is accented by a blue face with a green crown and a black collar. It differs from the blue-rumped parrot in its larger size, the lack of grey mantle and back, lack of blue rump, green instead of brown head colouration in the female, and blue head colouration in the male."
+ },
+ {
+  "id": "pyrrhura-subandina",
+  "sci": "Pyrrhura subandina",
+  "en": "Subandean Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sinú_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30063515/medium.jpg",
+   "credit": "(c) keesgroenendijk, some rights reserved (CC BY), uploaded by keesgroenendijk (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Subandean parakeet (Pyrrhura subandina), also known as the Sinú parakeet, is a bird in subfamily Arinae of the family Psittacidae, the African and New World parrots. BirdLife International's Handbook of the Birds of the World recognizes it as a full species. The International Ornithological Committee (IOC), the South American Classification Committee of the American Ornithological Society, and the Clements taxonomy treat it as a subspecies of the painted parakeet  (P. picta).\nA molecular genetic study published in 2023 found that the Subandean parakeet was sister to the Perija parakeet (Pyrrhura caeruleiceps)."
+ },
+ {
+  "id": "trichoglossus-rosenbergii",
+  "sci": "Trichoglossus rosenbergii",
+  "en": "Biak Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Biak_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30360034/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Biak lorikeet (Trichoglossus rosenbergii), also known as Rosenberg's lorikeet, is a parrot in the family Psittaculidae. Formerly lumped in with Trichoglossus haematodus, it is endemic to the twin islands of Biak and Superiori in the Papua province of Indonesia."
+ },
+ {
+  "id": "coracopsis-sibilans",
+  "sci": "Coracopsis sibilans",
+  "en": "Comoro Black Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Comoro_black_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/62115800/medium.jpg",
+   "credit": "(c) Mikael Bauer, osa oikeuksista pidätetään (CC BY), lähettänyt Mikael Bauer (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Comoros black parrot (Coracopsis sibilans) is a medium-sized parrot endemic to the Comoros.  Historically, it has been treated as a subspecies of the lesser vasa parrot, although it shows morphological, ecological and behavioural differences. It was split as a distinct species by the IOC in 2021."
+ },
+ {
+  "id": "vini-stepheni",
+  "sci": "Vini stepheni",
+  "en": "Stephen's Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Stephen's_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/395655071/medium.jpg",
+   "credit": "no rights reserved, uploaded by James Eaton (cc0) / iNaturalist"
+  },
+  "size_cm_hint": 19.0,
+  "desc_thin": false,
+  "description": "The lorikeets are 19 cm (7.5 in) in length and weigh 42–55 g (1.5–1.9 oz).\nAdults are green on the upper side, with a green occiput and crown. The green color turns into a yellow-green at the base and tail. They have a green underwings, with a green band across the chest that varies in appearance. Their breast is red in color, and turns purple towards their abdomen and thighs. They have a deep orange beak with yellow or orange eyes.\nJuvenile Stephen's lorikeets have green underparts with purple or red marks on their throats and abdomens. Their tail tends to be a dark green. They have brown beaks and eyes.\nThe calls emitted while feeding are soft and twittering. The call made while in flight are louder."
+ },
+ {
+  "id": "pezoporus-occidentalis",
+  "sci": "Pezoporus occidentalis",
+  "en": "Night Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Night_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/616046530/medium.jpg",
+   "credit": "(c) Hugo Sun, some rights reserved (CC BY-NC), uploaded by Hugo Sun (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "A relatively small and short-tailed parrot, the species' colour is predominantly a yellowish green, mottled with dark brown, blacks and yellows. Both sexes have this coloration. It is distinguished from the two superficially similar ground parrot species by its shorter tail and different range and habitat. Predominantly terrestrial, taking to the air only when panicked or in search of water, the night parrot has furtive, nocturnal habits and—even when it was abundant—was apparently a highly secretive species. Its natural habitat appears to be the spinifex grass which still dominates much of the dry, dusty Australian interior; other early reports also indicate that it never strayed far from water. It may also inhabit chenopod shrublands, eucalyptus woodlands, and mallee shrublands. One of the vocalisations of the night parrot has been described as a croak and identified as a contact call. Other calls, mostly short \"ding-ding\" whistles, and a more drawn out whistle, have been recorded from Queensland and Western Australia."
+ },
+ {
+  "id": "charmosyna-josefinae",
+  "sci": "Charmosyna josefinae",
+  "en": "Josephine's Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Josephine's_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/227362848/medium.jpg",
+   "credit": "(c) Jonathan M, some rights reserved (CC BY-NC), uploaded by Jonathan M (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "Josephine's lorikeet is red with green wings, a yellow-tipped tail, dusky blue, orange bill, yellow eyes, and black flanks."
+ },
+ {
+  "id": "trichoglossus-semilarvatus",
+  "sci": "Trichoglossus semilarvatus",
+  "en": "Blue-eared Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-eared_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046442/medium.jpg",
+   "credit": "(c) Quartl, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "The blue-eared lory (Trichoglossus semilarvatus) (also known as Ceram lory, half-masked lory or Seram lory) is a parrot found only on the island of Seram in Maluku province, Indonesia.\nThe blue-eared lory is only 24 cm in overall length. It has a red body with blue cheeks, chin, and ear-coverts, purple-blue abdomen and undertail coverts, and black streaked wings. The adult has an orange beak with juvenile's pink.\nThe blue-eared lory is sometimes found in the altitude as low as 800 m, but primarily from 1600–2400 m. It feeds on flowering trees, including tree-heathers above the tree-line. The flocks are small.\nA common species in its limited range, the blue-eared lory is evaluated as Near Threatened on the IUCN Red List of Threatened Species. Its population is decreasing, and has been since at least 2019."
+ },
+ {
+  "id": "pyrrhura-rhodocephala",
+  "sci": "Pyrrhura rhodocephala",
+  "en": "Rose-headed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rose-crowned_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/730614168/medium.jpg",
+   "credit": "(c) Sergio Rivero Beneitez, algunos derechos reservados (CC BY-NC-SA), subido por Sergio Rivero Beneitez (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "The rose-crowned parakeet is a small parrot, measuring 24 cm long with a wing length of 13 to 14.2 cm, tail 9.7 to 11.5 cm, and bill 1.6 to 1.8 cm long, with a tarsus length of 1.4 to 1.6 cm. As an adult it is mainly green; its bright red cap and white primary coverts (blue in juveniles) help to distinguish it from all other long-tailed, small parrot species in South America. It has blue primaries and a red tail and the sexes are alike. No other members of the genus Pyrrhura occur in its range. The painted parakeet also has red on its head but has bold, scaly patterns on its breast and throat. The bare skin around the eye is white."
+ },
+ {
+  "id": "geoffroyus-simplex",
+  "sci": "Geoffroyus simplex",
+  "en": "Blue-collared Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-collared_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/127887342/medium.jpg",
+   "credit": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The blue-collared parrot (Geoffroyus simplex) also known as simple parrot, lilac-collared song parrot, or lilac-collared Geoffroy's parrot, is a parrot found in the higher elevations of New Guinea. It is found from 500 to 2300 m, mainly between 800 and 1900 m (though food shortages will send them lower). It is 23–25 cm, mainly green with a black beak, yellow wing bend, blue underwing coverts, and a pale yellow iris. Adult males have a blue collar across upper breast to lower neck above the mantle, adult females have some blue on the rear crown. Juveniles have no blue and a paler bill. There are two subspecies:\n\nG. s. simplex: On Vogelkop. 23 cm\nG. s. buergersi: On rest of island. 25 cm, collar on males is duller but wider in back.\nIt inhabits humid hill forest and forest edges. Flocks are up to 200."
+ }
+]

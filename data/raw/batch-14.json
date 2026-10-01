@@ -1,0 +1,202 @@
+[
+{
+ "id": "micropsitta-keiensis", "ko": null, "en": "Yellow-capped Pygmy-Parrot", "sci": "Micropsitta keiensis",
+ "region": "뉴기니 서부·카이 제도 저지대 숲", "sizeCm": 9.5, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-capped_pygmy_parrot",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/65379580/medium.jpeg", "credit": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyadi (cc-by-nc) / iNaturalist" },
+ "base": { "main":["g"], "crown":["y"], "forehead":null, "face":null, "cheek":"none", "throat":null, "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["b","g"], "beak":null,
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "touit-dilectissimus", "ko": null, "en": "Blue-fronted Parrotlet", "sci": "Touit dilectissimus",
+ "region": "중앙아메리카~콜롬비아 북서부 저지대 열대우림", "sizeCm": 18, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-fronted_parrotlet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89687075/medium.jpeg", "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist" },
+ "base": { "main":["g"], "crown":["br","g"], "forehead":["b"], "face":["r","b"], "cheek":"none", "throat":null, "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["y","k"], "beak":null,
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"수컷", "wing":["g","r"] }, { "label":"암컷", "wing":["g"] } ]
+},
+{
+ "id": "pyrrhura-emma", "ko": null, "en": "Venezuelan Parakeet", "sci": "Pyrrhura emma",
+ "region": "베네수엘라 북부 산지 숲", "sizeCm": 23, "extinct": false,
+ "wikipedia_url": "https://en.wikipedia.org/wiki/Venezuelan_parakeet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/429689616/medium.jpg", "credit": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández (cc-by-nc) / iNaturalist" },
+ "base": { "main":["g"], "crown":["b"], "forehead":["b"], "face":["r","v"], "cheek":["w"], "throat":["gr","g"], "collar":"none",
+   "breast":["g"], "belly":["br","g"], "back":["g","br"], "wing":["g","br","b"], "tail":["br"], "beak":["gr"],
+   "eyeSkin":"ring", "eyeSkinColor":"gr", "crest":false, "tailShape":"long", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "cacatua-ophthalmica", "ko": null, "en": "Blue-eyed Cockatoo", "sci": "Cacatua ophthalmica",
+ "region": "파푸아뉴기니 뉴브리튼 섬 숲", "sizeCm": 50, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-eyed_cockatoo",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8203569/medium.jpg", "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist" },
+ "base": { "main":["w"], "crown":["w"], "forehead":["w"], "face":["w"], "cheek":"none", "throat":["w"], "collar":"none",
+   "breast":["w"], "belly":["w"], "back":["w"], "wing":["w"], "tail":["w"], "beak":["k"],
+   "eyeSkin":"ring", "eyeSkinColor":"sb", "crest":true, "crestColor":["y","w"], "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "trichoglossus-johnstoniae", "ko": null, "en": "Mindanao Lorikeet", "sci": "Trichoglossus johnstoniae",
+ "region": "필리핀 민다나오 섬 산지 숲", "sizeCm": 20, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Mindanao_lorikeet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48163447/medium.jpg", "credit": "(c) William Warby, some rights reserved (CC BY) (cc-by) / iNaturalist" },
+ "base": { "main":["g"], "crown":["p"], "forehead":["p"], "face":["r"], "cheek":"none", "throat":null, "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["o"],
+   "eyeSkin":"ring", "eyeSkinColor":"gr", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" }, { "label":"어린 새", "crown":["br"], "face":["r","br"], "beak":["br"] } ]
+},
+{
+ "id": "trichoglossus-reticulatus", "ko": null, "en": "Blue-streaked Lory", "sci": "Trichoglossus reticulatus",
+ "region": "인도네시아 술라웨시·말루쿠 제도 숲", "sizeCm": 31, "extinct": false,
+ "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-streaked_lory",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387832238/medium.jpg", "credit": "(c) Doug Janson, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base": { "main":["r"], "crown":["r"], "forehead":["r"], "face":["r"], "cheek":["b"], "throat":["r"], "collar":"none",
+   "breast":["r"], "belly":["r"], "back":["k","r"], "wing":["r","k"], "tail":["k","r"], "beak":["r","o"],
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "trichoglossus-iris", "ko": null, "en": "Iris Lorikeet", "sci": "Trichoglossus iris",
+ "region": "인도네시아 소순다 열도(티모르 등) 숲", "sizeCm": 20, "extinct": false,
+ "wikipedia_url": "https://en.wikipedia.org/wiki/Iris_lorikeet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60030040/medium.jpg", "credit": "(c) SandyCole, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base": { "main":["g"], "crown":["r"], "forehead":["r"], "face":["r"], "cheek":["p"], "throat":["g"], "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["r","o"],
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"barred" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "cyclopsitta-desmarestii", "ko": null, "en": "Large Fig Parrot", "sci": "Cyclopsitta desmarestii",
+ "region": "뉴기니 저지대 열대우림", "sizeCm": 16, "extinct": false,
+ "wikipedia_url": "https://en.wikipedia.org/wiki/Large_fig_parrot",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/223722645/medium.jpg", "credit": "(c) yuvalofek, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist" },
+ "base": { "main":["g"], "crown":["r","o"], "forehead":["r","o"], "face":["y"], "cheek":["sb"], "throat":["g"], "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["gr","k"],
+   "eyeSkin":"ring", "eyeSkinColor":"sb", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "amazona-dufresniana", "ko": null, "en": "Blue-cheeked Amazon", "sci": "Amazona dufresniana",
+ "region": "남아메리카 북동부 기아나 고지 열대우림", "sizeCm": 37, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-cheeked_amazon",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/204511/medium.jpg", "credit": "(c) TJ Lin, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base": { "main":["g"], "crown":["y","g"], "forehead":["y","o"], "face":["b","v"], "cheek":"none", "throat":["b"], "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g","k"], "tail":["g","y"], "beak":["gr","r"],
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"scaled" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "amazona-kawalli", "ko": null, "en": "Kawall's Amazon", "sci": "Amazona kawalli",
+ "region": "브라질 아마존 남부 열대우림", "sizeCm": 36, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Kawall's_amazon",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157587156/medium.jpg", "credit": "(c) Jacek Kisielewski, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base": { "main":["g"], "crown":["g"], "forehead":["w","g"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g","b","r"], "tail":["g","r"], "beak":null,
+   "eyeSkin":"ring", "eyeSkinColor":"gr", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "prioniturus-discurus", "ko": null, "en": "Blue-crowned Racquet-tail", "sci": "Prioniturus discurus",
+ "region": "필리핀 루손·민다나오·비사야 저지대 숲", "sizeCm": 28, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_racket-tail",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/59810113/medium.jpg", "credit": "(c) Christian Artuso, some rights reserved (CC BY-NC-ND), uploaded by Christian Artuso (cc-by-nc-nd) / iNaturalist" },
+ "base": { "main":["g"], "crown":["b"], "forehead":null, "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g","b"], "beak":["gr"],
+   "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "geoffroyus-heteroclitus", "ko": null, "en": "Singing Parrot", "sci": "Geoffroyus heteroclitus",
+ "region": "비스마르크 제도·솔로몬 제도 숲", "sizeCm": 24, "extinct": false,
+ "wikipedia_url": "https://en.wikipedia.org/wiki/Song_parrot",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/43439760/medium.jpg", "credit": "(c) devonderaad, some rights reserved (CC BY-NC), uploaded by devonderaad (cc-by-nc) / iNaturalist" },
+ "base": { "main":["g"], "crown":["b","gr"], "forehead":["b","gr"], "face":["b","gr"], "cheek":"none", "throat":["g"], "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["o"],
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"수컷" }, { "label":"암컷", "crown":["g"], "forehead":["g"], "face":["g"] } ]
+},
+{
+ "id": "micropsitta-bruijnii", "ko": null, "en": "Red-breasted Pygmy-Parrot", "sci": "Micropsitta bruijnii",
+ "region": "말루쿠 제도·멜라네시아 고산 숲", "sizeCm": 8, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Red-breasted_pygmy_parrot",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/127886310/medium.jpg", "credit": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop (cc-by-nc) / iNaturalist" },
+ "base": { "main":["g"], "crown":["b"], "forehead":["r"], "face":["r"], "cheek":"none", "throat":["r"], "collar":"none",
+   "breast":["r"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["b","g"], "beak":null,
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "vini-peruviana", "ko": null, "en": "Blue Lorikeet", "sci": "Vini peruviana",
+ "region": "남태평양 폴리네시아 섬 (쿡 제도·소시에테 제도)", "sizeCm": 18, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Blue_lorikeet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164493513/medium.jpg", "credit": "(c) Joseph Brider, some rights reserved (CC BY-NC-ND), uploaded by Joseph Brider (cc-by-nc-nd) / iNaturalist" },
+ "base": { "main":["b"], "crown":["b"], "forehead":["b"], "face":["w"], "cheek":"none", "throat":["w"], "collar":"none",
+   "breast":["w"], "belly":["b"], "back":["b"], "wing":["b"], "tail":["b"], "beak":["o"],
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" }, { "label":"어린 새", "face":["gr","b"], "belly":["gr","b"], "beak":["k"] } ]
+},
+{
+ "id": "lorius-domicella", "ko": null, "en": "Purple-naped Lory", "sci": "Lorius domicella",
+ "region": "인도네시아 말루쿠 제도(스람 섬 등) 숲", "sizeCm": 28, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Purple-naped_lory",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63563327/medium.jpg", "credit": "(c) Jurong Bird Park contributor, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base": { "main":["r"], "crown":["k"], "forehead":["k"], "face":["r"], "cheek":"none", "throat":["r"], "collar":"none",
+   "breast":["y","r"], "belly":["r"], "back":["r","v"], "wing":["g"], "tail":["r"], "beak":["o"],
+   "eyeSkin":"ring", "eyeSkinColor":"gr", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" }, { "label":"어린 새", "beak":["br"], "eyeSkinColor":"w" } ]
+},
+{
+ "id": "vini-australis", "ko": null, "en": "Blue-crowned Lorikeet", "sci": "Vini australis",
+ "region": "남태평양 사모아·통가·피지 섬", "sizeCm": 19, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_lorikeet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/31024129/medium.jpg", "credit": "(c) Casey Weissburg, some rights reserved (CC BY-NC), uploaded by Casey Weissburg (cc-by-nc) / iNaturalist" },
+ "base": { "main":["g"], "crown":["b"], "forehead":["b"], "face":["g"], "cheek":"none", "throat":["r"], "collar":"none",
+   "breast":["g"], "belly":["r","v"], "back":["g"], "wing":["g"], "tail":["g"], "beak":null,
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "touit-purpuratus", "ko": null, "en": "Sapphire-rumped Parrotlet", "sci": "Touit purpuratus",
+ "region": "아마존 분지 열대우림", "sizeCm": 18, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Sapphire-rumped_parrotlet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114137391/medium.jpeg", "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist" },
+ "base": { "main":["g"], "crown":["br"], "forehead":["br"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["b","g"], "wing":["g","v"], "tail":["r","g","k"], "beak":null,
+   "eyeSkin":"ring", "eyeSkinColor":"w", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "trichoglossus-rubiginosus", "ko": null, "en": "Pohnpei Lorikeet", "sci": "Trichoglossus rubiginosus",
+ "region": "미크로네시아 포나페(폰페이) 섬 숲", "sizeCm": 24, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Pohnpei_lorikeet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/39755837/medium.jpeg", "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson (cc-by-sa) / iNaturalist" },
+ "base": { "main":["br"], "crown":["br"], "forehead":["br"], "face":["br"], "cheek":"none", "throat":["br"], "collar":"none",
+   "breast":["br"], "belly":["br"], "back":["br"], "wing":["y","g"], "tail":["y","g"], "beak":["o"],
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"barred" },
+ "looks": [ { "label":"수컷" }, { "label":"암컷", "beak":["y"] } ]
+},
+{
+ "id": "hapalopsittaca-pyrrhops", "ko": null, "en": "Red-faced Parrot", "sci": "Hapalopsittaca pyrrhops",
+ "region": "에콰도르 남부 안데스 구름숲", "sizeCm": 23, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Red-faced_parrot",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6741584/medium.jpg", "credit": "(c) Leslie Flint, some rights reserved (CC BY-NC), uploaded by Leslie Flint (cc-by-nc) / iNaturalist" },
+ "base": { "main":["g"], "crown":["g"], "forehead":["r"], "face":["r"], "cheek":"none", "throat":["g"], "collar":"none",
+   "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":null,
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+},
+{
+ "id": "vini-kuhlii", "ko": null, "en": "Kuhl's Lorikeet", "sci": "Vini kuhlii",
+ "region": "남태평양 라인 제도·피닉스 제도", "sizeCm": 19, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Kuhl's_lorikeet",
+ "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109930405/medium.jpg", "credit": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist (cc-by) / iNaturalist" },
+ "base": { "main":["r","g"], "crown":["g"], "forehead":["g"], "face":["r"], "cheek":["r"], "throat":["r"], "collar":"none",
+   "breast":["r"], "belly":["r"], "back":["g"], "wing":["g"], "tail":["g"], "beak":null,
+   "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+ "looks": [ { "label":"성조" } ]
+}
+]

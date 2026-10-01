@@ -1,0 +1,322 @@
+[
+ {
+  "id": "poicephalus-fuscicollis",
+  "sci": "Poicephalus fuscicollis",
+  "en": "Grey-headed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-necked_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52413073/medium.jpeg",
+   "credit": "(c) Gawie Malan, some rights reserved (CC BY-NC), uploaded by Gawie Malan (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The largest member of its genus, the brown-necked parrot has a relatively large head and bill, and stocky build. It has a light grey head. The nominate subspecies fuscicollis has a bluer sheen to its plumage than suahelicus. The upperparts are yellow-green and underparts greenish."
+ },
+ {
+  "id": "psephotellus-chrysopterygius",
+  "sci": "Psephotellus chrysopterygius",
+  "en": "Golden-shouldered Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Golden-shouldered_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/291899584/medium.jpg",
+   "credit": "(c) Doug Herrington, some rights reserved (CC BY-NC), uploaded by Doug Herrington (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 27.0,
+  "desc_thin": false,
+  "description": "The golden-shouldered parrot is 25–27 cm (9.8–10.6 in) long and weighs 54–56 g (1.9–2.0 oz). The adult male is mainly blue and has a characteristic yellow over the shoulder area. It has a black cap and pale yellow frontal band. It has an extended dark salmon pink lower belly, thighs and undertail-coverts. It has a grey-brown lower back.\nAdult females are mainly dull greenish-yellow, and have a broad cream bar on the underside of the wings. The head in older females has a charcoal grey cap. The feathers of the vent area are a pale salmon pink. Juveniles are similar to the adult female though newly fledged males have a brighter blue cheek patch than females of the same age."
+ },
+ {
+  "id": "pyrrhura-picta",
+  "sci": "Pyrrhura picta",
+  "en": "Painted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Painted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/475736829/medium.jpg",
+   "credit": "(c) Alan Wight, some rights reserved (CC BY-NC), uploaded by Alan Wight (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The painted parakeet is 20 to 23 cm (7.9 to 9.1 in) long; the nominate subspecies weighs 46 to 85 g (1.6 to 3.0 oz). The sexes are the same in all subspecies. Adults of the nominate subspecies are blue from their forehead to their hindcrown that becomes deep maroon on the hindcrown and nape. They have a narrow blue collar below the nape. Their face is maroon with a ring of bare grayish skin around the eye, and their ear coverts are whitish. Their upperparts are mostly green with a dull red lower back and rump. The sides of their neck and their breast are buff with a reddish brown scalloped appearance. The center of their belly is dull red and the rest of their underparts are green. Their wing is mostly green with a red carpal area and blue primaries. Their tail is mostly maroon with a green base. Their iris is dark. Immatures are similar to adults but without the red carpal and with a whitish eye ring.\nThe Perija parakeet resembles the painted parakeet but with a blue forecrown that becomes brown with a blue tinge on the hindcrown, a pale iris, pale gray-brown ear coverts, a dark red belly patch, and a maroon-red tail. The Subandean parakeet differs from the painted parakeet with a dull blue and red forehead, a bright maroon-red face, a buff and gray scalloped breast, a green carpal area (sometimes with a few red feathers), and a deep red tail."
+ },
+ {
+  "id": "trichoglossus-borneus",
+  "sci": "Trichoglossus borneus",
+  "en": "Red Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387839929/medium.jpg",
+   "credit": "(c) Navin, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 31.0,
+  "desc_thin": false,
+  "description": "The red lory is about 31 cm (12 in) long. They weigh 30-300 grams. It is mostly red and all the plumage of the upper body is red. There are red, blue, and black marks on the back and wings, and the tail is reddish-brown with blue under-tail coverts. The beak is orange and the legs are grey. The irises are red except in E. b. bernsteini, which has brown irises. There is no bare skin at the base of the lower mandible. The male and female have identical external appearance. Juveniles are duller and have brown irises and a brownish beak. Their bills are narrower and less powerful than other types of parrots and their gizzards are generally thin-walled and weak. A defining characteristic of a Lory is their brush tongues with papillae at the tips to help them feed on pollen and nectar."
+ },
+ {
+  "id": "psittacara-brevipes",
+  "sci": "Psittacara brevipes",
+  "en": "Socorro Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Socorro_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/39350698/medium.jpg",
+   "credit": "(c) world_lineage, osa oikeuksista pidätetään (CC BY-NC), lähettänyt world_lineage (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "The Socorro parakeet is 31 to 33 cm (12 to 13 in) long. The sexes are alike. It is essentially all green with a somewhat olive tinge to the underside of the flight feathers and tail. Its iris is orange-red surrounded by bare purplish brown skin, its bill horn colored, and its legs brownish."
+ },
+ {
+  "id": "prosopeia-personata",
+  "sci": "Prosopeia personata",
+  "en": "Masked Shining-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Masked_shining_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249722207/medium.jpg",
+   "credit": "(c) peterodekerken, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 47.0,
+  "desc_thin": false,
+  "description": "It is 47 cm long and weighs 322 g. It has a black mask on its face, and has a mainly bright green body. The center of its breast is yellow, turning into orange towards the abdomen. The outer webs of the primary feathers on the wing are blue or purple. Its tail feathers are green, and washed with blue."
+ },
+ {
+  "id": "amazona-pretrei",
+  "sci": "Amazona pretrei",
+  "en": "Red-spectacled Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-spectacled_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/87821405/medium.jpg",
+   "credit": "(c) Juan Diego Döke, some rights reserved (CC BY-NC), uploaded by Juan Diego Döke (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "The red-spectacled amazon is 32 cm (13 in) long. It is mostly green with some sparse red spots on head, variable extent of red on forehead, lores and around eyes, white eyerings, red on the bend of the wings with blue tips to secondaries and primaries and yellowish bill. Females have less red on the bend of the wing.\nDiet:\n90 percent of the Red-spectacled amazon's diet that inhabits the wild contains Angustifolia seeds, those in captivity, their diets consist of vegetables along with Araucaria seeds."
+ },
+ {
+  "id": "lorius-garrulus",
+  "sci": "Lorius garrulus",
+  "en": "Chattering Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chattering_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159056035/medium.jpg",
+   "credit": "(c) Doug Janson, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The chattering lory is 30 cm (12 in) long. It is mostly red with an all-red head and an orange beak. The eyerings are grey and the irises are orange-red. The wings are mainly green and the angle of the wing is yellow. Its thighs are green. The tail is tipped with dark green. It has dark grey legs. It may or may not have a yellow area on its back depending on the subspecies."
+ },
+ {
+  "id": "psittacula-finschii",
+  "sci": "Psittacula finschii",
+  "en": "Gray-headed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-headed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/156483873/medium.jpeg",
+   "credit": "(c) Cole Gaerber, some rights reserved (CC BY-NC), uploaded by Cole Gaerber (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "Its face is grey/green, and the rest of its head is dull green with faint pale green band below cheeks to hindcrown and its wing are patch absent and has a long tail."
+ },
+ {
+  "id": "trichoglossus-euteles",
+  "sci": "Trichoglossus euteles",
+  "en": "Olive-headed Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Olive-headed_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387859802/medium.jpg",
+   "credit": "(c) Ram-Man, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "The olive-headed lorikeet is a mainly green parrot about 24 cm (9.5 in) long. It has an olive coloured head which is demarcated by a green collar. Its beak is orange-red, its irises are red, and its legs are grey. The male and female have an identical external appearance. Juveniles have a slightly greener head, a brown beak, and brown irises."
+ },
+ {
+  "id": "amazona-arausiaca",
+  "sci": "Amazona arausiaca",
+  "en": "Red-necked Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-necked_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/137172423/medium.jpg",
+   "credit": "(c) Stephen Cresswell, some rights reserved (CC BY-NC-ND), uploaded by Stephen Cresswell (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 40.0,
+  "desc_thin": false,
+  "description": "The red-necked amazon averages about 40 cm in length and can weigh between 550 and 650 g. Most of the bird's body is covered in deep bottle green feathers, and a wide band of yellow color runs down to the tip of its tail. It commonly has orange and reddish feathers on its throat. The bird sometimes has blue feathers on its forehead, around the eyes, and its head; these blue feathers transition to gray feathers at its upper breast. The beak and feet are both grey."
+ },
+ {
+  "id": "pyrrhura-calliptera",
+  "sci": "Pyrrhura calliptera",
+  "en": "Brown-breasted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Flame-winged_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158990959/medium.jpg",
+   "credit": "(c) Anthony Kaduck, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "A medium-sized parakeet, the brown-breasted parakeet measures 22–23 cm in length. The throat and upper breast are medium brown with light edges giving a scalloped appearance. The head of the bird is mostly greyish-brown with green cheeks and contrasting ear coverts that can appear reddish or brown. The eye has a prominent white orbital ring. The breast and belly are reddish brown, often with green shadings. The bird's back and most of its wing coverts are green, with bright yellow primary coverts and bluish primaries. The tail is dull red. In flight bright yellow and orange-red wing markings are evident, which explains the name flame-winged parakeet."
+ },
+ {
+  "id": "cyanoramphus-cookii",
+  "sci": "Cyanoramphus cookii",
+  "en": "Norfolk Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Norfolk_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/408874944/medium.jpeg",
+   "credit": "(c) Duncan Henderson, some rights reserved (CC BY-NC), uploaded by Duncan Henderson (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Norfolk parakeet (Cyanoramphus cookii), also called Tasman parakeet, Norfolk Island green parrot or Norfolk Island red-crowned parakeet, is a species of parrot in the family Psittaculidae. It is endemic to Norfolk Island (located between Australia, New Zealand and New Caledonia in the Tasman Sea)."
+ },
+ {
+  "id": "tanygnathus-sumatranus",
+  "sci": "Tanygnathus sumatranus",
+  "en": "Azure-rumped Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-backed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/171182409/medium.jpeg",
+   "credit": "(c) Phil Benstead, some rights reserved (CC BY-NC), uploaded by Phil Benstead (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "It is of medium size (32 cm), primarily green with yellowish edging to the wings, a blue rump, and blue wing bends. The head, mantle, wings and tail are darker green, the belly and collar are lighter green. It is sexually dimorphic, with the male having a red beak and the female a pale yellow or horn colored beak.  \nIt is often confused for the Blue-naped parrot, but is differentiated by its red iris, more plain green plummage on wings,  more pronounced sexual dimorphism, slightly larger size and vocalizations. In the Sulu archipelago where both species are still present, it prefers more inland and deep forest compared to the Blue-naped parrot."
+ },
+ {
+  "id": "psittacus-timneh",
+  "sci": "Psittacus timneh",
+  "en": "Timneh Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Timneh_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/184856458/medium.jpeg",
+   "credit": "(c) mlanguy, some rights reserved (CC BY-NC), uploaded by mlanguy (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "Growing to 28–33 centimetres (11–13 in) in length and weighing 275–375 grams (9.7–13.2 oz), the Timneh is a medium-sized parrot. Its plumage is mainly a mottled grey, with a white face mask and pale yellow eyes. Compared with the only other recognised Psittacus species, the grey parrot (P. erithacus), the Timneh is smaller and darker, with a dull, dark maroon (rather than crimson) tail and a horn-coloured patch on the upper mandible. Like the grey parrot, the Timneh parrot is one of the most intelligent bird species. The Timneh parrot may be more outgoing around human beings, and can learn to talk at a younger age than the grey parrot."
+ },
+ {
+  "id": "psittrichas-fulgidus",
+  "sci": "Psittrichas fulgidus",
+  "en": "Pesquet's Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pesquet's_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449330094/medium.jpeg",
+   "credit": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 46.0,
+  "desc_thin": false,
+  "description": "Pesquet's parrot is a large parrot with a total length of approximately 46 cm (18 in) and a weight of 680–800 g (24–28 oz). Its plumage is black, with greyish scaling on the chest, and a bright red belly, uppertail coverts and wing-panels. The adult male has a small dull red spot behind the eye, which is not present in females. The red is duller in immatures. Compared to most other parrots, Pesquet's parrot appears unusually small-headed, in part due to its bare black facial skin and its long, hooked bill that is adapted for eating fruit. This vulture-like profile is the reason behind its alternative common names."
+ },
+ {
+  "id": "cyanoramphus-unicolor",
+  "sci": "Cyanoramphus unicolor",
+  "en": "Antipodes Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Antipodes_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159025886/medium.jpg",
+   "credit": "(c) russellstreet, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": true,
+  "description": "It is the largest species in the genus Cyanoramphus at 30 cm (12 in) long. and makes a penetrating kok-kok-kok-kok noise."
+ },
+ {
+  "id": "prosopeia-tabuensis",
+  "sci": "Prosopeia tabuensis",
+  "en": "Red Shining-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Maroon_shining_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/147718635/medium.jpeg",
+   "credit": "(c) happymountainnz, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Adults have variable plumage; red/black face; rest of head brown/red, darker on hindcheeks; underparts dark maroon; dark blue collar across upper mantle, obvious in some birds but in others narrow and nearly absent; upperparts and tail green, feathers on rump in some individuals edged with maroon. Bill grey/black. Dark grey eye ring. Eye orange/yellow.\nThe subspecies P. t. taviunensis differs from the nominate in that it lacks the blue on the lower part of its neck and the part of the face between the eyes and the bill on the sides of its head the coloring is not as black. Additionally, there is not much red or maroon coloring on the feathering on the rear of the bird. It is also smaller in size.\nThe call of the maroon shining parrot is a mix of high-pitched nea-nea and arr sounds that are repeated in bursts, in addition to a variety of other squawks and hoots. The maroon shining parrot most commonly calls at night or when returning to its nest.\nIn Tonga the maroon shining parrot is known as the Koki for the sound it makes. The bird was first introduced to Tonga by trade in the eighteenth century, but is now found only on the island of ʻEua."
+ },
+ {
+  "id": "eunymphicus-cornutus",
+  "sci": "Eunymphicus cornutus",
+  "en": "Horned Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Horned_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046976/medium.jpg",
+   "credit": "(c) Roger Le Guen, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "Adult birds usually measure approximately 32 cm (or about 14 inches) in length, including the tail. Like many parrots, the horned parakeet is primarily green in color. This parrot has a yellowish nape with a black and red face and bluish wings and tail. Its most striking feature is a two-feather black crest, with the crest feathers tipped in red.\nIt makes a nasal \"kho-khoot\" contact call, and also makes a wide range of shrieks and chuckles."
+ },
+ {
+  "id": "neophema-splendida",
+  "sci": "Neophema splendida",
+  "en": "Scarlet-chested Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scarlet-chested_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/301418547/medium.jpeg",
+   "credit": "(c) hone, some rights reserved (CC BY-NC), uploaded by hone (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 21.0,
+  "desc_thin": false,
+  "description": "Measuring 19–21 cm (8 in) in length, this small vibrant and brightly coloured parrot is sexually dimorphic. The male has a scarlet chest, a cobalt blue face, and bright green upperparts. The lower breast and underparts are yellow, and the wing coverts are pale blue. The tail is green, the eyes are brown and the bill is blackish, and legs are brown-grey. The female likewise has a blue face, although the coloration is less extensive, green upperparts and green breast, with yellow underparts. Immature birds are duller versions of their respective adult forms. Males begin to get red plumage on their chest from around two or three months of age, though do not complete their red chest until fifteen to eighteen months old.\nThe female resembles the female turquoise parrot (N. pulchella) of eastern Australia, but can be distinguished by the blue lores and paler blue wing patch.\nThe call is a soft twittering, quieter than other members of the genus Neophema."
+ }
+]

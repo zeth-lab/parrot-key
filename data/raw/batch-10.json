@@ -1,0 +1,226 @@
+[
+{
+  "id":"poicephalus-fuscicollis", "ko":null, "en":"Grey-headed Parrot", "sci":"Poicephalus fuscicollis",
+  "region":"아프리카 서부·남부 사바나 숲", "sizeCm":30, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Brown-necked_parrot",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/52413073/medium.jpeg","credit":"(c) Gawie Malan, some rights reserved (CC BY-NC), uploaded by Gawie Malan (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["gr"], "forehead":["gr"], "face":["gr"], "cheek":"none", "throat":["gr"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g","y"], "wing":["g","y"], "tail":null, "beak":null,
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"psephotellus-chrysopterygius", "ko":null, "en":"Golden-shouldered Parrot", "sci":"Psephotellus chrysopterygius",
+  "region":"오스트레일리아 북부 케이프요크반도", "sizeCm":27, "extinct":false,
+  "wikipedia_url":"https://en.wikipedia.org/wiki/Golden-shouldered_parrot",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/291899584/medium.jpg","credit":"(c) Doug Herrington, some rights reserved (CC BY-NC), uploaded by Doug Herrington (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["b"], "crown":["k"], "forehead":["y"], "face":["b"], "cheek":"none", "throat":["b"], "collar":"none",
+    "breast":["b"], "belly":["p"], "back":["br","gr"], "wing":["b","y"], "tail":["b"], "beak":null,
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks":[
+    { "label":"수컷" },
+    { "label":"암컷", "main":["g","y"], "crown":["gr"], "forehead":["g","y"], "face":["g","y"], "throat":["g","y"], "breast":["g","y"], "belly":["g","y","p"], "back":["g","y"], "wing":["g","y"], "tail":["g","y"] }
+  ]
+},
+{
+  "id":"pyrrhura-picta", "ko":null, "en":"Painted Parakeet", "sci":"Pyrrhura picta",
+  "region":"남아메리카 북부 아마존 열대우림", "sizeCm":23, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Painted_parakeet",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/475736829/medium.jpg","credit":"(c) Alan Wight, some rights reserved (CC BY-NC), uploaded by Alan Wight (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["br"], "forehead":["b"], "face":["br"], "cheek":"none", "throat":["y","br"], "collar":["b"],
+    "breast":["y","br"], "belly":["r","g"], "back":["g","r"], "wing":["g","b","r"], "tail":["br","g"], "beak":null,
+    "eyeSkin":"ring", "eyeSkinColor":"gr", "crest":false, "tailShape":"long", "pattern":"scaled" },
+  "looks":[
+    { "label":"성조" },
+    { "label":"어린 새", "wing":["g","b"], "eyeSkinColor":"w" }
+  ]
+},
+{
+  "id":"trichoglossus-borneus", "ko":null, "en":"Red Lory", "sci":"Trichoglossus borneus",
+  "region":"인도네시아 소순다 열도(티모르 등)", "sizeCm":31, "extinct":false,
+  "wikipedia_url":"https://en.wikipedia.org/wiki/Red_lory",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/387839929/medium.jpg","credit":"(c) Navin, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"},
+  "base":{ "main":["r"], "crown":["r"], "forehead":["r"], "face":["r"], "cheek":"none", "throat":["r"], "collar":"none",
+    "breast":["r"], "belly":["r"], "back":["r","b","k"], "wing":["r","b","k"], "tail":["br","b"], "beak":["o"],
+    "eyeSkin":"none", "crest":false, "tailShape":"mid", "pattern":"plain" },
+  "looks":[
+    { "label":"성조" },
+    { "label":"어린 새", "beak":["br"] }
+  ]
+},
+{
+  "id":"psittacara-brevipes", "ko":null, "en":"Socorro Parakeet", "sci":"Psittacara brevipes",
+  "region":"멕시코 소코로섬 (고유종)", "sizeCm":33, "extinct":false,
+  "wikipedia_url":"https://en.wikipedia.org/wiki/Socorro_parakeet",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/39350698/medium.jpg","credit":"(c) world_lineage, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["g"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["w"],
+    "eyeSkin":"ring", "eyeSkinColor":"v", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"prosopeia-personata", "ko":null, "en":"Masked Shining-Parrot", "sci":"Prosopeia personata",
+  "region":"피지 비티레부섬 (고유종)", "sizeCm":47, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Masked_shining_parrot",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/249722207/medium.jpg","credit":"(c) peterodekerken, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["g"], "forehead":["g"], "face":["k"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["y","o"], "belly":["o","y"], "back":["g"], "wing":["g","b","v"], "tail":["g","b"], "beak":null,
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"amazona-pretrei", "ko":null, "en":"Red-spectacled Amazon", "sci":"Amazona pretrei",
+  "region":"브라질 남부 아라우카리아 숲", "sizeCm":32, "extinct":false,
+  "wikipedia_url":"https://en.wikipedia.org/wiki/Red-spectacled_amazon",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/87821405/medium.jpg","credit":"(c) Juan Diego Doke, some rights reserved (CC BY-NC), uploaded by Juan Diego Doke (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["g","r"], "forehead":["r","g"], "face":["g","r"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g","r","b"], "tail":["g"], "beak":["y"],
+    "eyeSkin":"ring", "eyeSkinColor":"w", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks":[
+    { "label":"수컷" },
+    { "label":"암컷", "wing":["g","b"] }
+  ]
+},
+{
+  "id":"lorius-garrulus", "ko":null, "en":"Chattering Lory", "sci":"Lorius garrulus",
+  "region":"인도네시아 말루쿠 제도 할마헤라", "sizeCm":30, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Chattering_lory",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/159056035/medium.jpg","credit":"(c) Doug Janson, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"},
+  "base":{ "main":["r"], "crown":["r"], "forehead":["r"], "face":["r"], "cheek":"none", "throat":["r"], "collar":"none",
+    "breast":["r"], "belly":["r"], "back":["r","y"], "wing":["g","y"], "tail":["r","g"], "beak":["o"],
+    "eyeSkin":"ring", "eyeSkinColor":"gr", "crest":false, "tailShape":"mid", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"psittacula-finschii", "ko":null, "en":"Gray-headed Parakeet", "sci":"Psittacula finschii",
+  "region":"동남아시아~히말라야 동부 산지 숲", "sizeCm":35, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Grey-headed_parakeet",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/156483873/medium.jpeg","credit":"(c) Cole Gaerber, some rights reserved (CC BY-NC), uploaded by Cole Gaerber (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["gr"], "forehead":["gr"], "face":["gr"], "cheek":"none", "throat":["k"], "collar":["k","p"],
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["b","g"], "beak":["r","k"],
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks":[
+    { "label":"수컷" },
+    { "label":"암컷", "throat":["gr"], "collar":"none" }
+  ]
+},
+{
+  "id":"trichoglossus-euteles", "ko":null, "en":"Olive-headed Lorikeet", "sci":"Trichoglossus euteles",
+  "region":"인도네시아 소순다 열도", "sizeCm":24, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Olive-headed_lorikeet",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/387859802/medium.jpg","credit":"(c) Ram-Man, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["br","g"], "forehead":["br","g"], "face":["br","g"], "cheek":"none", "throat":["g"], "collar":["g"],
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["o","r"],
+    "eyeSkin":"none", "crest":false, "tailShape":"mid", "pattern":"plain" },
+  "looks":[
+    { "label":"성조" },
+    { "label":"어린 새", "crown":["g"], "beak":["br"] }
+  ]
+},
+{
+  "id":"amazona-arausiaca", "ko":null, "en":"Red-necked Amazon", "sci":"Amazona arausiaca",
+  "region":"도미니카 섬 (고유종)", "sizeCm":40, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Red-necked_amazon",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/137172423/medium.jpg","credit":"(c) Stephen Cresswell, some rights reserved (CC BY-NC-ND), uploaded by Stephen Cresswell (cc-by-nc-nd) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["b","g"], "forehead":["b","g"], "face":["b","g"], "cheek":"none", "throat":["o","r"], "collar":"none",
+    "breast":["gr","g"], "belly":["g"], "back":["g"], "wing":["g","y"], "tail":["g","y"], "beak":["gr"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"pyrrhura-calliptera", "ko":null, "en":"Brown-breasted Parakeet", "sci":"Pyrrhura calliptera",
+  "region":"콜롬비아 동부 안데스 산지 숲", "sizeCm":23, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Flame-winged_parakeet",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/158990959/medium.jpg","credit":"(c) Anthony Kaduck, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["gr","br"], "forehead":["gr","br"], "face":["g"], "cheek":"none", "throat":["br"], "collar":"none",
+    "breast":["br","g"], "belly":["br","g"], "back":["g"], "wing":["g","y","b"], "tail":["r"], "beak":null,
+    "eyeSkin":"ring", "eyeSkinColor":"w", "crest":false, "tailShape":"long", "pattern":"scaled" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"cyanoramphus-cookii", "ko":null, "en":"Norfolk Parakeet", "sci":"Cyanoramphus cookii",
+  "region":"노퍽섬 (오스트레일리아·뉴질랜드 사이, 고유종)", "sizeCm":28, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Norfolk_parakeet",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/408874944/medium.jpeg","credit":"(c) Duncan Henderson, some rights reserved (CC BY-NC), uploaded by Duncan Henderson (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["r"], "forehead":["r"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["g","y"], "back":["g"], "wing":["g","b"], "tail":["g"], "beak":["gr"],
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"tanygnathus-sumatranus", "ko":null, "en":"Azure-rumped Parrot", "sci":"Tanygnathus sumatranus",
+  "region":"인도네시아 술라웨시·술루 제도", "sizeCm":32, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Blue-backed_parrot",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/171182409/medium.jpeg","credit":"(c) Phil Benstead, some rights reserved (CC BY-NC), uploaded by Phil Benstead (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["g"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["g"], "collar":["lg"],
+    "breast":["g"], "belly":["lg"], "back":["g","b"], "wing":["g","y","b"], "tail":["g"], "beak":["r"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks":[
+    { "label":"수컷" },
+    { "label":"암컷", "beak":["y","w"] }
+  ]
+},
+{
+  "id":"psittacus-timneh", "ko":null, "en":"Timneh Parrot", "sci":"Psittacus timneh",
+  "region":"서아프리카 기니~코트디부아르 숲", "sizeCm":33, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Timneh_parrot",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/184856458/medium.jpeg","credit":"(c) mlanguy, some rights reserved (CC BY-NC), uploaded by mlanguy (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["gr"], "crown":["gr"], "forehead":["gr"], "face":["w","gr"], "cheek":"none", "throat":["gr"], "collar":"none",
+    "breast":["gr"], "belly":["gr"], "back":["gr"], "wing":["gr"], "tail":["br"], "beak":["k","w"],
+    "eyeSkin":"face", "crest":false, "tailShape":"short", "pattern":"scaled" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"psittrichas-fulgidus", "ko":null, "en":"Pesquet's Parrot", "sci":"Psittrichas fulgidus",
+  "region":"뉴기니 열대우림", "sizeCm":46, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Pesquet's_parrot",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/449330094/medium.jpeg","credit":"(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["k"], "crown":["k"], "forehead":["k"], "face":["k"], "cheek":"none", "throat":["k"], "collar":"none",
+    "breast":["k","gr"], "belly":["r"], "back":["k"], "wing":["k","r"], "tail":["k","r"], "beak":["gr"],
+    "eyeSkin":"face", "eyeSkinColor":"k", "crest":false, "tailShape":"mid", "pattern":"scaled" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"cyanoramphus-unicolor", "ko":null, "en":"Antipodes Parakeet", "sci":"Cyanoramphus unicolor",
+  "region":"뉴질랜드 앤티포디스 제도 (고유종)", "sizeCm":30, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Antipodes_parakeet",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/159025886/medium.jpg","credit":"(c) russellstreet, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["g"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["gr"],
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"prosopeia-tabuensis", "ko":null, "en":"Red Shining-Parrot", "sci":"Prosopeia tabuensis",
+  "region":"피지·통가 숲", "sizeCm":46, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Maroon_shining_parrot",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/147718635/medium.jpeg","credit":"(c) happymountainnz, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["br"], "crown":["br","r"], "forehead":["r","k"], "face":["r","k"], "cheek":"none", "throat":["br"], "collar":["b"],
+    "breast":["br"], "belly":["br"], "back":["g","br"], "wing":["g"], "tail":["g"], "beak":["gr","k"],
+    "eyeSkin":"ring", "eyeSkinColor":"gr", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"eunymphicus-cornutus", "ko":null, "en":"Horned Parakeet", "sci":"Eunymphicus cornutus",
+  "region":"뉴칼레도니아 (고유종)", "sizeCm":32, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Horned_parakeet",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/159046976/medium.jpg","credit":"(c) Roger Le Guen, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["y","g"], "forehead":["k","r"], "face":["k","r"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g","b"], "tail":["g","b"], "beak":null,
+    "eyeSkin":"none", "crest":true, "crestColor":["k","r"], "tailShape":"mid", "pattern":"plain" },
+  "looks":[ { "label":"성조" } ]
+},
+{
+  "id":"neophema-splendida", "ko":null, "en":"Scarlet-chested Parrot", "sci":"Neophema splendida",
+  "region":"오스트레일리아 내륙 건조지대", "sizeCm":21, "extinct":false,
+  "wikipedia_url":"http://en.wikipedia.org/wiki/Scarlet-chested_parrot",
+  "photo":{"src":"https://inaturalist-open-data.s3.amazonaws.com/photos/301418547/medium.jpeg","credit":"(c) hone, some rights reserved (CC BY-NC), uploaded by hone (cc-by-nc) / iNaturalist"},
+  "base":{ "main":["g"], "crown":["g"], "forehead":["b"], "face":["b"], "cheek":"none", "throat":["b"], "collar":"none",
+    "breast":["r"], "belly":["y"], "back":["g"], "wing":["g","sb"], "tail":["g"], "beak":["k"],
+    "eyeSkin":"none", "crest":false, "tailShape":"mid", "pattern":"plain" },
+  "looks":[
+    { "label":"수컷" },
+    { "label":"암컷", "face":["b","g"], "throat":["g"], "breast":["g"] }
+  ]
+}
+]

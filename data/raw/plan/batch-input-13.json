@@ -1,0 +1,322 @@
+[
+ {
+  "id": "agapornis-nigrigenis",
+  "sci": "Agapornis nigrigenis",
+  "en": "Black-cheeked Lovebird",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-cheeked_lovebird",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2861691/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 14.0,
+  "desc_thin": false,
+  "description": "The black-cheeked lovebird is 14 cm (5.5 in) in length, with mostly green plumage, reddish-brown forehead and forecrown, brownish-black cheeks and throat, orange bib below the throat which fades to yellowish-green, white eye-rings and grey feet. Adult have bright red beaks, while juveniles of the species are similar but with a more orange bill. Vocalizations are loud, piercing shrieks, which sound like the calls of other lovebirds."
+ },
+ {
+  "id": "touit-melanonotus",
+  "sci": "Touit melanonotus",
+  "en": "Brown-backed Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-backed_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159007623/medium.jpg",
+   "credit": "(c) Dario Sanches, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 15.0,
+  "desc_thin": false,
+  "description": "The brown-backed parrotlet (Touit melanonotus) also known as the black-backed parrotlet, the black-eared parrotlet, and Wied's parrotlet, is a small (15 cm or 6 in) green parrot found in south-eastern Brazil from Bahia to southern São Paulo. It has a dark brown mantle and back, brown ear coverts, and red outer tail with back tips. They frequent humid forest from 500–1,000 m (1,600–3,300 ft) (occasionally down to sea level), and are mostly found in small flocks of 3–20 birds."
+ },
+ {
+  "id": "bolborhynchus-ferrugineifrons",
+  "sci": "Bolborhynchus ferrugineifrons",
+  "en": "Rufous-fronted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rufous-fronted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/236769396/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "This parakeet grows to a length of about 18 cm (7 in) and the sexes are similar. This is a robust, small species with dull green plumage above and bluish-green wings. The lores and a narrow band on the forehead are brownish-red, and the cheeks, throat, breast and belly are yellowish-green. The short, pointed tail is green above and bluish-green below. There is a grey ring round the eye, the iris is brown, the beak is yellowish-horn and the feet are grey."
+ },
+ {
+  "id": "bolborhynchus-orbygnesius",
+  "sci": "Bolborhynchus orbygnesius",
+  "en": "Andean Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Andean_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/316879587/medium.jpeg",
+   "credit": "no rights reserved, uploaded by Manuel Roncal (cc0) / iNaturalist"
+  },
+  "size_cm_hint": 17.0,
+  "desc_thin": false,
+  "description": "The Andean parakeet is 16 to 17 cm (6.3 to 6.7 in) long and weighs 48 to 50 g (1.7 to 1.8 oz). It is rather plump with a short tail. Adults are almost entirely green, with a yellow tinge from the face to the belly that is brightest on the throat and upper breast. The outer webs of their primaries are teal, sometimes approaching violet. Their bill is grayish and their legs dull pink. Juveniles do not have the yellow tinge but are otherwise the same as adults."
+ },
+ {
+  "id": "touit-batavicus",
+  "sci": "Touit batavicus",
+  "en": "Lilac-tailed Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lilac-tailed_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28340645/medium.jpg",
+   "credit": "(c) Jerome Foster, some rights reserved (CC BY-NC), uploaded by Jerome Foster (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 14.0,
+  "desc_thin": false,
+  "description": "The violet-tailed parrotlet is about 14 cm (5.5 in) long and weighs 52 to 72 g (1.8 to 2.5 oz). Its head is mostly yellow with green ear coverts. The sides of its neck are green and its nape has a dusky scaled appearance. Its back and wings are black and its greater wing coverts are yellowish green with green-blue edges and a red carpal bar. Its tail is purplish rose with a black band near the end. Its throat is green, its breast pale blue, its belly green, and its underwing coverts blue."
+ },
+ {
+  "id": "poicephalus-flavifrons",
+  "sci": "Poicephalus flavifrons",
+  "en": "Yellow-fronted Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-fronted_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158984005/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The yellow-fronted parrot is about 28 centimetres (11 in) long and is mostly green with the upper parts being a darker green, the tail being olive-brown, and the legs a dark grey-brown. The face is orange-yellow. When two subspecies are recognized, the nominate is believed to have yellow to its head and face, while in P. f. aurantiiceps some of the yellow is replaced with orange. The upper beak is brownish-grey and the lower beak is bone coloured, the irises are orange-red, and bare eye-rings and cere are grey. Male and female adults have identical external appearance. Juveniles are duller than the adults with a mostly grey head, brown irises, and only a small amount of yellow on the front of the face including on the forehead."
+ },
+ {
+  "id": "forpus-xanthops",
+  "sci": "Forpus xanthops",
+  "en": "Yellow-faced Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-faced_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/319904482/medium.jpeg",
+   "credit": "no rights reserved, uploaded by Manuel Roncal (cc0) / iNaturalist"
+  },
+  "size_cm_hint": 14.5,
+  "desc_thin": false,
+  "description": "Yellow-faced parrotlets are about 14.5 cm (5.7 in) long and weigh about 35 grams (1.2 oz). Their bodies are mostly dark or olive green with gray washes on the nape and mantle and yellow-green underparts, and foreheads, crown, cheeks, and throat are bright yellow. A gray-green stripe extends backwards from each eye. Eyes are dark brown and feet and lower mandibles are light peach. The upper mandible is light peach with a gray or darker brown base. Yellow-faced parrotlets are sexually dimorphic: males have bright blue lower backs, tail, secondary, and underwing coverts, and inner primary feathers. Females' blue feathers are lighter on their backs and rumps, with blue-tinged green coverts, secondaries, and primaries.\nJuveniles of the species look similar to adults, but are duller and have fewer yellow feathers and an entirely peach beak.\nLike all parrots, yellow-faced parrotlets exhibit zygodactyly, meaning two toes face forward and two toes face backward."
+ },
+ {
+  "id": "prioniturus-platenae",
+  "sci": "Prioniturus platenae",
+  "en": "Blue-headed Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-headed_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159072084/medium.jpg",
+   "credit": "(c) Rackk67, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The blue-headed racket-tail (Prioniturus platenae), also known as the Palawan racket-tail and locally as kinawihan, is a parrot found in the western Philippines around Palawan. The species was formerly considered conspecific with the blue-crowned racket-tail. It is locally known as 'kilit'. It inhabits humid lowland forest in small flocks. It is threatened by habitat destruction and limited trapping for the cage-bird trade."
+ },
+ {
+  "id": "prosopeia-splendens",
+  "sci": "Prosopeia splendens",
+  "en": "Crimson Shining-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crimson_shining_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/194964946/medium.jpg",
+   "credit": "(c) Keith Martin-Smith،  بعض الحقوق محفوظة (CC BY-NC-SA), uploaded by Keith Martin-Smith (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 45.0,
+  "desc_thin": false,
+  "description": "The crimson shining parrot (Prosopeia splendens) is a parrot from Fiji. The species is endemic to the islands of Kadavu and Ono in the Kadavu Group. The species was once considered conspecific with the red shining parrot of Vanua Levu and Taveuni, but is now considered its own species. The species is sometimes known as the Kadavu musk parrot.\nThe crimson shining parrot is a medium-sized parrot (45 cm) with a long tail and bright plumage. The head, breast and belly are covered in bright crimson-red, its back, wings and tail are green with hints of blue in the wing. It has a long winged appearance in flight, flying with undulating bouts of flaps and gliding. The species is very vocal; the shrieks and squawks of the crimson shining parrot are of a higher pitch than that of the red shining parrot. On Kadavu it is unlikely to be mistaken for the other species of parrot, the collared lory.\nThe crimson shining parrot is a common forest species that has recently taken to entering gardens and agricultural land. Pairs forage for seeds and fruits. The species has not been observed nesting but is assumed to be a hole nester like red shining parrot. The species is considered to be Near Threatened by the IUCN due to its restricted range, habitat loss and the illegal trade in parrots."
+ },
+ {
+  "id": "chalcopsitta-fuscata",
+  "sci": "Chalcopsitta fuscata",
+  "en": "Dusky Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dusky_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64903218/medium.jpg",
+   "credit": "(c) SandyCole, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The dusky lory is short-tailed parrot about 25cm (10in) long and weights around 300 grams. Both sexes are similar in appearance, with a dark brown to blackish head, neck, and back, two bright bands across the breast, and a pale whitish or cream rump. Their legs are grey, the bill is red, the irises range from red-orange to dark brown, and the beak is orange with an area of orange skin at the base of the lower mandible. The species exhibits no sexual dimorphism, meaning males and females are visually identical. To determine the sex of an individual, DNA analysis or surgical sexing are required.\nThey can be found in two distinct color morphs: the “orange (or red) phase” and the “yellow phase'', which is more rare. In the orange morph, the chest and underwings are rich orange, while in the yellow morph, those areas are replaced with bright yellow. Both morphs share a prominent yellow patch on the underwing that is visible during flight.\nTheir feathers contain psittacofulvin pigments, unique to parrots, which produce bright red, orange, and yellow hues independently of dietary carotenoids. The average lifespan in the wild is 13 years, and their life expectancy in captivity ranges from 19 to over 30 years, depending on diet and care."
+ },
+ {
+  "id": "pyrrhura-lepida",
+  "sci": "Pyrrhura lepida",
+  "en": "Pearly Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pearly_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/443923443/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The pearly parakeet is 24 to 25 cm (9.4 to 9.8 in) long and weighs 70 to 80 g (2.5 to 2.8 oz). The sexes are the same. Adults of the nominate subspecies have a dark brown crown and buff ear coverts; the rest of their face is dull blue-green with whitish bare skin around the eye. Their upperparts are green with a bluish tinge. Their upper breast and the sides of their neck are brown with buff scaling; the breast has a blue tinge. The rest of their underparts are green with a blue wash. Their wing is mostly green, with black and cobalt blue primaries and red underwing coverts. Their tail's top surface is reddish brown and the lower surface is blackish brown. Their iris is dark brown, their bill brownish black, and their legs slate-black. Immatures are similar to adults. Subspecies P. l. coerulescens has a paler head than the nominate, a grayer throat and upper breast, and a stronger blue tinge in the lower breast. P. l. anerythra has a red tinge instead of blue on the breast and belly and no red on the wing."
+ },
+ {
+  "id": "hapalopsittaca-amazonina",
+  "sci": "Hapalopsittaca amazonina",
+  "en": "Rusty-faced Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rusty-faced_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/73726759/medium.jpeg",
+   "credit": "(c) ricardoalvarezzamora, some rights reserved (CC BY-NC), uploaded by ricardoalvarezzamora (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The rusty-faced parrot is about 23 cm (9.1 in) long and weighs 97 to 115 g (3.4 to 4.1 oz). Adults of the nominate subspecies H. a. amazonina have a dull orange-red forehead and crown, yellow lores, an orange-red chin, and brownish red ear coverts with yellow streaks. Their upperparts are green with a red shoulder. Their breast is buffy olive and the rest of their underparts grass green. Their primaries and secondary coverts are blue, the former darker than the latter. Their tail is dark red with blue-black to violet blue tips. Immature birds have a duller red face with fewer yellow streaks than adults. Subspecies H. a. theresae has darker green upperparts than the nominate, and the red on their face is more brownish, their ear coverts darker, and their breast rusty olive. H. a. velezi is like the nominate with the addition of a golden olive hindneck and nape."
+ },
+ {
+  "id": "charmosyna-stellae",
+  "sci": "Charmosyna stellae",
+  "en": "Stella’s Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Stella's_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235306/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Stella's lorikeet (Charmosyna stellae) is a species of parrot in the family Psittaculidae. It is endemic to New Guinea, where its natural habitat consists of subtropical or tropical moist montane forests."
+ },
+ {
+  "id": "prioniturus-flavicans",
+  "sci": "Prioniturus flavicans",
+  "en": "Yellow-breasted Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-breasted_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107895066/medium.jpg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The yellow-breasted racket-tail has an olive-green back, neck and chest. The bill is pale grey and its irises are brown. Its legs are grey. Males are blue on the top of the head with a red area on the crown. The tail feather are green with terminal black spatulas.  Females have a smaller area of blue on the head and no red. Juveniles are similar to females, but have less blue on the head."
+ },
+ {
+  "id": "loriculus-exilis",
+  "sci": "Loriculus exilis",
+  "en": "Pygmy Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pygmy_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/80945499/medium.jpeg",
+   "credit": "(c) ꦥꦤ꧀ꦗꦶꦒꦸꦱ꧀ꦠꦶꦄꦏ꧀ꦧꦂ, some rights reserved (CC BY), uploaded by ꦥꦤ꧀ꦗꦶꦒꦸꦱ꧀ꦠꦶꦄꦏ꧀ꦧꦂ (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The pygmy hanging parrot, red-billed hanging parrot or green hanging parrot (Loriculus exilis) is a species of parrot in the family Psittaculidae and is one of the smallest members of its genus. It is distinctive by its small size, orange bill and bright green plumage with a red throat. The bird is green all over. Its face consists of an orange bill and red throat. The tail is red. It is sometimes confused with the great hanging parrot due to their similar color but the pygmy hanging parrot is smaller and has a more red bill, green forehead, and uniform green mantle. It is endemic to forest, mangrove and other wooded habitats on the Indonesian island called Sulawesi."
+ },
+ {
+  "id": "cacatua-citrinocristata",
+  "sci": "Cacatua citrinocristata",
+  "en": "Citron-crested Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Citron-crested_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/304390963/medium.jpeg",
+   "credit": "(c) emskakoon, some rights reserved (CC BY-NC), uploaded by emskakoon (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The citron-crested cockatoo (Cacatua citrinocristata) is a medium-sized cockatoo with an orange crest, dark grey beak, pale orange ear patches, and strong feet and claws. The underside of the larger wing and tail feathers has a pale yellow color. The eyelid color is a very light blue. Both sexes are similar. Females have a copper colored eye where as the male has a very dark black eye.\nThey are endemic to Sumba in the Lesser Sunda Islands in Indonesia. The diet consists mainly of seeds, buds, fruits, nuts and herbaceous plants.\nIn 2022, Birdlife International recognized the citron-crested cockatoo as a separate species, Cacatua citrinocristata, assessed as Critically Endangered, while the International Ornithological Congress designated it to be a species in 2023."
+ },
+ {
+  "id": "trichoglossus-meyeri",
+  "sci": "Trichoglossus meyeri",
+  "en": "Yellow-cheeked Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sula_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107838470/medium.jpg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 20.0,
+  "desc_thin": false,
+  "description": "The Sula lorikeet is a mainly green parrot about 20 cm (8 in) long. Its bill is orange. In the nominate subspecies the head and chest are yellow, the latter narrowly scaled with green, and the lores and region near the bill are dark, often appearing almost blackish."
+ },
+ {
+  "id": "pyrrhura-pfrimeri",
+  "sci": "Pyrrhura pfrimeri",
+  "en": "Pfrimer's Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pfrimer's_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29229562/medium.jpg",
+   "credit": "(c) Karina Avila, some rights reserved (CC BY), uploaded by Karina Avila (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Pfrimer's parakeet (Pyrrhura pfrimeri) is a non-migratory species within the parrot family Psittacidae. It also is known as Pfrimer's conure, Goias parakeet, and maroon-faced conure. The Pfrimer's parakeet has been qualified as endangered by the IUCN and BirdLife International since 2007.  It is endemic to the Goiás and Tocantins regions of Brazil. It is mainly found within a belt of dry deciduous and semi-deciduous areas of the Caatinga forest.\nIt was considered a subspecies of the white-eared parakeet, as Pyrrhura leucotis pfrimeri. The split was based on range, differences in habitat and distinctive differences in plumage (it is the only member of the P. leucotis complex where the pale patch on the ear-coverts is greatly reduced). A recent study based on mtDNA has confirmed its status as a distinct species. \nThe population of Pfrimer's parakeet is currently decreasing, with a current population of between 20,000 and 49,000 individuals. The main factor behind the decreasing population is deforestation for agriculture.\nIndividuals have an average lifespan of 6–8 years."
+ },
+ {
+  "id": "chalcopsitta-atra",
+  "sci": "Chalcopsitta atra",
+  "en": "Black Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473253710/medium.jpg",
+   "credit": "(c) Packa, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "The black lory is 32 cm (13 in) long and has a black bill. Its plumage is mostly black with a blue rump. Red markings on face, thighs, and tail vary between the three subspecies. Males and females are similar in external appearance."
+ },
+ {
+  "id": "prioniturus-luconensis",
+  "sci": "Prioniturus luconensis",
+  "en": "Green Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Green_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159071682/medium.png",
+   "credit": "(c) Vinz Pascua, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The green racket-tail (Prioniturus luconensis) is an endemic parrot of the Philippines where it is found on Luzon and Marinduque. This species was once common, but is rapidly declining and is currently classified as endangered due to lowland deforestation and capture for cage-bird trade. The population is now estimated to be just 300 - 800 mature individuals and is continuing to decline with many local extinctions in its former range.\n\nIt is illegal to hunt, capture, or keep Green racket-tails and any other wild bird in the Philippines under Philippine Law RA 9147."
+ }
+]

@@ -1,0 +1,234 @@
+[
+{
+ "id": "oreopsittacus-arfaki", "ko": null, "en": "Plum-faced Lorikeet", "sci": "Oreopsittacus arfaki",
+ "region": "뉴기니 중앙 고산 숲", "sizeCm": 15, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Plum-faced_lorikeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9663349/medium.jpeg", "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"},
+ "base": {"main": ["g"], "crown": null, "forehead": ["g"], "face": ["g","w"], "cheek": "none", "throat": null, "collar": "none",
+  "breast": ["g"], "belly": ["g"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": ["k"],
+  "eyeSkin": "none", "crest": false, "tailShape": "long", "pattern": "plain"},
+ "looks": [
+  {"label": "수컷", "forehead": ["r"]},
+  {"label": "암컷", "forehead": ["g"]}
+ ]
+},
+{
+ "id": "neopsittacus-musschenbroekii", "ko": null, "en": "Yellow-billed Lorikeet", "sci": "Neopsittacus musschenbroekii",
+ "region": "뉴기니 산악 숲", "sizeCm": 19, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-billed_lorikeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9519328/medium.jpeg", "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["g"], "forehead": ["g"], "face": ["g"], "cheek": "none", "throat": ["g"], "collar": "none",
+  "breast": ["r"], "belly": ["g"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": ["y"],
+  "eyeSkin": "none", "crest": false, "tailShape": "mid", "pattern": "plain"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "micropsitta-pusio", "ko": null, "en": "Buff-faced Pygmy-Parrot", "sci": "Micropsitta pusio",
+ "region": "파푸아뉴기니 동부 저지대 숲", "sizeCm": 9, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Buff-faced_pygmy_parrot",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10666647/medium.jpg", "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["y","b"], "forehead": ["y"], "face": ["y"], "cheek": "none", "throat": ["y"], "collar": "none",
+  "breast": ["g","y"], "belly": ["g","y"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": ["gr"],
+  "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain"},
+ "looks": [
+  {"label": "성조"},
+  {"label": "어린 새", "crown": ["g"]}
+ ]
+},
+{
+ "id": "charmosyna-papou", "ko": null, "en": "West Papuan Lorikeet", "sci": "Charmosyna papou",
+ "region": "뉴기니 고산 숲", "sizeCm": 40, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Papuan_lorikeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3308705/medium.jpg", "credit": "(c) Nigel Voaden, some rights reserved (CC BY) (cc-by) / iNaturalist"},
+ "base": {"main": ["r"], "crown": ["k"], "forehead": ["k"], "face": ["k"], "cheek": "none", "throat": ["r"], "collar": "none",
+  "breast": ["r"], "belly": ["r"], "back": ["k"], "wing": ["k"], "tail": ["k","y"], "beak": ["o"],
+  "eyeSkin": "none", "crest": false, "tailShape": "long", "pattern": "plain"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "chalcopsitta-scintillata", "ko": null, "en": "Yellow-streaked Lory", "sci": "Chalcopsitta scintillata",
+ "region": "뉴기니 남부 저지대 숲", "sizeCm": 31, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Yellowish-streaked_lory",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387831343/medium.jpg", "credit": "(c) Linda Kenney, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"},
+ "base": {"main": ["r"], "crown": ["k"], "forehead": ["k"], "face": ["r"], "cheek": "none", "throat": ["r"], "collar": "none",
+  "breast": ["r","y"], "belly": ["r","y"], "back": ["r"], "wing": ["r","k"], "tail": ["r"], "beak": ["k"],
+  "eyeSkin": "none", "crest": false, "tailShape": "mid", "pattern": "barred"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "alisterus-chloropterus", "ko": null, "en": "Papuan King Parrot", "sci": "Alisterus chloropterus",
+ "region": "파푸아뉴기니 동부 산지 숲", "sizeCm": 36, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Papuan_king_parrot",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/180644829/medium.jpg", "credit": "(c) David Barros Cardona, some rights reserved (CC BY-NC), uploaded by David Barros Cardona (cc-by-nc) / iNaturalist"},
+ "base": {"main": ["r"], "crown": ["r"], "forehead": ["r"], "face": ["r"], "cheek": "none", "throat": ["r"], "collar": "none",
+  "breast": ["r"], "belly": ["r"], "back": ["b"], "wing": ["g","lg"], "tail": null, "beak": null,
+  "eyeSkin": "none", "crest": false, "tailShape": "long", "pattern": "plain"},
+ "looks": [
+  {"label": "수컷"},
+  {"label": "암컷", "crown": ["g"], "forehead": ["g"], "face": ["g"], "throat": ["g"], "breast": ["g","r"], "belly": ["r"], "back": ["g"]}
+ ]
+},
+{
+ "id": "cyanoramphus-hochstetteri", "ko": null, "en": "Reischek's Parakeet", "sci": "Cyanoramphus hochstetteri",
+ "region": "뉴질랜드 안티포디스 제도", "sizeCm": 28, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Reischek's_parakeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387302822/medium.jpeg", "credit": "no rights reserved, uploaded by Mark Fraser (cc0) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["r","g"], "forehead": ["r"], "face": ["g"], "cheek": "none", "throat": ["g"], "collar": "none",
+  "breast": ["g"], "belly": ["g"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": ["gr"],
+  "eyeSkin": "none", "crest": false, "tailShape": "mid", "pattern": "plain"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "loriculus-amabilis", "ko": null, "en": "Moluccan Hanging-Parrot", "sci": "Loriculus amabilis",
+ "region": "인도네시아 할마헤라·바칸 섬 숲", "sizeCm": 11, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Moluccan_hanging_parrot",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/340220214/medium.jpg", "credit": "(c) Martin Walsh, some rights reserved (CC BY-NC-ND), uploaded by Martin Walsh (cc-by-nc-nd) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["g"], "forehead": ["g"], "face": ["g"], "cheek": "none", "throat": ["b","g"], "collar": "none",
+  "breast": ["g"], "belly": ["g"], "back": ["g","r"], "wing": ["g"], "tail": ["g"], "beak": ["r"],
+  "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "cyanoramphus-forbesi", "ko": null, "en": "Chatham Parakeet", "sci": "Cyanoramphus forbesi",
+ "region": "뉴질랜드 채텀 제도", "sizeCm": 25, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Chatham_parakeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/14512387/medium.jpeg", "credit": "(c) Catherine Beard, some rights reserved (CC BY-NC), uploaded by Catherine Beard (cc-by-nc) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["y","g"], "forehead": ["r"], "face": ["g"], "cheek": "none", "throat": ["g"], "collar": "none",
+  "breast": ["g"], "belly": ["g"], "back": ["g","r"], "wing": ["g","v"], "tail": ["g"], "beak": ["gr"],
+  "eyeSkin": "none", "crest": false, "tailShape": "long", "pattern": "plain"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "neopsittacus-pullicauda", "ko": null, "en": "Orange-billed Lorikeet", "sci": "Neopsittacus pullicauda",
+ "region": "뉴기니 고산 숲", "sizeCm": 18, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-billed_lorikeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3093633/medium.jpg", "credit": "(c) Nigel Voaden, some rights reserved (CC BY) (cc-by) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["g"], "forehead": ["g"], "face": ["g","y"], "cheek": ["y"], "throat": ["r"], "collar": "none",
+  "breast": ["r"], "belly": ["r"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": ["o","y"],
+  "eyeSkin": "none", "crest": false, "tailShape": "mid", "pattern": "plain"},
+ "looks": [
+  {"label": "성조"},
+  {"label": "어린 새", "breast": ["g","r"], "belly": ["g","r"], "beak": ["br","o"]}
+ ]
+},
+{
+ "id": "conuropsis-carolinensis", "ko": null, "en": "Carolina Parakeet", "sci": "Conuropsis carolinensis",
+ "region": "북아메리카 동부 (멸종)", "sizeCm": 33, "extinct": true,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Carolina_parakeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/519212147/medium.jpg", "credit": "(c) Mario Aliana Pedrosa, some rights reserved (CC BY-NC), uploaded by Mario Aliana Pedrosa (cc-by-nc) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["y"], "forehead": ["o"], "face": ["o"], "cheek": "none", "throat": ["y"], "collar": "none",
+  "breast": ["lg"], "belly": ["lg"], "back": ["g"], "wing": ["g","y"], "tail": ["g"], "beak": ["w"],
+  "eyeSkin": "ring", "eyeSkinColor": "w", "crest": false, "tailShape": "long", "pattern": "plain"},
+ "looks": [
+  {"label": "성조"},
+  {"label": "어린 새", "crown": ["g"], "forehead": ["g"], "face": ["g"], "throat": ["g"], "wing": ["g"]}
+ ]
+},
+{
+ "id": "nannopsittacus-melanogenia", "ko": null, "en": "Dusky-cheeked Fig Parrot", "sci": "Nannopsittacus melanogenia",
+ "region": "뉴기니 남부·아루 제도 저지대 숲", "sizeCm": 9, "extinct": false,
+ "wikipedia_url": "https://en.wikipedia.org/wiki/Dusky-cheeked_fig_parrot",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235288/medium.jpg", "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"},
+ "base": {"main": ["g"], "crown": null, "forehead": null, "face": null, "cheek": "none", "throat": null, "collar": "none",
+  "breast": ["g"], "belly": ["lg"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": null,
+  "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "aprosmictus-jonquillaceus", "ko": null, "en": "Olive-shouldered Parrot", "sci": "Aprosmictus jonquillaceus",
+ "region": "티모르·숨바 섬 숲", "sizeCm": 33, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Jonquil_parrot",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107995052/medium.jpeg", "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["g"], "forehead": ["g"], "face": ["g"], "cheek": "none", "throat": ["g"], "collar": "none",
+  "breast": ["g"], "belly": ["g"], "back": ["g"], "wing": ["g","r"], "tail": ["g"], "beak": ["o"],
+  "eyeSkin": "none", "crest": false, "tailShape": "long", "pattern": "plain"},
+ "looks": [
+  {"label": "수컷"},
+  {"label": "암컷", "wing": ["g","y"]},
+  {"label": "어린 새", "wing": ["g"]}
+ ]
+},
+{
+ "id": "pyrrhura-caeruleiceps", "ko": null, "en": "Perija Parakeet", "sci": "Pyrrhura caeruleiceps",
+ "region": "콜롬비아·베네수엘라 페리하 산맥 숲", "sizeCm": 22, "extinct": false,
+ "wikipedia_url": "https://en.wikipedia.org/wiki/Perija_parakeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/291684076/medium.jpeg", "credit": "(c) Christoph Moning, osa oikeuksista pidätetään (CC BY), lähettänyt Christoph Moning (cc-by) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["b"], "forehead": ["b"], "face": ["br","g"], "cheek": "none", "throat": ["g"], "collar": "none",
+  "breast": ["br","w"], "belly": ["g"], "back": ["g"], "wing": ["g","r"], "tail": ["r","br"], "beak": ["k"],
+  "eyeSkin": "ring", "crest": false, "tailShape": "long", "pattern": "scaled"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "nannopsittaca-dachilleae", "ko": null, "en": "Amazonian Parrotlet", "sci": "Nannopsittaca dachilleae",
+ "region": "페루 남동부 아마존 저지대 숲", "sizeCm": 13, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Manu_parrotlet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158981228/medium.jpg", "credit": "(c) Hector Bottai, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["b","g"], "forehead": ["b"], "face": ["g","b"], "cheek": "none", "throat": ["lg"], "collar": "none",
+  "breast": ["lg"], "belly": ["lg"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": null,
+  "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "loriculus-sclateri", "ko": null, "en": "Sula Hanging-Parrot", "sci": "Loriculus sclateri",
+ "region": "인도네시아 방가이·술라 제도 숲", "sizeCm": 14, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Sula_hanging_parrot",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/101919921/medium.jpeg", "credit": "(c) Alpian Maleso, some rights reserved (CC BY-NC), uploaded by Alpian Maleso (cc-by-nc) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["r","g"], "forehead": ["r"], "face": ["g"], "cheek": "none", "throat": ["b","r"], "collar": "none",
+  "breast": ["g"], "belly": ["g"], "back": ["g","r"], "wing": ["g"], "tail": ["g"], "beak": ["o"],
+  "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain"},
+ "looks": [{"label": "성조"}]
+},
+{
+ "id": "glossoptilus-goldiei", "ko": null, "en": "Goldie's Lorikeet", "sci": "Glossoptilus goldiei",
+ "region": "뉴기니 고산 숲", "sizeCm": 19, "extinct": false,
+ "wikipedia_url": "https://en.wikipedia.org/wiki/Goldie's_lorikeet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235301/medium.jpg", "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["r"], "forehead": ["r"], "face": ["v","b"], "cheek": "none", "throat": ["g"], "collar": "none",
+  "breast": ["lg","g"], "belly": ["lg","g"], "back": ["b","g"], "wing": ["g"], "tail": ["g"], "beak": ["k"],
+  "eyeSkin": "none", "crest": false, "tailShape": "mid", "pattern": "barred"},
+ "looks": [
+  {"label": "수컷"},
+  {"label": "암컷", "crown": ["g","r"]},
+  {"label": "어린 새", "crown": ["g"], "back": ["gr","b"], "beak": ["br"]}
+ ]
+},
+{
+ "id": "northiella-narethae", "ko": null, "en": "Naretha Bluebonnet", "sci": "Northiella narethae",
+ "region": "오스트레일리아 날라보 평원", "sizeCm": 28, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Naretha_bluebonnet",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/96432358/medium.jpg", "credit": "(c) Tim Bawden, some rights reserved (CC BY-NC), uploaded by Tim Bawden (cc-by-nc) / iNaturalist"},
+ "base": {"main": ["gr","y"], "crown": ["v"], "forehead": ["sb"], "face": ["v"], "cheek": "none", "throat": ["gr"], "collar": "none",
+  "breast": ["gr","br"], "belly": ["y"], "back": ["gr","g"], "wing": ["y","b","r"], "tail": ["sb"], "beak": null,
+  "eyeSkin": "none", "crest": false, "tailShape": "mid", "pattern": "plain"},
+ "looks": [
+  {"label": "수컷"},
+  {"label": "암컷", "forehead": ["gr","sb"], "wing": ["gr","y"], "tail": ["gr"]}
+ ]
+},
+{
+ "id": "pyrilia-vulturina", "ko": null, "en": "Vulturine Parrot", "sci": "Pyrilia vulturina",
+ "region": "브라질 아마존 동부 숲", "sizeCm": 24, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Vulturine_parrot",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/329487745/medium.jpg", "credit": "(c) Steve Foss, some rights reserved (CC BY-NC), uploaded by Steve Foss (cc-by-nc) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["k"], "forehead": ["k"], "face": ["k"], "cheek": "none", "throat": ["k"], "collar": ["y"],
+  "breast": ["y","g"], "belly": ["g","b"], "back": ["g","o"], "wing": ["k","g"], "tail": ["g","b"], "beak": null,
+  "eyeSkin": "face", "eyeSkinColor": "k", "crest": false, "tailShape": "mid", "pattern": "plain"},
+ "looks": [
+  {"label": "성조"},
+  {"label": "어린 새", "crown": ["g"], "forehead": ["g"], "face": ["g"], "eyeSkin": "none", "collar": "none"}
+ ]
+},
+{
+ "id": "micropsitta-geelvinkiana", "ko": null, "en": "Geelvink Pygmy-Parrot", "sci": "Micropsitta geelvinkiana",
+ "region": "인도네시아 게엘빙크 만 섬들", "sizeCm": 8, "extinct": false,
+ "wikipedia_url": "http://en.wikipedia.org/wiki/Geelvink_pygmy_parrot",
+ "photo": {"src": "https://inaturalist-open-data.s3.amazonaws.com/photos/117967181/medium.jpeg", "credit": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer (cc-by-nc) / iNaturalist"},
+ "base": {"main": ["g"], "crown": ["b"], "forehead": ["br"], "face": ["br","sb"], "cheek": "none", "throat": null, "collar": "none",
+  "breast": ["y"], "belly": ["g"], "back": ["g"], "wing": ["g"], "tail": ["b"], "beak": null,
+  "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain"},
+ "looks": [
+  {"label": "수컷"},
+  {"label": "암컷", "forehead": ["g","br"], "face": ["sb","g"]}
+ ]
+}
+]

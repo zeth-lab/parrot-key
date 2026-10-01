@@ -1,0 +1,322 @@
+[
+ {
+  "id": "psittacella-modesta",
+  "sci": "Psittacella modesta",
+  "en": "Modest Tiger Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Modest_tiger_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60662771/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The modest tiger parrot (Psittacella modesta) is a species of parrot in the family Psittaculidae. It is found in the Arfak Mountains and New Guinea Highlands. Its natural habitat is subtropical or tropical moist montane forests."
+ },
+ {
+  "id": "eclectus-cornelia",
+  "sci": "Eclectus cornelia",
+  "en": "Sumba Eclectus",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sumba_eclectus",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26729122/medium.jpeg",
+   "credit": "(c) Yovie Jehabut, some rights reserved (CC BY-NC), uploaded by Yovie Jehabut (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Sumba eclectus, or Cornelia's eclectus (Eclectus cornelia) is a parrot species which is native to Sumba. Also larger than the Moluccan eclectus, the male is a paler shade of green overall and has a bluer tail. The female has an all red plumage, except for the primaries which are a dark royal blue, and can be differentiated from the Tanimbar eclectus by the lack of yellow to her tail."
+ },
+ {
+  "id": "trichoglossus-forsteni",
+  "sci": "Trichoglossus forsteni",
+  "en": "Sunset Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sunset_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387860460/medium.jpg",
+   "credit": "(c) Ted, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The sunset lorikeet (Trichoglossus forsteni), also known as the scarlet-breasted lorikeet or Forsten's lorikeet, is a species of parrot that is endemic to the Indonesian islands of Bali, Lombok, Sumbawa, Tanah Jampea (between Sulawesi and Flores), and Kalaotoa (between Sulawesi and Flores). It was previously considered a subspecies of the rainbow lorikeet, but following a review in 1997, it is increasingly treated as a separate species.\nIn addition to the nominate subspecies from Sumbawa, it includes the subspecies mitchellii (\"Mitchell's lorikeet\") from Bali and Lombok, djampeanus (\"Djampea lorikeet\") from the small island Tanah Jampea, and stresemanni (\"Stresemann's lorikeet\") from the small island Kalaotoa.\n\nIt is the darkest and arguably most strongly marked member of the rainbow lorikeet group, with a dark bluish head that contrasts strongly with a lime green nape and a deep scarlet (most subspecies) or deep orange (subspecies stresemanni) breast, that again contrasts strongly with the dark bluish belly.\nIt inhabits forest, woodland and plantations at altitudes below 1,200 m (3,900 ft) on Sumabwa, but up to 2,150 m (7,050 ft) on Lombok. \nIts small range combined with extensive habitat destruction and capture for the parrot trade gives cause for serious concerns. It remains fairly common on Sumbawa, but is scarce or rare elsewhere. It appears to have been extirpated from Tanahjampea, and may have been extirpated from Bali and Kalaotoa."
+ },
+ {
+  "id": "amazona-imperialis",
+  "sci": "Amazona imperialis",
+  "en": "Imperial Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Imperial_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157586831/medium.jpg",
+   "credit": "(c) Amazona_imperialis_-Roseau_-Dominica_-aviary-6a.jpg, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 48.0,
+  "desc_thin": false,
+  "description": "The imperial amazon measures an average of 48 cm (19 in) in length. With males weighing an average of 900 g (32 oz) and females 650 g (23 oz), the species is large for its genus.\nBeing of the family Psittacidae, the sisserou has zygodactyl feet and a thick, hooked bill with a muscular tongue. This bill is fashioned in such a way that, using its hinged mandibles and tongue, the sisserou can easily move food around in its mouth.\nMales and females have identical plumage: the chest is a dark shade of purple, and the upper parts and feathers are a dark shade of green, with black-edged feather tips. The eye-ring is dark brown, with the eye being a mix of orange and red. Juvenile appearance does not differ much, with a higher occurrence of green plumage and strictly brown eyes."
+ },
+ {
+  "id": "agapornis-swindernianus",
+  "sci": "Agapornis swindernianus",
+  "en": "Black-collared Lovebird",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-collared_lovebird",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54851606/medium.jpg",
+   "credit": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "It is a mostly green parrot with black-collared nape, brownish red chest, greyish black bill, yellow iris and grey feet. Both sexes are similar. More specifically, the head is mostly green, with a yellow neck and a narrow black hind collar. Its bottom is a royal dark blue, and the rest of its upper body is dark green. The Agapornis swindernianus has soft black feathers and orange-red markings on its outer tail feathers. The two sexes are similar in their coloring. The young birds do not have the distinct black collar. The Dutch professor Theodore van Swinderen from the University of Groningen named the black-collared lovebird in 1820. The bird gets its name from the 'collar', identifiable from black feathers around its neck that resembles a collared shape. The zenkeri extension of the species contains a blood-orange stripe underneath its distinct collar."
+ },
+ {
+  "id": "cyclopsitta-salvadorii",
+  "sci": "Cyclopsitta salvadorii",
+  "en": "Salvadori's Fig Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Salvadori's_fig_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387855822/medium.jpg",
+   "credit": "(c) \nPetr Hamerník, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "These birds are sexually dimorphic. The male of the species has an orange breast patch and yellow cheeks, while the female has a pale blue breast patch and greenish-yellow cheeks. The juveniles of the species all resemble females until adult plumage begins to grow in."
+ },
+ {
+  "id": "pyrrhura-hoematotis",
+  "sci": "Pyrrhura hoematotis",
+  "en": "Red-eared Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blood-eared_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/705391465/medium.jpg",
+   "credit": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The blood-eared parakeet is about 25 cm (9.8 in) long and weighs 64 to 74 g (2.3 to 2.6 oz). The sexes are the same. Adults of the nominate subspecies are slaty gray from forehead to mid-crown, with bare white skin around the eye and bright terracotta ear coverts that give it its English name. Their nape feathers are green with yellow edges and the rest of their upperparts are green. Their throat, the sides of their neck, and their upper breast are yellow-green with grayish feather edges giving a scaly appearance. The rest of their underparts are green with some reddish brown on the belly and bluish green undertail coverts. Their wing is mostly green with blue primaries. Their tail's upperside is brownish red with green feather tips; its underside is coppery. Subspecies P. h. immarginata has a green crown and nape and reduced scaling on the sides of the neck."
+ },
+ {
+  "id": "nannopsittacus-gulielmitertii",
+  "sci": "Nannopsittacus gulielmitertii",
+  "en": "Blue-fronted Fig Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-fronted_fig_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29312921/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The blue-fronted fig parrot is primarily green with a black bill, white face with a black patch. Males have orange breasts while females have orange patches on their faces."
+ },
+ {
+  "id": "eunymphicus-uvaeensis",
+  "sci": "Eunymphicus uvaeensis",
+  "en": "Ouvea Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ouvea_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/27395234/medium.jpg",
+   "credit": "(c) Frédéric Desmoulins،  بعض الحقوق محفوظة (CC BY-NC), uploaded by Frédéric Desmoulins (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Ouvea parakeet is a medium-sized parakeet with mostly green plumage and a prominent green crest. The crest is composed of six backward feathers that curl forwards. The underside of the bird tends to be yellower and there is bright blue on the wings and tail. The face is dark and the beak is black, lacking the yellow on the face of the horned parakeet."
+ },
+ {
+  "id": "loriculus-aurantiifrons",
+  "sci": "Loriculus aurantiifrons",
+  "en": "Papuan Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-fronted_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/180896194/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 10.0,
+  "desc_thin": false,
+  "description": "Individuals are 10 cm (4 in) and 14-16 g, and sexually dimorphic. Males and females are both mainly green in color, with males having a golden yellow forecrown, and females having a blue-green forecrown and blue-green cheeks. Both sexes have a red throat patch, red rump, and yellow on the sides of the rump."
+ },
+ {
+  "id": "psittacella-picta",
+  "sci": "Psittacella picta",
+  "en": "Painted Tiger Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Painted_tiger_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3068969/medium.jpg",
+   "credit": "(c) Nigel Voaden, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The painted tiger parrot has green wings and tail, red cap, yellow eye, red rump and tiger stripes on its back and belly."
+ },
+ {
+  "id": "chalcopsitta-duivenbodei",
+  "sci": "Chalcopsitta duivenbodei",
+  "en": "Brown Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159017163/medium.jpg",
+   "credit": "(c) bob|P-&-S, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The brown lory has a black beak, yellow-streaked face, white tail and mostly dark brown plumage."
+ },
+ {
+  "id": "touit-costaricensis",
+  "sci": "Touit costaricensis",
+  "en": "Red-fronted Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-fronted_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/33791607/medium.jpeg",
+   "credit": "(c) Oliver Komar, some rights reserved (CC BY-NC), uploaded by Oliver Komar (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 17.0,
+  "desc_thin": false,
+  "description": "The red-fronted parrotlet is about 15 to 17 cm (5.9 to 6.7 in) long and weighs about 80 g (2.8 oz). Its body is mostly green, darker above than below. Its forehead (\"front\") and much of its face are red with a bit of blue on the latter and a white eye ring. Its crown and hindneck are bronze-green and its throat yellowish. It has much red on the wing's \"wrist\", and its primaries are black with green outer edges. Its underwing coverts are yellow. Its tail has a square end; the central tail feathers are black and the others yellow with black tips. Males have more red on their face than females and immatures have almost none."
+ },
+ {
+  "id": "loriculus-catamene",
+  "sci": "Loriculus catamene",
+  "en": "Sangihe Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sangihe_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/377528884/medium.jpeg",
+   "credit": "(c) fachrynurmallojr, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 13.5,
+  "desc_thin": false,
+  "description": "The Sangihe hanging parrot (Loriculus catamene) is a small (length: 12–13.5 cm) parrot endemic to the small island of Sangihe, north of Sulawesi, Indonesia.\nThis is an arboreal parrot. It is predominantly green, with a red throat patch, rump, elongated uppertail-coverts and tip of tail.\nIn 2009 this parrot was downlisted from Endangered to Near Threatened because although it has a very small range within which there has been extensive forest loss and fragmentation, it apparently remains common in degraded and cultivated habitats and there is no evidence of a continuing decline. The current population is estimated at between 10,000 and 46,000 individuals."
+ },
+ {
+  "id": "trichoglossus-cyanogenius",
+  "sci": "Trichoglossus cyanogenius",
+  "en": "Black-winged Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black-winged_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/533056790/medium.jpg",
+   "credit": "(c) Jonathan Newman, some rights reserved (CC BY-NC), uploaded by Jonathan Newman (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The black-winged lory (Trichoglossus cyanogenius), also known as the Biak red lory, is a medium-sized, about 30 cm (12 in) long, long-tailed lory. It has a bright red plumage, black shoulder, red iris, an orange red bill and violet ear-patch behind eye. The underwings are red, becoming yellowish with black tips. The sexes are similar.\nAn Indonesian endemic, the black-winged lory is distributed to forests and coastal habitat of Biak, Numfoor, and Mios Num islands in Cenderawasih Bay, Papua. It frequents and roosts in coconut trees.\nDue to ongoing habitat loss, small population size and hunting in some areas, the black-winged lory is evaluated as near threatened on IUCN Red List of Threatened Species. It is listed on Appendix II of CITES."
+ },
+ {
+  "id": "aratinga-maculata",
+  "sci": "Aratinga maculata",
+  "en": "Sulphur-breasted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sulphur-breasted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/359493733/medium.jpeg",
+   "credit": "(c) Thomas Diemer, some rights reserved (CC BY-NC), uploaded by Thomas Diemer (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The sulphur-breasted parakeet is about 30 cm (12 in) long and weighs about 110 g (3.9 oz). The sexes are alike. The adults' crown and mantle are pale greenish yellow. Their wing coverts range from yellow through green to deep blue; the flight feathers are also deep blue on their upper side. Their tail's upper side is mostly green, with blue tips on the inner feathers and progressively more blue outwards to the entirely blue outermost pair. Their head below the crown and their underparts are mostly yellow, with orange through the eye and on small areas of the belly and flanks. The undersides of their flight feathers and tail are blackish gray. Their iris is dark gray surrounded by bare bluish gray skin, their bill black, and their legs and feet dark brownish. Juveniles have a green head, mantle, and wing coverts. The species closely resembles the sun parakeet but has less orange and more green."
+ },
+ {
+  "id": "prioniturus-waterstradti",
+  "sci": "Prioniturus waterstradti",
+  "en": "Mindanao Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mindanao_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159072366/medium.png",
+   "credit": "(c) Chetatata, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Mindanao racket-tail (Prioniturus waterstradti) is a species of parrot in the family Psittaculidae. It is endemic to Mindanao in the Philippines. It was previously conspecific with the Luzon Racket-tail. Two subspecies are recognized: the nominate waterstradti in the south-east, and malindangensis in the west. Its natural habitat is tropical moist montane forests. The species is considered \"Near Threatened\" due to habitat loss and trapping for the pet trade."
+ },
+ {
+  "id": "trichoglossus-histrio",
+  "sci": "Trichoglossus histrio",
+  "en": "Red-and-blue Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-and-blue_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/56135328/medium.jpg",
+   "credit": "(c) Christian Artuso, some rights reserved (CC BY-NC-ND), uploaded by Christian Artuso (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The red-and-blue lory is roughly 12 inches (30 cm) in length, including the tail. The species is sexually monomorphic, i.e. sexes are visually alike.\nThe beak is short, sharply curved, and bright orange. The feathers nearest the cere (the area nearest the nostrils) are bright red. The crown of the head is intense purple. The back of the head is red, and the nape of the neck is intense violet. An indigo-violet stripe runs diagonally from the cere corner to the nape of the neck. The bird's plumage is mostly bright red. The rump and lower belly are a slightly deeper red. The breast has a broad band of deep blue. Extending the color from the nape, the bird's back is a deep violet purple. Wing and tail flight feathers - rectrices and remiges - are between red and red-violet. The wing covert feathers are black and red with black tips. The leg feathers are bluish-purple. The feet are medium gray, and the claws are black. The cere is very dark gray, and the irises of the eyes are dark brown.\nThe red-and-blue lory's voice consists of short, harsh chattering screeches. Their flight is said to be quick and straight."
+ },
+ {
+  "id": "micropsitta-finschii",
+  "sci": "Micropsitta finschii",
+  "en": "Finsch's Pygmy-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Finsch's_pygmy_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/469859041/medium.jpeg",
+   "credit": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Finsch's pygmy parrot is characterized by a green head and neck (which is unique among species of the genus Micropsitta). The typical length of a green pygmy parrot is 9.5 cm (3.7 in) with an average weight of 12 g (0.42 oz). Male and female individuals can be identified by slight differences in coloration. For example, in one subspecies, males possess a blue patch around the lower section of the beak, whereas the female's patch is pink. The five recognized subspecies each inhabit a different range within the overall distribution of the species and each has different characteristics between sexes."
+ },
+ {
+  "id": "trichoglossus-weberi",
+  "sci": "Trichoglossus weberi",
+  "en": "Leaf Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leaf_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67553820/medium.jpg",
+   "credit": "(c) Serge Melki, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "Unlike all other members of the rainbow lorikeet group, the leaf lorikeet has an overall green plumage, with only a paler lime green chest and collar. With a total length of approximately 23 cm (9 in), it is the smallest member of the rainbow lorikeet group."
+ }
+]

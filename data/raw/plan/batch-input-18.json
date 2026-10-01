@@ -1,0 +1,316 @@
+[
+ {
+  "id": "nannopsittaca-panychlora",
+  "sci": "Nannopsittaca panychlora",
+  "en": "Tepui Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tepui_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/33099666/medium.jpg",
+   "credit": "(c) Catherine Harper, some rights reserved (CC BY-NC-ND), uploaded by Catherine Harper (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "It is light green with brown eyes. Its tail is short and round.\nIts natural habitats are subtropical or tropical moist lowland forest, and subtropical, or tropical moist montane forest from 750 to 2,200 meters elevation."
+ },
+ {
+  "id": "prioniturus-mindorensis",
+  "sci": "Prioniturus mindorensis",
+  "en": "Mindoro Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mindoro_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/477089860/medium.jpeg",
+   "credit": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Mindoro racket-tail (Prioniturus mindorensis) is a species of parrot in the Psittaculinae family. It was formerly considered conspecific with the blue-crowned racket-tail (Prioniturus discurus). It is endemic to the island of Mindoro in the Philippines and it occurs in tropical moist lowland  forest. It is threatened by habitat loss and trapping for the cage-bird trade."
+ },
+ {
+  "id": "loriculus-camiguinensis",
+  "sci": "Loriculus camiguinensis",
+  "en": "Camiguin Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Camiguin_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259150210/medium.jpeg",
+   "credit": "(c) Keith Wheatley, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Keith Wheatley (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Camiguin hanging parrot (Loriculus camiguinensis) is a hanging parrot endemic to the Philippine island of Camiguin, where its habitat is diminishing.  The taxonomy of this population of parrots on Camiguin is uncertain. This species has been listed as vulnerable on the IUCN Red List,  is declining primarily due to the cagebird trade. Population estimates of this species are between 500 - 2,500 mature individuals."
+ },
+ {
+  "id": "psittacella-madaraszi",
+  "sci": "Psittacella madaraszi",
+  "en": "Madarasz's Tiger Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Madarasz's_tiger_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/84046060/medium.jpeg",
+   "credit": "(c) Jay VanderGaast, osa oikeuksista pidätetään (CC BY-NC-ND), lähettänyt Jay VanderGaast (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 14.0,
+  "desc_thin": false,
+  "description": "Madarasz's tiger parrot is a relatively small parrot, with a height of about 14 cm and an average weight of around 34–44 grams. Males and females feature an olive/brown head. From crown to hindneck, it has yellow feathers, giving it speckled appearance. The throat area has a more dull yellow hue. The upper breast is olive in color. It has green tail feathers with red undertail coverts. The beak is a light blue/grey tipped with white. Females have a blue wash on the forehead and an orange wash on the nape and hindneck."
+ },
+ {
+  "id": "pyrrhura-egregia",
+  "sci": "Pyrrhura egregia",
+  "en": "Fiery-shouldered Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Fiery-shouldered_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/419307048/medium.jpg",
+   "credit": "(c) Sergio Rivero Beneitez, algunos derechos reservados (CC BY-NC-SA), subido por Sergio Rivero Beneitez (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 26.0,
+  "desc_thin": false,
+  "description": "The fiery-shouldered parakeet grows to a length of about 26 cm (10 in) and weighs about 75 g (2.6 oz). In the nominate subspecies (P. e. egregia), the head is grey and the neck and upper parts of the body and wings are green. The front edge of the wing and the underwing coverts are yellow with orange markings. The breast is green barred with brown and yellowish-white. The central part of the abdomen is reddish-brown, as is the upper side of the tail while the underside of the tail is grey. The eye is brown and surrounded by bare white skin, and the beak is horn-coloured. In the other subspecies, P. e. obscura, the upper parts are a deeper shade of green and there is little or no bright colour on the abdomen."
+ },
+ {
+  "id": "psittacula-caniceps",
+  "sci": "Psittacula caniceps",
+  "en": "Nicobar Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Nicobar_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/51005337/medium.jpg",
+   "credit": "(c) Milan Sojitra, some rights reserved (CC BY-NC), uploaded by Milan Sojitra (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "It is predominantly green with a yellowish-grey head and prominent black facial markings. It has a black stripe from the forehead to the eyes and a broad black band extending from the lower mandible to the sides of the neck. The iris is reddish-orange. The upper mandible is red in males and black in females, while the lower mandible is black in both sexes. Females, in addition, have a higher presence of blue hinted facial feathers.\nIt is listed as Near Threatened by the International Union for Conservation of Nature (IUCN). Very little is known about its ecology. However, it is known that these species reside in the tall leafy trees on these islands and have a preference for the fruit of Pandanus palms trees. Its conservation status is near threatened as human settlement is increasing resulting in a decline of resources for their habitats and also because of the popularity of including them in the caged bird trade."
+ },
+ {
+  "id": "hypocharmosyna-rubronotata",
+  "sci": "Hypocharmosyna rubronotata",
+  "en": "Red-fronted Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-fronted_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/179242989/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 17.0,
+  "desc_thin": false,
+  "description": "The red-fronted lorikeet is around 17 cm (6.7 in) in length and weighs 30–35 g (1.1–1.2 oz). They are sexually dimorphic and exhibit a large difference in appearance between sexes. The males of rubronotata possess red forecrowns with red bills and orange eyes. They have purple or blue ear coverts which are streaked with a paler blue along with red underwing coverts. They have a yellow-tipped green tail, with the base of side tail feathers being red. The females have green forecrowns with green ear coverts which are streaked with green or yellow. They also have green underwing coverts and red markings on the upper tail coverts. The males of kordoana tend to have larger but paler forecrown along with ear coverts that more bluish than purple. The females look the same as rubronotata. Juveniles look the same as adult females, but juvenile males additionally have red underwing coverts and dark and unstreaked ear covert, a yellow underwing band. They have brown beaks with pale brown eyes.\nThey make soft, harsh sounds while in flight. They have also been observed making sharp kss notes."
+ },
+ {
+  "id": "prioniturus-montanus",
+  "sci": "Prioniturus montanus",
+  "en": "Luzon Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Montane_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252852735/medium.jpg",
+   "credit": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The montane racket-tail (Prioniturus montanus), also known as the Luzon racket-tail, is a species of parrot in the family Psittaculidae. It was previously considered conspecific with the Mindanao racket-tail. This bird is endemic to the mountainous regions of northern Luzon, Philippines. It faces threats from habitat loss and the cage bird trade. \nUnder Philippine Law RA 9147, it is illegal to hunt, capture, or possess this species."
+ },
+ {
+  "id": "loriculus-flosculus",
+  "sci": "Loriculus flosculus",
+  "en": "Wallace's Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Wallace's_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107995904/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 12.0,
+  "desc_thin": false,
+  "description": "Wallace's hanging parrot (Loriculus flosculus) also known as the Flores hanging parrot, is a small (length: 11–12 cm) parrot endemic to the island of Flores.\nThis is an arboreal parrot. The male is predominantly green, with a red bill, a red spot on the throat, orange legs and dark red nape, bright red rump and uppertail-coverts. The female has the red on the throat reduced or absent.\nThis parrot qualifies as Endangered as it has a very small range and population. The main threat is habitat destruction. The current population is estimated at between 2,500 and 10,000.\nIt is named after Alfred Russel Wallace, a British naturalist, explorer, geographer, and biologist."
+ },
+ {
+  "id": "charmosyna-multistriata",
+  "sci": "Charmosyna multistriata",
+  "en": "Striated Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Striated_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160616590/medium.jpg",
+   "credit": "(c) peterodekerken, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The striated lorikeet (Charmosyna multistriata) is a species of parrot in the family Psittaculidae native to New Guinea. It was formerly the only species placed in the genus Synorhacma. It is threatened by habitat loss."
+ },
+ {
+  "id": "charminetta-wilhelminae",
+  "sci": "Charminetta wilhelminae",
+  "en": "Pygmy Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pygmy_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177666889/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 13.0,
+  "desc_thin": false,
+  "description": "The pygmy lorikeet averages 13 cm (5.1 in) in length (including tail) and 20 g (0.71 oz) in mass. It is the smallest of the lorikeets. The male has a dark purple rump and a streaked yellow breast, with red stripes under its wings. His tail is green tipped with yellow, and his eyes and beak are orange. The female lacks the red underwing stripe of the male, and has a green (rather than purple) rump. Immature birds are similar to adults in appearance but lack yellow streaking on their breasts and have brown bills and eyes."
+ },
+ {
+  "id": "charmosynopsis-toxopei",
+  "sci": "Charmosynopsis toxopei",
+  "en": "Blue-fronted Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-fronted_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/709704162/medium.jpg",
+   "credit": "no rights reserved, uploaded by James Eaton (cc0) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The blue-fronted lorikeet (Charmosynopsis toxopei) also known as the Buru lorikeet, is a parrot endemic to the Indonesian island of Buru."
+ },
+ {
+  "id": "tanygnathus-gramineus",
+  "sci": "Tanygnathus gramineus",
+  "en": "Black-lored Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-lored_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/95667363/medium.jpg",
+   "credit": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 40.0,
+  "desc_thin": false,
+  "description": "The black-lored parrot (Tanygnathus gramineus) also known as the Buru green parrot, is a parrot endemic to the Indonesian island of Buru. It is a 40 cm (16 in) long green parrot with black lores, and a turquoise crown. Males have red beaks, and females have gray-brown beaks, otherwise both the sexes look similar. The singing is high pitched and more protracted as compared to similar species, such as great-billed parrot."
+ },
+ {
+  "id": "psephotellus-pulcherrimus",
+  "sci": "Psephotellus pulcherrimus",
+  "en": "Paradise Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paradise_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159073716/medium.jpg",
+   "credit": "(c) Bowerbirdaus, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The plumage was extraordinarily colourful, even by parrot standards, a mixture of turquoise, aqua, scarlet, black and brown. The tail was almost the same length as the body, unusual for a bird that, although a rapid flyer, spent almost all of its time on the ground."
+ },
+ {
+  "id": "vini-rubrigularis",
+  "sci": "Vini rubrigularis",
+  "en": "Red-chinned Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-chinned_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/302383858/medium.jpeg",
+   "credit": "(c) Jay VanderGaast, some rights reserved (CC BY-NC-ND), uploaded by Jay VanderGaast (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The red-chinned lorikeet (Vini rubrigularis) is a species of parrot in the family Psittaculidae.\nIt is native to New Britain, New Ireland, New Hannover and Karkar Island in Papua New Guinea.\nIts natural habitats are subtropical or tropical moist lowland forest and subtropical or tropical moist montane forest."
+ },
+ {
+  "id": "vini-margarethae",
+  "sci": "Vini margarethae",
+  "en": "Duchess Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Duchess_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/191385033/medium.jpg",
+   "credit": "(c) Vertebrate Zoology Curator, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 20.0,
+  "desc_thin": false,
+  "description": "The duchess lorikeet is 20 cm (8 in) in length, and weighs 40–60 g (1.4–2.1 oz). An adult is mainly bright red, with purple to black hindcrowns and yellow-orange eyes. It has an orange bill and a wide yellow chest band along with a thin yellow collar on the mantle bordered by a purple or black line. It has a dull mauve to black lower breast, with dull yellow underwings. Its tail are red, with green upper tail coverts and yellow tips. Females look the same as males, but additionally have yellow patches on the side of the rump.\nJuvenile lorikeets have black markings on the head and underparts, along with a dusky black patch on the occiput. The breast band is a faint yellow and the yellow collar on the mantle has a dusky wash. They have a brown to black bill, with grey eyes."
+ },
+ {
+  "id": "poicephalus-crassus",
+  "sci": "Poicephalus crassus",
+  "en": "Niam-Niam Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Niam-Niam_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/462106226/medium.png",
+   "credit": "(c) \nCallan Cohen, Claire Spottiswoode, and Julian Francis, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Niam-Niam parrots are not known to be sexually dimorphic. This bird can be identified by a grey-brown head and breast, green belly and upper parts, green underwings, pale lower beak and orange eyes. Unlike other parrots in the genus Poicephalus, Niam-Niam parrots lack yellow under their wings."
+ },
+ {
+  "id": "micropsitta-meeki",
+  "sci": "Micropsitta meeki",
+  "en": "Meek's Pygmy-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Meek's_pygmy_parrot",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Pygmy parrots are the smallest members of the true parrots superfamily. They are fast-moving, emerald-green birds with brilliant flashes of colour. Meek's pygmy parrot has a cap, forehead, nape, and face of mid-brown with a yellow throat and underparts. In M. m. meeki, the yellow colouring extends to the ear coverts, while in M. m. proxima, it also extends as a narrowing band of yellow horizontally above the eyes. In the latter subspecies, the face and nape are a paler brown. The remainder of the plumage is green, slightly darker on the back and wings, and paler on the belly. The beak and large feet are brown."
+ },
+ {
+  "id": "ara-tricolor",
+  "sci": "Ara tricolor",
+  "en": "Cuban Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cuban_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157808037/medium.jpg",
+   "credit": "(c) Etemenanki3, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 50.0,
+  "desc_thin": false,
+  "description": "The Cuban macaw had a red forehead fading to orange and then to yellow at the nape of the neck. It had white unfeathered areas around the eyes, and yellow irises. The face, chin, chest, abdomen and thighs were orange. The upper back was brownish red with feathers scalloped with green. The rump, undertail feathers, and lower back were blue. The wing feathers were brown, red and purplish blue. The upper surface of the tail was dark red fading to blue at the tip, and the under surface of the tail was brownish red. The beak has variously been described as dark, all-black, and greyish black. The legs were brown. The sexes were identical in external appearance, as with other macaws. The Cuban macaw was physically distinct from the scarlet macaw in its lack of a yellow shoulder patch, its all-black beak, and its smaller size.\nAbout 50 cm (20 in) long, the Cuban macaw was a third smaller than its largest relatives. The wing was 27.5–29 cm (10.8–11.4 in) long, the tail was 21.5–29 cm (8.5–11.4 in), the culmen 42–46 mm (1.7–1.8 in), and the tarsus 27–30 mm (1.1–1.2 in). The subfossil cranium shows that the length between the naso-frontal hinge and the occipital condyle was 47.0 mm (1.85 in), the width across the naso-frontal hinge was about 25.0 mm (0.98 in), and the width of the postorbital processes was about 40 mm (1.6 in). Details of the skull were similar to other Ara species.\nThe American zoologist Austin Hobart Clark reported that juvenile Cuban macaws were green, though he did not provide any source for this claim. It is unclear whether green birds spotted on the island were in fact juvenile Cuban macaws or if they were instead feral military macaws."
+ },
+ {
+  "id": "psittacara-labati",
+  "sci": "Psittacara labati",
+  "en": "Guadeloupe Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Guadeloupe_parakeet",
+  "photo": null,
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Jean-Baptiste Labat described a population of small parrots living on Guadeloupe:\n\nThose of Guadaloupe are about the size of a blackbird, entirely green, except a few small red feathers, which they have on their head. Their bill is white. They are very gentle, loving, and learn to speak easily."
+ }
+]

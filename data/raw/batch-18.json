@@ -1,0 +1,224 @@
+[
+ {
+  "id": "nannopsittaca-panychlora", "ko": null, "en": "Tepui Parrotlet", "sci": "Nannopsittaca panychlora",
+  "region": "남아메리카 기아나 고원(테푸이) 아열대·열대 산지숲 (750–2200m)", "sizeCm": 12, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tepui_parrotlet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/33099666/medium.jpg", "credit": "(c) Catherine Harper, some rights reserved (CC BY-NC-ND), uploaded by Catherine Harper (cc-by-nc-nd) / iNaturalist" },
+  "base": { "main":["lg"], "crown":["lg"], "forehead":["lg"], "face":["lg"], "cheek":"none", "throat":["lg"], "collar":"none",
+    "breast":["lg"], "belly":["lg"], "back":["lg"], "wing":["lg"], "tail":["lg"], "beak": null,
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [ { "label":"성조" } ]
+ },
+ {
+  "id": "prioniturus-mindorensis", "ko": null, "en": "Mindoro Racquet-tail", "sci": "Prioniturus mindorensis",
+  "region": "필리핀 민도로 섬 고유종, 열대 저지대 숲", "sizeCm": 23, "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mindoro_racket-tail",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/477089860/medium.jpeg", "credit": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault (cc-by-nc) / iNaturalist" },
+  "base": { "main":["g"], "crown":["b","g"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["lg","g"], "back":["g"], "wing":["g"], "tail":["g","b"], "beak": null,
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks": [ { "label":"성조 (설명 빈약, 속 일반 지식으로 보완 — 재확인 권장)" } ]
+ },
+ {
+  "id": "loriculus-camiguinensis", "ko": null, "en": "Camiguin Hanging-Parrot", "sci": "Loriculus camiguinensis",
+  "region": "필리핀 카미긴 섬 고유종 저지대 숲", "sizeCm": 13, "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Camiguin_hanging_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259150210/medium.jpeg", "credit": "(c) Keith Wheatley, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Keith Wheatley (cc-by-nc) / iNaturalist" },
+  "base": { "main":["g"], "crown":["g"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["r","g"], "collar":"none",
+    "breast":["g"], "belly":["lg","g"], "back":["g"], "wing":["g"], "tail":["g","r"], "beak":["o"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [ { "label":"성조 (설명 빈약, 속 일반 지식으로 보완 — 재확인 권장)" } ]
+ },
+ {
+  "id": "psittacella-madaraszi", "ko": null, "en": "Madarasz's Tiger Parrot", "sci": "Psittacella madaraszi",
+  "region": "뉴기니 고산지대 숲", "sizeCm": 14, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Madarasz's_tiger_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/84046060/medium.jpeg", "credit": "(c) Jay VanderGaast, osa oikeuksista pidätetään (CC BY-NC-ND), lähettänyt Jay VanderGaast (cc-by-nc-nd) / iNaturalist" },
+  "base": { "main":["br"], "crown":["y","br"], "forehead":["br"], "face":["br"], "cheek":"none", "throat":["y"], "collar":"none",
+    "breast":["g"], "belly": null, "back": null, "wing": null, "tail":["g","r"], "beak":["gr","w"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [
+    { "label":"수컷" },
+    { "label":"암컷", "forehead":["b"], "crown":["y","o"] }
+  ]
+ },
+ {
+  "id": "pyrrhura-egregia", "ko": null, "en": "Fiery-shouldered Parakeet", "sci": "Pyrrhura egregia",
+  "region": "남아메리카 가이아나 고원(테푸이) 습윤 산지숲", "sizeCm": 26, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Fiery-shouldered_parakeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/419307048/medium.jpg", "credit": "(c) Sergio Rivero Beneitez, algunos derechos reservados (CC BY-NC-SA), subido por Sergio Rivero Beneitez (cc-by-nc-sa) / iNaturalist" },
+  "base": { "main":["g"], "crown":["gr"], "forehead":["gr"], "face":["gr"], "cheek":"none", "throat":["gr"], "collar":"none",
+    "breast":["g","br"], "belly":["br"], "back":["g"], "wing":["g","y","o"], "tail":["br","gr"], "beak":["w","gr"],
+    "eyeSkin":"ring", "eyeSkinColor":"w", "crest":false, "tailShape":"long", "pattern":"barred" },
+  "looks": [ { "label":"성조" } ]
+ },
+ {
+  "id": "psittacula-caniceps", "ko": null, "en": "Nicobar Parakeet", "sci": "Psittacula caniceps",
+  "region": "인도양 니코바르 제도 고유종 열대우림", "sizeCm": 58, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Nicobar_parakeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/51005337/medium.jpg", "credit": "(c) Milan Sojitra, some rights reserved (CC BY-NC), uploaded by Milan Sojitra (cc-by-nc) / iNaturalist" },
+  "base": { "main":["g"], "crown":["y","gr"], "forehead":["k"], "face":["gr","k"], "cheek":"none", "throat":["k"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["r","k"],
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks": [
+    { "label":"수컷" },
+    { "label":"암컷", "beak":["k"], "face":["b","gr","k"] }
+  ]
+ },
+ {
+  "id": "hypocharmosyna-rubronotata", "ko": null, "en": "Red-fronted Lorikeet", "sci": "Hypocharmosyna rubronotata",
+  "region": "뉴기니 저지대 열대우림", "sizeCm": 17, "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-fronted_lorikeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/179242989/medium.jpg", "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist" },
+  "base": { "main":["g"], "crown":["r"], "forehead":["r"], "face":["v","b"], "cheek":"none", "throat": null, "collar":"none",
+    "breast": null, "belly": null, "back":["g"], "wing":["g"], "tail":["g","y"], "beak":["r"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [
+    { "label":"수컷" },
+    { "label":"암컷", "crown":["g"], "forehead":["g"], "face":["g","y"], "beak": null }
+  ]
+ },
+ {
+  "id": "prioniturus-montanus", "ko": null, "en": "Luzon Racquet-tail", "sci": "Prioniturus montanus",
+  "region": "필리핀 루손 섬 산악 숲 고유종", "sizeCm": 28, "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Montane_racket-tail",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252852735/medium.jpg", "credit": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis (cc-by) / iNaturalist" },
+  "base": { "main":["g"], "crown":["b"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["lg","g"], "back":["g"], "wing":["g"], "tail":["g","b"], "beak": null,
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks": [ { "label":"성조 (설명 빈약, 속 일반 지식으로 보완 — 재확인 권장)" } ]
+ },
+ {
+  "id": "loriculus-flosculus", "ko": null, "en": "Wallace's Hanging-Parrot", "sci": "Loriculus flosculus",
+  "region": "인도네시아 플로레스 섬 고유종 숲", "sizeCm": 12, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Wallace's_hanging_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107995904/medium.jpeg", "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist" },
+  "base": { "main":["g"], "crown":["g"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["r"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g","r"], "wing":["g"], "tail":["g","r"], "beak":["r"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [
+    { "label":"수컷" },
+    { "label":"암컷", "throat":["g"] }
+  ]
+ },
+ {
+  "id": "charmosyna-multistriata", "ko": null, "en": "Striated Lorikeet", "sci": "Charmosyna multistriata",
+  "region": "뉴기니 저지대 열대우림", "sizeCm": 19, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Striated_lorikeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160616590/medium.jpg", "credit": "(c) peterodekerken, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist" },
+  "base": { "main":["g"], "crown":["g"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g","y"], "belly":["g","y"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["o"],
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"barred" },
+  "looks": [ { "label":"성조 (설명 빈약, 속 일반 지식으로 보완 — 재확인 권장)" } ]
+ },
+ {
+  "id": "charminetta-wilhelminae", "ko": null, "en": "Pygmy Lorikeet", "sci": "Charminetta wilhelminae",
+  "region": "뉴기니 고산 숲", "sizeCm": 13, "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pygmy_lorikeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177666889/medium.jpg", "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist" },
+  "base": { "main":["g"], "crown": null, "forehead": null, "face": null, "cheek":"none", "throat": null, "collar":"none",
+    "breast":["y","g"], "belly": null, "back":["g","v"], "wing": null, "tail":["g","y"], "beak":["o"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"barred" },
+  "looks": [
+    { "label":"수컷" },
+    { "label":"암컷", "back":["g"] },
+    { "label":"어린새", "breast":["g"], "beak":["br"] }
+  ]
+ },
+ {
+  "id": "charmosynopsis-toxopei", "ko": null, "en": "Blue-fronted Lorikeet", "sci": "Charmosynopsis toxopei",
+  "region": "인도네시아 부루 섬 고유종 산지 숲", "sizeCm": 15, "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-fronted_lorikeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/709704162/medium.jpg", "credit": "no rights reserved, uploaded by James Eaton (cc0) / iNaturalist" },
+  "base": { "main":["g"], "crown":["g"], "forehead":["b"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["r"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [ { "label":"성조 (설명 거의 없음, 속 일반 지식으로 보완 — 재확인 권장)" } ]
+ },
+ {
+  "id": "tanygnathus-gramineus", "ko": null, "en": "Black-lored Parrot", "sci": "Tanygnathus gramineus",
+  "region": "인도네시아 부루 섬 고유종 숲", "sizeCm": 40, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-lored_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/95667363/medium.jpg", "credit": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant (cc-by-nc) / iNaturalist" },
+  "base": { "main":["g"], "crown":["sb"], "forehead":["k"], "face":["g","k"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["r"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [
+    { "label":"수컷" },
+    { "label":"암컷", "beak":["gr","br"] }
+  ]
+ },
+ {
+  "id": "psephotellus-pulcherrimus", "ko": null, "en": "Paradise Parrot", "sci": "Psephotellus pulcherrimus",
+  "region": "오스트레일리아 퀸즐랜드 초원지대 (멸종, 1920년대 마지막 목격)", "sizeCm": 26, "extinct": true,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paradise_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159073716/medium.jpg", "credit": "(c) Bowerbirdaus, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+  "base": { "main":["br"], "crown":["br","k"], "forehead":["k"], "face":["br"], "cheek":"none", "throat":["br"], "collar":"none",
+    "breast":["r","br"], "belly":["r"], "back":["br"], "wing":["sb","k"], "tail":["k","sb"], "beak":["k"],
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks": [ { "label":"성조" } ]
+ },
+ {
+  "id": "vini-rubrigularis", "ko": null, "en": "Red-chinned Lorikeet", "sci": "Vini rubrigularis",
+  "region": "파푸아뉴기니 비스마르크 제도(뉴브리튼·뉴아일랜드 등) 열대우림", "sizeCm": 18, "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-chinned_lorikeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/302383858/medium.jpeg", "credit": "(c) Jay VanderGaast, some rights reserved (CC BY-NC-ND), uploaded by Jay VanderGaast (cc-by-nc-nd) / iNaturalist" },
+  "base": { "main":["g"], "crown":["g"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["r","g"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["o"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [ { "label":"성조 (설명 빈약, 속 일반 지식으로 보완 — 재확인 권장)" } ]
+ },
+ {
+  "id": "vini-margarethae", "ko": null, "en": "Duchess Lorikeet", "sci": "Vini margarethae",
+  "region": "솔로몬 제도 고유종 열대 저지대·산지 숲", "sizeCm": 20, "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Duchess_lorikeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/191385033/medium.jpg", "credit": "(c) Vertebrate Zoology Curator, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+  "base": { "main":["r"], "crown":["r","v"], "forehead":["r"], "face":["r"], "cheek":"none", "throat":["r"], "collar":["y","v"],
+    "breast":["y","v","k"], "belly":["v","k"], "back":["r"], "wing":["r"], "tail":["r","g","y"], "beak":["o"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [
+    { "label":"성조" },
+    { "label":"어린새", "crown":["k"], "face":["k"], "breast":["y"], "beak":["br","k"] }
+  ]
+ },
+ {
+  "id": "poicephalus-crassus", "ko": null, "en": "Niam-Niam Parrot", "sci": "Poicephalus crassus",
+  "region": "아프리카 중부 사바나지대(수단·중앙아프리카공화국 등)", "sizeCm": 22, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Niam-Niam_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/462106226/medium.png", "credit": "(c) Callan Cohen, Claire Spottiswoode, and Julian Francis, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+  "base": { "main":["g"], "crown":["gr","br"], "forehead":["gr","br"], "face":["gr","br"], "cheek":"none", "throat":["gr","br"], "collar":"none",
+    "breast":["gr","br"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["gr","w"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [ { "label":"성조" } ]
+ },
+ {
+  "id": "micropsitta-meeki", "ko": null, "en": "Meek's Pygmy-Parrot", "sci": "Micropsitta meeki",
+  "region": "파푸아뉴기니 저지대 열대우림", "sizeCm": 9, "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Meek's_pygmy_parrot",
+  "photo": null,
+  "base": { "main":["g"], "crown":["br"], "forehead":["br"], "face":["br","y"], "cheek":"none", "throat":["y"], "collar":"none",
+    "breast":["y"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["br"],
+    "eyeSkin":"none", "crest":false, "tailShape":"short", "pattern":"plain" },
+  "looks": [ { "label":"성조" } ]
+ },
+ {
+  "id": "ara-tricolor", "ko": null, "en": "Cuban Macaw", "sci": "Ara tricolor",
+  "region": "쿠바 고유종 (멸종, 19세기 말 마지막 기록)", "sizeCm": 50, "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cuban_macaw",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157808037/medium.jpg", "credit": "(c) Etemenanki3, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+  "base": { "main":["o"], "crown":["r","o"], "forehead":["r"], "face":["o"], "cheek":"none", "throat":["o"], "collar":"none",
+    "breast":["o"], "belly":["o"], "back":["br","g"], "wing":["br","r","v"], "tail":["r","b","br"], "beak":["k"],
+    "eyeSkin":"ring", "eyeSkinColor":"w", "crest":false, "tailShape":"long", "pattern":"scaled" },
+  "looks": [ { "label":"성조" } ]
+ },
+ {
+  "id": "psittacara-labati", "ko": null, "en": "Guadeloupe Parakeet", "sci": "Psittacara labati",
+  "region": "카리브해 과들루프 섬 고유종 (멸종)", "sizeCm": 25, "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Guadeloupe_parakeet",
+  "photo": null,
+  "base": { "main":["g"], "crown":["g","r"], "forehead":["g"], "face":["g"], "cheek":"none", "throat":["g"], "collar":"none",
+    "breast":["g"], "belly":["g"], "back":["g"], "wing":["g"], "tail":["g"], "beak":["w"],
+    "eyeSkin":"none", "crest":false, "tailShape":"long", "pattern":"plain" },
+  "looks": [ { "label":"성조" } ]
+ }
+]

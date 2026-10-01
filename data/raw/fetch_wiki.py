@@ -4,14 +4,14 @@ HERE = os.path.dirname(__file__)
 TAXA_PATH = os.path.join(HERE, "taxa.json")
 DESC_DIR = os.path.join(HERE, "desc")
 SUMMARY_PATH = os.path.join(HERE, "desc_summary.json")
-HEADERS = {"User-Agent": "ParrotKey/1.0 (학교 과제용; https://github.com/parrot-key)"}
+HEADERS = {"User-Agent": "ParrotKey/1.0 (educational project; contact: github.com/parrot-key)"}
 
 os.makedirs(DESC_DIR, exist_ok=True)
 
 SIZE_RE = re.compile(r"(\d{2,3}(?:\.\d+)?)\s*(?:cm|centimet)", re.IGNORECASE)
 SECTION_RE = re.compile(r"^(={2,4})\s*(.+?)\s*\1\s*$")
 
-def get_json(url, retries=3):
+def get_json(url, retries=5):
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=HEADERS)
@@ -19,7 +19,7 @@ def get_json(url, retries=3):
                 return json.loads(r.read().decode("utf-8"))
         except Exception as e:
             print(f"  retry {attempt+1} for {url}: {e}", file=sys.stderr)
-            time.sleep(2 + attempt * 2)
+            time.sleep(8 + attempt * 10)
     return None
 
 def title_from_wikipedia_url(url):
@@ -119,7 +119,7 @@ def main():
         })
         if (i + 1) % 20 == 0:
             print(f"  processed {i+1}/{len(taxa)} (skipped cached: {skipped}, thin so far: {thin_count})")
-        time.sleep(0.5)
+        time.sleep(2.5)
 
     with open(SUMMARY_PATH, "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=1)

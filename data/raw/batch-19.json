@@ -1,0 +1,190 @@
+[
+{
+ "id":"vini-sinotoi","ko":null,"en":"Sinoto's Lorikeet","sci":"Vini sinotoi","region":"마르키즈 제도 (멸종, 화석종)","sizeCm":31,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Sinoto's_lorikeet","photo":null,
+ "base":{ "main":null,"crown":null,"forehead":null,"face":null,"cheek":"none","throat":null,"collar":"none",
+  "breast":null,"belly":null,"back":null,"wing":null,"tail":null,"beak":null,
+  "eyeSkin":"none","crest":false,"tailShape":"mid","pattern":"plain" },
+ "looks":[ { "label":"성조 (색상 정보 없음, 화석으로만 알려짐)" } ]
+},
+{
+ "id":"cyanoramphus-subflavescens","ko":null,"en":"Lord Howe Parakeet","sci":"Cyanoramphus subflavescens","region":"로드하우섬 (멸종)","sizeCm":30,"extinct":true,
+ "wikipedia_url":"https://en.wikipedia.org/wiki/Lord_Howe_parakeet","photo":null,
+ "base":{ "main":["lg","g"],"crown":["r"],"forehead":["r"],"face":["r","g"],"cheek":"none","throat":["g"],"collar":"none",
+  "breast":["lg"],"belly":["lg"],"back":["g"],"wing":["g"],"tail":["g"],"beak":null,
+  "eyeSkin":"none","crest":false,"tailShape":"long","pattern":"plain" },
+ "looks":[ { "label":"성조" } ]
+},
+{
+ "id":"psittacula-bensoni","ko":null,"en":"Mauritius Gray Parrot","sci":"Psittacula bensoni","region":"모리셔스·레위니옹 (멸종)","sizeCm":32,"extinct":true,
+ "wikipedia_url":"https://en.wikipedia.org/wiki/Mascarene_grey_parakeet",
+ "photo":{ "src":"https://inaturalist-open-data.s3.amazonaws.com/photos/412799855/medium.jpg","credit":"(c) FunkMonk, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base":{ "main":["gr"],"crown":["gr"],"forehead":["gr"],"face":["gr"],"cheek":"none","throat":["gr"],"collar":"none",
+  "breast":["gr"],"belly":["gr"],"back":["gr"],"wing":["gr"],"tail":["gr"],"beak":["r"],
+  "eyeSkin":"none","crest":false,"tailShape":"long","pattern":"plain" },
+ "looks":[ { "label":"성조" } ]
+},
+{
+ "id":"amazona-martinicana","ko":null,"en":"Martinique Parrot","sci":"Amazona martinicana","region":"마르티니크 (멸종)","sizeCm":35,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Martinique_amazon","photo":null,
+ "base":{ "main":["g"],"crown":["gr","r"],"forehead":["g"],"face":["g"],"cheek":"none","throat":["r"],"collar":"none",
+  "breast":["g"],"belly":["g"],"back":["g"],"wing":["g","r"],"tail":["g","r"],"beak":null,
+  "eyeSkin":"ring","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[ { "label":"성조" } ]
+},
+{
+ "id":"tanygnathus-everetti","ko":null,"en":"Blue-backed Parrot","sci":"Tanygnathus everetti","region":"필리핀 술루 제도 저지대 숲","sizeCm":32,"extinct":false,
+ "wikipedia_url":"https://en.wikipedia.org/wiki/Blue-backed_parrot","photo":null,
+ "base":{ "main":["g"],"crown":["g"],"forehead":["g"],"face":["g"],"cheek":"none","throat":["g"],"collar":["lg"],
+  "breast":["lg"],"belly":["lg"],"back":["g","b"],"wing":["g","y"],"tail":["g"],"beak":["r"],
+  "eyeSkin":"none","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[ { "label":"수컷" }, { "label":"암컷", "beak":["y"] } ]
+},
+{
+ "id":"cyanoramphus-ulietanus","ko":null,"en":"Raiatea Parakeet","sci":"Cyanoramphus ulietanus","region":"소시에테 제도 라이아테아섬 (멸종)","sizeCm":25,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Society_parakeet",
+ "photo":{ "src":"https://inaturalist-open-data.s3.amazonaws.com/photos/159025597/medium.jpg","credit":"(c) Mr intelo, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base":{ "main":["br"],"crown":["br"],"forehead":["br"],"face":["br"],"cheek":"none","throat":["br"],"collar":"none",
+  "breast":["lg"],"belly":["lg"],"back":["br"],"wing":["br"],"tail":["br","gr"],"beak":["gr","k"],
+  "eyeSkin":"none","crest":false,"tailShape":"long","pattern":"plain" },
+ "looks":[ { "label":"성조 (암수 동형)" } ]
+},
+{
+ "id":"psittacula-exsul","ko":null,"en":"Newton's Parakeet","sci":"Psittacula exsul","region":"모리셔스 (멸종)","sizeCm":40,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Newton's_parakeet","photo":null,
+ "base":{ "main":["sb","g"],"crown":["b"],"forehead":["b"],"face":["b"],"cheek":"none","throat":["sb","g"],"collar":["k"],
+  "breast":["sb","g"],"belly":["sb","g"],"back":["b"],"wing":["b"],"tail":["gr","b"],"beak":["br","k"],
+  "eyeSkin":"none","crest":false,"tailShape":"long","pattern":"plain" },
+ "looks":[
+  { "label":"수컷" },
+  { "label":"암컷", "crown":["gr","b"], "forehead":["gr","b"], "face":["gr","b"], "collar":"none", "beak":["k"] }
+ ]
+},
+{
+ "id":"psittacula-wardi","ko":null,"en":"Seychelles Parakeet","sci":"Psittacula wardi","region":"세이셸 (멸종)","sizeCm":41,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Seychelles_parakeet",
+ "photo":{ "src":"https://inaturalist-open-data.s3.amazonaws.com/photos/146760/medium.jpg","credit":"(c) Biodiversity Heritage Library, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist" },
+ "base":{ "main":["g"],"crown":["g","sb"],"forehead":["g"],"face":["g","sb"],"cheek":"none","throat":["g"],"collar":["k"],
+  "breast":["lg"],"belly":["lg"],"back":["g"],"wing":["g","r"],"tail":["g","b","y"],"beak":["r","y"],
+  "eyeSkin":"none","crest":false,"tailShape":"long","pattern":"plain" },
+ "looks":[
+  { "label":"수컷" },
+  { "label":"암컷", "collar":"none" },
+  { "label":"어린새", "collar":"none", "tailShape":"mid" }
+ ]
+},
+{
+ "id":"amazona-violacea","ko":null,"en":"Guadeloupe Parrot","sci":"Amazona violacea","region":"과들루프 (멸종)","sizeCm":36,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Guadeloupe_amazon","photo":null,
+ "base":{ "main":["b","gr"],"crown":["b","gr"],"forehead":["b","gr"],"face":["b","gr"],"cheek":"none","throat":["b","gr"],"collar":"none",
+  "breast":["b","gr"],"belly":["b","gr"],"back":["g"],"wing":["g","y","r"],"tail":null,"beak":null,
+  "eyeSkin":"ring","eyeSkinColor":"p","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[ { "label":"성조 (기록마다 색 묘사가 엇갈림, 저슬레이트-블루 설로 통합)" } ]
+},
+{
+ "id":"prioniturus-verticalis","ko":null,"en":"Blue-winged Racquet-tail","sci":"Prioniturus verticalis","region":"필리핀 타위타위섬 (멸종위기)","sizeCm":28,"extinct":false,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Blue-winged_racket-tail","photo":null,
+ "base":{ "main":["g"],"crown":["g"],"forehead":["g"],"face":["g"],"cheek":"none","throat":["g"],"collar":"none",
+  "breast":["g"],"belly":["g"],"back":["g"],"wing":["g","b"],"tail":["g"],"beak":null,
+  "eyeSkin":"none","crest":false,"tailShape":"long","pattern":"plain" },
+ "looks":[ { "label":"성조" } ]
+},
+{
+ "id":"lorius-albidinucha","ko":null,"en":"White-naped Lory","sci":"Lorius albidinucha","region":"비스마르크 제도 (파푸아뉴기니)","sizeCm":26,"extinct":false,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/White-naped_lory","photo":null,
+ "base":{ "main":["r"],"crown":["k"],"forehead":["k"],"face":["r"],"cheek":"none","throat":["r"],"collar":["y"],
+  "breast":["r"],"belly":["r"],"back":["w"],"wing":["g"],"tail":null,"beak":["o","r"],
+  "eyeSkin":"ring","eyeSkinColor":"gr","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[ { "label":"성조" } ]
+},
+{
+ "id":"loriculus-tener","ko":null,"en":"Green-fronted Hanging-Parrot","sci":"Loriculus tener","region":"비스마르크 제도 숲","sizeCm":11,"extinct":false,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Bismarck_hanging_parrot","photo":null,
+ "base":{ "main":["g"],"crown":["g"],"forehead":["g"],"face":["g"],"cheek":"none","throat":["r"],"collar":"none",
+  "breast":["g"],"belly":["g"],"back":["g","y"],"wing":["g"],"tail":["y","g"],"beak":["k"],
+  "eyeSkin":"none","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[
+  { "label":"수컷" },
+  { "label":"암컷", "face":["g","sb"], "back":["g"], "tail":["g"] },
+  { "label":"어린새", "throat":["g"], "beak":["br"] }
+ ]
+},
+{
+ "id":"ara-autochthones","ko":null,"en":"St. Croix Macaw","sci":"Ara autochthones","region":"세인트크로이섬 (멸종, 뼈 화석으로만 알려짐)","sizeCm":50,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Saint_Croix_macaw","photo":null,
+ "base":{ "main":null,"crown":null,"forehead":null,"face":null,"cheek":"none","throat":null,"collar":"none",
+  "breast":null,"belly":null,"back":null,"wing":null,"tail":null,"beak":null,
+  "eyeSkin":"face","crest":false,"tailShape":"long","pattern":"plain" },
+ "looks":[ { "label":"성조 (색상 정보 없음, 뼈 화석으로만 알려짐)" } ]
+},
+{
+ "id":"eclectus-infectus","ko":null,"en":"Oceanic Eclectus","sci":"Eclectus infectus","region":"통가·바누아투 (멸종)","sizeCm":32,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Oceanic_eclectus_parrot",
+ "photo":{ "src":"https://inaturalist-open-data.s3.amazonaws.com/photos/473044920/medium.png","credit":"(c) solidstatesystem, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base":{ "main":["g"],"crown":["g"],"forehead":["g"],"face":["g"],"cheek":"none","throat":["g"],"collar":"none",
+  "breast":["g"],"belly":["g"],"back":["g"],"wing":["g","b"],"tail":["g","y"],"beak":["o","y"],
+  "eyeSkin":"none","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[
+  { "label":"수컷 (초록, 화석 기록상 색상은 근연종 에클렉투스앵무 추정)" },
+  { "label":"암컷 (빨강·파랑, 추정)", "main":["r","b"],"crown":["r"],"forehead":["r"],"face":["r"],"throat":["r"],
+   "breast":["b","v"],"belly":["b","v"],"back":["r","br"],"wing":["r","v"],"tail":["r","o"],"beak":["k"],
+   "eyeSkin":"ring","eyeSkinColor":"b" }
+ ]
+},
+{
+ "id":"lophopsittacus-mauritianus","ko":null,"en":"Broad-billed Parrot","sci":"Lophopsittacus mauritianus","region":"모리셔스 (멸종)","sizeCm":55,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Broad-billed_parrot",
+ "photo":{ "src":"https://inaturalist-open-data.s3.amazonaws.com/photos/146770/medium.jpg","credit":"(c) Biodiversity Heritage Library, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist" },
+ "base":{ "main":["r"],"crown":["b"],"forehead":["b"],"face":["b"],"cheek":"none","throat":["r"],"collar":"none",
+  "breast":["r"],"belly":["r"],"back":["r"],"wing":null,"tail":null,"beak":["r"],
+  "eyeSkin":"face","crest":true,"crestColor":["b"],"tailShape":"mid","pattern":"plain" },
+ "looks":[ { "label":"성조 (색상·크기 모두 학설이 엇갈림, 수컷이 암컷보다 훨씬 큼)" } ]
+},
+{
+ "id":"eclectus-riedeli","ko":null,"en":"Tanimbar Eclectus","sci":"Eclectus riedeli","region":"인도네시아 타님바르 제도","sizeCm":30,"extinct":false,
+ "wikipedia_url":"https://en.wikipedia.org/wiki/Tanimbar_eclectus","photo":null,
+ "base":{ "main":["g"],"crown":["g"],"forehead":["g"],"face":["g","b"],"cheek":"none","throat":["g","b"],"collar":"none",
+  "breast":["g"],"belly":["g"],"back":["g"],"wing":["g","b"],"tail":["g","y"],"beak":["o","y"],
+  "eyeSkin":"none","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[
+  { "label":"수컷 (초록)" },
+  { "label":"암컷 (빨강)", "main":["r"],"crown":["r"],"forehead":["r"],"face":["r"],"throat":["r"],
+   "breast":["r"],"belly":["r"],"back":["r"],"wing":["r","b"],"tail":["r","y"],"beak":["k"],
+   "eyeSkin":"ring","eyeSkinColor":"b" }
+ ]
+},
+{
+ "id":"vini-vidivici","ko":null,"en":"Conquered Lorikeet","sci":"Vini vidivici","region":"폴리네시아 (멸종, 화석종)","sizeCm":28,"extinct":true,
+ "wikipedia_url":"http://en.wikipedia.org/wiki/Conquered_lorikeet",
+ "photo":{ "src":"https://inaturalist-open-data.s3.amazonaws.com/photos/297211257/medium.jpg","credit":"(c) FunkMonk, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+ "base":{ "main":null,"crown":null,"forehead":null,"face":null,"cheek":"none","throat":null,"collar":"none",
+  "breast":null,"belly":null,"back":null,"wing":null,"tail":null,"beak":null,
+  "eyeSkin":"none","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[ { "label":"성조 (색상 정보 없음, Vini 중 두 번째로 큼)" } ]
+},
+{
+ "id":"vini-palmarum","ko":null,"en":"Palm Lorikeet","sci":"Vini palmarum","region":"바누아투·산타크루즈 제도 숲","sizeCm":14,"extinct":false,
+ "wikipedia_url":"https://en.wikipedia.org/wiki/Palm_lorikeet",
+ "photo":{ "src":"https://inaturalist-open-data.s3.amazonaws.com/photos/69541250/medium.jpg","credit":"(c) Auckland Museum, some rights reserved (CC BY) (cc-by) / iNaturalist" },
+ "base":{ "main":["g"],"crown":["r","g"],"forehead":["r"],"face":["g","b"],"cheek":"none","throat":["r"],"collar":"none",
+  "breast":["g"],"belly":["g"],"back":["g"],"wing":["g"],"tail":["g"],"beak":null,
+  "eyeSkin":"none","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[ { "label":"성조 (위키 설명에 생김새 정보 없어 일반 지식으로 보완, 재확인 권장)" } ]
+},
+{
+ "id":"vini-amabilis","ko":null,"en":"Red-throated Lorikeet","sci":"Vini amabilis","region":"피지 (멸종위기종)","sizeCm":18,"extinct":false,
+ "wikipedia_url":"https://en.wikipedia.org/wiki/Red-throated_lorikeet","photo":null,
+ "base":{ "main":["g"],"crown":["g"],"forehead":["g"],"face":["g","r"],"cheek":"none","throat":["r"],"collar":"none",
+  "breast":["g"],"belly":["g","r"],"back":["g"],"wing":["g"],"tail":["g"],"beak":null,
+  "eyeSkin":"none","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[ { "label":"성조" } ]
+},
+{
+ "id":"vini-meeki","ko":null,"en":"Meek's Lorikeet","sci":"Vini meeki","region":"부건빌섬·솔로몬 제도 숲","sizeCm":18,"extinct":false,
+ "wikipedia_url":"https://en.wikipedia.org/wiki/Meek's_lorikeet","photo":null,
+ "base":{ "main":["g"],"crown":["r","g"],"forehead":["r"],"face":["g"],"cheek":"none","throat":["g"],"collar":"none",
+  "breast":["g"],"belly":["g"],"back":["g"],"wing":["g"],"tail":["g"],"beak":null,
+  "eyeSkin":"none","crest":false,"tailShape":"short","pattern":"plain" },
+ "looks":[ { "label":"성조 (위키 설명에 생김새 정보 없어 일반 지식으로 보완, 재확인 권장)" } ]
+}
+]

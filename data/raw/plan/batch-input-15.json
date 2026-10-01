@@ -1,0 +1,322 @@
+[
+ {
+  "id": "oreopsittacus-arfaki",
+  "sci": "Oreopsittacus arfaki",
+  "en": "Plum-faced Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Plum-faced_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9663349/medium.jpeg",
+   "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 15.0,
+  "desc_thin": false,
+  "description": "The plum-faced lorikeet is a mainly green small parrot about 15 cm (5.9 in) long with a long pointed tail. It has two white stripes under each eye. It has a narrow pointed black bill and dark-brown irises. The adult male has a red forehead and the adult female has a green forehead."
+ },
+ {
+  "id": "neopsittacus-musschenbroekii",
+  "sci": "Neopsittacus musschenbroekii",
+  "en": "Yellow-billed Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-billed_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9519328/medium.jpeg",
+   "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The yellow-billed lorikeet has green plumage with a red breast and a bright yellow bill."
+ },
+ {
+  "id": "micropsitta-pusio",
+  "sci": "Micropsitta pusio",
+  "en": "Buff-faced Pygmy-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Buff-faced_pygmy_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10666647/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Little-studied as an individual species, it is known mainly for being the world's smallest parrot, at 11.5 g (0.41 oz) and 8.6 cm (3.4 in). However,  the average weight of six adults was surprisingly high at 14 g (0.49 oz), being slightly higher than two other pygmy parrots, the Geelvink and yellow-capped, both of which, nonetheless, have slightly longer total lengths. The male and female are similar in appearance; their plumage is mainly green with a yellowish tone on the underparts. The cheeks, face, and crown are buff (hence the common name). A dark blue patch is on the top of the head back to the occiput.  Head markings are smaller in females, and facial colour is paler. The eyes are dark brown and the bill is grey, and legs are greyish with blue or pinkish tints. Immature birds lack the blue crown, replacing it with green, and the buff colour is less distinct."
+ },
+ {
+  "id": "charmosyna-papou",
+  "sci": "Charmosyna papou",
+  "en": "West Papuan Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Papuan_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3308705/medium.jpg",
+   "credit": "(c) Nigel Voaden, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The West Papuan lorikeet (Charmosyna papou) is a species of parrot in the family Psittaculidae.\nIt is found in New Guinea.\nIts natural habitat is subtropical or tropical moist montane forests."
+ },
+ {
+  "id": "chalcopsitta-scintillata",
+  "sci": "Chalcopsitta scintillata",
+  "en": "Yellow-streaked Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellowish-streaked_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387831343/medium.jpg",
+   "credit": "(c) Linda Kenney, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The yellow-streaked lory (Chalcopsitta scintillata), also known as the streaked lory or yellowish-streaked lory, is a species of parrot in the family Psittaculidae."
+ },
+ {
+  "id": "alisterus-chloropterus",
+  "sci": "Alisterus chloropterus",
+  "en": "Papuan King Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Papuan_king_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/180644829/medium.jpg",
+   "credit": "(c) David Barros Cardona, some rights reserved (CC BY-NC), uploaded by David Barros Cardona (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 36.0,
+  "desc_thin": false,
+  "description": "The Papuan king parrot is 36 cm (14 in) long including a long, broad tail. It has dark grey legs and orange irises. The three subspecies of the Papuan king parrot all show sexual dimorphism and in all three subspecies the male can be identified by a prominent broad pale-green band on each wing (resembling a shoulder stripe). The differences in the females between subspecies are more marked than the differences in the males.\nThe male has a red head and neck, red lower parts, blue back and rump, green wings each with a broad band of pale-green. In the male of A. c. chloropterus the blue extents upwards from the back to the hind neck. In the female of the A. c. chloropterus and A. c. calloterus the abdomen is red, the green over the head and neck is continuous with green of the back and wings, and the chest has vague transverse green and red striations. The female of subspecies A. c. moszkowskii has a red head, neck, chest, and lower abdomen resembling the male, and differs from the male with its much smaller pale-green wing band."
+ },
+ {
+  "id": "cyanoramphus-hochstetteri",
+  "sci": "Cyanoramphus hochstetteri",
+  "en": "Reischek's Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Reischek's_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387302822/medium.jpeg",
+   "credit": "no rights reserved, uploaded by Mark Fraser (cc0) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Reischek's parakeet (Cyanoramphus hochstetteri) is a small green parrot confined to 21 km2 (8.1 mi2) Antipodes Island, one of New Zealand’s subantarctic islands, which it shares with a congener, the larger Antipodes parakeet."
+ },
+ {
+  "id": "loriculus-amabilis",
+  "sci": "Loriculus amabilis",
+  "en": "Moluccan Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Moluccan_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/340220214/medium.jpg",
+   "credit": "(c) Martin Walsh, some rights reserved (CC BY-NC-ND), uploaded by Martin Walsh (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 11.0,
+  "desc_thin": false,
+  "description": "The Moluccan hanging parrot (Loriculus amabilis) is a species of parrot in the family Psittaculidae. It is endemic to forest and nearby habitats on Halmahera, Bacan and Morotai in Indonesia. It has sometimes included the Sula hanging parrot as a subspecies, but the two are increasingly treated as separate species based on their distinct differences in plumage and size (11 cm for the Moluccan hanging parrot versus 14 cm for the Sula hanging parrot)."
+ },
+ {
+  "id": "cyanoramphus-forbesi",
+  "sci": "Cyanoramphus forbesi",
+  "en": "Chatham Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chatham_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/14512387/medium.jpeg",
+   "credit": "(c) Catherine Beard, some rights reserved (CC BY-NC), uploaded by Catherine Beard (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Forbes' parakeets are medium-sized parakeets, with long tails and orange-red eyes. Plumage is bright green, with a red band across the forehead (but not reaching the eyes) and a yellow forecrown. The lores are also green, and the bird has some red plumage on the sides of the rump, and violet-blue outer primaries and wing coverts. The female parakeet is slightly smaller than the male, which is also reflected in her smaller bill size.\nForbes' parakeet is easily distinguished from the Chatham Island Red-crowned Parakeet by its golden-yellow forecrown, as like its name suggests the Chatham Island Red-crowned parakeet has a red forecrown. It is also distinguishable from the Yellow-crowned parakeet (Cyanoramphus auriceps) despite looking quite similar, as C. auriceps is not found in the Chatham Islands."
+ },
+ {
+  "id": "neopsittacus-pullicauda",
+  "sci": "Neopsittacus pullicauda",
+  "en": "Orange-billed Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-billed_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3093633/medium.jpg",
+   "credit": "(c) Nigel Voaden, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "The orange-billed lorikeet is a small species of lorikeet, with a length of around 18 cm (7.1 in) and a weight of 25–40 g (0.88–1.41 oz). Adults are mainly dark emerald green, with red underparts and narrow yellow streaking on the cheeks. The flanks and wings are also emerald green; the underside of the tail is a duller green, with a red patch at the base. The underwing is bright red and is especially prominent in flight. The iris and beak are orange, with a yellow tip to the latter, and the feet are dark grey. Immatures are duller in color, with less red on their underparts and an orangish-brown bill. Fledglings have yellow beaks, which turn orange at around 6 months of age.\nOther than the yellow-billed lorikeet, no other parrot in the species' range has a similar coloration. Compared with the yellow-billed lorikeet, it is smaller in size, has more richly coloured plumage, and has a smaller, orange bill. Additionally, it can also be distinguished by its flanks and wings being the same shade of green, the underside of the tail being dull green with red at the base, and the lack of an olive tint to the top of its head.\n\n\n=== Vocalisations ===\nThe species is very vocal and gives a variety of calls, including a high upslurred \"tseet\" and other, longer high-pitched calls. Although these calls are similar to those of the yellow-billed lorikeet, they tend to be softer, more high-pitched, and more musical."
+ },
+ {
+  "id": "conuropsis-carolinensis",
+  "sci": "Conuropsis carolinensis",
+  "en": "Carolina Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": true,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Carolina_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/519212147/medium.jpg",
+   "credit": "(c) Mario Aliana Pedrosa, some rights reserved (CC BY-NC), uploaded by Mario Aliana Pedrosa (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Carolina parakeet was a small, green parrot very similar in size and coloration to the extant jenday parakeet and sun conure – the sun conure being its closest living relative.\nThe majority of the parakeets' plumage was green with lighter green underparts, a bright yellow head and orange forehead and face extending to behind the eyes and upper cheeks (lores). The shoulders were yellow, continuing down the outer edge of the wings. The primary feathers were mostly green, but with yellow edges on the outer primaries. Thighs were green towards the top and yellow towards the feet. Male and female adults were identical in plumage, however males were slightly larger than females (sexually dimorphic only in size). Their legs and feet were light brown. They share the zygodactyl feet common to all the parrot family. Their eyes were ringed by white skin and their beaks were pale flesh colored. These birds weigh about 3.5 oz., are 13 in. long, and have wingspans of 21–23 in.\nYoung Carolina parakeets differed slightly in coloration from adults. The face and entire body were green, with paler underparts. They lacked yellow or orange plumage on the face, wings, and thighs. Hatchlings were covered in mouse-gray down, until about 39–40 days old, when green wings and tails appeared. Fledglings had full adult plumage around 1 year of age.\nThese birds were fairly long-lived, at least in captivity: A pair was kept at the Cincinnati Zoo for over 35 years."
+ },
+ {
+  "id": "nannopsittacus-melanogenia",
+  "sci": "Nannopsittacus melanogenia",
+  "en": "Dusky-cheeked Fig Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dusky-cheeked_fig_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235288/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The dusky-cheeked fig parrot (Nannopsittacus melanogenia) is a species of parrot in the family Psittaculidae. It is found in southern New Guinea and the Aru Islands. Its natural habitat is subtropical or tropical moist lowland forests."
+ },
+ {
+  "id": "aprosmictus-jonquillaceus",
+  "sci": "Aprosmictus jonquillaceus",
+  "en": "Olive-shouldered Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Jonquil_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107995052/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Jonquil parrot (Aprosmictus jonquillaceus) is a species of bird in the Psittaculidae family with two subspecies, Aprosmictus jonquillaceus jonquillaceus and Aprosmictus jonquillaceus wetterensis. It is a large, long-tailed green parrot with an orange bill and a wing patch which red in males and yellow in females. It is visible when a bird is perched and in flight. The juvenile looks like a female but lacks a wing patch."
+ },
+ {
+  "id": "pyrrhura-caeruleiceps",
+  "sci": "Pyrrhura caeruleiceps",
+  "en": "Perija Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Perija_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/291684076/medium.jpeg",
+   "credit": "(c) Christoph Moning, osa oikeuksista pidätetään (CC BY), lähettänyt Christoph Moning (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Perija parakeet (Pyrrhura caeruleiceps), also known as Todd's parakeet or in aviculture as Perijá conure, is a species of parrot in the family Psittacidae. There are about 1,000 to 2,499 mature individuals remaining in the wild as of 2021 with a decreasing population trend. In 2001, the Perija parakeet was reclassified from a subspecies of the painted parakeet to an individual species. There are two subspecies of the Perija parakeet, P. c. caeruliceps and P. c. pantchenko. P. c. caeruliceps lives in Serranía del Perijá mountains on the northern border between Colombia and Venezuela. P. c. pantchenko lives in the Perijá Mountains."
+ },
+ {
+  "id": "nannopsittaca-dachilleae",
+  "sci": "Nannopsittaca dachilleae",
+  "en": "Amazonian Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Manu_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158981228/medium.jpg",
+   "credit": "(c) Hector Bottai, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The upper parts, nape, auriculars, dorsum, tertials, wing covers, rump, upper-tail, and rectrices are bright green.  The forehead, anterior crown, and ores are a pale blue.  The malar area, breast, belly, and under-tail are a paler more yellowish green. No sexual dimorphism has been described as yet."
+ },
+ {
+  "id": "loriculus-sclateri",
+  "sci": "Loriculus sclateri",
+  "en": "Sula Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sula_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/101919921/medium.jpeg",
+   "credit": "(c) Alpian Maleso, some rights reserved (CC BY-NC), uploaded by Alpian Maleso (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The Sula hanging parrot (Loriculus sclateri) is a small species of parrot in the family Psittaculidae. It is endemic to forest and nearby habitats on the Banggai and Sula Islands in Indonesia."
+ },
+ {
+  "id": "glossoptilus-goldiei",
+  "sci": "Glossoptilus goldiei",
+  "en": "Goldie's Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Goldie's_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235301/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 19.0,
+  "desc_thin": false,
+  "description": "Goldie's lorikeet is 19 cm (7.5 in) long. It is mainly green, and its underside is yellow-green with dark green longitudinal streaks.  It has a red plumage on the crown, which is less extensive in the female. The back of its head is blue, its cheeks are mainly mauve and blue, its beak is black, and its irises are brown. Its legs are greenish-brown. In juveniles the red on the head is reduced to a small red patch above its beak. Juveniles have a brown beak, a green crown, and greyish-blue plumage on the back of the head."
+ },
+ {
+  "id": "northiella-narethae",
+  "sci": "Northiella narethae",
+  "en": "Naretha Bluebonnet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Naretha_bluebonnet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/96432358/medium.jpg",
+   "credit": "(c) Tim Bawden, some rights reserved (CC BY-NC), uploaded by Tim Bawden (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The Naretha bluebonnet is smaller than the eastern bluebonnet, at around 28 cm (11 in) in length. The legs and feet are dark grey, and the iris is dark brown. The adult male has a two tonal facial pattern with a lighter green-blue forehead, lores and the area above the eye contrasting with the rest of the face which is a purplish-blue. The light grey-brown head, foreneck and breast are marked with pale steaks and diffuse spots. The back is olive-grey. The belly, vent and thighs are a uniform yellow with the red being restricted to the undertail-coverts area. The lesser wing coverts are blue and outer median wing coverts red, while the inner median and greater wing coverts, and inner secondaries a yellow-olive colour. The central tail feathers are tinged with pale blue. The adult female has a duller blue on the forehead, and reduced colour on wings and tail, and with no tint of orange on the belly. It is smaller overall at around 26 cm (10 in) in length."
+ },
+ {
+  "id": "pyrilia-vulturina",
+  "sci": "Pyrilia vulturina",
+  "en": "Vulturine Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Vulturine_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/329487745/medium.jpg",
+   "credit": "(c) Steve Foss, some rights reserved (CC BY-NC), uploaded by Steve Foss (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The vulturine parrot is 23 to 25 cm (9.1 to 9.8 in) long and weighs 138 to 165 g (4.9 to 5.8 oz). The adult's face is mostly bare black skin, with yellowish lores and a collar of yellow feathers and a band of black feathers below that. Their upperparts are green  with a reddish orange shoulder. Their breast is olive-yellow, their belly green with some blue edges to the feathers, and their lower thighs yellow. Their primaries are black with green edges and their carpal's edges and underwing coverts are red. Their tail's upper surface is green with blue tips and the lower surface green and yellow. Immature birds have green feathered heads with yellowish around the lores and eye and without the adult's yellow collar."
+ },
+ {
+  "id": "micropsitta-geelvinkiana",
+  "sci": "Micropsitta geelvinkiana",
+  "en": "Geelvink Pygmy-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Geelvink_pygmy_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/117967181/medium.jpeg",
+   "credit": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "It has a brown head, blue crown, light blue ear covert, yellow breast, green body and blue tail. It has red eyes. The female has less brown than the male."
+ }
+]

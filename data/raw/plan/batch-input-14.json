@@ -1,0 +1,322 @@
+[
+ {
+  "id": "micropsitta-keiensis",
+  "sci": "Micropsitta keiensis",
+  "en": "Yellow-capped Pygmy-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-capped_pygmy_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/65379580/medium.jpeg",
+   "credit": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyadi (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Adults of both sexes are green, have a yellow crown and undertail coverts, blue central tail feathers and brown eyes.\nIt has three subspecies: the nominate (M. k. keiensis), M. k. chloroxantha and M. k. viridipectus. Juveniles of M. k. keiensis are generally duller in color; the other subspecies are as in adults. Generally, they are approximately 9.5 cm (3.7 in) long and 11-14 g (0.4-0.5 oz) in weight. It is the smallest species of parrot."
+ },
+ {
+  "id": "touit-dilectissimus",
+  "sci": "Touit dilectissimus",
+  "en": "Blue-fronted Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-fronted_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89687075/medium.jpeg",
+   "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "The blue-fronted parrotlet is about 17 to 18 cm (6.7 to 7.1 in) long and weighs 59 to 71 g (2.1 to 2.5 oz). Its body is mostly green, darker above than below. Its forehead (\"front\") is blue; it has a white eye ring and a red line in front of and below the eye with more blue below it. Its crown and hindneck are bronze-green. It has much red on the wing's \"wrist\", and its primaries are black with green outer edges. Its underwing coverts are yellow. Its central tail feathers are black and the others yellow with black tips. Males have more red on their wing than females; immatures resemble females with a less distinctive facial pattern."
+ },
+ {
+  "id": "pyrrhura-emma",
+  "sci": "Pyrrhura emma",
+  "en": "Venezuelan Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Venezuelan_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/429689616/medium.jpg",
+   "credit": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The Venezuelan parakeet is 22 to 23 cm (8.7 to 9.1 in) long. The sexes are the same. Adults have a blue crown, a plum-red face, a gray-brown nape, and whitish ear coverts. Their upperparts are mostly green with a red-brown rump. Their chin, throat, and the sides of their neck are gray-olive with pale scaling. The center of their belly is red-brown and the rest of their underparts are green. Their wing is mostly green with a red-brown shoulder and blue primaries. Their tail is red-brown. Their bill is dusky and their eyes orange to yellow with bare dark gray skin surrounding them. Immatures are similar to adults."
+ },
+ {
+  "id": "cacatua-ophthalmica",
+  "sci": "Cacatua ophthalmica",
+  "en": "Blue-eyed Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-eyed_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8203569/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The blue-eyed cockatoo is a large, about 50-cm-long, mainly white cockatoo with an erectile yellow and white crest, a black beak, dark grey legs, and a light blue rim of featherless skin around each eye, that gives this species its name. The sexes are very similar in appearance. Some males have  dark brown irises and some females have  reddish-brown irises, but this small difference is not always reliable as a sex indicator. The blue-eyed cockatoo is easily mistaken for the yellow-crested and sulphur-crested cockatoos, but has a more rounded crest with more white to the frontal part, and a brighter blue eye-ring. The blue-eyed cockatoo reaches full maturity after 4 years and lives an average of 50 years.\nBlue-eyed cockatoo has been known to make demanding, but great house pets. This bird has been called by some as the friendliest and most loving of all the cockatoo species. Household skills include mimicking owners, laying on the back of loved ones, and their love of play. Due to their interaction ability, these pets require quite a bit of attention. A lack of interaction could result in self-mutilation from the bird, that includes feather plucking."
+ },
+ {
+  "id": "trichoglossus-johnstoniae",
+  "sci": "Trichoglossus johnstoniae",
+  "en": "Mindanao Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mindanao_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48163447/medium.jpg",
+   "credit": "(c) William Warby, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 20.0,
+  "desc_thin": false,
+  "description": "The Mindanao lorikeet is 20 cm (7.9 in) long. Its green and has a beautiful color on the front. Its face is red, and it has a dark purple band on the head. It has many beautiful parts under the wing. Its feet are gray. Its beak is orange, the area around its eyes is dark gray, and its iris is red. Males and females are the same in appearance. The young have less red on the face and instead of the purple band they have brown on the back of the eye, gray around their eyes, brown on their iris, and dark brown on their beak."
+ },
+ {
+  "id": "trichoglossus-reticulatus",
+  "sci": "Trichoglossus reticulatus",
+  "en": "Blue-streaked Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-streaked_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387832238/medium.jpg",
+   "credit": "(c) Doug Janson, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 31.0,
+  "desc_thin": false,
+  "description": "The blue-streaked lory is about 31 centimetres (12 in) in length, including the tail. They weigh between 145 and 155 grams (5.1 and 5.5 oz).\nAdults of both sexes look the same – this is called sexually monomorphic.\nMost of the bird's general plumage is bright red. Against this intense red background, there are scattered electric blue feathers near the ears and on the nape of the neck, which is where the bird gets its name. From the area to the base of the neck, there is an indigo-violet stripe. The lower part of the nape of the neck, to the top of the back, is a bluish black. The main part of the back, as well as the rump, is red. Wing coverts and flights are red with black tips. The upper part of the tail feathers are a reddish black, and the underside of the tail is a muted red. The iris of the eye is orange-red. The beak is sharply curved, short, and bright red-orange. The feet are medium gray, and the claws are black."
+ },
+ {
+  "id": "trichoglossus-iris",
+  "sci": "Trichoglossus iris",
+  "en": "Iris Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Iris_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60030040/medium.jpg",
+   "credit": "(c) SandyCole, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 20.0,
+  "desc_thin": false,
+  "description": "The iris lorikeet is 20 cm (8 in) long. It is mostly green with pale-green transverse striations on its underside. The head is red above the eye and there is a purple band from the eyes extending over the ears. The beak is red-orange, the iris is orange, and the legs are bluish-grey. The male and female are almost identical, but the red on the head of the female is paler and less extensive. Juveniles resemble females, but have a brownish bill, brown irises, duller purple bands and less red on the head. The extent and shade of the red and purple on the head varies between two or three subspecies. Compared to the nominate subspecies, T. i. wetterensis has a larger area of darker green on side of head."
+ },
+ {
+  "id": "cyclopsitta-desmarestii",
+  "sci": "Cyclopsitta desmarestii",
+  "en": "Large Fig Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Large_fig_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/223722645/medium.jpg",
+   "credit": "(c) yuvalofek, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "It has a red to orange cap, a light blue eye patch below its eye, yellow face, pale turquoise ring tinged with red, grey-black bill and green body. Male and female adults are identical in external appearance and juveniles tend to have duller colours on the head, but otherwise resemble adults."
+ },
+ {
+  "id": "amazona-dufresniana",
+  "sci": "Amazona dufresniana",
+  "en": "Blue-cheeked Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-cheeked_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/204511/medium.jpg",
+   "credit": "(c) TJ Lin, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 37.0,
+  "desc_thin": false,
+  "description": "The blue-cheeked amazon is 34 to 37 cm (13 to 15 in) long and weighs 481 to 615 g (17 to 22 oz). The sexes are alike. Adults are mostly green. They are ochre on their lores and immediate forehead; the rest of the forehead and most of their crown are yellow with green tips on the feathers. Their lower half of their face, the sides of their neck, and the sides of their throat are lavender blue. Their nape and the rest of their upperparts and their underparts are green. The feathers of the nape and side of the neck have black edges that give a scalloped appearance. Their tail feathers are green with yellow tips that are wider on the outer feathers. The carpal edge of their wing is yellowish green and their primaries are black with blue outer webs. Their inner secondaries are green with pale blue tips and the outer ones bright yellow or orange, also with pale blue tips. Their iris is blackish, their bill dusky with a red base on the maxilla, and their legs and feed gray. Immature birds are similar to adults, but with less blue on the head and duller yellow on the crown."
+ },
+ {
+  "id": "amazona-kawalli",
+  "sci": "Amazona kawalli",
+  "en": "Kawall's Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Kawall's_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157587156/medium.jpg",
+   "credit": "(c) \nJacek Kisielewski, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 36.0,
+  "desc_thin": false,
+  "description": "The species is medium-sized for a parrot, reaching a length of 35–36 cm (13.8–14.2 in). The plumage is mostly green, with a narrow white strip at the base of the bill, narrow white eye-ring, and some blue and red present on the outermost flight feathers. Although it resembles the mealy amazon, Kawall's amazon can easily be recognised by its white patch of skin at the base of the bill, relatively small gray ocular ring (may fade to white in captivity), red near the base of the tail, overall brighter green hue and voice."
+ },
+ {
+  "id": "prioniturus-discurus",
+  "sci": "Prioniturus discurus",
+  "en": "Blue-crowned Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/59810113/medium.jpg",
+   "credit": "(c) Christian Artuso, some rights reserved (CC BY-NC-ND), uploaded by Christian Artuso (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The blue-crowned racket-tail (Prioniturus discurus) is a species of parrot in the family Psittaculidae. It is endemic to the Philippines found in Luzon, Mindanao and Visayas where it is found in tropical moist lowland forest. The Mindoro racket-tail of Mindoro and Blue-headed racket-tail of Palawan were once considered subspecies of the Blue-crowned racket-tail but are now separate species. While not endangered, this species' population is on the decline due to habitat loss and the cagebird trade. \nUnder Philippine Law RA 9147, it is illegal to hunt, capture, or possess this species."
+ },
+ {
+  "id": "geoffroyus-heteroclitus",
+  "sci": "Geoffroyus heteroclitus",
+  "en": "Singing Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Song_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/43439760/medium.jpg",
+   "credit": "(c) devonderaad, some rights reserved (CC BY-NC), uploaded by devonderaad (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The song parrot or singing parrot (Geoffroyus heteroclitus) is a species of parrot in the family Psittaculidae."
+ },
+ {
+  "id": "micropsitta-bruijnii",
+  "sci": "Micropsitta bruijnii",
+  "en": "Red-breasted Pygmy-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-breasted_pygmy_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/127886310/medium.jpg",
+   "credit": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The red-breasted pygmy parrot (Micropsitta bruijnii) is a species of parrot in the family Psittaculidae.\nIts natural habitat is the boreal forests, subtropical or tropical dry forests, and subtropical or tropical moist lowland forests of the Maluku Islands and Melanesia.\nAs their name suggests, the pygmy parrots are the smallest genus of all parrots, with distribution confined to islands off South-east Asia. This particular species is found at higher altitudes than other pygmy parrots, and uses trees rather than arboreal termite nests as breeding sites. They have jerky movements, rather reminiscent of nuthatches (Sitta species), and cling close to the bark as they search for lichens growing in the trees, which form the majority of their diet. Red-breasted pygmy parrots are only 8 cm (3 in) in length.\nThe global population size has not been quantified, but the species is reported to be common to uncommon due to deforestation and habitat lost on this limited range. It is best to study these birds in their natural habitat because they do not thrive in captivity.\nThe specific name bruijnii commemorates the Dutch plume merchant Antonie Augustus Bruijn."
+ },
+ {
+  "id": "vini-peruviana",
+  "sci": "Vini peruviana",
+  "en": "Blue Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164493513/medium.jpg",
+   "credit": "(c) Joseph Brider, some rights reserved (CC BY-NC-ND), uploaded by Joseph Brider (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "The blue lorikeet is 18 cm long with a short rounded tail. Its plumage is mainly dark blue and it has a white area over its upper chest, throat and lower face. Erectile feathers on the top of its head show light blue streaks. Its beak is orange and its irises are yellow-brown. It has orange legs. Adult males and females have identical external appearance. The juvenile lacks the white plumage of the adult and has a dark grey-blue face and lower parts. The juvenile also has a black bill, dark brown irises, and its legs are orange brown. Blue plumage, which is shares with the related ultramarine lorikeet, is very unusual in the parrot order."
+ },
+ {
+  "id": "lorius-domicella",
+  "sci": "Lorius domicella",
+  "en": "Purple-naped Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Purple-naped_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63563327/medium.jpg",
+   "credit": "(c) Lorius_domicella_-Jurong_Bird_Park,_Singapore-8a.jpg, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The purple-naped lory is 28 cm (11 in) long. It is mostly red with an all red tail that fades to darker red towards the tip. The top of its head is black, which fades to purple on the back of its neck. It has green wings, blue thighs, and a variable approximately transverse yellow band across the chest. It has an orange beak, dark-grey eyerings, and orange-red irises. Juveniles have a brown beak, grey-white eyerings, brown irises, a wider yellow band across the chest, and a more extensive purple patch on the back of neck."
+ },
+ {
+  "id": "vini-australis",
+  "sci": "Vini australis",
+  "en": "Blue-crowned Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/31024129/medium.jpg",
+   "credit": "(c) Casey Weissburg, some rights reserved (CC BY-NC), uploaded by Casey Weissburg (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 19.0,
+  "desc_thin": false,
+  "description": "The blue-crowned lorikeet (Vini australis), also known as the blue-crowned lory, blue-crested lory, Solomon lory or Samoan lory, is a parrot found In the Polynesian Islands of Samoa, Tonga, Fiji, and some other islands off the coast like Niue and Futuna. It is a 19 centimetres (7.5 in) green lorikeet with a red throat, blue crown, and belly patch shading from red at the top to purple at the bottom."
+ },
+ {
+  "id": "touit-purpuratus",
+  "sci": "Touit purpuratus",
+  "en": "Sapphire-rumped Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sapphire-rumped_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114137391/medium.jpeg",
+   "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "The sapphire-rumped parrotlet is 17 to 18 cm (6.7 to 7.1 in) long and weighs 54 to 66 g (1.9 to 2.3 oz). Its body is mostly green, darker above than below, and with a blue lower back and rump. The nominate subspecies' forehead and crown are olive brown and those of T. p. viridiceps are green; both have a white eye ring. The species has dusky brown scapulars that appear as a \"V\" when the wings are folded; females' are paler than males'. Their carpal bar is violet blue. The male's central tail feathers are green and the others red with blackish tips; female's add a green band near the tip. Immatures resemble females but are duller overall and have an olive rump."
+ },
+ {
+  "id": "trichoglossus-rubiginosus",
+  "sci": "Trichoglossus rubiginosus",
+  "en": "Pohnpei Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pohnpei_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/39755837/medium.jpeg",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "The Pohnpei lorikeet is 24 cm (9.4 in) long and weights around 80 g (2.8 oz). Its plumage is mainly reddish-maroon with vague approximately transverse striations of darker maroon. The head a slightly darker maroon. The flight feathers and tail are olive-yellow. Its legs are grey. The male has an orange beak and yellow-orange irises, while the female has a yellow beak and light grey irises. The juveniles have brown beaks and brown irises."
+ },
+ {
+  "id": "hapalopsittaca-pyrrhops",
+  "sci": "Hapalopsittaca pyrrhops",
+  "en": "Red-faced Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-faced_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6741584/medium.jpg",
+   "credit": "(c) Leslie Flint, some rights reserved (CC BY-NC), uploaded by Leslie Flint (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The red-faced parrot (Hapalopsittaca pyrrhops) is a species of parrot in the family Psittacidae."
+ },
+ {
+  "id": "vini-kuhlii",
+  "sci": "Vini kuhlii",
+  "en": "Kuhl's Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Kuhl's_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109930405/medium.jpg",
+   "credit": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 19.0,
+  "desc_thin": false,
+  "description": "It is a fast flying lorikeet with vibrant plumage; a green back, wings and crown, a blue nape and legs and bright red undersides and cheeks. The average length is 19 centimetres (7.5 in) and the average weight is 55 grams (1.9 oz)."
+ }
+]

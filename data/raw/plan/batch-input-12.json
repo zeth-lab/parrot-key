@@ -1,0 +1,322 @@
+[
+ {
+  "id": "trichoglossus-capistratus",
+  "sci": "Trichoglossus capistratus",
+  "en": "Marigold Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marigold_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67553014/medium.jpg",
+   "credit": "(c) coracii, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The marigold lorikeet or Sumba lorikeet (Trichoglossus capistratus) is a species of parrot that is endemic to the Southeast Asian islands of Sumba, Rote, Wetar and Kisar (Indonesia) and Timor (Indonesia and Timor-Leste). It was previously considered a subspecies of the rainbow lorikeet, but following a review in 1997, it is increasingly treated as a separate species.\nOverall, the marigold lorikeet resembles a faded rainbow or scarlet-breasted lorikeet, with the blue to the head not as strongly demarcated and the chest ranging from orange-yellow to yellow. In addition to the nominate subspecies from Timor, it includes the subspecies fortis (\"Edward's lorikeet\") from Sumba and flavotectus (\"Wetar lorikeet\") from Wetar. It inhabits the edge of primary forest, secondary forest, woodland and plantations at altitudes below 500 m (1,600 ft) on Timor, but at least up to 950 m (3,120 ft) on Sumba.  It remains fairly common, but its relatively small distribution could give cause for future concern."
+ },
+ {
+  "id": "pyrrhura-orcesi",
+  "sci": "Pyrrhura orcesi",
+  "en": "El Oro Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/El_Oro_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32748192/medium.jpeg",
+   "credit": "(c) Leovigildo Cabrera, some rights reserved (CC BY-NC), uploaded by Leovigildo Cabrera (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "The El Oro parakeet is 22 to 24 cm (8.7 to 9.4 in) long and weighs 65 to 75 g (2.3 to 2.6 oz). Adult males have a mostly green head with a red forehead and lores. Their upperparts are green. Their throat, the sides of their neck, and their breast are green with grayish buff bars giving an indistinct scaly appearance. The rest of their underparts are green with some faint dull reddish on the belly. Their wing is mostly green with red primary coverts; their primaries are blue. Their tail is maroon with a green base and a dusky maroon underside. Their bill is dusky and their iris is dark with bare pinkish skin surrounding it. Females are almost the same as males but with much reduced red on the forehead. Immature birds are similar to adults but with even less red on the head and wing and none on the belly."
+ },
+ {
+  "id": "amazona-diadema",
+  "sci": "Amazona diadema",
+  "en": "Diademed Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Diademed_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/305787371/medium.jpg",
+   "credit": "(c) Ivo Carlos Zecchin, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Ivo Carlos Zecchin (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "The diademed amazon grows to a length of about 33 cm (13 in). It is a largely green bird with glimpses of red and black; many of the feathers are margined with contrasting colours giving a finely scalloped effect. The crown, nape and neck, breast and belly are green while the forehead, lores and cere are red. This red colour does not extend above the eye in a superciliary streak. The primary wing feathers are dusky black and the secondaries bluish-green; the base of the first five secondaries are red, giving a flash of red colour during flight. The tail is green with the side feathers being tipped yellowish-green, with red at the base. The beak is dark grey and the bare skin surrounding the eye is white. The iris is orange and the legs and feet are pale grey."
+ },
+ {
+  "id": "hypocharmosyna-placentis",
+  "sci": "Hypocharmosyna placentis",
+  "en": "Red-flanked Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-flanked_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/85044726/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The red-flanked lorikeet (Hypocharmosyna placentis) is a species of parrot in the family Psittaculidae.\nIt is found in Mollucas, New Guinea and the Bismarck Archipelago.\nIts natural habitats are subtropical or tropical moist lowland forests and subtropical or tropical mangrove forests. Only the adult males have the red plumage on the head and sides."
+ },
+ {
+  "id": "amazona-agilis",
+  "sci": "Amazona agilis",
+  "en": "Black-billed Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-billed_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/247588454/medium.jpeg",
+   "credit": "(c) Jay VanderGaast, some rights reserved (CC BY-NC-ND), uploaded by Jay VanderGaast (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 29.0,
+  "desc_thin": false,
+  "description": "This parrot is smaller than the yellow-billed amazon and measures between 10.5 and 11.5 inches (27 and 29 centimetres). In males, the bill is very dark grey, almost black, becoming paler towards the base. The cere is very dark grey, as is the skin around the eyes, and the iris is dark brown. This bird's plumage is predominantly green, paler and more yellowish on the underparts. The feathers of the neck are edged with dusky black. Ear-coverts are blackish and primary coverts are red. Primaries are violet-blue and black, secondaries are blue at the tips, becoming green towards the base. The tail is mostly green and lateral feathers are marked with red, while outer feathers are margined with blue. The feet are greyish-green. Females are similar to males but with some primary coverts green instead of red.\nThe black-billed amazon's call is bugling while in flight however, while perched it growls and rumbles. Often its calls tend to be sharp and screechy."
+ },
+ {
+  "id": "chalcopsitta-cardinalis",
+  "sci": "Chalcopsitta cardinalis",
+  "en": "Cardinal Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cardinal_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/377058160/medium.jpeg",
+   "credit": "(c) Noam Markus, some rights reserved (CC BY-NC), uploaded by Noam Markus (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 31.0,
+  "desc_thin": false,
+  "description": "The cardinal lory is 31 cm (12 in) long. All plumage is red. The beak is orange with black at its base. The bare skin at base of beak and around eyes is black, and the irises are orange-red. Its legs are grey. The male and female are identical in external appearance. The beaks of the juveniles are dull orange with more prominent black areas than the adults, pale grey eye-rings, and yellow irises."
+ },
+ {
+  "id": "loriculus-pusillus",
+  "sci": "Loriculus pusillus",
+  "en": "Yellow-throated Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-throated_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/47091405/medium.jpg",
+   "credit": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": "The yellow-throated hanging parrot is small. Its body is green, with a yellow patch on the front of its neck. Its lower back is red."
+ },
+ {
+  "id": "psittacula-eques",
+  "sci": "Psittacula eques",
+  "en": "Echo Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Echo_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159249541/medium.jpg",
+   "credit": "(c) colin houston, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 42.0,
+  "desc_thin": false,
+  "description": "The echo parakeet is 34–42 cm (13–17 in) long and weighs 167–193 g (5.9–6.8 oz), which makes it smaller than the other, now extinct, Mauritian parrots. The wingspan is 49–54 cm (19–21 in), each wing is 177–190 mm (7.0–7.5 in) long, the tail is 164–200 mm (6.5–7.9 in), the culmen is 21–23 mm (0.83–0.91 in), and the tarsus is 20–22 mm (0.79–0.87 in). The female is somewhat smaller than the male on average. It is generally green, with a darker back and yellowish underside. The male is lighter and the female darker overall. It has two ring collars on the neck, which are incomplete, failing to meet at the back. The male has one black and one pink collar, which appears crescent shaped in side view, and has blue suffusion above it. The female has an indistinct black collar and a green collar, which becomes dark green across the cheeks and yellow-green at the back of the neck. The male has a black, narrow line running from the cere to the eye. The outer primary feathers of some males are tinged with blue. The upper bill of the adult male is bright red, the lower blackish brown, while the upper bill of the female is dark, almost black. The iris is yellow, varying from pale to greenish, but individuals with pink or white irides have also been noted. The skin around the eyes is orange, and the feet are grey, varying from greenish to blackish. The bill of the juvenile is red-orange, similar to that of the adult male, until two to three months after it fledges, when it changes to black, similar to that of the adult female. The immature is similar to the female.\n\nBased on the single known specimen and contemporary accounts, it is believed the male of the extinct Réunion subspecies was generally similar to that of Mauritius, but differed in being slightly larger, each wing being 193 mm (7.6 in) long and the culmen 24.5 mm (0.96 in). The pink collar entirely encircled its neck, whereas it tapers out and leaves a gap at the back of the neck in the Mauritius subspecies. The Réunion subspecies also appears to have had darker lower parts. The echo parakeet is very similar to the related rose-ringed parakeet (which has been introduced to Mauritius, making confusion possible), though the green plumage of the former is darker and richer, its nape has a bluish wash, and its tail is greener above, and shorter. The female is similar to that of the rose-ringed parakeet though darker, and more emerald green. Unlike the echo parakeet, the rose-ringed parakeet does not display sexual dimorphism in beak colour. The echo parakeet is also stockier, and about 25% larger in body size and weight than the rose-ringed parakeet. The echo parakeet has comparatively shorter, broader, and more rounded wings than other Psittacula species, as well as a shorter and broader tail.\n\n\n=== Vocalisations ===\nThe echo parakeet has a wide range of vocalisations, and are most vocal before roosting in the evening. They vocalise all year, but more during the breeding season. The most common vocalisation is the contact call, a low, nasal squawk sounding like \"chaa-chaa, chaa-chaa\" (also transliterated as \"chaa-choa\" or \"kaah\"), which is emitted singly or in a fast series, about twice a second. The flight call is very similar to the contact call. There is a higher pitched excitement or alarm call which sounds like \"chee-chee-chee-chee\" three or four times a second, usually emitted during flight with shallow, rapid wing beats. When disturbed or frightened, it may give a short, sharp \"ark\" call. It emits more melodious chirrups and whistles while perched. A deep, quiet \"werr-werr\" and a \"prr-rr-rr\" purr has also been heard on two occasions from a female landing in a tree. A courtship call can be heard between September and December. They also \"growl\" when angry, in a similar way to other parrots. The voice of the echo parakeet is very different from that of the rose-ringed parakeet, which has higher, faster, and more \"excited\" sounding vocalisations, and their calls cannot be confused."
+ },
+ {
+  "id": "hapalopsittaca-fuertesi",
+  "sci": "Hapalopsittaca fuertesi",
+  "en": "Indigo-winged Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Fuertes's_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/478388372/medium.jpeg",
+   "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "Fuertes's parrot is about 23 to 24 cm (9.1 to 9.4 in) long and weighs about 124 g (4.4 oz). Adults have a thin red band just above the bill, an olive-yellow forecrown and face, a blue crown, and a green hindneck. Their upperparts are green with pale fringes on the mantle feathers. Their throat and breast are green with a golden-olive tinge and their belly, thighs, and undertail coverts are yellowish green; their belly has variable amounts of dull red. The bend of their wing and its leading edge are red, the median and greater coverts dark violet-blue, their primaries black with purplish blue edges, and their secondaries are mostly blue with some green edges. Their underwing coverts are crimson and the rest of their wing's underside is greenish blue. Their tail is blue with red on the inner webs of the central feathers; the tail is duller below than above. Their bill is horn-colored with a darker base to the mandible, their eyes yellowish, and their legs and feet dark gray."
+ },
+ {
+  "id": "pyrrhura-lucianii",
+  "sci": "Pyrrhura lucianii",
+  "en": "Bonaparte's Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bonaparte's_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/237933477/medium.jpg",
+   "credit": "(c) hbottai, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 22.0,
+  "desc_thin": false,
+  "description": "Total length c. 22 centimetres (8.7 in). As other members of the Pyrrhura picta complex, it is a long-tailed mainly green parakeet with a dark red belly, rump and tail-tip (tail all dark red from below), pale grey scaling to the chest, a whitish or dull buff patch on the auriculars and bluish remiges. The cheeks and crown are dark dusky-maroon (often appears almost blackish). Unlike other members of the P. picta complex, it lacks any bright red or blue to the head (but see Taxonomy). The legs are dark greyish."
+ },
+ {
+  "id": "touit-huetii",
+  "sci": "Touit huetii",
+  "en": "Scarlet-shouldered Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scarlet-shouldered_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/221313125/medium.jpeg",
+   "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 16.0,
+  "desc_thin": false,
+  "description": "The scarlet-shouldered parrotlet is 15 to 16 cm (5.9 to 6.3 in) long and weighs 58 to 62 g (2.0 to 2.2 oz). Its body is mostly green, darker above than below. The front of its face is dark with a white eye ring and its crown and nape olive-brown. Its upper wing coverts are dark blue, its primaries black, and its carpal bar, underwing coverts, and axillaries red. The male's tail has green central feathers and red outer ones with black tips; females' tails are all greenish yellow with black tips. Both sexes' under tail coverts are yellow. Immature birds are like adult females but with a green face."
+ },
+ {
+  "id": "prioniturus-platurus",
+  "sci": "Prioniturus platurus",
+  "en": "Golden-mantled Racquet-tail",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Golden-mantled_racket-tail",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/359777673/medium.jpg",
+   "credit": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "Adult golden-mantled racket-tails are about 28 cm (11 in) long and weigh about 220 g (8 oz). The male is mainly green with a rose red spot surrounded by a grey blotch above the eye and an orange collar across the mantle. The underparts are pale green. The upper wing coverts are grey and the secondaries greenish-blue with yellowish inner margins. The central tail feathers are green near the base but elongated into \"rackets\", with bare shafts and black tips tinged with blue. The outer tail feathers are green with a black band near the tip. The female is similar but lacks the red spot and the orange collar, has greener upper wing coverts and has a shorter tail. The juvenile is similar to the female but does not have bare shafts to the tail feathers. The bill is grey and the iris dark brown.\nThe call consists of various whistling notes which are slurred together making a musical whole. Other sounds emitted are harsh and guttural."
+ },
+ {
+  "id": "pyrilia-caica",
+  "sci": "Pyrilia caica",
+  "en": "Caica Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Caica_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118300462/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The caica parrot is 23 to 25 cm (9.1 to 9.8 in) long and weighs 121 to 143 g (4.3 to 5.0 oz). Adults have a brownish black head with bare gray skin around the eye. They have a fulvous or golden collar on their hindneck; dark feather edges give it a scaly appearance. Their throat and upper breast are olive-brown and the rest of their body is green. Their primary coverts are dull blue, their primaries are blackish, and their tail feathers have dull blue tips. Immature birds have mostly green heads with a duller collar."
+ },
+ {
+  "id": "cacatua-haematuropygia",
+  "sci": "Cacatua haematuropygia",
+  "en": "Philippine Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-vented_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/584822855/medium.jpg",
+   "credit": "(c) matthewkwan, some rights reserved (CC BY-NC-ND), uploaded by matthewkwan (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The red-vented cockatoo (Cacatua haematuropygia), also known as the Philippine cockatoo and locally katala, abukay, agay, or kalangay, is a species of cockatoo. It is endemic to the Philippines, formerly found throughout the entire country, but due to the illegal wildlife trade, it is now locally extinct in most of its range with the only sizeable population remaining in Palawan and Sulu Archipelago. Remnant populations occur in the Polillo Islands, Bohol, and Samar. It is roughly the size and shape of the Tanimbar corella, but is easily distinguished by the red feathers around the vent. It is threatened by habitat loss and the cage-bird trade."
+ },
+ {
+  "id": "pyrrhura-albipectus",
+  "sci": "Pyrrhura albipectus",
+  "en": "White-necked Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-breasted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/43723934/medium.jpg",
+   "credit": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.5,
+  "desc_thin": false,
+  "description": "The white-breasted parakeet is 24 to 25.5 cm (9.4 to 10 in) long and weighs 83 to 110 g (2.9 to 3.9 oz). The sexes are the same. Adults have a thin reddish brown band just above the bill and are brownish from forehead to hindcrown; the crown feathers have gray edges. Their cheeks are green with yellow giving a scaly appearance and their ear coverts are orange. A wide white collar surrounds their neck and the rest of their upperparts are green. Their breast is yellow and the rest of their underparts are green with a rusty tone on the belly. Their wing is mostly green with red primary coverts and dark bluish primaries. The upper side of their tail is dull reddish with a green base and the underside dusky with reddish tips to the feathers. Their bill is blackish and their iris is dark with bare white or whitish skin surrounding it. Immature birds are similar to adults but without the reddish frontal band; they also have paler ear coverts and a white breast."
+ },
+ {
+  "id": "pyrrhura-roseifrons",
+  "sci": "Pyrrhura roseifrons",
+  "en": "Rose-fronted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rose-fronted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30781301/medium.jpg",
+   "credit": "(c) shrike2, some rights reserved (CC BY-NC), uploaded by shrike2 (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The rose-fronted parakeet is 20 to 23 cm (7.9 to 9.1 in) long. The sexes are the same in all subspecies. Adults of the nominate subspecies P. r. roseifrons have a bright red crown and face and dirty whitish ear coverts. Their upperparts are mostly green with a maroon-red red lower back and rump. The hindcrown, throat, and breast are dark with buff to buffy-white edges to the feathers. The center of their belly is deep red to brownish red, and the rest of their underparts are yellowish green. Their wing is mostly green with blue primaries. Their tail is maroon. The iris is orange-brown to dark brown with pale pinkish white to blackish bare skin around it. Their bill is blackish with a whitish cere and their legs and feet are blackish gray. Immatures are similar to adults but without the red crown and face.\nSubspecies P. r. peruviana has a deep maroon forehead, a greenish blue forecrown, a dusky gray hindcrown and nape, and a thin light blue band on the upper hindneck. Its face is mostly deep rusty brown to deep maroon with some greenish blue below the eye. Its throat and breast feathers are grayish with blackish wedge shapes and yellowish fringes. Its tail has a green base. P. r. dilutissima is similar to peruviana but has less blue on the forecrown, a rusty red rather than maroon face, and a grayer throat and breast with more yellow. P. r. parvifrons resembles the nominate but has a narrow red lower forehead, a dark brown crown and nape, and a deep red-brown face."
+ },
+ {
+  "id": "lorius-chlorocercus",
+  "sci": "Lorius chlorocercus",
+  "en": "Yellow-bibbed Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-bibbed_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249781921/medium.jpg",
+   "credit": "(c) sopacexplorer, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The yellow-bibbed lory is 28 cm (11 in) long. It is mostly red with black on top of the head and green wings. It has a yellow transverse band on the upper chest and a crescent-shaped black patch on each side of the neck. It has blue/green thighs and dark grey legs. It has an orange-red beak, dark grey eyerings, and orange irises. Under its wings the bird has blue feathers."
+ },
+ {
+  "id": "lorius-hypoinochrous",
+  "sci": "Lorius hypoinochrous",
+  "en": "Purple-bellied Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Purple-bellied_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26434899/medium.jpeg",
+   "credit": "(c) Simon Nicholas, some rights reserved (CC BY-NC), uploaded by Simon Nicholas (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 26.0,
+  "desc_thin": false,
+  "description": "The purple-bellied lory is 26 cm (10 in) long. It is mostly red with black on top of head, green wings, and purple underparts. Its thighs are purple and its legs are dark grey. Its tail is red with dark green-blue at the tip. Its cere is white. The eyerings are grey and the irises are orange-red. The three subspecies differ with slightly different plumage colours."
+ },
+ {
+  "id": "trichoglossus-ornatus",
+  "sci": "Trichoglossus ornatus",
+  "en": "Ornate Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ornate_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/377513292/medium.jpg",
+   "credit": "(c) fachrynurmallojr, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The ornate lorikeet is a mainly green parrot about 25 cm (10.0 in) long.  Its head above its eyes is purple-blue and its face below its eyes is red. There is red at back of the head and yellow behind the eyes. It does not have a collar at the back of the neck that rainbow lorikeets have. Its chin to chest has transverse strips and bars of red and blue. Its abdomen is green with sparse variable yellow scalloping. The beak is orange-red, the irises are dark orange, the eye-ring is dark grey, and the legs are grey."
+ },
+ {
+  "id": "amazona-guildingii",
+  "sci": "Amazona guildingii",
+  "en": "St. Vincent Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Saint_Vincent_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/256246154/medium.jpeg",
+   "credit": "(c) mikeakresh, some rights reserved (CC BY-NC), uploaded by mikeakresh (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 40.0,
+  "desc_thin": false,
+  "description": "The bird is a 40 centimetres (16 in) long, mostly green, multi-colored amazon parrot with a yellowish white, blue and green head, greenish-bronze upperparts, grey feet, reddish eye, and violet blue-green wings. Its tail feathers are blue with broad yellow tips. There is a less yellow-brown morph and a less common green morph. Both sexes are similar. The young has lighter plumage and brown iris."
+ }
+]
