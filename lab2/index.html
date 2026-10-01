@@ -149,7 +149,11 @@ body.on-cover .brand{visibility:hidden}
 .zone-opts::-webkit-scrollbar{display:none}
 .fanwrap{position:relative; width:100%}
 .zone-q{grid-area:q; padding-top:4svh; padding-left:clamp(0px,4vw,64px); position:relative; z-index:3}
-.zone-fig{grid-area:fig; height:calc(100% + 32px); min-height:0; margin:0 calc(var(--g) * -1) -32px 0}
+.zone-fig{grid-area:fig; height:calc(100% + 32px); min-height:0; margin:0 calc(var(--g) * -1) -32px 0; position:relative; z-index:3; pointer-events:none}
+.zone-fig svg{pointer-events:none}
+.fanhint{position:absolute; left:0; bottom:6px; font-size:12px; color:var(--dim); font-weight:500; pointer-events:none; opacity:0; transition:opacity .6s .9s}
+.fanhint.on{opacity:1}
+@media (max-width:760px){ .fanhint{display:none} }
 .zone-q h1{max-width:18em}
 @media (min-width:761px){ .zone-q h1{font-size:clamp(28px,3.3vw,52px); line-height:1.18} }
 @media (max-width:760px){
@@ -603,7 +607,7 @@ function dyedFeather(color, i, ghost){
 }
 // 부채: 웹은 오른쪽 가장자리 가운데가 축(깃털이 왼쪽을 향함), 폰은 바닥 가운데가 축(위를 향함).
 // 휠·드래그로 축을 중심으로 부채를 돌린다. 가운데 온 깃털이 강조된다.
-const FAN = { rh:1.62, rw:1.1, px:.02, py:.34, c:232, st:7, span:52, h:.115 };
+const FAN = { rh:1.62, rw:1.12, px:.03, py:.27, c:226, st:9.2, span:999, h:.14, lo:192, hi:270 };
 function buildFan(box, items, onPick, onHover){
   const r = box.getBoundingClientRect(), m = mobile(), n = items.length;
   // 웹: 축은 화면 아래 바깥, 새의 발치 쪽(오른쪽 아래)에 숨어 있다. 깃털은 크고 길게, 끝부분만 왼쪽 위로 펼쳐 보인다
@@ -628,7 +632,7 @@ function buildFan(box, items, onPick, onHover){
     els.forEach((el, i) => {
       const a = center + (i - pos) * step, d = Math.abs(i - pos);
       el.style.setProperty("--r", a + "deg");
-      el.style.visibility = d * step > 100 ? "hidden" : "";
+      el.style.visibility = (m ? d * step > 100 : (a < FAN.lo || a > FAN.hi)) ? "hidden" : "";
       el.classList.toggle("focus", d < .5);
     });
     const c = Math.round(pos);
@@ -646,6 +650,10 @@ function buildFan(box, items, onPick, onHover){
     if (["ArrowDown","ArrowRight"].includes(e.key)) { e.preventDefault(); go(Math.round(target) + 1); }
     if (e.key === "Enter") onPick(items[Math.round(target)], els[Math.round(target)]); };
   layout();
+  if (!m && els.some(el => el.style.visibility === "hidden")) {
+    const hint = document.createElement("p"); hint.className = "fanhint"; hint.textContent = "↻ 휠을 굴리거나 끌어서 깃털을 돌려 보세요";
+    box.appendChild(hint); requestAnimationFrame(() => hint.classList.add("on"));
+  }
   return els;
 }
 function fanIn(els){
