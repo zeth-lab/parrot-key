@@ -174,6 +174,10 @@ svg.bird.live .eye{transform-origin:50% 50%; animation:blink 5.5s infinite}
 svg.bird.live .head{transform-origin:80% 95%; transition:transform .7s cubic-bezier(.3,1.4,.5,1)}
 svg.bird.live.tilt .head{transform:rotate(-7deg)}
 svg.bird.live.hop .body{animation:hop .45s cubic-bezier(.3,1.5,.5,1)}
+svg.bird.raster .lid{transform:scaleY(0); transform-box:view-box}
+svg.bird.raster.live .lid{animation:lid 5.5s infinite}
+@keyframes lid{0%,94%,100%{transform:scaleY(0)} 96.5%{transform:scaleY(1)}}
+svg.bird.raster.live .body{transform-origin:350px 700px; transform-box:view-box}
 @keyframes breathe{0%,100%{transform:scale(1,1)} 50%{transform:scale(1.008,1.018)}}
 @keyframes blink{0%,95%,100%{transform:scaleY(1)} 97%{transform:scaleY(.08)}}
 @keyframes hop{0%{transform:translateY(0)} 40%{transform:translateY(-10px)} 100%{transform:translateY(0)}}
@@ -248,7 +252,7 @@ function featherMarks(){
   const head = "M86 41 q3 2 6 0 M78 39 q3 2 6 0 M92 46 q3 2 6 0 M106 66 q2 3 4 6 M110 76 q2 3 3 6";
   return { cov, br, prim, tailq, head };
 }
-function birdSVG(a, o = {}){
+function birdVec(a, o = {}){
   const id = "p" + (uid++), focus = o.focus || [], neutral = !!o.neutral, paint = o.paint || "var(--hl)";
   const A = Object.assign({ tailShape:"long", crest:false, eyeSkin:"none", pattern:"plain" }, a || {}, o.variant || {});
   const allOn = focus.includes("all"), on = p => focus.includes(p);
@@ -307,11 +311,65 @@ function birdSVG(a, o = {}){
 </svg>`;
 }
 
+/* ───────── 주 그림: 제공된 앵무새 선화(bird/line.png)를 부위별 마스크로 칠한다 ───────── */
+const BW = 700, BH = 1244;
+const RPARTS = ["belly","breast","throat","back","crown","face","forehead","wing","tail","beak","cere","eye"];
+const RFOCUS = { all:[0,0,700,1244], crown:[170,0,250,130], forehead:[110,30,130,110], face:[190,40,150,170], cheek:[230,110,110,90],
+  throat:[160,180,180,130], collar:[160,180,180,130], breast:[120,220,240,260], belly:[150,460,250,240], back:[290,80,180,180],
+  wing:[320,220,250,540], tail:[320,740,230,504], beak:[80,70,150,170], eyeskin:[200,40,90,90], crest:[200,-30,260,170] };
+(function defs(){
+  const m = ["all", "branch", "feet", ...RPARTS].map(k => `<mask id="bm-${k}" maskUnits="userSpaceOnUse" x="0" y="0" width="${BW}" height="${BH}"><image href="bird/m-${k}.png" width="${BW}" height="${BH}"/></mask>`).join("");
+  document.body.insertAdjacentHTML("afterbegin", `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${m}
+    <pattern id="bp-barred" width="22" height="16" patternUnits="userSpaceOnUse"><path d="M0 11 Q11 3 22 11" fill="none" stroke="rgba(0,0,0,.45)" stroke-width="3"/></pattern>
+    <pattern id="bp-scaled" width="24" height="20" patternUnits="userSpaceOnUse"><path d="M0 20 A12 12 0 0 1 24 20" fill="none" stroke="rgba(0,0,0,.4)" stroke-width="2.5"/></pattern></defs></svg>`);
+})();
+function birdSVG(a, o = {}){
+  const focus = o.focus || [], neutral = !!o.neutral, paint = o.paint || "var(--hl)";
+  const A = Object.assign({ crest:false, eyeSkin:"none", pattern:"plain" }, a || {}, o.variant || {});
+  const allOn = focus.includes("all"), on = p => focus.includes(p);
+  const col = k => Array.isArray(A[k]) ? hex(A[k][0]) : null;
+  const layer = (k, fill, op = 1) => `<rect class="rg" data-part="${k}" width="${BW}" height="${BH}" fill="${fill}" fill-opacity="${op}" mask="url(#bm-${k})"/>`;
+  let fills = "";
+  if (neutral) {
+    fills += layer("all", allOn ? paint : "#000", allOn ? .92 : 1);
+    RPARTS.forEach(k => { if (k === "eye") return; fills += layer(k, on(k) ? paint : "transparent", on(k) ? 1 : 0); });
+  } else {
+    const map = { belly:"belly", breast:"breast", throat:"throat", back:"back", crown:"crown", face:"face", forehead:"forehead", wing:"wing", tail:"tail" };
+    fills += layer("all", col("main") || "#2a2a28");
+    Object.entries(map).forEach(([k, key]) => { const c = col(key); if (c) fills += layer(k, c); });
+    const bk = Array.isArray(A.beak) ? hex(A.beak[0]) : "#3a3a38"; fills += layer("beak", bk);
+    fills += layer("cere", A.eyeSkin === "face" ? (hex(A.eyeSkinColor) || "#efe9dc") : (col("forehead") || bk));
+    fills += layer("eye", "#f4efe4");
+    if (A.pattern === "barred" || A.pattern === "scaled") { fills += `<rect width="${BW}" height="${BH}" fill="url(#bp-${A.pattern})" mask="url(#bm-wing)"/><rect width="${BW}" height="${BH}" fill="url(#bp-${A.pattern})" mask="url(#bm-breast)" opacity=".7"/>`; }
+  }
+  // 그림에 없는 특징은 겹쳐 그린다: 뺨 점, 목띠, 눈 맨살, 볏
+  const cheekC = neutral ? (on("cheek") ? paint : null) : (Array.isArray(A.cheek) ? hex(A.cheek[0]) : null);
+  const collarC = neutral ? (on("collar") ? paint : null) : (Array.isArray(A.collar) ? hex(A.collar[0]) : null);
+  const skinC = neutral ? (on("eyeskin") ? paint : null) : (A.eyeSkin !== "none" ? (hex(A.eyeSkinColor) || "#efe9dc") : null);
+  const crestOn = neutral ? on("crest") : A.crest;
+  const crestC = neutral ? paint : (hex((A.crestColor || A.crown || [])[0]) || "#ddd");
+  const ink = neutral ? "#fff" : "#111";
+  const vb = (o.vb || RFOCUS.all).join(" ");
+  return `<svg class="bird raster${o.anim ? " live" : ""}" viewBox="${vb}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${esc(o.label || "앵무새 부위 그림")}">
+  <rect class="rg" data-part="branch" width="${BW}" height="${BH}" fill="${neutral ? "#1c1c1b" : "#6b5440"}" mask="url(#bm-branch)"/>
+  <rect width="${BW}" height="${BH}" fill="${neutral ? "#1c1c1b" : "#9a9184"}" mask="url(#bm-feet)"/>
+  <g class="body">
+    ${crestOn ? `<path class="rg" data-part="crest" d="M250 40 C230 0 240 -30 270 -50 C270 -15 280 10 290 30 Z M290 30 C292 -10 310 -40 345 -55 C330 -20 322 10 318 38 Z M320 40 C335 5 365 -18 400 -24 C375 2 360 25 352 52 Z" fill="${crestC}" stroke="${ink}" stroke-width="5" stroke-linejoin="round"/>` : ""}
+    ${fills}
+    ${collarC ? `<path class="rg" data-part="collar" d="M170 222 C220 250 290 250 335 222" fill="none" stroke="${collarC}" stroke-width="18" stroke-linecap="round"/>` : ""}
+    ${cheekC ? `<ellipse class="rg" data-part="cheek" cx="282" cy="158" rx="34" ry="26" fill="${cheekC}"/>` : ""}
+    ${skinC ? `<ellipse class="rg" data-part="eyeskin" cx="241" cy="84" rx="${A.eyeSkin === "face" && !neutral ? 62 : 34}" ry="${A.eyeSkin === "face" && !neutral ? 55 : 32}" fill="${skinC}" mask="url(#bm-face)"/>` : ""}
+    <image href="bird/${neutral ? "line" : "line-dark"}.png" width="${BW}" height="${BH}"/>
+    <g class="lid" style="transform-origin:241px 84px"><ellipse cx="241" cy="84" rx="21" ry="20" fill="${neutral ? "#000" : (col("face") || "#2a2a28")}"/><path d="M220 86 Q241 98 262 86" fill="none" stroke="${ink}" stroke-width="4" stroke-linecap="round"/></g>
+  </g>
+</svg>`;
+}
 // 그림을 해당 부위로 확대 (viewBox를 부드럽게 옮긴다)
 function zoomTo(svg, part, ms = 900){
   if (!svg) return;
   const from = svg.getAttribute("viewBox").split(/\s+/).map(Number);
-  const f = FOCUS[part] || FOCUS.all, pad = part === "all" ? 0 : (["wing","tail","belly","breast"].includes(part) ? .45 : 1.1);
+  const FF = svg.classList.contains("raster") ? RFOCUS : FOCUS;
+  const f = FF[part] || FF.all, pad = part === "all" ? 0 : (["wing","tail","belly","breast"].includes(part) ? .45 : 1.1);
   let [x, y, w, h] = [f[0] - f[2] * pad, f[1] - f[3] * pad, f[2] * (1 + 2 * pad), f[3] * (1 + 2 * pad)];
   const r = svg.getBoundingClientRect(), ar = r.width / Math.max(1, r.height);
   if (w / h < ar) { const nw = h * ar; x -= (nw - w) / 2; w = nw; } else { const nh = w / ar; y -= (nh - h) / 2; h = nh; }
@@ -508,13 +566,13 @@ function optionArt(q, o){
   if (q.id === "pattern") { variant.pattern = o.v; part = "wing"; }
   if (q.id === "size") {
     const sc = { s:.42, m:.6, l:.8, xl:1 }[o.v];
-    return `<svg viewBox="0 0 120 120"><g transform="translate(${60 - 46 * sc} ${118 - 112 * sc}) scale(${sc * .64})">${birdSVG(null, { neutral:true, focus:[] }).replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "")}</g><line x1="4" y1="118" x2="116" y2="118" stroke="var(--dim)"/></svg>`;
+    return `<svg viewBox="0 0 120 120"><g transform="translate(${60 - 46 * sc} ${118 - 112 * sc}) scale(${sc * .64})">${birdVec(null, { neutral:true, focus:[] }).replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "")}</g><line x1="4" y1="118" x2="116" y2="118" stroke="var(--dim)"/></svg>`;
   }
   const f = FOCUS[part === "all" ? "all" : part] || FOCUS.all, pad = part === "all" ? 0 : .5;
   const vb = [f[0] - f[2] * pad, f[1] - f[3] * pad, f[2] * (1 + 2 * pad), f[3] * (1 + 2 * pad)];
   const s = Math.max(vb[2], vb[3]); vb[0] -= (s - vb[2]) / 2; vb[1] -= (s - vb[3]) / 2; vb[2] = vb[3] = s;
   if (q.id === "eyeSkin") variant.eyeSkinColor = "w";
-  return birdSVG(Object.assign({}, base, variant), { vb, label:o.label });
+  return birdVec(Object.assign({}, base, variant), { vb, label:o.label });
 }
 function trail(){
   if (!S.answers.length) return "";
