@@ -31,7 +31,9 @@ button{font:inherit; color:inherit; background:none; border:0; padding:0; cursor
 .top{position:fixed; top:0; left:0; right:0; z-index:40; display:flex; justify-content:space-between; align-items:center; gap:12px;
   padding:calc(env(safe-area-inset-top,0px) + 18px) var(--g) 0; pointer-events:none}
 .top > *{pointer-events:auto}
-.brand{font-weight:900; font-size:16px; letter-spacing:-.02em}
+.brand{font-weight:900; font-size:clamp(17px,1.5vw,21px); letter-spacing:-.045em; line-height:1}
+.brand .the{font-size:.62em; font-weight:500; color:var(--dim); margin:0 .22em; letter-spacing:-.01em}
+.brand:hover{color:var(--hl)}
 .pill{padding:7px 14px; border-radius:999px; background:var(--soft); font-size:13px}
 .pill:hover{background:var(--soft2)}
 body.on-cover .brand{visibility:hidden}
@@ -339,7 +341,7 @@ svg.bird .focus-pulse{animation:focusPulse 1.5s ease-in-out infinite}
 </head>
 <body class="on-cover" data-layout="A">
 <header class="top">
-  <button class="brand" id="home">앵무새 도감</button>
+  <button class="brand" id="home" aria-label="FIND the PARROT! 처음으로">FIND<span class="the">the</span>PARROT!</button>
   <div style="display:flex; gap:8px">
 
   </div>
@@ -667,8 +669,6 @@ const BRANCH_GRAIN = "M70 622 C120 636 160 648 200 660 M300 692 C350 706 390 720
 const PUPIL = `<g class="eyelive" data-r="5"><circle cx="241.5" cy="84" r="12.5" fill="#fff"/><circle cx="241.5" cy="84" r="7" fill="#000"/></g>`;
 function coverBirdSVG(){
   return `<svg viewBox="0 0 700 1244" aria-hidden="true">
-    <path d="${BRANCH_D}" fill="#141413" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
-    <path d="${BRANCH_GRAIN}" fill="none" stroke="#fff" stroke-width="2.5" opacity=".6" stroke-linecap="round"/>
     <g class="pb away">
       <rect class="hitbird" width="700" height="1244" fill="#000" mask="url(#bm-bird)"/>
       <image href="bird/line-bird.png" width="700" height="1244"/>
