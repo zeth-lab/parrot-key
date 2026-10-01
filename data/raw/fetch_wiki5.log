@@ -1,0 +1,24 @@
+  retry 1 for https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=Sula%20hanging%20parrot: HTTP Error 429: Too Many Requests
+  retry 2 for https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=Sula%20hanging%20parrot: HTTP Error 429: Too Many Requests
+DONE: 415 descriptions saved under C:\Users\user\Downloads\parrot-key\parrot-key\data\raw\desc
+Thin/weak descriptions (<200 chars): 20
+  THIN: Psittacula longicauda (len=144)
+  THIN: Pionus tumultuosus (len=148)
+  THIN: Psittacula finschii (len=166)
+  THIN: Cyanoramphus unicolor (len=121)
+  THIN: Loriculus pusillus (len=132)
+  THIN: Geoffroyus heteroclitus (len=111)
+  THIN: Hapalopsittaca pyrrhops (len=96)
+  THIN: Neopsittacus musschenbroekii (len=88)
+  THIN: Charmosyna papou (len=192)
+  THIN: Chalcopsitta scintillata (len=164)
+  THIN: Loriculus sclateri (len=192)
+  THIN: Micropsitta geelvinkiana (len=154)
+  THIN: Nannopsittacus gulielmitertii (len=172)
+  THIN: Psittacella picta (len=121)
+  THIN: Chalcopsitta duivenbodei (len=96)
+  THIN: Trichoglossus flavoviridis (len=140)
+  THIN: Loriculus bonapartei (len=189)
+  THIN: Charmosyna josefinae (len=123)
+  THIN: Charmosynopsis toxopei (len=137)
+  THIN: Vini vidivici (len=71)

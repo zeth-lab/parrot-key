@@ -4,7 +4,7 @@ HERE = os.path.dirname(__file__)
 TAXA_PATH = os.path.join(HERE, "taxa.json")
 DESC_DIR = os.path.join(HERE, "desc")
 SUMMARY_PATH = os.path.join(HERE, "desc_summary.json")
-HEADERS = {"User-Agent": "ParrotKey/1.0 (educational project; contact: github.com/parrot-key)"}
+HEADERS = {"User-Agent": "ParrotKey/1.0 (student project)"}
 
 os.makedirs(DESC_DIR, exist_ok=True)
 
@@ -83,12 +83,12 @@ def main():
         sci = t["sci"]
         fname = safe_filename(sci)
         fpath = os.path.join(DESC_DIR, fname)
-        if os.path.exists(fpath) and os.path.getsize(fpath) > 0:
+        if os.path.exists(fpath) and os.path.getsize(fpath) >= 200:
             with open(fpath, encoding="utf-8") as f:
                 body = f.read()
             summary.append({
                 "sci": sci, "file": fname, "len": len(body),
-                "section": "cached", "size_cm": None, "thin": len(body) < 200,
+                "section": "cached", "size_cm": None, "thin": False,
             })
             skipped += 1
             continue
