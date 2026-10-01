@@ -140,6 +140,7 @@ body.on-cover .brand{visibility:hidden}
 .trail button{display:flex; align-items:center; gap:6px; padding:3px 10px 3px 5px; border-radius:999px; background:var(--soft); font-size:12px; color:var(--dim)}
 .trail button:hover{color:var(--ink); text-decoration:line-through}
 .trail i{width:12px; height:12px; border-radius:50%}
+.trail .more{display:flex; align-items:center; padding:3px 10px; border-radius:999px; background:var(--soft); font-size:12px; color:var(--dim)}
 .zone-opts{position:relative}
 
 /* 웹: 왼쪽에서 깃털 부채가 들어오며 펼쳐지고, 오른쪽에 질문과 부위 그림 */
@@ -185,16 +186,18 @@ body.on-cover .brand{visibility:hidden}
 .plume.hov .lab{color:var(--hl)}
 
 /* 그림 선택지 */
-.cards{position:absolute; inset:0; display:flex; flex-direction:column; justify-content:center; gap:14px}
-.card{display:grid; grid-template-columns:170px minmax(0,1fr); gap:16px; align-items:center; text-align:left; opacity:0; transform:translateX(-40px);
+/* 웹: 그림 선택지를 왼쪽 아래에 가로로 나란히 (그림 위, 이름 아래) */
+.cards{position:absolute; inset:0 0 8px; display:grid; grid-auto-flow:column; grid-auto-columns:minmax(0,1fr); align-items:center; gap:clamp(10px,1.6vw,22px); max-width:880px}
+.card{display:grid; justify-items:center; gap:10px; text-align:center; opacity:0; transform:translateY(30px);
   transition:opacity .5s ease, transform .6s cubic-bezier(.2,.8,.2,1)}
 .card.in{opacity:1; transform:none}
-.card svg{width:170px; height:170px; display:block}
-.card b{font-size:20px; font-weight:900; display:block}
-.card span{color:var(--dim); font-weight:500; font-size:13px}
+.card svg{width:100%; max-width:210px; height:auto; aspect-ratio:1; max-height:min(210px,34svh); display:block; border-radius:14px; background:#0b0b0a; box-shadow:inset 0 0 0 1px var(--soft2); transition:box-shadow .2s, transform .25s}
+.card b{font-size:clamp(16px,1.4vw,19px); font-weight:900; display:block}
+.card span{color:var(--dim); font-weight:500; font-size:12.5px}
+.card:hover svg{box-shadow:inset 0 0 0 2px var(--hl); transform:translateY(-4px)}
 .card:hover b{color:var(--hl)}
 @media (max-width:760px){
-  .cards{position:relative; flex-direction:row; overflow-x:auto; justify-content:flex-start; padding:12px var(--g) 28px; gap:12px; scroll-snap-type:x mandatory}
+  .cards{position:relative; display:flex; inset:auto; max-width:none; flex-direction:row; overflow-x:auto; justify-content:flex-start; padding:12px var(--g) 28px; gap:12px; scroll-snap-type:x mandatory}
   .card{grid-template-columns:1fr; justify-items:center; text-align:center; min-width:42%; scroll-snap-align:center; transform:translateY(30px)}
   .card svg{width:110px; height:110px}
 }
@@ -510,10 +513,18 @@ function birdSVG(a, o = {}){
   const crestC = neutral ? paint : (hex((A.crestColor || A.crown || [])[0]) || "#ddd");
   const ink = neutral ? "#fff" : "#111";
   const vb = (o.vb || RFOCUS.all).join(" ");
-  return `<svg class="bird raster${o.anim ? " live" : ""}" viewBox="${vb}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${esc(o.label || "앵무새 부위 그림")}">
+  // 꼬리 길이 선택지: 꼬리를 cut 높이에서 뾰족하게 자르고, 잘린 끝에 윤곽선을 그린다
+  let clip = "", cutLine = "";
+  if (o.tailCut) {
+    const c = o.tailCut, id = "tc" + (uid++), tip = `300,${c - 18} 425,${c + 42} 580,${c - 18}`;
+    clip = `<clipPath id="${id}"><polygon points="-200,-300 900,-300 900,${c - 18} ${tip.split(" ").reverse().join(" ")} -200,${c - 18}"/></clipPath>`;
+    cutLine = `<polyline points="${tip}" fill="none" stroke="${neutral ? "#fff" : "#111"}" stroke-width="5" stroke-linejoin="round" mask="url(#bm-tail)"/>`;
+    clip = clip; o._clipId = id;
+  }
+  return `<svg class="bird raster${o.anim ? " live" : ""}" viewBox="${vb}" preserveAspectRatio="${o.par || "xMidYMid meet"}" role="img" aria-label="${esc(o.label || "앵무새 부위 그림")}">${clip ? `<defs>${clip}</defs>` : ""}
   <rect class="rg" data-part="branch" width="${BW}" height="${BH}" fill="${neutral ? "#1c1c1b" : "#6b5440"}" mask="url(#bm-branch)"/>
   <rect width="${BW}" height="${BH}" fill="${neutral ? "#1c1c1b" : "#9a9184"}" mask="url(#bm-feet)"/>
-  <g class="body">
+  <g class="body"${o._clipId ? ` clip-path="url(#${o._clipId})"` : ""}>
     ${crestOn ? `<path class="rg" data-part="crest" d="M250 40 C230 0 240 -30 270 -50 C270 -15 280 10 290 30 Z M290 30 C292 -10 310 -40 345 -55 C330 -20 322 10 318 38 Z M320 40 C335 5 365 -18 400 -24 C375 2 360 25 352 52 Z" fill="${crestC}" stroke="${ink}" stroke-width="5" stroke-linejoin="round"/>` : ""}
     ${fills}
     ${collarC ? `<path class="rg" data-part="collar" d="M170 222 C220 250 290 250 335 222" fill="none" stroke="${collarC}" stroke-width="18" stroke-linecap="round"/>` : ""}
@@ -523,6 +534,7 @@ function birdSVG(a, o = {}){
     <g class="eyelive"><circle class="pupil" cx="241" cy="84" r="17" fill="${neutral ? "#fff" : "#15110d"}"/>${neutral ? "" : `<circle cx="246.5" cy="77.5" r="4.6" fill="#fff" opacity=".88"/>`}</g>
     <g class="lid" style="transform-origin:241px 84px"><ellipse cx="241" cy="84" rx="25" ry="23" fill="${neutral ? (on("face") ? paint : (allOn ? paint : "#000")) : (col("face") || col("main") || "#2a2a28")}"/><path d="M217 84 Q241 102 265 84" fill="none" stroke="${ink}" stroke-width="5" stroke-linecap="round"/></g>
   </g>
+  ${cutLine}${o.after || ""}
 </svg>`;
 }
 // 그림을 해당 부위로 확대 (viewBox를 부드럽게 옮긴다)
@@ -608,13 +620,19 @@ function dyedFeather(color, i, ghost){
 // 부채: 웹은 오른쪽 가장자리 가운데가 축(깃털이 왼쪽을 향함), 폰은 바닥 가운데가 축(위를 향함).
 // 휠·드래그로 축을 중심으로 부채를 돌린다. 가운데 온 깃털이 강조된다.
 const FAN = { rh:1.62, rw:1.12, px:.03, py:.27, c:226, st:9.2, span:999, h:.14, lo:192, hi:270 };
-function buildFan(box, items, onPick, onHover){
+function buildFan(box, items, onPick, onHover, start){
   const r = box.getBoundingClientRect(), m = mobile(), n = items.length;
   // 웹: 축은 화면 아래 바깥, 새의 발치 쪽(오른쪽 아래)에 숨어 있다. 깃털은 크고 길게, 끝부분만 왼쪽 위로 펼쳐 보인다
   const R = m ? Math.min(r.height * .95, r.width * .62) : Math.min(r.height * FAN.rh, r.width * FAN.rw);
   const pivot = m ? { x:r.width / 2, y:r.height + 6 } : { x:r.width + R * FAN.px, y:r.height + R * FAN.py };
   const center = m ? -90 : FAN.c, step = m ? 16 : Math.min(FAN.st, FAN.span / Math.max(1, n - 1)), h = R * (m ? .155 : FAN.h);
-  let pos = (n - 1) / 2, target = pos, raf = 0, last = -1, drag = null;
+  let pos = (n - 1) / 2;
+  if (!m && start != null) {   // 가장 가능성 높은 깃털이 보이도록 펼치되, 보이는 칸이 최대한 차게
+    const lo = (center - FAN.lo) / step, hi = (FAN.hi - center) / step;
+    const a = Math.min(lo, n - 1), b = Math.max(n - 1 - hi, 0);
+    pos = a <= b ? Math.max(a, Math.min(b, start)) : (n - 1) / 2;
+  }
+  let target = pos, raf = 0, last = -1, drag = null;
   const els = items.map((it, i) => {
     const el = document.createElement("div"); el.className = "plume" + (i % 2 ? " short" : "");
     const L = R * (i % 2 ? .84 : 1);
@@ -761,11 +779,13 @@ function birdBox(svg){ // 그림 좌표 (0,0)이 화면 어디에, 몇 배로 �
 
 /* ───────── 찾기 ───────── */
 // 지금 남은 후보에게 해당할 법한 답만 고른다 (깃털 수가 질문마다 달라진다)
+let lastP = new Map();   // 지금 후보들에게서 각 선택지가 나올 가능성 (부채를 어디서 펼칠지 정할 때 씀)
 function plausibleOptions(q){
   if (!isColorQ(q)) return q.options;
   const lw = eng.posterior(S.answers, S.rejected), looks = eng.looks;
   const P = q.options.map(o => 0);
   looks.forEach((l, i) => { if (lw[i] < 1e-6) return; const L = q.options.map(o => likelihood(q, l, o.v)); const Z = L.reduce((a, b) => a + b, 0); L.forEach((x, k) => P[k] += lw[i] * x / Z); });
+  lastP = new Map(q.options.map((o, k) => [o.v, P[k]]));
   let keep = q.options.filter((o, k) => P[k] >= .025);
   if (keep.length < 3) keep = q.options.map((o, k) => ({ o, p:P[k] })).sort((a, b) => b.p - a.p).slice(0, 3).map(x => x.o);
   return q.options.filter(o => keep.includes(o));
@@ -831,7 +851,8 @@ function renderFind(){
   if (color) {
     const items = opts.map(o => ({ v:o.v, label:o.label, color:hex(o.v), ghost:o.v === "none" }));
     const parts = q.part.filter(x => x !== "all");
-    fanEls = buildFan(box, items, it => choose(it.v), it => previewPart(svg, parts.length ? parts : ["belly"], it ? (it.ghost ? "transparent" : it.color) : "var(--hl)"));
+    const best = items.reduce((bi, it, i) => (lastP.get(it.v) || 0) > (lastP.get(items[bi].v) || 0) ? i : bi, 0);
+    fanEls = buildFan(box, items, it => choose(it.v), it => previewPart(svg, parts.length ? parts : ["belly"], it ? (it.ghost ? "transparent" : it.color) : "var(--hl)"), best);
     fanIn(fanEls);
   } else {
     box.innerHTML = `<div class="cards">${opts.map(o => `<button class="card" data-v="${o.v}">${optionArt(q, o)}<div><b>${esc(o.label)}</b>${o.sub ? `<span>${esc(o.sub)}</span>` : ""}</div></button>`).join("")}</div>`;
@@ -842,27 +863,30 @@ function renderFind(){
   document.getElementById("reset").onclick = resetFind;
   $v.querySelectorAll("[data-rm]").forEach(b => b.onclick = () => { S.answers.splice(+b.dataset.rm, 1); S.declined.clear(); S.rejected.clear(); render(); });
 }
-// 색이 아닌 질문의 그림 선택지: 같은 그림체로, 해당 부위를 확대해서
+// 색이 아닌 질문의 그림 선택지: 질문 화면의 앵무새 그림(선화+부위 채색) 그대로, 지금까지 칠해진 '내 새'에 선택지의 차이만 더한다
 function optionArt(q, o){
-  const base = { wing:["g"], breast:["g"], back:["g"], belly:["g"], face:["g"], crown:["g"], forehead:["g"], throat:["g"], tail:["g"], beak:["gr"] };
-  let variant = {}, part = q.part[0];
-  if (q.id === "tailShape") { variant.tailShape = o.v; part = "all"; }
-  if (q.id === "crest") { variant.crest = o.v === "yes"; part = "crest"; }
-  if (q.id === "eyeSkin") { variant.eyeSkin = o.v; part = "eyeskin"; }
-  if (q.id === "pattern") { variant.pattern = o.v; part = "wing"; }
+  const A = Object.assign({}, answersToAttrs(S.answers));
+  const sq = (cx, cy, size) => [cx - size / 2, cy - size / 2, size, size];
   if (q.id === "size") {
-    const sc = { s:.42, m:.6, l:.8, xl:1 }[o.v];
-    return `<svg viewBox="0 0 120 120"><g transform="translate(${60 - 46 * sc} ${118 - 112 * sc}) scale(${sc * .64})">${birdVec(null, { neutral:true, focus:[] }).replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "")}</g><line x1="4" y1="118" x2="116" y2="118" stroke="var(--dim)"/></svg>`;
+    const sc = { s:.42, m:.6, l:.8, xl:1 }[o.v], Hh = 1300 / sc;
+    const vb = [350 - Hh / 2, 1262 - Hh, Hh, Hh];
+    return birdSVG(A, { vb, label:o.label, after:`<line x1="${vb[0]}" x2="${vb[0] + Hh}" y1="1250" y2="1250" stroke="#4a4945" stroke-width="${Hh / 110}"/>` });
   }
-  const f = FOCUS[part === "all" ? "all" : part] || FOCUS.all, pad = part === "all" ? 0 : .5;
-  const vb = [f[0] - f[2] * pad, f[1] - f[3] * pad, f[2] * (1 + 2 * pad), f[3] * (1 + 2 * pad)];
-  const s = Math.max(vb[2], vb[3]); vb[0] -= (s - vb[2]) / 2; vb[1] -= (s - vb[3]) / 2; vb[2] = vb[3] = s;
-  if (q.id === "eyeSkin") variant.eyeSkinColor = "w";
-  return birdVec(Object.assign({}, base, variant), { vb, label:o.label });
+  if (q.id === "tailShape") {
+    const cut = { long:0, mid:1065, short:915 }[o.v];
+    return birdSVG(A, { vb:[-90, 330, 935, 935], label:o.label, tailCut:cut || null });
+  }
+  if (q.id === "crest") return birdSVG(Object.assign(A, { crest:o.v === "yes" }), { vb:sq(300, 90, 380), label:o.label });
+  if (q.id === "eyeSkin") return birdSVG(Object.assign(A, { eyeSkin:o.v, eyeSkinColor:A.eyeSkinColor || "w" }), { vb:sq(245, 95, 230), label:o.label });
+  if (q.id === "pattern") return birdSVG(Object.assign(A, { pattern:o.v }), { vb:sq(400, 430, 470), label:o.label });
+  const f = RFOCUS[q.part[0]] || RFOCUS.all;
+  return birdSVG(A, { vb:sq(f[0] + f[2] / 2, f[1] + f[3] / 2, Math.max(f[2], f[3]) * 1.6), label:o.label });
 }
 function trail(){
   if (!S.answers.length) return "";
-  return `<ul class="trail">${S.answers.map((a, i) => { const q = QMAP[a.qid];
+  // 답이 많아지면 칩이 깃털 위로 내려오지 않게 최근 6개만 (앞의 것은 +N)
+  const MAX = 6, from = Math.max(0, S.answers.length - MAX);
+  return `<ul class="trail">${from ? `<li class="more" title="앞의 답 ${from}개">+${from}</li>` : ""}${S.answers.slice(from).map((a, j) => { const i = from + j, q = QMAP[a.qid];
     return `<li><button data-rm="${i}" title="이 답 지우기">${COLORS[a.ans] ? `<i style="background:${hex(a.ans)}"></i>` : ""}${SHORT[a.qid]} ${answerLabel(q, a.ans)} ×</button></li>`; }).join("")}</ul>`;
 }
 function resetFind(){ S.answers = []; S.rejected = new Set(); S.declined = new Set(); nav("find"); }
