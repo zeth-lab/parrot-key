@@ -638,6 +638,10 @@ function buildFan(box, items, onPick, onHover, start){
   const pivot = m ? { x:r.width / 2, y:r.height + 6 } : { x:r.width + R * FAN.px, y:r.height + R * FAN.py };
   const center = m ? -90 : FAN.c, step = m ? 16 : Math.min(FAN.st, FAN.span / Math.max(1, n - 1)), h = R * (m ? .155 : FAN.h);
   let pos = (n - 1) / 2;
+  if (m && start != null) {    // 폰: 위로 펼친 부채의 가운데 ±45° 안에 오도록
+    const k = Math.max(0, 45 / step - 1);
+    pos = Math.max(start - k, Math.min(start + k, (n - 1) / 2));
+  }
   if (!m && start != null) {   // 가장 가능성 높은 깃털이 보이도록 펼치되, 보이는 칸이 최대한 차게
     // 화면에서 실제로 잘 보이는 각도(206°~264°) 안쪽, 한 칸 여유를 두고 가장 그럴듯한 깃털이 오게
     // 그 깃털의 각도 = center + (start - pos)·step 이 [206°+한 칸, 264°-한 칸] 안에 오도록 pos 범위를 잡고, 그 안에서 가운데에 가장 가깝게
