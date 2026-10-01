@@ -71,8 +71,10 @@ body.on-cover .brand{visibility:hidden}
 .zone-opts{position:relative}
 
 /* 웹: 왼쪽에서 깃털 부채가 들어오며 펼쳐지고, 오른쪽에 질문과 부위 그림 */
-.q{height:calc(100svh - 102px); grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr); grid-template-rows:auto minmax(0,1fr); grid-template-areas:"opts q" "opts fig"; column-gap:clamp(16px,3vw,48px)}
-.zone-opts{grid-area:opts; height:calc(100svh - 102px); margin-left:calc(var(--g) * -1)}
+.q{height:calc(100svh - 102px); grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr); grid-template-rows:auto minmax(0,1fr); grid-template-areas:"q opts" "fig opts"; column-gap:clamp(16px,3vw,48px)}
+.zone-opts{grid-area:opts; height:calc(100svh - 102px); margin-right:calc(var(--g) * -1); overflow-y:auto; overflow-x:hidden; scrollbar-width:none}
+.zone-opts::-webkit-scrollbar{display:none}
+.fanwrap{position:relative; width:100%}
 .zone-q{grid-area:q; padding-top:4svh}
 .zone-fig{grid-area:fig; height:100%; min-height:0; padding-bottom:12px}
 @media (max-width:760px){
@@ -86,15 +88,16 @@ body.on-cover .brand{visibility:hidden}
 
 /* 깃털: 한 다발로 모여 왼쪽 밖에 있다가(.out) 들어오며 방사형으로 펼쳐짐(.open) */
 .plume{position:absolute; transform-origin:0 50%; pointer-events:none;
-  transform:translateX(var(--out)) rotate(var(--c)); opacity:0;
+  transform:translate(var(--ox,0), var(--oy,0)) rotate(var(--c)); opacity:0;
   transition:transform .95s cubic-bezier(.22,.8,.18,1), opacity .5s ease; filter:drop-shadow(0 6px 16px rgba(0,0,0,.7))}
-.plume.open{transform:translateX(0) rotate(var(--r)); opacity:1}
-.plume.open.hov{transform:translateX(0) rotate(var(--r)) scale(1.05); filter:drop-shadow(0 8px 22px rgba(0,0,0,.7)) brightness(1.18); z-index:30}
+.plume.open{transform:translate(0,0) rotate(var(--r)); opacity:1}
+.plume.open.hov{transform:translate(0,0) rotate(var(--r)) scale(1.04); filter:drop-shadow(0 8px 22px rgba(0,0,0,.7)) brightness(1.18); z-index:30}
 .plume svg{width:100%; height:100%; display:block; overflow:visible}
 .plume .hit{pointer-events:visiblePainted; cursor:pointer}
 .plume .lab{position:absolute; left:100%; top:50%; white-space:nowrap; font-size:15px; font-weight:900; text-shadow:0 1px 8px #000;
   transform-origin:0 50%; transform:translate(8px,-50%) rotate(calc(var(--r) * -1)); opacity:0; transition:opacity .3s; pointer-events:auto; cursor:pointer}
 .plume.open .lab{opacity:1; transition-delay:.6s}
+.plume.short{z-index:2}
 .plume.hov .lab{color:var(--hl)}
 
 /* 그림 선택지 */
@@ -171,6 +174,10 @@ svg.bird.live .eye{transform-origin:50% 50%; animation:blink 5.5s infinite}
 svg.bird.live .head{transform-origin:80% 95%; transition:transform .7s cubic-bezier(.3,1.4,.5,1)}
 svg.bird.live.tilt .head{transform:rotate(-7deg)}
 svg.bird.live.hop .body{animation:hop .45s cubic-bezier(.3,1.5,.5,1)}
+svg.bird.raster .lid{transform:scaleY(0); transform-box:view-box}
+svg.bird.raster.live .lid{animation:lid 5.5s infinite}
+@keyframes lid{0%,94%,100%{transform:scaleY(0)} 96.5%{transform:scaleY(1)}}
+svg.bird.raster.live .body{transform-origin:350px 700px; transform-box:view-box}
 @keyframes breathe{0%,100%{transform:scale(1,1)} 50%{transform:scale(1.008,1.018)}}
 @keyframes blink{0%,95%,100%{transform:scaleY(1)} 97%{transform:scaleY(.08)}}
 @keyframes hop{0%{transform:translateY(0)} 40%{transform:translateY(-10px)} 100%{transform:translateY(0)}}
@@ -245,7 +252,7 @@ function featherMarks(){
   const head = "M86 41 q3 2 6 0 M78 39 q3 2 6 0 M92 46 q3 2 6 0 M106 66 q2 3 4 6 M110 76 q2 3 3 6";
   return { cov, br, prim, tailq, head };
 }
-function birdSVG(a, o = {}){
+function birdVec(a, o = {}){
   const id = "p" + (uid++), focus = o.focus || [], neutral = !!o.neutral, paint = o.paint || "var(--hl)";
   const A = Object.assign({ tailShape:"long", crest:false, eyeSkin:"none", pattern:"plain" }, a || {}, o.variant || {});
   const allOn = focus.includes("all"), on = p => focus.includes(p);
@@ -304,11 +311,65 @@ function birdSVG(a, o = {}){
 </svg>`;
 }
 
+/* ───────── 주 그림: 제공된 앵무새 선화(bird/line.png)를 부위별 마스크로 칠한다 ───────── */
+const BW = 700, BH = 1244;
+const RPARTS = ["belly","breast","throat","back","crown","face","forehead","wing","tail","beak","cere","eye"];
+const RFOCUS = { all:[0,0,700,1244], crown:[170,0,250,130], forehead:[110,30,130,110], face:[190,40,150,170], cheek:[230,110,110,90],
+  throat:[160,180,180,130], collar:[160,180,180,130], breast:[120,220,240,260], belly:[150,460,250,240], back:[290,80,180,180],
+  wing:[320,220,250,540], tail:[320,740,230,504], beak:[80,70,150,170], eyeskin:[200,40,90,90], crest:[200,-30,260,170] };
+(function defs(){
+  const m = ["all", "branch", "feet", ...RPARTS].map(k => `<mask id="bm-${k}" maskUnits="userSpaceOnUse" x="0" y="0" width="${BW}" height="${BH}"><image href="bird/m-${k}.png" width="${BW}" height="${BH}"/></mask>`).join("");
+  document.body.insertAdjacentHTML("afterbegin", `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${m}
+    <pattern id="bp-barred" width="22" height="16" patternUnits="userSpaceOnUse"><path d="M0 11 Q11 3 22 11" fill="none" stroke="rgba(0,0,0,.45)" stroke-width="3"/></pattern>
+    <pattern id="bp-scaled" width="24" height="20" patternUnits="userSpaceOnUse"><path d="M0 20 A12 12 0 0 1 24 20" fill="none" stroke="rgba(0,0,0,.4)" stroke-width="2.5"/></pattern></defs></svg>`);
+})();
+function birdSVG(a, o = {}){
+  const focus = o.focus || [], neutral = !!o.neutral, paint = o.paint || "var(--hl)";
+  const A = Object.assign({ crest:false, eyeSkin:"none", pattern:"plain" }, a || {}, o.variant || {});
+  const allOn = focus.includes("all"), on = p => focus.includes(p);
+  const col = k => Array.isArray(A[k]) ? hex(A[k][0]) : null;
+  const layer = (k, fill, op = 1) => `<rect class="rg" data-part="${k}" width="${BW}" height="${BH}" fill="${fill}" fill-opacity="${op}" mask="url(#bm-${k})"/>`;
+  let fills = "";
+  if (neutral) {
+    fills += layer("all", allOn ? paint : "#000", allOn ? .92 : 1);
+    RPARTS.forEach(k => { if (k === "eye") return; fills += layer(k, on(k) ? paint : "transparent", on(k) ? 1 : 0); });
+  } else {
+    const map = { belly:"belly", breast:"breast", throat:"throat", back:"back", crown:"crown", face:"face", forehead:"forehead", wing:"wing", tail:"tail" };
+    fills += layer("all", col("main") || "#2a2a28");
+    Object.entries(map).forEach(([k, key]) => { const c = col(key); if (c) fills += layer(k, c); });
+    const bk = Array.isArray(A.beak) ? hex(A.beak[0]) : "#3a3a38"; fills += layer("beak", bk);
+    fills += layer("cere", A.eyeSkin === "face" ? (hex(A.eyeSkinColor) || "#efe9dc") : (col("forehead") || bk));
+    fills += layer("eye", "#f4efe4");
+    if (A.pattern === "barred" || A.pattern === "scaled") { fills += `<rect width="${BW}" height="${BH}" fill="url(#bp-${A.pattern})" mask="url(#bm-wing)"/><rect width="${BW}" height="${BH}" fill="url(#bp-${A.pattern})" mask="url(#bm-breast)" opacity=".7"/>`; }
+  }
+  // 그림에 없는 특징은 겹쳐 그린다: 뺨 점, 목띠, 눈 맨살, 볏
+  const cheekC = neutral ? (on("cheek") ? paint : null) : (Array.isArray(A.cheek) ? hex(A.cheek[0]) : null);
+  const collarC = neutral ? (on("collar") ? paint : null) : (Array.isArray(A.collar) ? hex(A.collar[0]) : null);
+  const skinC = neutral ? (on("eyeskin") ? paint : null) : (A.eyeSkin !== "none" ? (hex(A.eyeSkinColor) || "#efe9dc") : null);
+  const crestOn = neutral ? on("crest") : A.crest;
+  const crestC = neutral ? paint : (hex((A.crestColor || A.crown || [])[0]) || "#ddd");
+  const ink = neutral ? "#fff" : "#111";
+  const vb = (o.vb || RFOCUS.all).join(" ");
+  return `<svg class="bird raster${o.anim ? " live" : ""}" viewBox="${vb}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${esc(o.label || "앵무새 부위 그림")}">
+  <rect class="rg" data-part="branch" width="${BW}" height="${BH}" fill="${neutral ? "#1c1c1b" : "#6b5440"}" mask="url(#bm-branch)"/>
+  <rect width="${BW}" height="${BH}" fill="${neutral ? "#1c1c1b" : "#9a9184"}" mask="url(#bm-feet)"/>
+  <g class="body">
+    ${crestOn ? `<path class="rg" data-part="crest" d="M250 40 C230 0 240 -30 270 -50 C270 -15 280 10 290 30 Z M290 30 C292 -10 310 -40 345 -55 C330 -20 322 10 318 38 Z M320 40 C335 5 365 -18 400 -24 C375 2 360 25 352 52 Z" fill="${crestC}" stroke="${ink}" stroke-width="5" stroke-linejoin="round"/>` : ""}
+    ${fills}
+    ${collarC ? `<path class="rg" data-part="collar" d="M170 222 C220 250 290 250 335 222" fill="none" stroke="${collarC}" stroke-width="18" stroke-linecap="round"/>` : ""}
+    ${cheekC ? `<ellipse class="rg" data-part="cheek" cx="282" cy="158" rx="34" ry="26" fill="${cheekC}"/>` : ""}
+    ${skinC ? `<ellipse class="rg" data-part="eyeskin" cx="241" cy="84" rx="${A.eyeSkin === "face" && !neutral ? 62 : 34}" ry="${A.eyeSkin === "face" && !neutral ? 55 : 32}" fill="${skinC}" mask="url(#bm-face)"/>` : ""}
+    <image href="bird/${neutral ? "line" : "line-dark"}.png" width="${BW}" height="${BH}"/>
+    <g class="lid" style="transform-origin:241px 84px"><ellipse cx="241" cy="84" rx="21" ry="20" fill="${neutral ? "#000" : (col("face") || "#2a2a28")}"/><path d="M220 86 Q241 98 262 86" fill="none" stroke="${ink}" stroke-width="4" stroke-linecap="round"/></g>
+  </g>
+</svg>`;
+}
 // 그림을 해당 부위로 확대 (viewBox를 부드럽게 옮긴다)
 function zoomTo(svg, part, ms = 900){
   if (!svg) return;
   const from = svg.getAttribute("viewBox").split(/\s+/).map(Number);
-  const f = FOCUS[part] || FOCUS.all, pad = part === "all" ? 0 : (["wing","tail","belly","breast"].includes(part) ? .45 : 1.1);
+  const FF = svg.classList.contains("raster") ? RFOCUS : FOCUS;
+  const f = FF[part] || FF.all, pad = part === "all" ? 0 : (["wing","tail","belly","breast"].includes(part) ? .45 : 1.1);
   let [x, y, w, h] = [f[0] - f[2] * pad, f[1] - f[3] * pad, f[2] * (1 + 2 * pad), f[3] * (1 + 2 * pad)];
   const r = svg.getBoundingClientRect(), ar = r.width / Math.max(1, r.height);
   if (w / h < ar) { const nw = h * ar; x -= (nw - w) / 2; w = nw; } else { const nh = w / ar; y -= (nh - h) / 2; h = nh; }
@@ -336,69 +397,74 @@ function shade(h, k){ // k<0 어둡게, k>0 밝게
   r = Math.round(r + (t - r) * p); g = Math.round(g + (t - g) * p); b = Math.round(b + (t - b) * p);
   return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
 }
-// 보송한 깃털 (가로 방향: 왼쪽 끝이 깃대 뿌리, 오른쪽 끝이 깃 끝)
+// 날개깃 (가로 방향: 왼쪽 끝이 깃대 뿌리, 오른쪽 끝이 둥근 깃 끝). 뿌리는 밝고, 끝으로 갈수록 진하게 염색된 느낌
 function plumeSVG(color, seed){
   const id = "f" + (uid++), c = color || "#777";
-  let rnd = (seed + 7) * 9301 % 233280; const R = () => ((rnd = (rnd * 9301 + 49297) % 233280) / 233280);
+  let rnd = (seed + 11) * 7919 % 233280; const R = () => ((rnd = (rnd * 9301 + 49297) % 233280) / 233280);
   const n = parseInt(c.slice(1), 16), lum = ((n >> 16) * .3 + ((n >> 8) & 255) * .59 + (n & 255) * .11) / 255;
-  const CY = 60, LEN = 300, bend = (R() - .5) * 10;
-  const off = t => bend * t * t;
-  const hw = t => 46 * Math.pow(Math.sin(Math.PI * Math.min(.985, .03 + t * .955)), .62) * (t < .14 ? .35 + t / .14 * .65 : 1);
-  let up = "", dn = "", wisp = "", outlineTop = [], outlineBot = [];
-  for (let x = 6; x < 294; x += 1.45) {
-    const t = x / LEN, w = hw(t), y = CY + off(t);
-    for (const s of [-1, 1]) {
-      const len = w * (.78 + R() * .34), fw = w * (.55 + R() * .3);
-      const d = `M${x.toFixed(1)} ${y.toFixed(1)}Q${(x + fw * .3).toFixed(1)} ${(y + s * len * .55).toFixed(1)} ${(x + fw).toFixed(1)} ${(y + s * len).toFixed(1)}`;
-      if (s < 0) up += d; else dn += d;
-    }
-    if (R() < .3) { const s = R() < .5 ? -1 : 1; wisp += `M${x.toFixed(1)} ${y.toFixed(1)}Q${(x + w * .5).toFixed(1)} ${(y + s * w * .8).toFixed(1)} ${(x + w * 1.05).toFixed(1)} ${(y + s * w * 1.28).toFixed(1)}`; }
-  }
-  for (let x = 0; x <= 300; x += 12) { const t = x / LEN, w = hw(t) * 1.05, y = CY + off(t); outlineTop.push(`${(x + w * .5).toFixed(1)},${(y - w).toFixed(1)}`); outlineBot.unshift(`${(x + w * .5).toFixed(1)},${(y + w).toFixed(1)}`); }
-  const hit = "M0," + CY + " L" + outlineTop.join(" L") + " L300," + (CY + off(1)).toFixed(1) + " L" + outlineBot.join(" L") + " Z";
-  let down = ""; for (let k = 0; k < 22; k++) { const x = 4 + R() * 34, s = R() < .5 ? -1 : 1; down += `M${x.toFixed(1)} ${CY}q${(4 + R() * 8).toFixed(1)} ${s * (3 + R() * 6)} ${(10 + R() * 14).toFixed(1)} ${s * (8 + R() * 14)}`; }
-  const rim = lum < .25 ? .3 : .1;
-  return `<svg viewBox="0 0 300 120" preserveAspectRatio="none" aria-hidden="true">
+  const bend = (R() - .5) * 6, CY = 35;
+  // 바깥쪽 날개(위)는 넓고 안쪽(아래)은 좁은 비대칭 깃
+  const top = t => CY - (t < .1 ? t / .1 * 6 : 6 + 22 * Math.pow(Math.sin(Math.PI * Math.min(1, (t - .1) / .92) * .5 + .02), .6) * (t > .82 ? Math.sqrt(Math.max(0, 1 - Math.pow((t - .82) / .18, 2))) * .95 + .05 : 1)) + bend * t * t;
+  const bot = t => CY + (t < .1 ? t / .1 * 4 : 4 + 13 * Math.pow(Math.sin(Math.PI * Math.min(1, (t - .1) / .92) * .5 + .02), .6) * (t > .84 ? Math.sqrt(Math.max(0, 1 - Math.pow((t - .84) / .16, 2))) * .95 + .05 : 1)) + bend * t * t;
+  let T = [], B = [];
+  for (let i = 0; i <= 60; i++) { const t = i / 60, x = 6 + t * 292; T.push(`${x.toFixed(1)},${top(t).toFixed(1)}`); B.unshift(`${x.toFixed(1)},${bot(t).toFixed(1)}`); }
+  const vane = `M6,${CY} L${T.join(" L")} L${B.join(" L")} Z`;
+  // 깃 사이 갈라짐
+  let splits = ""; for (let k = 0; k < 2; k++) { const t = .35 + R() * .45, x = 6 + t * 292, s = R() < .6 ? -1 : 1, y0 = CY + bend * t * t;
+    splits += `M${x.toFixed(1)} ${y0.toFixed(1)} L${(x + 14).toFixed(1)} ${(s < 0 ? top(t + .05) : bot(t + .05)).toFixed(1)}`; }
+  let barbs = ""; for (let x = 30; x < 290; x += 3.2) { const t = (x - 6) / 292, y0 = CY + bend * t * t;
+    barbs += `M${x.toFixed(1)} ${y0.toFixed(1)}L${(x + 9).toFixed(1)} ${(top(t) + 1.5).toFixed(1)}M${x.toFixed(1)} ${y0.toFixed(1)}L${(x + 7).toFixed(1)} ${(bot(t) - 1.2).toFixed(1)}`; }
+  let down = ""; for (let k = 0; k < 14; k++) { const x = 6 + R() * 26, s = R() < .5 ? -1 : 1; down += `M${x.toFixed(1)} ${CY}q${(3 + R() * 5).toFixed(1)} ${s * (2 + R() * 4)} ${(8 + R() * 10).toFixed(1)} ${s * (5 + R() * 9)}`; }
+  const dark = shade(c, lum > .7 ? -.25 : -.42), light = shade(c, .78);
+  return `<svg viewBox="0 0 300 70" preserveAspectRatio="none" aria-hidden="true">
   <defs>
-    <linearGradient id="g${id}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${shade(c, .6)}"/><stop offset=".2" stop-color="${c}"/><stop offset=".78" stop-color="${c}"/><stop offset="1" stop-color="${shade(c, .25)}"/></linearGradient>
-    <filter id="s${id}" x="-5%" y="-30%" width="110%" height="160%"><feGaussianBlur stdDeviation=".35"/></filter>
-    <filter id="b${id}" x="-5%" y="-30%" width="110%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>
+    <linearGradient id="g${id}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${light}"/><stop offset=".22" stop-color="${shade(c, .3)}"/><stop offset=".45" stop-color="${c}"/><stop offset=".82" stop-color="${c}"/><stop offset="1" stop-color="${dark}"/></linearGradient>
+    <linearGradient id="h${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".18"/><stop offset=".48" stop-color="#fff" stop-opacity="0"/><stop offset=".52" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient>
+    <clipPath id="v${id}"><path d="${vane}"/></clipPath>
   </defs>
-  <path d="${hit}" fill="url(#g${id})" opacity=".42" filter="url(#b${id})"/>
-  <g filter="url(#s${id})" fill="none">
-    <path d="${up}" stroke="url(#g${id})" stroke-width=".75" opacity=".9"/>
-    <path d="${dn}" stroke="url(#g${id})" stroke-width=".75" opacity=".9"/>
-    <path d="${up}${dn}" stroke="#fff" stroke-width=".35" opacity="${rim}" transform="translate(1 0)"/>
-    <path d="${wisp}" stroke="url(#g${id})" stroke-width=".5" opacity=".45"/>
-    <path d="${down}" stroke="${shade(c, .65)}" stroke-width=".5" opacity=".5"/>
+  <path d="${vane}" fill="url(#g${id})"/>
+  <g clip-path="url(#v${id})">
+    <path d="${vane}" fill="url(#h${id})"/>
+    <path d="${barbs}" stroke="${dark}" stroke-width=".5" opacity=".35" fill="none"/>
+    <path d="${splits}" stroke="#000" stroke-width="1.6" opacity=".85" fill="none"/>
   </g>
-  <path d="M0 ${CY} Q150 ${(CY + off(.5)).toFixed(1)} 298 ${(CY + off(1)).toFixed(1)}" fill="none" stroke="${shade(c, .7)}" stroke-width="1.8" stroke-linecap="round" opacity=".85"/>
-  <path class="hit" d="${hit}" fill="transparent"/>
+  <path d="${down}" fill="none" stroke="${light}" stroke-width=".55" opacity=".7"/>
+  <path d="M0 ${CY} Q150 ${(CY + bend * .25).toFixed(1)} 292 ${(CY + bend).toFixed(1)}" fill="none" stroke="${shade(c, .82)}" stroke-width="1.5" stroke-linecap="round" opacity=".9"/>
+  <path class="hit" d="${vane}" fill="transparent"/>
 </svg>`;
 }
-// 부채의 축과 깃털 각도 (웹: 왼쪽 가장자리 가운데 · 폰: 바닥 가운데)
+// 부채: 웹은 오른쪽 가장자리 가운데가 축, 폰은 바닥 가운데가 축. 긴 깃과 짧은 깃이 번갈아 두 겹.
 function fanGeom(n, box){
   const W = box.width, H = box.height, m = mobile();
-  const pivot = m ? { x:W / 2, y:H + 8 } : { x:-8, y:H / 2 };
-  const R = m ? Math.min(H * .92, W * .52) : Math.min(H * .44, W * .9);
-  const center = m ? -90 : 0, span = Math.min(m ? 128 : 160, (m ? 20 : 22) * n + 8);
-  const angles = [...Array(n)].map((_, i) => n === 1 ? center : center - span / 2 + span * i / (n - 1));
-  return { pivot, R, h:R * .4, angles, center };
+  const R = m ? Math.min(H * .95, W * .62) : Math.min(H * .62, W * 1.05);
+  const step = m ? 15 : 13.5;                                // 깃털 사이 각도 (넉넉하게)
+  const span = step * (n - 1);
+  const center = m ? -90 : 180;
+  const angles = [...Array(n)].map((_, i) => n === 1 ? center : center - span / 2 + step * i);
+  const lens = angles.map((_, i) => i % 2 ? R * .8 : R);
+  // 웹: 부채가 위아래로 넘치면 그만큼 세로 공간을 늘리고 스크롤
+  const reach = Math.max(...angles.map((a, i) => Math.abs(Math.sin(a * Math.PI / 180)) * lens[i])) + R * .12;
+  const fullH = m ? H : Math.max(H, reach * 2 + 40);
+  const pivot = m ? { x:W / 2, y:H + 6 } : { x:W + 4, y:fullH / 2 };
+  return { pivot, R, lens, h:R * .23, angles, center, fullH };
 }
-// 깃털 다발을 만든다 (처음엔 모여서 왼쪽 밖에 있음)
 function buildFan(box, items, onPick, onHover){
   const g = fanGeom(items.length, box.getBoundingClientRect());
-  const out = mobile() ? `-${Math.round(innerWidth * .9)}px` : `-${Math.round(g.R + 60)}px`;
+  let host = box;
+  if (!mobile()) { host = document.createElement("div"); host.className = "fanwrap"; host.style.height = g.fullH + "px"; box.appendChild(host);
+    requestAnimationFrame(() => { box.scrollTop = (g.fullH - box.clientHeight) / 2; }); }
+  const out = mobile() ? `${Math.round(innerHeight * .7)}px` : `${Math.round(g.R + 80)}px`;
   return items.map((it, i) => {
-    const el = document.createElement("div"); el.className = "plume";
-    Object.assign(el.style, { left:g.pivot.x + "px", top:(g.pivot.y - g.h / 2) + "px", width:g.R + "px", height:g.h + "px" });
-    el.style.setProperty("--r", g.angles[i] + "deg"); el.style.setProperty("--c", g.center + "deg"); el.style.setProperty("--out", out);
-    el.innerHTML = (it.ghost ? plumeSVG("#3a3a3a", i).replace('<svg ', '<svg style="opacity:.55" ') : plumeSVG(it.color, i * 13 + 5)) + `<span class="lab">${esc(it.label)}</span>`;
+    const el = document.createElement("div"); el.className = "plume" + (i % 2 ? " short" : "");
+    const L = g.lens[i], h = g.h * (i % 2 ? .9 : 1);
+    Object.assign(el.style, { left:g.pivot.x + "px", top:(g.pivot.y - h / 2) + "px", width:L + "px", height:h + "px" });
+    el.style.setProperty("--r", g.angles[i] + "deg"); el.style.setProperty("--c", g.center + "deg"); el.style.setProperty(mobile() ? "--oy" : "--ox", out);
+    el.innerHTML = (it.ghost ? plumeSVG("#444444", i).replace('<svg ', '<svg style="opacity:.5" ') : plumeSVG(it.color, i * 13 + 5)) + `<span class="lab">${esc(it.label)}</span>`;
     const pick = () => onPick(it, el), hov = on => { el.classList.toggle("hov", on); onHover && onHover(on ? it : null); };
     el.querySelector(".hit").addEventListener("click", pick); el.querySelector(".lab").addEventListener("click", pick);
     el.querySelector(".hit").addEventListener("pointerenter", () => hov(true)); el.querySelector(".hit").addEventListener("pointerleave", () => hov(false));
     el.querySelector(".lab").addEventListener("pointerenter", () => hov(true)); el.querySelector(".lab").addEventListener("pointerleave", () => hov(false));
-    box.appendChild(el); return el;
+    host.appendChild(el); return el;
   });
 }
 function fanIn(els){ // 왼쪽에서 들어오며 펼쳐짐: 가운데 깃털부터 바깥쪽으로
@@ -422,12 +488,9 @@ function renderCover(){
     <div class="choices">
       <button class="big solid" id="toFind">찾기<small>사진 속 새를 보며 깃털 고르기</small></button>
       <button class="big" id="toBrowse">도감 ${SP.length}종<small>이름으로 둘러보기</small></button>
-    </div></div><div class="fan" id="coverFan"></div></section>`;
+    </div></div></section>`;
   document.getElementById("toFind").onclick = resetFind;
   document.getElementById("toBrowse").onclick = () => nav("browse");
-  const box = document.getElementById("coverFan");
-  const cols = ["r", "o", "y", "lg", "g", "sb", "b", "v", "p"].map(c => ({ color:hex(c), label:"" }));
-  fanIn(buildFan(box, cols, () => resetFind()));
 }
 
 /* ───────── 찾기 ───────── */
@@ -503,13 +566,13 @@ function optionArt(q, o){
   if (q.id === "pattern") { variant.pattern = o.v; part = "wing"; }
   if (q.id === "size") {
     const sc = { s:.42, m:.6, l:.8, xl:1 }[o.v];
-    return `<svg viewBox="0 0 120 120"><g transform="translate(${60 - 46 * sc} ${118 - 112 * sc}) scale(${sc * .64})">${birdSVG(null, { neutral:true, focus:[] }).replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "")}</g><line x1="4" y1="118" x2="116" y2="118" stroke="var(--dim)"/></svg>`;
+    return `<svg viewBox="0 0 120 120"><g transform="translate(${60 - 46 * sc} ${118 - 112 * sc}) scale(${sc * .64})">${birdVec(null, { neutral:true, focus:[] }).replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "")}</g><line x1="4" y1="118" x2="116" y2="118" stroke="var(--dim)"/></svg>`;
   }
   const f = FOCUS[part === "all" ? "all" : part] || FOCUS.all, pad = part === "all" ? 0 : .5;
   const vb = [f[0] - f[2] * pad, f[1] - f[3] * pad, f[2] * (1 + 2 * pad), f[3] * (1 + 2 * pad)];
   const s = Math.max(vb[2], vb[3]); vb[0] -= (s - vb[2]) / 2; vb[1] -= (s - vb[3]) / 2; vb[2] = vb[3] = s;
   if (q.id === "eyeSkin") variant.eyeSkinColor = "w";
-  return birdSVG(Object.assign({}, base, variant), { vb, label:o.label });
+  return birdVec(Object.assign({}, base, variant), { vb, label:o.label });
 }
 function trail(){
   if (!S.answers.length) return "";
