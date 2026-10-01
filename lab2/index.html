@@ -165,6 +165,15 @@ body.on-cover .brand{visibility:hidden}
 
 svg.bird .ol{fill:none; stroke:var(--ink); stroke-width:1.3; stroke-linejoin:round; stroke-linecap:round}
 svg.bird .rg{transition:fill .35s, fill-opacity .35s}
+svg.bird .body, svg.bird .head, svg.bird .eye{transform-box:fill-box}
+svg.bird.live .body{transform-origin:50% 100%; animation:breathe 4.2s ease-in-out infinite}
+svg.bird.live .eye{transform-origin:50% 50%; animation:blink 5.5s infinite}
+svg.bird.live .head{transform-origin:80% 95%; transition:transform .7s cubic-bezier(.3,1.4,.5,1)}
+svg.bird.live.tilt .head{transform:rotate(-7deg)}
+svg.bird.live.hop .body{animation:hop .45s cubic-bezier(.3,1.5,.5,1)}
+@keyframes breathe{0%,100%{transform:scale(1,1)} 50%{transform:scale(1.008,1.018)}}
+@keyframes blink{0%,95%,100%{transform:scaleY(1)} 97%{transform:scaleY(.08)}}
+@keyframes hop{0%{transform:translateY(0)} 40%{transform:translateY(-10px)} 100%{transform:translateY(0)}}
 @media (prefers-reduced-motion: reduce){ *{transition:none!important; animation:none!important} }
 </style>
 </head>
@@ -202,67 +211,104 @@ const SHORT = { main:"몸 색", size:"크기", tailShape:"꼬리 길이", crest:
 const answerLabel = (q, v) => v === "skip" ? "모름" : ((q.options.find(x => x.v === v) || {}).label || v);
 const isColorQ = q => q.kind === "color" || q.kind === "colorOrNone";
 
-/* ───────── 부위 그림 (손그림풍 윤곽선) ───────── */
+/* ───────── 부위 그림: 조류 도감 삽화풍 측면 앵무새 (viewBox 0 0 200 300) ───────── */
 let uid = 0;
-const SIL = "M24 54 C19 50 18 40 23 32 C28 22 38 17 49 18 C61 19 67 29 66 41 C67 53 72 63 77 75 C83 92 85 108 81 121 L96 156 L87 158 L71 129 C61 131 51 123 45 111 C38 96 36 81 38 67 C38 61 34 57 30 56 C28 56 26 56 24 54 Z";
-const SILS = { long:SIL, mid:SIL.replace("L96 156 L87 158", "L89 145 L81 148"), short:SIL.replace("L96 156 L87 158", "L81 134 L74 137") };
-const TAILS = { long:"M66 118 L98 160 L84 162 L60 124 Z", mid:"M66 118 L90 146 L80 149 L60 124 Z", short:"M66 118 L82 136 L74 139 L60 124 Z" };
-const CREST = "M50 19 C50 8 57 0 66 -4 C62 6 60 12 59 19 Z M56 20 C60 10 68 4 77 2 C71 10 66 16 63 22 Z";
-const BEAK_U = "M31 33 C23 31 16 37 16 46 C18 51 21 54 24 55 C23 49 25 44 30 42 Z";
-const BEAK_L = "M30 42 C26 45 25 50 27 55 C31 55 34 51 34 46 Z";
-const WINGP = "M58 58 C76 60 86 88 83 118 C77 126 66 114 60 98 C55 84 54 68 58 58 Z";
-// 부위마다 확대할 영역 (그림 좌표)
-const FOCUS = { all:[8,-8,100,172], crown:[30,4,46,34], forehead:[14,14,36,30], face:[18,14,52,44], cheek:[30,28,32,28], throat:[16,40,40,32],
-  collar:[18,40,58,34], breast:[20,54,46,62], belly:[30,80,50,56], back:[54,40,40,66], wing:[46,50,48,80], tail:[52,104,54,62],
-  beak:[8,22,36,40], eyeskin:[24,18,36,32], crest:[36,-8,50,40] };
-const REG = {
-  belly:`<rect x="0" y="0" width="120" height="170"/>`, back:`<ellipse cx="74" cy="72" rx="10" ry="22"/>`, breast:`<ellipse cx="42" cy="84" rx="14" ry="20"/>`,
-  throat:`<ellipse cx="34" cy="60" rx="10" ry="7"/>`, face:`<circle cx="44" cy="38" r="15"/>`, crown:`<ellipse cx="52" cy="20" rx="18" ry="8"/>`,
-  forehead:`<ellipse cx="32" cy="27" rx="8" ry="7"/>`, wing:`<path d="${WINGP}"/>`
+const BP = {
+  forehead:"M51 57 C52 48 58 41 66 37.5 C68 42 70 47 71 52 C63 52.5 57 55 53 60 Z",
+  crown:"M66 37.5 C76 32.5 89 33.5 97 40 C101 44 102.5 50 102 56 C95 54 88 52.5 81 52 C77 51.5 74 51.5 71 52 C70 47 68 42 66 37.5 Z",
+  face:"M53 60 C57 55 63 52.5 71 52 C78 51.5 87 52.5 102 56 C103.5 65 102 74 97 82 C91 90 81 94 71 94 C63 93.5 57 89.5 54.5 83 C54 77 53.5 70 53 60 Z",
+  throat:"M54.5 83 C57 89.5 63 93.5 71 94 C81 94 91 90 97 82 C98 92 95 101 89 108 C79 113 66 112 59 105.5 C56.5 98 55 90 54.5 83 Z",
+  back:"M102 56 C111 62 118 75 120 92 C113 98 106 104 101 111 C97 110 93 109 89 108 C95 101 98 92 97 82 C102 74 103.5 65 102 56 Z",
+  breast:"M59 105.5 C66 112 79 113 89 108 C93 109 97 110 101 111 C103 124 103 138 99 150 C84 158 68 160 54 156 C51 138 52 120 59 105.5 Z",
+  belly:"M54 156 C68 160 84 158 99 150 C104 166 108 180 110 192 C104 200 94 205 84 203 C71 198 60 182 54 156 Z",
+  wing:"M101 111 C106 104 113 98 120 92 C131 101 138 118 141 140 C145 168 147 200 145 236 C139 230 130 216 122 198 C112 176 104 152 101 130 C100 123 100 117 101 111 Z"
 };
+const BTAIL = {
+  long:"M100 196 C108 192 116 194 123 198 L128 212 L108 210 Z M110 194 C116 222 127 256 141 296 C145 297 149 297 153 295 C151 258 146 226 139 200 Z",
+  mid:"M100 196 C108 192 116 194 123 198 L128 212 L108 210 Z M110 194 C115 216 123 238 133 262 C137 263 141 263 144 261 C143 236 140 216 136 200 Z",
+  short:"M100 196 C108 192 116 194 123 198 L128 212 L108 210 Z M110 194 C114 208 119 220 125 232 C129 233 132 233 135 231 C135 218 134 208 132 200 Z"
+};
+const BEAK_U = "M51 57 C40 54 30 60 27 71 C24 82 27 92 33 99 C33.5 92 36 86 41 82.5 C45 80 49 79.5 53 80.5 Z";
+const BEAK_L = "M53 80.5 C47 81 42 84.5 40.5 90 C42 96 48 98 53.5 94.5 C56.5 91.5 57 86 55.5 81.5 Z";
+const CREST = "M70 40 C66 28 68 14 76 4 C76 16 78 27 82 36 Z M80 36 C80 22 86 10 97 3 C93 15 92 26 92 37 Z M90 38 C94 26 103 17 114 14 C106 24 101 33 99 43 Z";
+const FEET = "M86 203 C84 209 80 213 75 215 M86 203 C86 210 85 215 82 219 M92 203 C93 210 96 214 101 216 M92 203 C95 209 99 211 104 211";
+const BRANCH = "M18 222 C70 212 130 214 196 200";
+// 부위마다 확대할 영역
+const FOCUS = { all:[14,0,176,300], crown:[58,26,52,36], forehead:[40,32,40,34], face:[48,46,60,52], cheek:[66,64,32,28], throat:[50,76,54,40],
+  collar:[50,82,58,36], breast:[46,100,62,64], belly:[48,140,66,70], back:[92,50,36,70], wing:[96,90,56,150], tail:[104,186,54,114],
+  beak:[20,48,42,56], eyeskin:[64,50,32,30], crest:[60,-2,62,50] };
+function featherMarks(){
+  let cov = ""; for (let r = 0; r < 4; r++) for (let k = 0; k < 3; k++) { const x = 106 + k * 9 + r * 3, y = 114 + r * 11 + k * 3; cov += `M${x} ${y}q4.5 4.5 9 0`; }
+  let br = ""; for (let r = 0; r < 5; r++) for (let k = 0; k < 4; k++) { const x = 61 + k * 9 + (r % 2) * 4.5, y = 119 + r * 8; br += `M${x} ${y}q3.5 3 7 0`; }
+  const prim = "M121 162 C126 190 134 214 143 234 M127 156 C131 186 137 210 145 232 M115 168 C121 194 130 218 140 232 M133 150 C136 180 140 206 145 228";
+  const tailq = "M120 202 C126 230 134 262 146 294 M126 200 C131 230 139 262 150 293";
+  const head = "M86 41 q3 2 6 0 M78 39 q3 2 6 0 M92 46 q3 2 6 0 M106 66 q2 3 4 6 M110 76 q2 3 3 6";
+  return { cov, br, prim, tailq, head };
+}
 function birdSVG(a, o = {}){
   const id = "p" + (uid++), focus = o.focus || [], neutral = !!o.neutral, paint = o.paint || "var(--hl)";
   const A = Object.assign({ tailShape:"long", crest:false, eyeSkin:"none", pattern:"plain" }, a || {}, o.variant || {});
-  const on = p => focus.includes(p) || focus.includes("all");
-  const fill = (part, key) => neutral ? (on(part) ? paint : "transparent") : (Array.isArray(A[key || part]) ? hex(A[key || part][0]) : "#222");
-  const fo = part => neutral ? (focus.includes("all") ? (part === "belly" ? .9 : 0) : (on(part) ? 1 : 0)) : 1;
-  const rg = part => REG[part].replace("/>", ` class="rg" data-part="${part}" fill="${fill(part)}" fill-opacity="${fo(part)}"/>`);
+  const allOn = focus.includes("all"), on = p => focus.includes(p);
+  const ink = "var(--ink)", BL = "#0d0d0c";
+  const col = (key) => Array.isArray(A[key]) ? hex(A[key][0]) : BL;
+  const fill = part => neutral ? (on(part) ? paint : "transparent") : col(part);
+  const fo = part => neutral ? (allOn ? 0 : (on(part) ? 1 : 0)) : 1;
   const tail = A.tailShape || "long";
-  const crest = A.crest || (neutral && focus.includes("crest") && A.crest !== false && !o.variant);
-  const cheek = Array.isArray(A.cheek) || (neutral && focus.includes("cheek"));
-  const collar = Array.isArray(A.collar) || (neutral && focus.includes("collar"));
-  const skinC = neutral ? (focus.includes("eyeskin") ? paint : "transparent") : (hex(A.eyeSkinColor) || "#f3f0e8");
-  const pat = A.pattern !== "plain";
-  const patInk = neutral ? "var(--ink)" : (Array.isArray(A.wing) && A.wing[1] ? hex(A.wing[1]) : "rgba(0,0,0,.45)");
+  const showCrest = A.crest || (neutral && on("crest") && !o.variant);
+  const cheek = Array.isArray(A.cheek) || (neutral && on("cheek"));
+  const collar = Array.isArray(A.collar) || (neutral && on("collar"));
+  const skin = neutral ? (on("eyeskin") ? paint : "transparent") : (hex(A.eyeSkinColor) || "#efe9dc");
+  const fm = featherMarks();
+  const markInk = neutral ? ink : "rgba(0,0,0,.55)";
+  const pat = !neutral && A.pattern !== "plain";
+  const patInk = Array.isArray(A.wing) && A.wing[1] ? hex(A.wing[1]) : "rgba(0,0,0,.5)";
+  const reg = (part, d, key) => `<path class="rg" data-part="${part}" d="${d}" fill="${neutral ? fill(part) : col(key || part)}" fill-opacity="${fo(part)}"/>`;
+  const silhouette = `${BP.forehead} ${BP.crown} ${BP.face} ${BP.throat} ${BP.back} ${BP.breast} ${BP.belly}`;
   const vb = (o.vb || FOCUS.all).join(" ");
-  return `<svg class="bird" viewBox="${vb}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${esc(o.label || "앵무새 부위 그림")}">
-  <defs><clipPath id="c${id}"><path d="${SILS[tail]}"/></clipPath>
-  <pattern id="pt${id}" width="5" height="4.5" patternUnits="userSpaceOnUse">${A.pattern === "barred" ? `<path d="M0 3 Q2.5 1 5 3" fill="none" stroke="${patInk}" stroke-width="1"/>` : `<path d="M0 4.5 A2.5 2.5 0 0 1 5 4.5" fill="none" stroke="${patInk}" stroke-width=".8" stroke-opacity=".6"/>`}</pattern></defs>
-  ${crest ? `<path class="rg" data-part="crest" d="${CREST}" fill="${neutral ? (focus.includes("crest") ? paint : "transparent") : (hex((A.crestColor || A.crown || [])[0]) || "#222")}"/><path class="ol" d="${CREST}"/>` : ""}
-  <g clip-path="url(#c${id})">
-    ${rg("belly")}
-    <path class="rg" data-part="tail" d="${TAILS[tail]}" fill="${fill("tail")}" fill-opacity="${fo("tail")}"/>
-    ${rg("back")}${rg("breast")}${rg("throat")}${rg("face")}${rg("crown")}${rg("forehead")}${rg("wing")}
-    ${pat ? `<path d="${WINGP}" fill="url(#pt${id})"/><ellipse cx="42" cy="84" rx="14" ry="20" fill="url(#pt${id})" opacity=".7"/>` : ""}
-    ${collar ? `<path class="rg" data-part="collar" d="M30 58 Q46 66 66 54" fill="none" stroke="${neutral ? (focus.includes("collar") ? paint : "transparent") : hex(A.collar[0])}" stroke-width="4"/>` : ""}
+  return `<svg class="bird${o.anim ? " live" : ""}" viewBox="${vb}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${esc(o.label || "앵무새 부위 그림")}">
+  <defs><pattern id="pt${id}" width="6" height="5" patternUnits="userSpaceOnUse">${A.pattern === "barred" ? `<path d="M0 3.5 Q3 1 6 3.5" fill="none" stroke="${patInk}" stroke-width="1.1"/>` : `<path d="M0 5 A3 3 0 0 1 6 5" fill="none" stroke="rgba(0,0,0,.45)" stroke-width=".9"/>`}</pattern></defs>
+  <path d="${BRANCH}" fill="none" stroke="${neutral ? "var(--faint)" : "#5b4a3a"}" stroke-width="${neutral ? 2 : 7}" stroke-linecap="round"/>
+  <g class="body">
+  ${allOn && neutral ? `<path d="${silhouette} ${BP.wing} ${BTAIL[tail]} M100 128 C104 152 112 176 122 198 L146 238 L140 196 Z" fill="${paint}" fill-opacity=".9"/>` : ""}
+  ${reg("tail", BTAIL[tail])}
+  ${showCrest ? `<path class="rg crest" data-part="crest" d="${CREST}" fill="${neutral ? (on("crest") ? paint : "transparent") : (hex((A.crestColor || A.crown || [])[0]) || BL)}"/>` : ""}
+  ${reg("belly", BP.belly)}${reg("breast", BP.breast)}${reg("back", BP.back)}${reg("throat", BP.throat)}
+  ${reg("face", BP.face)}${reg("crown", BP.crown)}${reg("forehead", BP.forehead)}
+  ${pat ? `<path d="${BP.breast} ${BP.belly}" fill="url(#pt${id})" opacity=".8"/>` : ""}
+  ${reg("wing", BP.wing)}
+  ${pat ? `<path d="${BP.wing}" fill="url(#pt${id})"/>` : ""}
+  ${collar ? `<path class="rg" data-part="collar" d="M57 101 C70 108 86 106 99 96" fill="none" stroke="${neutral ? (on("collar") ? paint : "transparent") : hex(A.collar[0])}" stroke-width="4.5" stroke-linecap="round"/>` : ""}
+  ${cheek ? `<ellipse class="rg" data-part="cheek" cx="84" cy="78" rx="9" ry="7.5" fill="${neutral ? (on("cheek") ? paint : "transparent") : hex(A.cheek[0])}"/>` : ""}
+  <g fill="none" stroke="${markInk}" stroke-linecap="round">
+    <path d="${fm.cov}" stroke-width=".7" opacity=".7"/><path d="${fm.prim}" stroke-width=".8" opacity=".75"/>
+    <path d="${fm.br}" stroke-width=".6" opacity=".45"/><path d="${fm.tailq}" stroke-width=".7" opacity=".6"/><path d="${fm.head}" stroke-width=".6" opacity=".5"/>
   </g>
-  <path class="ol" d="M58 58 C76 60 86 88 83 118" style="stroke-width:1"/>
-  <path class="ol" d="${SILS[tail]}"/>
-  ${A.eyeSkin === "face" ? `<ellipse class="rg" data-part="eyeskin" cx="37" cy="37" rx="9" ry="8" fill="${skinC}"/><ellipse class="ol" cx="37" cy="37" rx="9" ry="8" style="stroke-width:.8"/>` : ""}
-  ${A.eyeSkin === "ring" ? `<circle class="rg" data-part="eyeskin" cx="43" cy="33" r="4.6" fill="${skinC}"/><circle class="ol" cx="43" cy="33" r="4.6" style="stroke-width:.8"/>` : ""}
-  ${neutral && focus.includes("eyeskin") && A.eyeSkin === "none" && !o.variant ? `<circle class="rg" data-part="eyeskin" cx="43" cy="33" r="4.6" fill="${paint}"/>` : ""}
-  ${cheek ? `<circle class="rg" data-part="cheek" cx="47" cy="44" r="4.5" fill="${neutral ? (focus.includes("cheek") ? paint : "transparent") : hex(A.cheek[0])}"/>` : ""}
-  <circle cx="43" cy="33" r="1.9" fill="var(--ink)"/>
-  <path class="rg" data-part="beak" d="${BEAK_U}" fill="${neutral ? (focus.includes("beak") ? paint : "#000") : (Array.isArray(A.beak) ? hex(A.beak[0]) : "#222")}"/>
-  <path class="rg" data-part="beak" d="${BEAK_L}" fill="${neutral ? (focus.includes("beak") ? paint : "#000") : (Array.isArray(A.beak) ? hex(A.beak[1] || A.beak[0]) : "#222")}"/>
-  <path class="ol" d="${BEAK_U}"/><path class="ol" d="${BEAK_L}"/>
+  <g fill="none" stroke="${ink}" stroke-width="1.15" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M51 57 C52 48 58 41 66 37.5 C76 32.5 89 33.5 97 40 C101 44 102.5 50 102 56 C111 62 118 75 120 92 C131 101 138 118 141 140 C145 168 147 200 145 236"/>
+    <path d="M53.5 94.5 C55 100 56 103 59 105.5 C52 120 51 138 54 156 C60 182 71 198 84 203 C94 205 104 200 110 192"/>
+    <path d="${BTAIL[tail].replace(/^M100 196[^M]*/, "")}"/>
+    <path d="M101 111 C100 117 100 123 101 130 C104 152 112 176 122 198 C130 216 139 230 145 236" stroke-width=".9"/>
+    ${showCrest ? `<path d="${CREST}" stroke-width=".9"/>` : ""}
+  </g>
+  <path d="${FEET}" fill="none" stroke="${neutral ? ink : "#8d8578"}" stroke-width="${neutral ? 1.6 : 3.2}" stroke-linecap="round"/>
+  <g class="head">
+    ${A.eyeSkin === "face" ? `<path class="rg" data-part="eyeskin" d="M58 60 C64 54 76 54 86 58 C90 66 88 76 80 81 C70 84 60 80 56 72 C55 67 56 63 58 60 Z" fill="${skin}"/><path d="M58 60 C64 54 76 54 86 58 C90 66 88 76 80 81 C70 84 60 80 56 72 C55 67 56 63 58 60 Z" fill="none" stroke="${ink}" stroke-width=".8"/>` : ""}
+    ${A.eyeSkin === "ring" ? `<circle class="rg" data-part="eyeskin" cx="79" cy="65" r="8" fill="${skin}"/><circle cx="79" cy="65" r="8" fill="none" stroke="${ink}" stroke-width=".8"/>` : ""}
+    ${neutral && on("eyeskin") && A.eyeSkin === "none" && !o.variant ? `<circle class="rg" data-part="eyeskin" cx="79" cy="65" r="8" fill="${paint}"/>` : ""}
+    <g class="eye"><circle cx="79" cy="65" r="4.6" fill="${neutral ? "#000" : "#1a1410"}" stroke="${ink}" stroke-width="1"/><circle cx="79" cy="65" r="2.3" fill="${neutral ? ink : "#000"}"/><circle cx="80.4" cy="63.6" r=".9" fill="#fff"/></g>
+    <path class="rg" data-part="beak" d="${BEAK_U}" fill="${neutral ? (on("beak") ? paint : "#000") : (Array.isArray(A.beak) ? hex(A.beak[0]) : "#3a3a38")}"/>
+    <path class="rg" data-part="beak" d="${BEAK_L}" fill="${neutral ? (on("beak") ? paint : "#000") : (Array.isArray(A.beak) ? hex(A.beak[1] || A.beak[0]) : "#3a3a38")}"/>
+    <g fill="none" stroke="${ink}" stroke-width="1.15" stroke-linejoin="round"><path d="${BEAK_U}"/><path d="${BEAK_L}"/><path d="M50 60 C47 58 45 58 43 59" stroke-width=".7"/><circle cx="48" cy="61" r="1" fill="${ink}" stroke="none"/></g>
+  </g>
+  </g>
 </svg>`;
 }
+
 // 그림을 해당 부위로 확대 (viewBox를 부드럽게 옮긴다)
 function zoomTo(svg, part, ms = 900){
   if (!svg) return;
   const from = svg.getAttribute("viewBox").split(/\s+/).map(Number);
-  const f = FOCUS[part] || FOCUS.all, pad = part === "all" ? 0 : .85;
+  const f = FOCUS[part] || FOCUS.all, pad = part === "all" ? 0 : (["wing","tail","belly","breast"].includes(part) ? .45 : 1.1);
   let [x, y, w, h] = [f[0] - f[2] * pad, f[1] - f[3] * pad, f[2] * (1 + 2 * pad), f[3] * (1 + 2 * pad)];
   const r = svg.getBoundingClientRect(), ar = r.width / Math.max(1, r.height);
   if (w / h < ar) { const nw = h * ar; x -= (nw - w) / 2; w = nw; } else { const nh = w / ar; y -= (nh - h) / 2; h = nh; }
@@ -404,7 +450,7 @@ function renderFind(){
   const q = next.q, opts = plausibleOptions(q), color = isColorQ(q);
   const focusPart = q.part.includes("all") ? "all" : q.part[0];
   $v.innerHTML = `<section class="screen"><div class="q">
-    <div class="zone-fig" id="fig">${birdSVG(null, { neutral:true, focus:q.part, label:q.q })}</div>
+    <div class="zone-fig" id="fig">${birdSVG(null, { neutral:true, focus:q.part, label:q.q, anim:true })}</div>
     <div class="zone-q">
       <span class="step">질문 ${asked + 1}</span>
       <h1>${q.q}</h1>${q.hint ? `<p>${q.hint}</p>` : ""}
@@ -419,10 +465,13 @@ function renderFind(){
   </div></section>`;
   const svg = document.querySelector("#fig svg");
   requestAnimationFrame(() => zoomTo(svg, focusPart));
+  // 머리 쪽 부위를 물을 때는 고개를 살짝 갸웃
+  if (["crown","forehead","face","cheek","beak","eyeskin","crest","throat"].includes(focusPart)) setTimeout(() => svg.classList.add("tilt"), 500);
   const box = document.getElementById("opts");
   let fanEls = [];
   const choose = async v => {
     if (leaving) return; leaving = true;
+    svg.classList.remove("tilt"); svg.classList.add("hop");   // 고르는 순간 콩 하고 뛰어오름
     fanOut(fanEls);                                   // 한 다발로 모이며 왼쪽 밖으로 나감
     box.querySelectorAll(".card").forEach(el => { el.style.transitionDelay = "0ms"; el.classList.remove("in"); });
     zoomTo(svg, "all", 650);
