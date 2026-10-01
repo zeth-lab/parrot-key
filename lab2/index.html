@@ -630,7 +630,7 @@ function dyedFeather(color, i, ghost){
 }
 // 부채: 웹은 오른쪽 가장자리 가운데가 축(깃털이 왼쪽을 향함), 폰은 바닥 가운데가 축(위를 향함).
 // 휠·드래그로 축을 중심으로 부채를 돌린다. 가운데 온 깃털이 강조된다.
-const FAN = { rh:1.62, rw:1.12, px:.03, py:.27, c:226, st:9.2, span:999, h:.14, lo:192, hi:270 };
+const FAN = { rh:1.62, rw:1.12, px:.03, py:.27, c:226, st:9.2, span:999, h:.14, lo:192, hi:284 };
 function buildFan(box, items, onPick, onHover, start){
   const r = box.getBoundingClientRect(), m = mobile(), n = items.length;
   // 웹: 축은 화면 아래 바깥, 새의 발치 쪽(오른쪽 아래)에 숨어 있다. 깃털은 크고 길게, 끝부분만 왼쪽 위로 펼쳐 보인다
@@ -639,9 +639,10 @@ function buildFan(box, items, onPick, onHover, start){
   const center = m ? -90 : FAN.c, step = m ? 16 : Math.min(FAN.st, FAN.span / Math.max(1, n - 1)), h = R * (m ? .155 : FAN.h);
   let pos = (n - 1) / 2;
   if (!m && start != null) {   // 가장 가능성 높은 깃털이 보이도록 펼치되, 보이는 칸이 최대한 차게
-    const lo = (center - FAN.lo) / step, hi = (FAN.hi - center) / step;
-    const a = Math.min(lo, n - 1), b = Math.max(n - 1 - hi, 0);
-    pos = a <= b ? Math.max(a, Math.min(b, start)) : (n - 1) / 2;
+    // 화면에서 실제로 잘 보이는 각도(206°~264°) 안쪽, 한 칸 여유를 두고 가장 그럴듯한 깃털이 오게
+    // 그 깃털의 각도 = center + (start - pos)·step 이 [206°+한 칸, 264°-한 칸] 안에 오도록 pos 범위를 잡고, 그 안에서 가운데에 가장 가깝게
+    const lo = Math.max(0, (center - 206) / step - 1), hi = Math.max(0, (264 - center) / step - 1);
+    pos = Math.max(start - hi, Math.min(start + lo, (n - 1) / 2));
   }
   let target = pos, raf = 0, last = -1, drag = null;
   const els = items.map((it, i) => {
@@ -1273,6 +1274,7 @@ addEventListener("keydown", e => { if (e.key === "Escape") closeDetail(); });
 function nav(v){ S.view = v; render(); scrollTo(0, 0); }
 function render(){
   document.body.classList.toggle("on-cover", S.view === "cover");
+  if (S.view !== "cover") { coverRun++; document.querySelectorAll(".peek").forEach(n => n.remove()); }
   if (S.view === "cover") renderCover(); else if (S.view === "find") renderFind(); else if (S.view === "browse") renderBrowse(); else renderDetail();
 }
 document.getElementById("home").onclick = () => nav("cover");
