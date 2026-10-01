@@ -601,12 +601,13 @@ function dyedFeather(color, i, ghost){
 }
 // 부채: 웹은 오른쪽 가장자리 가운데가 축(깃털이 왼쪽을 향함), 폰은 바닥 가운데가 축(위를 향함).
 // 휠·드래그로 축을 중심으로 부채를 돌린다. 가운데 온 깃털이 강조된다.
+const FAN = { rh:1.62, rw:1.1, px:.02, py:.34, c:232, st:7, span:52, h:.115 };
 function buildFan(box, items, onPick, onHover){
   const r = box.getBoundingClientRect(), m = mobile(), n = items.length;
-  // 웹: 축은 선택지 영역의 오른쪽 아래 바깥(새의 발치). 깃털은 왼쪽 위로 사분원 안에서 펼쳐지고 끝만 크게 보인다
-  const R = m ? Math.min(r.height * .95, r.width * .62) : Math.min(r.width * .86, r.height * 1.38);
-  const pivot = m ? { x:r.width / 2, y:r.height + 6 } : { x:r.width + R * .05, y:r.height + R * .06 };
-  const center = m ? -90 : 220, step = m ? 16 : Math.min(12, 84 / Math.max(1, n - 1)), h = R * (m ? .155 : .14);
+  // 웹: 축은 화면 아래 바깥, 새의 발치 쪽(오른쪽 아래)에 숨어 있다. 깃털은 크고 길게, 끝부분만 왼쪽 위로 펼쳐 보인다
+  const R = m ? Math.min(r.height * .95, r.width * .62) : Math.min(r.height * FAN.rh, r.width * FAN.rw);
+  const pivot = m ? { x:r.width / 2, y:r.height + 6 } : { x:r.width + R * FAN.px, y:r.height + R * FAN.py };
+  const center = m ? -90 : FAN.c, step = m ? 16 : Math.min(FAN.st, FAN.span / Math.max(1, n - 1)), h = R * (m ? .155 : FAN.h);
   let pos = (n - 1) / 2, target = pos, raf = 0, last = -1, drag = null;
   const els = items.map((it, i) => {
     const el = document.createElement("div"); el.className = "plume" + (i % 2 ? " short" : "");
