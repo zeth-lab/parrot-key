@@ -64,6 +64,36 @@ body.on-cover .brand{visibility:hidden}
 .birdfx{position:fixed; z-index:5; pointer-events:none; transform-origin:0 0}
 .birdfx svg{width:100%; height:100%; overflow:visible}
 .birdfx .lid, .birdfx .happy{display:none}
+.birdfx svg.bird .lid{display:block}
+
+/* ── 찾았어! : 새가 가운데로 와서 흔들리다 사진으로 펑 ── */
+.foundfx{position:fixed; inset:0; z-index:45; pointer-events:auto}
+.foundfx .birdfx{position:absolute; transition:transform .75s cubic-bezier(.45,.05,.25,1)}
+.foundfx .birdfx svg{transition:transform .18s ease-in, opacity .18s ease-in}
+.foundfx .birdfx.jit1 svg{animation:jit1 .1s linear infinite}
+.foundfx .birdfx.jit2 svg{animation:jit2 .055s linear infinite}
+.foundfx .birdfx.gone svg{transform:scale(1.18); opacity:0; animation:none}
+@keyframes jit1{0%,100%{transform:translate(0,0) rotate(0)} 25%{transform:translate(-5px,1px) rotate(-1.5deg)} 75%{transform:translate(5px,-1px) rotate(1.5deg)}}
+@keyframes jit2{0%,100%{transform:translate(0,0) rotate(0) scale(1.02)} 25%{transform:translate(-10px,3px) rotate(-3.5deg) scale(1.04)} 50%{transform:translate(4px,-6px) rotate(2deg) scale(1.03)} 75%{transform:translate(10px,2px) rotate(3.5deg) scale(1.05)}}
+.flash{position:absolute; width:40px; height:40px; margin:-20px 0 0 -20px; border-radius:50%; background:radial-gradient(circle,#fff 0,rgba(255,255,255,.85) 30%,rgba(255,255,255,0) 70%);
+  animation:flash .6s cubic-bezier(.2,.8,.3,1) forwards}
+@keyframes flash{0%{transform:scale(.2); opacity:1} 100%{transform:scale(28); opacity:0}}
+.puff{position:absolute; width:clamp(70px,9vw,130px); height:clamp(14px,1.8vw,26px); margin-top:calc(clamp(14px,1.8vw,26px) / -2); transform-origin:0 50%;
+  animation:puff .95s cubic-bezier(.15,.75,.3,1) forwards}
+.puff svg{width:100%; height:100%; display:block}
+@keyframes puff{0%{transform:rotate(var(--a)) translateX(0) scale(.3); opacity:1} 70%{opacity:1} 100%{transform:rotate(calc(var(--a) + var(--s))) translateX(var(--d)) scale(1); opacity:0}}
+.popph{position:absolute; margin:0; border-radius:10px; overflow:hidden; background:#111; box-shadow:0 30px 80px rgba(0,0,0,.6);
+  animation:popin .6s cubic-bezier(.2,1.55,.4,1) both}
+.popph img{width:100%; height:100%; object-fit:cover; object-position:center 35%; display:block}
+.popph .art{position:absolute; inset:6%} .popph .art svg{width:100%; height:100%}
+.popph.move{animation:none; transition:left .85s cubic-bezier(.6,0,.2,1), top .85s cubic-bezier(.6,0,.2,1), width .85s cubic-bezier(.6,0,.2,1), height .85s cubic-bezier(.6,0,.2,1), border-radius .85s, box-shadow .85s}
+@keyframes popin{0%{transform:scale(.35); opacity:0} 60%{opacity:1} 100%{transform:scale(1); opacity:1}}
+.foundtxt{position:absolute; left:0; right:0; margin:0; text-align:center; font-weight:900; font-size:clamp(44px,7vw,104px); letter-spacing:-.04em; line-height:1;
+  text-shadow:0 4px 30px rgba(0,0,0,.8); animation:foundtxt .55s .12s cubic-bezier(.2,1.6,.4,1) both; transition:opacity .35s, transform .45s}
+.foundtxt.out{opacity:0; transform:translateY(-18px)}
+@keyframes foundtxt{0%{transform:translateY(24px) scale(.7); opacity:0} 100%{transform:none; opacity:1}}
+.q .zone-q, .q .zone-opts{transition:opacity .35s ease}
+.q.finding .zone-q, .q.finding .zone-opts{opacity:0; pointer-events:none}
 .choices{display:flex; gap:12px; flex-wrap:wrap; justify-content:center}
 .big{min-width:180px; padding:18px 28px; border-radius:999px; background:var(--soft); font-weight:900; font-size:clamp(17px,2vw,20px); transition:background .2s}
 .big:hover{background:var(--soft2)}
@@ -749,7 +779,11 @@ function answersToAttrs(answers){
 function renderFind(){
   const R = eng.ranking(S.answers, S.rejected), top = R.list[0];
   const next = eng.nextQuestion(S.answers, S.rejected), asked = S.answers.length;
-  if (top && !S.declined.has(top.si) && ((top.p >= .62 && asked >= 3) || !next)) { renderResult(top, asked); return; }
+  if (top && !S.declined.has(top.si) && ((top.p >= .62 && asked >= 3) || !next)) {
+    const figSvg = $v.querySelector(".q #fig svg");
+    if (figSvg && !matchMedia("(prefers-reduced-motion: reduce)").matches) foundSequence(top, asked, figSvg); else renderResult(top, asked);
+    return;
+  }
   const q = next.q, opts = plausibleOptions(q), color = isColorQ(q);
   const focusPart = q.part.includes("all") ? "all" : q.part[0];
   const soFar = answersToAttrs(S.answers);
@@ -829,6 +863,64 @@ function photoFigure(sp){
   const u = photo(sp, "large");
   return `<figure class="photo" id="ph">${u ? `<img src="${esc(u)}" alt="${esc(nameOf(sp))}">` : `<div class="art">${birdSVG(Object.assign({}, sp.base, sp.looks[0]))}</div>`}
     ${sp.photo && sp.photo.credit ? `<figcaption>사진 ${esc(sp.photo.credit)}</figcaption>` : ""}</figure>`;
+}
+// 질문 → 결과: 새가 화면 가운데로 와서 점점 세게 흔들리다 "펑" 하고 진짜 사진이 되고, 사진은 결과 화면의 오른쪽 자리로 간다
+let finding = false;
+async function foundSequence(top, asked, figSvg){
+  if (finding) return; finding = true;
+  const sp = top.species, A = Object.assign({}, sp.base, top.look || {}), u = photo(sp, "large");
+  // 사진은 미리 불러 둔다 (흔드는 동안)
+  const ready = new Promise(res => { if (!u) return res(); const im = new Image(); im.onload = im.onerror = res; im.src = u; setTimeout(res, 2200); });
+  $v.querySelector(".q").classList.add("finding");
+  const layer = document.createElement("div"); layer.className = "foundfx"; document.body.appendChild(layer);
+  // 1) 새를 그대로 떠서 가운데로
+  const b = birdBox(figSvg), fx = document.createElement("div"); fx.className = "birdfx";
+  Object.assign(fx.style, { left:b.x + "px", top:b.y + "px", width:700 * b.s + "px", height:1244 * b.s + "px" });
+  fx.innerHTML = figSvg.outerHTML; layer.appendChild(fx);
+  const cs = fx.querySelector("svg"); cs.setAttribute("viewBox", "0 0 700 1244"); cs.classList.remove("tilt", "hop");
+  figSvg.style.visibility = "hidden";
+  const W = innerWidth, H = innerHeight, th = Math.min(H * (mobile() ? .6 : .74), W * .8 * 1244 / 700), k = th / (1244 * b.s);
+  const cx = W / 2, cy = H / 2;   // 그림 가운데(새 몸통 쯤)를 화면 가운데로
+  const bx = b.x + 350 * b.s, by = b.y + 600 * b.s;
+  fx.style.transformOrigin = `${350 * b.s}px ${600 * b.s}px`;
+  void fx.offsetWidth;
+  fx.style.transform = `translate(${cx - bx}px,${cy - by}px) scale(${k})`;
+  await wait(800);
+  // 2) 점점 세게 흔들림
+  fx.classList.add("jit1"); await wait(650);
+  fx.classList.remove("jit1"); fx.classList.add("jit2"); await Promise.all([wait(600), ready]);
+  // 3) 펑!
+  fx.classList.remove("jit2"); fx.classList.add("gone");
+  const fl = document.createElement("div"); fl.className = "flash"; Object.assign(fl.style, { left:cx + "px", top:cy + "px" }); layer.appendChild(fl);
+  const cols = [...new Set(["main","crown","face","breast","wing","tail","forehead","cheek"].flatMap(key => Array.isArray(A[key]) ? A[key] : []))].map(hex).filter(Boolean);
+  for (let i = 0; i < 14; i++) {
+    const pf = document.createElement("div"); pf.className = "puff";
+    Object.assign(pf.style, { left:cx + "px", top:cy + "px" });
+    pf.style.setProperty("--a", (i * 360 / 14 + Math.random() * 14) + "deg");
+    pf.style.setProperty("--s", ((Math.random() - .5) * 50) + "deg");
+    pf.style.setProperty("--d", (Math.min(W, H) * (.3 + Math.random() * .22)) + "px");
+    pf.innerHTML = dyedFeather(cols[i % Math.max(1, cols.length)] || "#cccccc", i); layer.appendChild(pf);
+  }
+  const m = mobile(), ph = document.createElement("figure"); ph.className = "popph";
+  const pw = m ? W * .78 : Math.min(H * .62 * .8, W * .5), phh = pw * 1.25;
+  Object.assign(ph.style, { left:(cx - pw / 2) + "px", top:(cy - phh / 2 + (m ? 30 : 36)) + "px", width:pw + "px", height:phh + "px" });
+  ph.innerHTML = u ? `<img src="${esc(u)}" alt="">` : `<div class="art">${birdSVG(A)}</div>`;
+  layer.appendChild(ph);
+  const tx = document.createElement("p"); tx.className = "foundtxt"; tx.textContent = "찾았어!";
+  tx.style.top = Math.max(20, cy - phh / 2 + (m ? 30 : 36) - (m ? 70 : Math.min(118, W * .08))) + "px"; layer.appendChild(tx);
+  await wait(1350);
+  // 4) 결과 화면을 깔고, 사진을 오른쪽 자리로
+  renderResult(top, asked);
+  const real = document.getElementById("ph");
+  real.style.transition = "none"; real.classList.add("in"); real.style.visibility = "hidden";
+  const r = real.getBoundingClientRect();
+  tx.classList.add("out");
+  ph.classList.add("move");
+  void ph.offsetWidth;
+  Object.assign(ph.style, { left:r.left + "px", top:r.top + "px", width:r.width + "px", height:r.height + "px", borderRadius:"4px", boxShadow:"0 0 0 rgba(0,0,0,0)" });
+  await wait(880);
+  real.style.visibility = ""; real.style.transition = "";
+  layer.remove(); finding = false;
 }
 function renderResult(top, asked){
   const sp = top.species, ll = lookLabel(sp, top.look.label);
