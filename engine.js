@@ -120,7 +120,11 @@
     return Math.max(FLOOR, s);
   }
 
-  function createEngine(species) {
+  // opts.opening: 처음에 고정으로 물을 질문 순서, opts.ease: 질문별 가산점 덮어쓰기
+  function createEngine(species, opts) {
+    opts = opts || {};
+    const opening = opts.opening || OPENING;
+    const ease = Object.assign({}, EASE, opts.ease || {});
     const looks = buildLooks(species);
     const N = species.length;
 
@@ -164,7 +168,7 @@
     function nextQuestion(answers, rejected) {
       const asked = new Set(answers.map(a => a.qid));
       // 처음 두 질문은 누구나 바로 답할 수 있는 것으로 고정: 몸 전체 색 → 크기
-      for (const id of OPENING) if (!asked.has(id) && answers.length < OPENING.length) return { q: QMAP[id], gain: 0 };
+      for (const id of opening) if (!asked.has(id) && answers.length < opening.length) return { q: QMAP[id], gain: 0 };
       const lw = posterior(answers, rejected);
       const H0 = entropy(speciesPost(lw));
       let best = null;
@@ -183,7 +187,7 @@
           expH += pa * entropy(sp);
         });
         // 누구나 쉽게 답하는 질문은 조금 우대 (첫 질문이 '이마 색'이면 어색하다)
-        const gain = (H0 - expH) * (EASE[q.id] || 1);
+        const gain = (H0 - expH) * (ease[q.id] || 1);
         if (!best || gain > best.gain + 1e-9) best = { q, gain };
       }
       return best;
