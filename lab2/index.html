@@ -226,6 +226,18 @@ body.on-cover .brand{visibility:hidden}
 .cc b{font-size:16px; font-weight:900}
 .cc span{font-size:12px; color:var(--dim); font-weight:500}
 .cc:hover b{color:var(--hl)}
+.cc .ph{position:relative}
+/* 북마크: 이름 아래 별, 도감 카드 오른쪽 위 빨간 리본 */
+.star{justify-self:start; display:inline-flex; align-items:center; gap:8px; padding:8px 15px 8px 11px; border-radius:999px; background:var(--soft); font-size:14px; color:var(--dim); transition:background .2s, color .2s}
+.star svg{width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linejoin:round; transition:fill .2s}
+.star:hover{background:var(--soft2); color:var(--ink)}
+.star.on{color:#ff5a4a; background:rgba(255,90,74,.13)}
+.star.on svg{fill:#ff5a4a}
+.star.pop svg{animation:starpop .5s cubic-bezier(.3,1.8,.5,1)}
+@keyframes starpop{0%{transform:scale(.4) rotate(-30deg)} 100%{transform:none}}
+.cc .ph .ribbon, .ribbon{position:absolute; top:-3px; right:12px; width:22px; height:34px; z-index:2; filter:drop-shadow(0 3px 5px rgba(0,0,0,.55))}
+.ribbon path{fill:#e2392c}
+.bmcount{margin:10px 0 0; color:var(--dim); font-weight:500; font-size:13px}
 
 /* 도감 */
 .search{width:100%; max-width:520px; padding:12px 0; border:0; border-bottom:2px solid var(--soft2); background:none; font:inherit; font-size:20px; font-weight:900; color:var(--ink)}
@@ -791,6 +803,25 @@ function trail(){
 }
 function resetFind(){ S.answers = []; S.rejected = new Set(); S.declined = new Set(); nav("find"); }
 
+/* ───────── 북마크 (이 브라우저에 저장) ───────── */
+const BM_KEY = "parrot-key:bookmarks";
+const BM = (() => { try { return new Set(JSON.parse(localStorage.getItem(BM_KEY) || "[]")); } catch (e) { return new Set(); } })();
+const bmSave = () => { try { localStorage.setItem(BM_KEY, JSON.stringify([...BM])); } catch (e) {} };
+const isBm = sp => BM.has(sp.id);
+const STAR = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4L2.8 9.5l6.4-.8z"/></svg>`;
+const RIBBON = `<svg class="ribbon" viewBox="0 0 22 34" aria-label="저장한 새"><path d="M0 0H22V34L11 26L0 34Z"/></svg>`;
+function starBtn(sp){ const on = isBm(sp);
+  return `<button class="star${on ? " on" : ""}" data-bm="${esc(sp.id)}" aria-pressed="${on}">${STAR}<span>${on ? "도감에 저장됨" : "도감에 저장"}</span></button>`; }
+function bindStars(root){
+  root.querySelectorAll("[data-bm]").forEach(b => b.onclick = e => {
+    e.stopPropagation(); const id = b.dataset.bm;
+    if (BM.has(id)) BM.delete(id); else BM.add(id); bmSave();
+    const on = BM.has(id); b.classList.toggle("on", on); b.setAttribute("aria-pressed", on);
+    b.querySelector("span").textContent = on ? "도감에 저장됨" : "도감에 저장";
+    b.classList.remove("pop"); void b.offsetWidth; if (on) b.classList.add("pop");
+  });
+}
+
 /* ───────── 정답 확인 ───────── */
 function photoFigure(sp){
   const u = photo(sp, "large");
@@ -861,6 +892,7 @@ function renderResult(top, asked){
     <div class="panel rise">
       <p class="ask">질문 ${asked}개 · 이 새가 맞나요?</p>
       <h1>${esc(nameOf(sp))}</h1>
+      ${starBtn(sp)}
       <p class="aka">${sp.extinct ? `<span class="badge red">멸종</span>` : ""}${ll ? `<span class="badge">${esc(ll)}</span>` : ""}${esc(sp.en)}<br><span class="sci">${esc(sp.sci)}</span></p>
       <div class="btns">
         <button class="big solid" id="yes">맞아요 · 다른 앵무새 찾기<small>처음부터 새로 찾아요</small></button>
@@ -871,6 +903,7 @@ function renderResult(top, asked){
     ${photoFigure(sp)}
   </section>`;
   requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById("ph").classList.add("in")));
+  bindStars($v);
   document.getElementById("yes").onclick = resetFind;
   document.getElementById("no").onclick = () => renderCandidates(top);
   document.getElementById("more").onclick = () => { S.foundAt = asked; openDetail(top.si, "find", true); };
@@ -894,7 +927,7 @@ function renderCandidates(top){
 /* ───────── 도감 ───────── */
 function renderBrowse(){
   $v.innerHTML = `<section class="screen">
-    <div class="bhead"><h1>도감 ${SP.length}종</h1>
+    <div class="bhead"><div><h1>도감 ${SP.length}종</h1>${BM.size ? `<p class="bmcount">저장한 새 ${BM.size}종이 맨 앞에 있어요</p>` : ""}</div>
       <input id="filter" class="search" type="search" placeholder="이름으로 찾기 · 한글, 영어, 학명" value="${esc(S.filter)}" aria-label="이름으로 찾기" autocomplete="off"></div>
     <div class="cgrid" id="bgrid"></div></section>`;
   const inp = document.getElementById("filter");
@@ -906,9 +939,9 @@ function fillBrowse(){
   const inp = document.getElementById("filter"); S.filter = inp ? inp.value : S.filter;
   const f = S.filter.trim().toLowerCase().replace(/\s+/g, "");
   const list = SP.map((s, i) => ({ s, i })).filter(({ s }) => !f || (nameOf(s) + s.en + s.sci).toLowerCase().replace(/\s+/g, "").includes(f))
-    .sort((a, b) => nameOf(a.s).localeCompare(nameOf(b.s), "ko"));
+    .sort((a, b) => (isBm(b.s) - isBm(a.s)) || nameOf(a.s).localeCompare(nameOf(b.s), "ko"));
   const g = document.getElementById("bgrid");
-  g.innerHTML = list.map(({ s, i }) => `<button class="cc" data-sp="${i}"><span class="ph">${photo(s, "medium") ? `<img src="${esc(photo(s, "medium"))}" alt="" loading="lazy">` : birdSVG(Object.assign({}, s.base, s.looks[0]))}</span>
+  g.innerHTML = list.map(({ s, i }) => `<button class="cc" data-sp="${i}"><span class="ph">${isBm(s) ? RIBBON : ""}${photo(s, "medium") ? `<img src="${esc(photo(s, "medium"))}" alt="" loading="lazy">` : birdSVG(Object.assign({}, s.base, s.looks[0]))}</span>
     <b>${esc(nameOf(s))}</b><span>${s.extinct ? "멸종 · " : ""}${esc(s.en)}</span></button>`).join("") || `<p class="dim">"${esc(S.filter)}"에 맞는 이름이 없어요. 이름을 모르면 찾기에서 깃털로 찾아보세요.</p>`;
   g.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => openDetail(+b.dataset.sp, "browse"));
 }
@@ -937,6 +970,7 @@ function renderDetail(){
       <button class="link" id="back" style="justify-self:start">← ${S.from === "browse" ? "도감으로" : "찾기로"}</button>
       ${S.foundAt != null ? `<p class="ask">질문 ${S.foundAt}개 만에 찾았어요</p>` : ""}
       <h1>${esc(nameOf(s))}</h1>
+      ${starBtn(s)}
       <p class="aka">${s.extinct ? `<span class="badge red">멸종</span>` : ""}다른 이름 · ${esc(s.en)}<br><span class="sci">${esc(s.sci)}</span>${s.koMissing ? `<br><span style="font-size:12px">정식 국명이 없어 영어 이름을 우리말로 옮겼어요</span>` : ""}</p>
       <dl class="kv"><dt>사는 곳</dt><dd>${esc(s.region || "—")}</dd><dt>몸길이</dt><dd>약 ${s.sizeCm}cm</dd></dl>
       ${s.looks.length > 1 ? `<div class="sec"><h2>모습</h2><div style="display:flex;gap:12px;flex-wrap:wrap">${s.looks.map((l, li) => `<figure style="margin:0;width:90px;text-align:center">${birdSVG(lookAttrs(s, li))}<figcaption class="dim" style="font-size:12px">${esc(lookLabel(s, l.label))}</figcaption></figure>`).join("")}</div></div>` : ""}
@@ -950,6 +984,7 @@ function renderDetail(){
   requestAnimationFrame(() => requestAnimationFrame(() => document.getElementById("ph").classList.add("in")));
   document.getElementById("back").onclick = () => { S.foundAt = null; nav(S.from === "browse" ? "browse" : "find"); };
   document.getElementById("newFind").onclick = resetFind;
+  bindStars($v);
   $v.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => openDetail(+b.dataset.sp, S.from));
 }
 function openDetail(si, from, found){ S.detail = si; S.from = from; if (!found) S.foundAt = null; S.view = "detail"; render(); scrollTo(0, 0); }
