@@ -1,22 +1,29 @@
 // 4단계: 견본 26종 + 추출된 배치들을 합쳐 data/species.js 재생성
+// 재실행해도 안전하도록(idempotent), 견본 26종은 항상 최초 커밋(a18b9cc)의
+// data/species.js에서 읽는다 — 현재 data/species.js는 이미 병합된 415종을
+//담고 있을 수 있으므로 "존재하는 파일"을 그대로 신뢰하지 않는다.
 const fs = require("fs");
 const path = require("path");
+const { execFileSync } = require("child_process");
 
 const ROOT = path.join(__dirname, "..", "..");
 const SPECIES_PATH = path.join(ROOT, "data", "species.js");
 const RAW_DIR = path.join(__dirname);
+const ORIGINAL_COMMIT = "a18b9cc";
 
-// 1) 기존 species.js에서 헤더 주석 추출
-const srcText = fs.readFileSync(SPECIES_PATH, "utf-8");
+// 1) 최초 커밋의 species.js 원본 텍스트 (헤더 주석 + 견본 26종)
+const srcText = execFileSync("git", ["show", `${ORIGINAL_COMMIT}:data/species.js`], { cwd: ROOT, encoding: "utf-8" });
+
 const headerMatch = srcText.match(/^\/\*[\s\S]*?\*\//);
-if (!headerMatch) throw new Error("header comment not found in species.js");
+if (!headerMatch) throw new Error("header comment not found in original species.js");
 const header = headerMatch[0];
 
 // 2) 기존 26종 로드 (base/looks는 절대 건드리지 않음)
 globalThis.window = globalThis;
-delete require.cache[require.resolve(SPECIES_PATH)];
-require(SPECIES_PATH);
-const existing = SPECIES.map(s => Object.assign({}, s)); // shallow copy, base/looks reference preserved
+globalThis.SPECIES = undefined;
+new Function("window", srcText)(globalThis);
+const existing = globalThis.SPECIES.map(s => Object.assign({}, s)); // shallow copy, base/looks reference preserved
+if (existing.length !== 26) throw new Error(`expected 26 original species, got ${existing.length}`);
 
 // 3) taxa.json에서 기존 종에 photo/en 보강
 const taxa = JSON.parse(fs.readFileSync(path.join(RAW_DIR, "taxa.json"), "utf-8"));

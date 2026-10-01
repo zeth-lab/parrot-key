@@ -627,7 +627,7 @@
   "sci": "Psittacula longicauda",
   "file": "Psittacula_longicauda.txt",
   "len": 144,
-  "section": "cached",
+  "section": "Description",
   "size_cm": null,
   "thin": true
  },
@@ -1419,7 +1419,7 @@
   "sci": "Pionus tumultuosus",
   "file": "Pionus_tumultuosus.txt",
   "len": 148,
-  "section": "cached",
+  "section": "intro",
   "size_cm": null,
   "thin": true
  },
@@ -1507,8 +1507,8 @@
   "sci": "Eclectus roratus",
   "file": "Eclectus_roratus.txt",
   "len": 2645,
-  "section": "Description",
-  "size_cm": 42.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
@@ -1707,7 +1707,7 @@
   "sci": "Psittacula finschii",
   "file": "Psittacula_finschii.txt",
   "len": 166,
-  "section": "cached",
+  "section": "Description",
   "size_cm": null,
   "thin": true
  },
@@ -1771,8 +1771,8 @@
   "sci": "Cyanoramphus unicolor",
   "file": "Cyanoramphus_unicolor.txt",
   "len": 121,
-  "section": "cached",
-  "size_cm": null,
+  "section": "Description",
+  "size_cm": 30.0,
   "thin": true
  },
  {
@@ -2019,7 +2019,7 @@
   "sci": "Loriculus pusillus",
   "file": "Loriculus_pusillus.txt",
   "len": 132,
-  "section": "cached",
+  "section": "Description",
   "size_cm": null,
   "thin": true
  },
@@ -2315,8 +2315,8 @@
   "sci": "Cacatua ophthalmica",
   "file": "Cacatua_ophthalmica.txt",
   "len": 1167,
-  "section": "Description",
-  "size_cm": 50.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
@@ -2379,7 +2379,7 @@
   "sci": "Geoffroyus heteroclitus",
   "file": "Geoffroyus_heteroclitus.txt",
   "len": 111,
-  "section": "cached",
+  "section": "intro",
   "size_cm": null,
   "thin": true
  },
@@ -2403,8 +2403,8 @@
   "sci": "Lorius domicella",
   "file": "Lorius_domicella.txt",
   "len": 527,
-  "section": "Description",
-  "size_cm": 28.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
@@ -2435,7 +2435,7 @@
   "sci": "Hapalopsittaca pyrrhops",
   "file": "Hapalopsittaca_pyrrhops.txt",
   "len": 96,
-  "section": "cached",
+  "section": "intro",
   "size_cm": null,
   "thin": true
  },
@@ -2459,7 +2459,7 @@
   "sci": "Neopsittacus musschenbroekii",
   "file": "Neopsittacus_musschenbroekii.txt",
   "len": 88,
-  "section": "cached",
+  "section": "Description",
   "size_cm": null,
   "thin": true
  },
@@ -2475,7 +2475,7 @@
   "sci": "Charmosyna papou",
   "file": "Charmosyna_papou.txt",
   "len": 192,
-  "section": "cached",
+  "section": "intro",
   "size_cm": null,
   "thin": true
  },
@@ -2483,7 +2483,7 @@
   "sci": "Chalcopsitta scintillata",
   "file": "Chalcopsitta_scintillata.txt",
   "len": 164,
-  "section": "cached",
+  "section": "intro",
   "size_cm": null,
   "thin": true
  },
@@ -2491,8 +2491,8 @@
   "sci": "Alisterus chloropterus",
   "file": "Alisterus_chloropterus.txt",
   "len": 1043,
-  "section": "Description",
-  "size_cm": 36.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
@@ -2571,16 +2571,16 @@
   "sci": "Loriculus sclateri",
   "file": "Loriculus_sclateri.txt",
   "len": 192,
-  "section": "cached",
-  "size_cm": null,
+  "section": "intro",
+  "size_cm": 14.0,
   "thin": true
  },
  {
   "sci": "Glossoptilus goldiei",
   "file": "Glossoptilus_goldiei.txt",
   "len": 525,
-  "section": "Description",
-  "size_cm": 19.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
@@ -2603,7 +2603,7 @@
   "sci": "Micropsitta geelvinkiana",
   "file": "Micropsitta_geelvinkiana.txt",
   "len": 154,
-  "section": "cached",
+  "section": "Description",
   "size_cm": null,
   "thin": true
  },
@@ -2691,7 +2691,7 @@
   "sci": "Psittacella picta",
   "file": "Psittacella_picta.txt",
   "len": 121,
-  "section": "cached",
+  "section": "Description",
   "size_cm": null,
   "thin": true
  },
@@ -2699,7 +2699,7 @@
   "sci": "Chalcopsitta duivenbodei",
   "file": "Chalcopsitta_duivenbodei.txt",
   "len": 96,
-  "section": "cached",
+  "section": "Description",
   "size_cm": null,
   "thin": true
  },
@@ -2755,7 +2755,7 @@
   "sci": "Micropsitta finschii",
   "file": "Micropsitta_finschii.txt",
   "len": 604,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2763,39 +2763,39 @@
   "sci": "Trichoglossus weberi",
   "file": "Trichoglossus_weberi.txt",
   "len": 258,
-  "section": "Description",
-  "size_cm": 23.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Cyanopsitta spixii",
   "file": "Cyanopsitta_spixii.txt",
   "len": 861,
-  "section": "Description",
-  "size_cm": 56.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Charmosynopsis pulchella",
   "file": "Charmosynopsis_pulchella.txt",
   "len": 1105,
-  "section": "Description",
-  "size_cm": 18.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Cyclopsitta edwardsii",
   "file": "Cyclopsitta_edwardsii.txt",
   "len": 717,
-  "section": "Description",
-  "size_cm": 18.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Pyrilia aurantiocephala",
   "file": "Pyrilia_aurantiocephala.txt",
   "len": 813,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2803,8 +2803,8 @@
   "sci": "Hapalopsittaca melanotis",
   "file": "Hapalopsittaca_melanotis.txt",
   "len": 516,
-  "section": "Description",
-  "size_cm": 24.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
@@ -2827,7 +2827,7 @@
   "sci": "Vini ultramarina",
   "file": "Vini_ultramarina.txt",
   "len": 364,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2835,31 +2835,31 @@
   "sci": "Prioniturus mada",
   "file": "Prioniturus_mada.txt",
   "len": 493,
-  "section": "Description",
-  "size_cm": 32.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Touit stictopterus",
   "file": "Touit_stictopterus.txt",
   "len": 365,
-  "section": "Description",
-  "size_cm": 18.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Psittinus abbotti",
   "file": "Psittinus_abbotti.txt",
   "len": 434,
-  "section": "Description",
-  "size_cm": 19.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Pyrrhura subandina",
   "file": "Pyrrhura_subandina.txt",
   "len": 621,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2867,7 +2867,7 @@
   "sci": "Trichoglossus rosenbergii",
   "file": "Trichoglossus_rosenbergii.txt",
   "len": 265,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2875,7 +2875,7 @@
   "sci": "Coracopsis sibilans",
   "file": "Coracopsis_sibilans.txt",
   "len": 301,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2883,15 +2883,15 @@
   "sci": "Vini stepheni",
   "file": "Vini_stepheni.txt",
   "len": 711,
-  "section": "Description",
-  "size_cm": 19.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Pezoporus occidentalis",
   "file": "Pezoporus_occidentalis.txt",
   "len": 1036,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2907,31 +2907,31 @@
   "sci": "Trichoglossus semilarvatus",
   "file": "Trichoglossus_semilarvatus.txt",
   "len": 815,
-  "section": "intro",
-  "size_cm": 24.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Pyrrhura rhodocephala",
   "file": "Pyrrhura_rhodocephala.txt",
   "len": 639,
-  "section": "Description",
-  "size_cm": 24.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Geoffroyus simplex",
   "file": "Geoffroyus_simplex.txt",
   "len": 810,
-  "section": "intro",
-  "size_cm": 25.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Nannopsittaca panychlora",
   "file": "Nannopsittaca_panychlora.txt",
   "len": 220,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2939,7 +2939,7 @@
   "sci": "Prioniturus mindorensis",
   "file": "Prioniturus_mindorensis.txt",
   "len": 376,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2947,7 +2947,7 @@
   "sci": "Loriculus camiguinensis",
   "file": "Loriculus_camiguinensis.txt",
   "len": 420,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2955,39 +2955,39 @@
   "sci": "Psittacella madaraszi",
   "file": "Psittacella_madaraszi.txt",
   "len": 523,
-  "section": "Description",
-  "size_cm": 14.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Pyrrhura egregia",
   "file": "Pyrrhura_egregia.txt",
   "len": 717,
-  "section": "Description",
-  "size_cm": 26.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Psittacula caniceps",
   "file": "Psittacula_caniceps.txt",
   "len": 928,
-  "section": "Description",
-  "size_cm": 60.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Hypocharmosyna rubronotata",
   "file": "Hypocharmosyna_rubronotata.txt",
   "len": 1096,
-  "section": "Description",
-  "size_cm": 17.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Prioniturus montanus",
   "file": "Prioniturus_montanus.txt",
   "len": 436,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -2995,15 +2995,15 @@
   "sci": "Loriculus flosculus",
   "file": "Loriculus_flosculus.txt",
   "len": 673,
-  "section": "intro",
-  "size_cm": 12.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Charmosyna multistriata",
   "file": "Charmosyna_multistriata.txt",
   "len": 219,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3011,8 +3011,8 @@
   "sci": "Charminetta wilhelminae",
   "file": "Charminetta_wilhelminae.txt",
   "len": 525,
-  "section": "Description",
-  "size_cm": 13.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
@@ -3027,15 +3027,15 @@
   "sci": "Tanygnathus gramineus",
   "file": "Tanygnathus_gramineus.txt",
   "len": 423,
-  "section": "intro",
-  "size_cm": 40.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Psephotellus pulcherrimus",
   "file": "Psephotellus_pulcherrimus.txt",
   "len": 266,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3043,7 +3043,7 @@
   "sci": "Vini rubrigularis",
   "file": "Vini_rubrigularis.txt",
   "len": 310,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3051,15 +3051,15 @@
   "sci": "Vini margarethae",
   "file": "Vini_margarethae.txt",
   "len": 782,
-  "section": "Description",
-  "size_cm": 20.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Poicephalus crassus",
   "file": "Poicephalus_crassus.txt",
   "len": 294,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3067,7 +3067,7 @@
   "sci": "Micropsitta meeki",
   "file": "Micropsitta_meeki.txt",
   "len": 617,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3075,15 +3075,15 @@
   "sci": "Ara tricolor",
   "file": "Ara_tricolor.txt",
   "len": 1676,
-  "section": "Description",
-  "size_cm": 50.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Psittacara labati",
   "file": "Psittacara_labati.txt",
   "len": 295,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3091,7 +3091,7 @@
   "sci": "Vini sinotoi",
   "file": "Vini_sinotoi.txt",
   "len": 260,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3099,7 +3099,7 @@
   "sci": "Cyanoramphus subflavescens",
   "file": "Cyanoramphus_subflavescens.txt",
   "len": 262,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3107,7 +3107,7 @@
   "sci": "Psittacula bensoni",
   "file": "Psittacula_bensoni.txt",
   "len": 1233,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3115,7 +3115,7 @@
   "sci": "Amazona martinicana",
   "file": "Amazona_martinicana.txt",
   "len": 843,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3123,39 +3123,39 @@
   "sci": "Tanygnathus everetti",
   "file": "Tanygnathus_everetti.txt",
   "len": 652,
-  "section": "Description",
-  "size_cm": 32.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Cyanoramphus ulietanus",
   "file": "Cyanoramphus_ulietanus.txt",
   "len": 595,
-  "section": "Description",
-  "size_cm": 25.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Psittacula exsul",
   "file": "Psittacula_exsul.txt",
   "len": 5141,
-  "section": "Description",
-  "size_cm": 40.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Psittacula wardi",
   "file": "Psittacula_wardi.txt",
   "len": 3659,
-  "section": "Description",
-  "size_cm": 41.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Amazona violacea",
   "file": "Amazona_violacea.txt",
   "len": 2666,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3163,7 +3163,7 @@
   "sci": "Prioniturus verticalis",
   "file": "Prioniturus_verticalis.txt",
   "len": 309,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3171,15 +3171,15 @@
   "sci": "Lorius albidinucha",
   "file": "Lorius_albidinucha.txt",
   "len": 298,
-  "section": "Description",
-  "size_cm": 26.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Loriculus tener",
   "file": "Loriculus_tener.txt",
   "len": 314,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3187,15 +3187,15 @@
   "sci": "Ara autochthones",
   "file": "Ara_autochthones.txt",
   "len": 4926,
-  "section": "Description",
-  "size_cm": 76.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Eclectus infectus",
   "file": "Eclectus_infectus.txt",
   "len": 1387,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3203,15 +3203,15 @@
   "sci": "Lophopsittacus mauritianus",
   "file": "Lophopsittacus_mauritianus.txt",
   "len": 4464,
-  "section": "Description",
-  "size_cm": 65.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Eclectus riedeli",
   "file": "Eclectus_riedeli.txt",
   "len": 418,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3227,7 +3227,7 @@
   "sci": "Vini palmarum",
   "file": "Vini_palmarum.txt",
   "len": 303,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3235,15 +3235,15 @@
   "sci": "Vini amabilis",
   "file": "Vini_amabilis.txt",
   "len": 739,
-  "section": "intro",
-  "size_cm": 18.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Vini meeki",
   "file": "Vini_meeki.txt",
   "len": 314,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3251,15 +3251,15 @@
   "sci": "Vini diadema",
   "file": "Vini_diadema.txt",
   "len": 1178,
-  "section": "Description",
-  "size_cm": 19.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Cyanoramphus zealandicus",
   "file": "Cyanoramphus_zealandicus.txt",
   "len": 860,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3267,7 +3267,7 @@
   "sci": "Nannopsittacus nigrifrons",
   "file": "Nannopsittacus_nigrifrons.txt",
   "len": 214,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3275,31 +3275,31 @@
   "sci": "Mascarinus mascarinus",
   "file": "Mascarinus_mascarinus.txt",
   "len": 5093,
-  "section": "Description",
-  "size_cm": 35.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Nestor productus",
   "file": "Nestor_productus.txt",
   "len": 434,
-  "section": "intro",
-  "size_cm": 38.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Anodorhynchus glaucus",
   "file": "Anodorhynchus_glaucus.txt",
   "len": 268,
-  "section": "Description",
-  "size_cm": 70.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Nestor chathamensis",
   "file": "Nestor_chathamensis.txt",
   "len": 524,
-  "section": "intro",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  },
@@ -3307,15 +3307,15 @@
   "sci": "Necropsittacus rodricanus",
   "file": "Necropsittacus_rodricanus.txt",
   "len": 1734,
-  "section": "Description",
-  "size_cm": 50.0,
+  "section": "cached",
+  "size_cm": null,
   "thin": false
  },
  {
   "sci": "Psittacara maugei",
   "file": "Psittacara_maugei.txt",
   "len": 271,
-  "section": "Description",
+  "section": "cached",
   "size_cm": null,
   "thin": false
  }
