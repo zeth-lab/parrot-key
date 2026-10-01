@@ -73,6 +73,7 @@
   ];
   const QMAP = Object.fromEntries(QUESTIONS.map(q => [q.id, q]));
 
+  const OPENING = ["main", "size"];
   const EASE = { main: 1.35, size: 1.15, crest: 1.15, tailShape: 1.1, wing: 1.05, breast: 1.05 };
   const ORD = { size: ["s", "m", "l", "xl"], tailShape: ["long", "mid", "short"] };
   const CAT_NEAR = { "face|ring": 0.25, "barred|scaled": 0.3, "plain|scaled": 0.12 };
@@ -162,6 +163,8 @@
 
     function nextQuestion(answers, rejected) {
       const asked = new Set(answers.map(a => a.qid));
+      // 처음 두 질문은 누구나 바로 답할 수 있는 것으로 고정: 몸 전체 색 → 크기
+      for (const id of OPENING) if (!asked.has(id) && answers.length < OPENING.length) return { q: QMAP[id], gain: 0 };
       const lw = posterior(answers, rejected);
       const H0 = entropy(speciesPost(lw));
       let best = null;
