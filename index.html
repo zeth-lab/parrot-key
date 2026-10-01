@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>앵무새 검색 도감</title>
+<meta name="description" content="이름을 몰라도 생김새만으로 앵무새 종을 찾아가는 검색표 도감">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 왼쪽은 한 번에 한 질문을 묻는 검색표, 오른쪽은 답할 때마다 순위가 바뀌는 후보 표본함 */
+:root{
+  --paper:#edf0eb; --plate:#f8f9f5; --ink:#1b2420; --muted:#5b6862; --rule:#c8d0ca;
+  --accent:#2b4fb3; --accent-soft:#c9d4f1; --blank:#d6dcd7; --line:#26302b; --branch:#8a7660;
+  --good:#2f7a45;
+  --f-display:"Gowun Batang", "Nanum Myeongjo", serif;
+  --f-body:"IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --f-data:"IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#121815; --plate:#1b231f; --ink:#e2e8e3; --muted:#9aa8a1; --rule:#2d3832;
+  --accent:#8aa6f2; --accent-soft:#2c3a63; --blank:#3a4641; --line:#0d1110; --branch:#6d5d4c; --good:#6cc08a;
+  color-scheme:dark } }
+:root[data-theme="dark"]{
+  --paper:#121815; --plate:#1b231f; --ink:#e2e8e3; --muted:#9aa8a1; --rule:#2d3832;
+  --accent:#8aa6f2; --accent-soft:#2c3a63; --blank:#3a4641; --line:#0d1110; --branch:#6d5d4c; --good:#6cc08a;
+  color-scheme:dark }
+
+*{box-sizing:border-box}
+body{margin:0; background:var(--paper); color:var(--ink); font-family:var(--f-body); font-size:15px; line-height:1.6;
+  padding-inline:clamp(16px,4vw,48px); padding-block:24px 64px}
+.wrap{max-width:1180px; margin:0 auto; display:grid; gap:28px}
+button{font:inherit; color:inherit}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+/* masthead */
+.mast{display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:16px 32px;
+  border-bottom:1.5px solid var(--ink); padding-bottom:16px}
+.mast h1{font-family:var(--f-display); font-weight:700; font-size:clamp(30px,5vw,48px); line-height:1.05; margin:0; letter-spacing:-.01em}
+.mast p{margin:6px 0 0; color:var(--muted); max-width:44ch}
+.mast .ord{font-family:var(--f-data); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:0 0 6px}
+.tabs{display:flex; gap:4px; background:var(--plate); border:1px solid var(--rule); border-radius:999px; padding:4px}
+.tabs button{border:0; background:none; padding:7px 16px; border-radius:999px; cursor:pointer; font-weight:500}
+.tabs button[aria-pressed="true"]{background:var(--ink); color:var(--paper)}
+
+/* find view */
+.find{display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); gap:28px; align-items:start}
+@media (max-width:860px){ .find{grid-template-columns:minmax(0,1fr)} }
+
+.key{background:var(--plate); border:1px solid var(--rule); border-radius:var(--r); padding:clamp(18px,3vw,32px); display:grid; gap:20px}
+.qhead{display:grid; grid-template-columns:minmax(0,1fr) 150px; gap:20px; align-items:center}
+@media (max-width:520px){ .qhead{grid-template-columns:minmax(0,1fr) 110px} }
+.step{font-family:var(--f-data); font-size:12px; letter-spacing:.08em; color:var(--accent); text-transform:uppercase; margin:0}
+.qtext{font-family:var(--f-display); font-size:clamp(22px,3vw,30px); line-height:1.25; margin:4px 0 0; text-wrap:balance}
+.hint{color:var(--muted); margin:8px 0 0; font-size:14px}
+.qhead svg{width:100%; height:auto; display:block}
+
+.opts{display:grid; grid-template-columns:repeat(auto-fill,minmax(112px,1fr)); gap:8px}
+.opt{display:flex; align-items:center; gap:10px; min-height:48px; padding:8px 12px; border:1px solid var(--rule); border-radius:8px;
+  background:var(--paper); cursor:pointer; text-align:left; transition:border-color .15s, transform .15s}
+.opt:hover{border-color:var(--ink)}
+.opt:active{transform:translateY(1px)}
+.chip{flex:none; width:24px; height:24px; border-radius:50%; border:1px solid rgba(0,0,0,.25)}
+.opt .lab{display:grid; line-height:1.25}
+.opt small{color:var(--muted); font-size:12px}
+.opts.pics{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
+.opt.pic{flex-direction:column; align-items:stretch; text-align:center; padding:10px}
+.opt.pic svg{width:100%; height:110px}
+
+.actions{display:flex; flex-wrap:wrap; gap:8px; border-top:1px dashed var(--rule); padding-top:16px}
+.btn{border:1px solid var(--rule); background:none; padding:8px 14px; border-radius:8px; cursor:pointer}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+.btn.quiet{border-color:transparent; color:var(--muted)}
+.btn:disabled{opacity:.4; cursor:default}
+
+.trail{display:flex; flex-wrap:wrap; gap:6px; margin:0; padding:0; list-style:none}
+.trail li button{display:flex; gap:6px; align-items:center; border:1px solid var(--rule); background:var(--paper); border-radius:999px;
+  padding:3px 10px 3px 6px; font-size:13px; cursor:pointer}
+.trail li button:hover{border-color:var(--ink); text-decoration:line-through}
+.trail .chip{width:14px; height:14px}
+.trail .x{color:var(--muted)}
+
+/* shortlist */
+.short{display:grid; gap:12px; position:sticky; top:calc(env(safe-area-inset-top,0px) + 16px)}
+@media (max-width:860px){ .short{position:static} }
+.short h2{font-family:var(--f-display); font-size:20px; margin:0}
+.meter{font-family:var(--f-data); font-size:13px; color:var(--muted); margin:0}
+.meter b{color:var(--ink); font-weight:500; font-variant-numeric:tabular-nums}
+.cands{list-style:none; margin:0; padding:0; display:grid; gap:6px}
+.cand{display:grid; grid-template-columns:22px 44px minmax(0,1fr) 52px; gap:4px 10px; align-items:center; width:100%;
+  border:1px solid var(--rule); background:var(--plate); border-radius:8px; padding:6px 10px; cursor:pointer; text-align:left;
+  transition:border-color .15s}
+.cand:hover{border-color:var(--ink)}
+.cand .rk{font-family:var(--f-data); color:var(--muted); font-size:12px}
+.cand svg, .cand img{width:44px; height:64px; object-fit:cover; border-radius:4px}
+.cand .nm{min-width:0}
+.cand .nm b{display:block; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.cand .nm i{display:block; font-size:12px; color:var(--muted); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.cand .pc{font-family:var(--f-data); font-variant-numeric:tabular-nums; text-align:right; font-size:13px}
+.bar{grid-column:2 / -1; height:3px; background:var(--rule); border-radius:2px; overflow:hidden}
+.bar span{display:block; height:100%; background:var(--accent); transition:width .35s ease}
+
+/* guess */
+.guess{display:grid; grid-template-columns:minmax(0,220px) minmax(0,1fr); gap:24px; align-items:center}
+@media (max-width:560px){ .guess{grid-template-columns:minmax(0,1fr)} }
+.guess svg{width:100%; height:auto; background:var(--paper); border-radius:8px}
+
+/* browse */
+.browse{display:grid; gap:16px}
+.search{display:flex; gap:12px; align-items:center; flex-wrap:wrap}
+.search input{flex:1 1 240px; min-width:0; padding:10px 14px; border:1px solid var(--rule); border-radius:8px; background:var(--plate); font:inherit; color:var(--ink)}
+.grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(170px,1fr)); gap:12px}
+.card{display:grid; gap:4px; text-align:left; border:1px solid var(--rule); border-radius:var(--r); background:var(--plate); padding:12px; cursor:pointer}
+.card:hover{border-color:var(--ink)}
+.card svg, .card img{width:100%; aspect-ratio:1; height:auto; object-fit:cover; border-radius:6px; background:var(--paper)}
+.card b{font-weight:600}
+.card i{font-size:12px; color:var(--muted)}
+.pl{font-family:var(--f-data); font-size:11px; color:var(--muted); letter-spacing:.06em}
+
+/* detail */
+.detail{display:grid; gap:24px}
+.dhead{display:grid; gap:4px}
+.dhead h2{font-family:var(--f-display); font-size:clamp(28px,4vw,40px); margin:0; line-height:1.1}
+.dhead .sci{font-style:italic; color:var(--muted)}
+.found{background:var(--accent-soft); border-radius:8px; padding:10px 14px; margin:0}
+.plates{display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:12px}
+.plates figure{margin:0; background:var(--plate); border:1px solid var(--rule); border-radius:var(--r); padding:12px}
+.plates svg, .plates img{width:100%; height:auto; aspect-ratio:2/3; object-fit:cover; display:block}
+.plates figcaption{font-size:13px; color:var(--muted); margin-top:6px}
+.facts{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:24px}
+.facts h3{font-family:var(--f-display); font-size:18px; margin:0 0 8px}
+dl.kv{display:grid; grid-template-columns:max-content minmax(0,1fr); gap:4px 14px; margin:0}
+dl.kv dt{color:var(--muted); font-size:13px}
+dl.kv dd{margin:0}
+.sim{list-style:none; padding:0; margin:0; display:grid; gap:10px}
+.sim li{border-top:1px dashed var(--rule); padding-top:8px}
+.sim button{border:0; background:none; padding:0; cursor:pointer; font-weight:600; text-decoration:underline; text-underline-offset:3px}
+.sim p{margin:2px 0 0; font-size:14px; color:var(--muted)}
+
+svg.bird .pt{stroke:var(--line); stroke-width:1.2; stroke-linejoin:round}
+svg.bird .dim{opacity:.35}
+svg.bird .on{stroke:var(--accent); stroke-width:2.6}
+@media (prefers-reduced-motion: reduce){ *{transition:none!important} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <p class="ord">Psittaciformes · 검색표</p>
+      <h1>앵무새 검색 도감</h1>
+      <p>이름을 몰라도 괜찮아요. 사진 속 새를 보며 질문에 답하면, 답할 때마다 후보가 좁혀집니다.</p>
+    </div>
+    <nav class="tabs" aria-label="보기">
+      <button id="tab-find" aria-pressed="true">찾기</button>
+      <button id="tab-browse" aria-pressed="false">도감 <span id="count"></span></button>
+    </nav>
+  </header>
+  <main id="view"></main>
+</div>
+
+<script src="data/species.js"></script>
+<script src="engine.js"></script>
+<script>
+(function(){
+const { COLORS, QUESTIONS, QMAP, createEngine, valueOf } = ParrotKey;
+const SP = window.SPECIES;
+const eng = createEngine(SP);
+const $view = document.getElementById("view");
+document.getElementById("count").textContent = SP.length + "종";
+
+/* ───────── 앵무새 그림 (부위별로 색을 칠하는 표본 도판) ───────── */
+let uid = 0;
+const BODY = "M64 92 C46 118 48 172 78 205 C96 222 122 216 130 196 C140 165 128 118 108 96 C98 86 76 84 64 92 Z";
+const WING = "M96 104 C124 108 140 150 134 200 C130 214 118 210 108 194 C94 170 88 130 96 104 Z";
+const TAIL = {
+  long:"M108 190 C114 236 126 270 142 294 C148 268 142 228 134 194 Z",
+  mid:"M108 190 C114 222 122 246 136 262 C142 240 140 214 134 194 Z",
+  short:"M108 190 C112 210 118 228 132 236 C138 222 138 208 134 194 Z"
+};
+const CREST = ["M78 42 C74 24 78 12 86 4 C86 18 88 30 88 42 Z","M86 42 C84 20 92 6 104 0 C100 16 98 30 96 42 Z","M94 44 C100 24 114 12 128 10 C118 24 108 36 102 48 Z"];
+const hex = c => (COLORS[c] || {}).hex;
+
+function birdSVG(a, o = {}){
+  const id = "b" + (uid++);
+  const focus = o.focus || [];
+  const neutral = !!o.neutral;
+  const all = focus.includes("all");
+  const A = Object.assign({ tailShape:"mid", crest:false, eyeSkin:"none", pattern:"plain" }, a || {}, o.variant || {});
+  const fill = (part, key) => {
+    if (neutral) return (all || focus.includes(part)) ? (all ? "var(--accent-soft)" : "var(--accent)") : "var(--blank)";
+    const v = A[key || part];
+    if (Array.isArray(v)) return hex(v[0]) || "var(--blank)";
+    return "var(--blank)";
+  };
+  const cls = part => "pt" + (focus.length && !all ? (focus.includes(part) ? " on" : " dim") : "");
+  const beak = Array.isArray(A.beak) ? A.beak : null;
+  const beakUp = neutral ? fill("beak") : (beak ? hex(beak[0]) : "var(--blank)");
+  const beakLo = neutral ? fill("beak") : (beak ? hex(beak[1] || beak[0]) : "var(--blank)");
+  const crestFill = neutral ? fill("crest") : hex((A.crestColor || A.crown || [])[0]) || "var(--blank)";
+  const skin = neutral ? fill("eyeskin") : (hex(A.eyeSkinColor) || "#f3efe6");
+  const second = Array.isArray(A.wing) && A.wing[1] ? hex(A.wing[1]) : null;
+  const barInk = !neutral && second ? second : "#1d2320";
+  const pat = A.pattern === "barred" ? `url(#bar${id})` : A.pattern === "scaled" ? `url(#sc${id})` : null;
+  const showCheek = Array.isArray(A.cheek) || (neutral && focus.includes("cheek"));
+  const showCollar = Array.isArray(A.collar) || (neutral && focus.includes("collar"));
+  return `<svg class="bird" viewBox="0 -8 200 308" role="img" aria-label="${o.label || "앵무새 그림"}">
+  <defs>
+    <clipPath id="cb${id}"><path d="${BODY}"/></clipPath>
+    <clipPath id="ch${id}"><circle cx="80" cy="70" r="32"/></clipPath>
+    <pattern id="bar${id}" width="8" height="7" patternUnits="userSpaceOnUse"><path d="M0 5 Q4 1.5 8 5" fill="none" stroke="${barInk}" stroke-opacity=".75" stroke-width="1.6"/></pattern>
+    <pattern id="sc${id}" width="9" height="8" patternUnits="userSpaceOnUse"><path d="M0 8 A4.5 4.5 0 0 1 9 8" fill="none" stroke="#1d2320" stroke-opacity=".5" stroke-width="1.2"/></pattern>
+  </defs>
+  <path d="M4 232 C70 222 140 236 198 226" fill="none" stroke="var(--branch)" stroke-width="7" stroke-linecap="round"/>
+  <path class="${cls("tail")}" d="${TAIL[A.tailShape] || TAIL.mid}" fill="${fill("tail")}"/>
+  ${A.crest || (neutral && focus.includes("crest")) ? CREST.map(d => `<path class="${cls("crest")}" d="${d}" fill="${crestFill}"/>`).join("") : ""}
+  <ellipse cx="92" cy="226" rx="6" ry="4" fill="#8f8a82"/><ellipse cx="108" cy="228" rx="6" ry="4" fill="#8f8a82"/>
+  <path class="${cls("belly")}" d="${BODY}" fill="${fill("belly")}"/>
+  <g clip-path="url(#cb${id})">
+    <ellipse class="${cls("back")}" cx="114" cy="110" rx="20" ry="32" fill="${fill("back")}"/>
+    <ellipse class="${cls("breast")}" cx="70" cy="140" rx="30" ry="30" fill="${fill("breast")}"/>
+    <ellipse class="${cls("throat")}" cx="64" cy="102" rx="20" ry="13" fill="${fill("throat")}"/>
+    ${pat && !neutral ? `<path d="${BODY}" fill="${pat}" pointer-events="none"/>` : ""}
+  </g>
+  <path class="${cls("wing")}" d="${WING}" fill="${fill("wing")}"/>
+  ${pat ? `<path d="${WING}" fill="${pat}" pointer-events="none"/>` : ""}
+  <circle class="${cls("face")}" cx="80" cy="70" r="32" fill="${fill("face")}"/>
+  <g clip-path="url(#ch${id})">
+    <ellipse class="${cls("crown")}" cx="90" cy="42" rx="32" ry="16" fill="${fill("crown")}"/>
+    <ellipse class="${cls("forehead")}" cx="54" cy="52" rx="14" ry="12" fill="${fill("forehead")}"/>
+    <ellipse class="${cls("throat")}" cx="62" cy="102" rx="22" ry="12" fill="${fill("throat")}"/>
+  </g>
+  ${showCollar ? `<path class="${cls("collar")}" d="M54 97 Q80 113 109 95" fill="none" stroke="${neutral ? fill("collar") : hex(A.collar[0])}" stroke-width="5" stroke-linecap="round"/>` : ""}
+  ${A.eyeSkin === "face" ? `<ellipse class="${cls("eyeskin")}" cx="63" cy="68" rx="16" ry="14" fill="${skin}"/>` : ""}
+  ${A.eyeSkin === "ring" ? `<circle class="${cls("eyeskin")}" cx="68" cy="62" r="7" fill="${skin}"/>` : ""}
+  ${showCheek ? `<circle class="${cls("cheek")}" cx="82" cy="80" r="8.5" fill="${neutral ? fill("cheek") : hex(A.cheek[0])}"/>` : ""}
+  <circle cx="68" cy="62" r="3.4" fill="#141414"/><circle cx="69.2" cy="60.8" r="1" fill="#fff"/>
+  <path class="${cls("beak")}" d="M54 56 C34 52 22 70 29 93 C33 84 40 78 52 80 Z" fill="${beakUp}"/>
+  <path class="${cls("beak")}" d="M52 80 C44 82 40 90 44 97 C51 97 57 90 57 82 Z" fill="${beakLo}"/>
+</svg>`;
+}
+
+/* ───────── 상태 ───────── */
+const S = { view:"find", answers:[], rejected:new Set(), declined:new Set(), detail:null, foundAt:null, filter:"" };
+
+function colorLabel(v){
+  if (v === "none") return "없다";
+  if (Array.isArray(v)) return v.map(c => COLORS[c] ? COLORS[c].ko : c).join("·");
+  return v;
+}
+function answerLabel(q, v){
+  if (v === "skip") return "모름";
+  const o = q.options.find(x => x.v === v);
+  return o ? o.label : v;
+}
+const SHORT = { main:"주된 색", size:"크기", crestColor:"볏 색", tailShape:"꼬리 길이", crest:"볏", crown:"정수리", forehead:"이마", face:"얼굴",
+  cheek:"뺨 점", throat:"턱밑", collar:"목띠", breast:"가슴", belly:"배", back:"등", wing:"날개", tail:"꼬리 색", beak:"부리", eyeSkin:"눈 맨살", pattern:"무늬" };
+
+/* ───────── 찾기 화면 ───────── */
+function renderFind(){
+  const R = eng.ranking(S.answers, S.rejected);
+  const top = R.list[0];
+  const next = eng.nextQuestion(S.answers, S.rejected);
+  const asked = S.answers.length;
+  const wantGuess = top && !S.declined.has(top.si) && ((top.p >= 0.62 && asked >= 3) || !next);
+
+  let left;
+  if (wantGuess) {
+    left = `<section class="key" aria-live="polite">
+      <p class="step">질문 ${asked}개 · 추측</p>
+      <div class="guess">
+        ${birdSVG(top.look.a, { label: top.species.ko })}
+        <div>
+          <h2 class="qtext">혹시 <b>${top.species.ko}</b>인가요?</h2>
+          <p class="hint">${top.species.en} · <i>${top.species.sci}</i><br>${top.look.label} · 확률 ${Math.round(top.p * 100)}%</p>
+          <div class="actions" style="border:0;padding:0;margin-top:12px">
+            <button class="btn primary" id="yes">네, 이 새예요</button>
+            <button class="btn" id="no">아니에요, 계속 물어봐 주세요</button>
+          </div>
+        </div>
+      </div>
+      ${trail()}
+    </section>`;
+  } else {
+    const q = next.q;
+    const pics = ["tailShape", "crest", "eyeSkin", "size", "pattern"].includes(q.id);
+    left = `<section class="key" aria-live="polite">
+      <div class="qhead">
+        <div>
+          <p class="step">질문 ${asked + 1}</p>
+          <h2 class="qtext">${q.q}</h2>
+          ${q.hint ? `<p class="hint">${q.hint}</p>` : ""}
+        </div>
+        ${birdSVG(null, { neutral:true, focus:q.part, label: q.q })}
+      </div>
+      <div class="opts ${pics ? "pics" : ""}">${q.options.map(o => optionHTML(q, o, pics)).join("")}</div>
+      <div class="actions">
+        <button class="btn" data-ans="skip">잘 모르겠어요</button>
+        <button class="btn quiet" id="undo" ${asked ? "" : "disabled"}>한 단계 되돌리기</button>
+        <button class="btn quiet" id="reset" ${asked ? "" : "disabled"}>처음부터</button>
+      </div>
+      ${trail()}
+    </section>`;
+  }
+
+  const max = Math.max(...R.list.slice(0, 6).map(x => x.p));
+  const right = `<aside class="short" aria-label="후보">
+    <h2>후보</h2>
+    <p class="meter">${SP.length}종 중 사실상 <b>${Math.max(1, Math.round(R.remaining))}종</b>이 남았어요</p>
+    <ol class="cands">${R.list.slice(0, 6).map((c, i) => `<li><button class="cand" data-sp="${c.si}">
+      <span class="rk">${i + 1}</span>${c.species.photo ? `<img src="${c.species.photo.src}" alt="">` : birdSVG(c.look.a, { label:c.species.ko })}
+      <span class="nm"><b>${c.species.ko}</b><i>${c.look.label} · ${c.species.en}</i></span>
+      <span class="pc">${(c.p * 100).toFixed(c.p < .1 ? 1 : 0)}%</span>
+      <span class="bar"><span style="width:${(c.p / max * 100).toFixed(1)}%"></span></span>
+    </button></li>`).join("")}</ol>
+    <p class="hint">정답이 보이면 바로 눌러도 돼요.</p>
+  </aside>`;
+
+  $view.innerHTML = `<div class="find">${left}${right}</div>`;
+
+  $view.querySelectorAll("[data-ans]").forEach(b => b.onclick = () => { S.answers.push({ qid: next.q.id, ans: b.dataset.ans }); render(); });
+  $view.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => openDetail(+b.dataset.sp, true));
+  $view.querySelectorAll("[data-rm]").forEach(b => b.onclick = () => { S.answers.splice(+b.dataset.rm, 1); render(); });
+  const undo = document.getElementById("undo"); if (undo) undo.onclick = () => { S.answers.pop(); render(); };
+  const reset = document.getElementById("reset"); if (reset) reset.onclick = resetFind;
+  const yes = document.getElementById("yes"); if (yes) yes.onclick = () => openDetail(top.si, true, true);
+  const no = document.getElementById("no"); if (no) no.onclick = () => { S.declined.add(top.si); S.rejected.add(top.si); render(); };
+}
+
+function optionHTML(q, o, pics){
+  if (pics) {
+    const variant = {};
+    let svg;
+    if (q.id === "size") {
+      const sc = { s:.5, m:.66, l:.83, xl:1 }[o.v];
+      svg = `<div style="display:grid;place-items:end center;height:110px"><div style="width:${sc * 80}px">${birdSVG(null, { neutral:true, focus:["all"] })}</div></div>`;
+    } else if (q.id === "pattern") {
+      svg = birdSVG({ pattern:o.v }, { neutral:false, focus:["wing", "breast", "back"], variant:{ wing:["lg"], breast:["lg"], back:["lg"], belly:["lg"], face:["lg"], crown:["lg"], forehead:["lg"], throat:["lg"], tail:["lg"], beak:["gr"] } });
+    } else {
+      if (q.id === "tailShape") variant.tailShape = o.v;
+      if (q.id === "crest") variant.crest = o.v === "yes";
+      if (q.id === "eyeSkin") variant.eyeSkin = o.v;
+      svg = birdSVG(null, { neutral:true, focus:q.part, variant });
+    }
+    return `<button class="opt pic" data-ans="${o.v}">${svg}<span class="lab"><span>${o.label}</span>${o.sub ? `<small>${o.sub}</small>` : ""}</span></button>`;
+  }
+  const sw = o.v === "none" ? `<span class="chip" style="background:repeating-linear-gradient(45deg,transparent 0 4px,var(--rule) 4px 5px)"></span>` : `<span class="chip" style="background:${hex(o.v)}"></span>`;
+  return `<button class="opt" data-ans="${o.v}">${sw}<span class="lab"><span>${o.label}</span>${o.sub ? `<small>${o.sub}</small>` : ""}</span></button>`;
+}
+
+function trail(){
+  if (!S.answers.length) return "";
+  return `<ul class="trail" aria-label="지금까지 답한 것">${S.answers.map((a, i) => {
+    const q = QMAP[a.qid];
+    const dot = (q.kind === "color" || q.kind === "colorOrNone") && COLORS[a.ans] ? `<span class="chip" style="background:${hex(a.ans)}"></span>` : "";
+    return `<li><button data-rm="${i}" title="이 답 지우기">${dot}${SHORT[a.qid]}: ${answerLabel(q, a.ans)} <span class="x">×</span></button></li>`;
+  }).join("")}</ul>`;
+}
+
+function resetFind(){ S.answers = []; S.rejected = new Set(); S.declined = new Set(); render(); }
+
+/* ───────── 도감 목록 ───────── */
+function renderBrowse(){
+  const f = S.filter.trim().toLowerCase();
+  const list = SP.map((s, i) => ({ s, i })).filter(({ s }) => !f || (s.ko + s.en + s.sci).toLowerCase().includes(f));
+  $view.innerHTML = `<section class="browse">
+    <div class="search">
+      <input id="filter" type="search" placeholder="이름으로 찾기 (한글·영문·학명)" value="${S.filter.replace(/"/g, "&quot;")}" aria-label="이름으로 찾기">
+      <span class="meter"><b>${list.length}</b> / ${SP.length}종</span>
+    </div>
+    <div class="grid">${list.map(({ s, i }) => `<button class="card" data-sp="${i}">
+      ${s.photo ? `<img src="${s.photo.src}" alt="${s.ko}">` : birdSVG(Object.assign({}, s.base, s.looks[0]), { label:s.ko })}
+      <span class="pl">PL. ${String(i + 1).padStart(3, "0")}</span>
+      <b>${s.ko}</b><i>${s.sci}</i>
+    </button>`).join("")}</div>
+  </section>`;
+  const inp = document.getElementById("filter");
+  inp.oninput = e => { S.filter = e.target.value; const pos = e.target.selectionStart; renderBrowse(); const n = document.getElementById("filter"); n.focus(); n.setSelectionRange(pos, pos); };
+  $view.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => openDetail(+b.dataset.sp, false));
+}
+
+/* ───────── 종 상세 ───────── */
+function lookAttrs(s, li){ return Object.assign({}, s.base, s.looks[li]); }
+
+function similarSpecies(si){
+  const qs = QUESTIONS.filter(q => q.id !== "size");
+  const me = eng.looks.filter(l => l.si === si);
+  const scores = SP.map((s, j) => {
+    if (j === si) return null;
+    const other = eng.looks.filter(l => l.si === j);
+    let best = null;
+    for (const a of me) for (const b of other) {
+      let sc = 0; const diffs = [];
+      for (const q of qs) {
+        const va = valueOf(a, q.id), vb = valueOf(b, q.id);
+        if (va == null || vb == null) continue;
+        const ka = Array.isArray(va) ? va[0] : va, kb = Array.isArray(vb) ? vb[0] : vb;
+        if (ka === kb) sc++; else diffs.push({ q, va, vb });
+      }
+      if (!best || sc > best.sc) best = { sc, diffs, a, b };
+    }
+    return { j, ...best };
+  }).filter(Boolean).sort((x, y) => y.sc - x.sc);
+  return scores.slice(0, 3);
+}
+function valueText(q, v){
+  if (q.kind === "color" || q.kind === "colorOrNone") return colorLabel(v);
+  return answerLabel(q, v);
+}
+
+function renderDetail(){
+  const si = S.detail, s = SP[si];
+  const a0 = lookAttrs(s, 0);
+  const rows = QUESTIONS.filter(q => !["size"].includes(q.id)).map(q => {
+    if (q.id === "crestColor" && !a0.crest) return "";
+    const v = q.id === "crest" ? (a0.crest ? "yes" : "no") : q.id === "crestColor" ? (a0.crestColor || a0.crown) : a0[q.id];
+    return v == null ? "" : `<dt>${SHORT[q.id]}</dt><dd>${valueText(q, v)}</dd>`;
+  }).join("");
+  const sims = similarSpecies(si);
+  $view.innerHTML = `<article class="detail">
+    <div class="actions" style="border:0;padding:0">
+      <button class="btn" id="back">← ${S.fromFind ? "검색으로" : "도감 목록으로"}</button>
+      ${S.fromFind ? `<button class="btn quiet" id="again">새로 찾기</button>` : ""}
+    </div>
+    ${S.foundAt != null ? `<p class="found">질문 <b>${S.foundAt}개</b>로 찾았어요.</p>` : ""}
+    <header class="dhead">
+      <span class="pl">PL. ${String(si + 1).padStart(3, "0")} · ${s.en}</span>
+      <h2>${s.ko}</h2>
+      <span class="sci">${s.sci}</span>
+    </header>
+    <div class="plates">${s.looks.map((l, li) => `<figure>
+      ${birdSVG(lookAttrs(s, li), { label: s.ko + " " + l.label })}
+      <figcaption>${l.label}</figcaption></figure>`).join("")}
+      ${s.photo ? `<figure><img src="${s.photo.src}" alt="${s.ko} 사진"><figcaption>${s.photo.credit || ""}</figcaption></figure>` : ""}
+    </div>
+    <div class="facts">
+      <section><h3>기본 정보</h3><dl class="kv">
+        <dt>몸길이</dt><dd>약 ${s.sizeCm}cm</dd>
+        <dt>사는 곳</dt><dd>${s.region}</dd>
+        <dt>모습</dt><dd>${s.looks.map(l => l.label).join(", ")}</dd>
+      </dl></section>
+      <section><h3>생김새 · ${s.looks[0].label}</h3><dl class="kv">${rows}</dl></section>
+      <section><h3>헷갈리기 쉬운 종</h3><ul class="sim">${sims.map(x => `<li>
+        <button data-sp="${x.j}">${SP[x.j].ko}</button>
+        <p>${x.diffs.slice(0, 3).map(d => `${SHORT[d.q.id]}: 이 종은 ${valueText(d.q, d.va)}, 저 종은 ${valueText(d.q, d.vb)}`).join(" / ") || "거의 같아요"}</p>
+      </li>`).join("")}</ul></section>
+    </div>
+  </article>`;
+  document.getElementById("back").onclick = () => { S.view = S.fromFind ? "find" : "browse"; S.foundAt = null; render(); };
+  const again = document.getElementById("again"); if (again) again.onclick = () => { S.view = "find"; S.foundAt = null; resetFind(); };
+  $view.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => openDetail(+b.dataset.sp, S.fromFind));
+}
+
+function openDetail(si, fromFind, found){
+  S.detail = si; S.fromFind = fromFind; S.foundAt = found ? S.answers.length : null; S.view = "detail";
+  render(); window.scrollTo({ top:0, behavior:"smooth" });
+}
+
+/* ───────── 탭 ───────── */
+const tf = document.getElementById("tab-find"), tb = document.getElementById("tab-browse");
+tf.onclick = () => { S.view = "find"; render(); };
+tb.onclick = () => { S.view = "browse"; render(); };
+
+function render(){
+  tf.setAttribute("aria-pressed", S.view === "find" || (S.view === "detail" && S.fromFind));
+  tb.setAttribute("aria-pressed", S.view === "browse" || (S.view === "detail" && !S.fromFind));
+  if (S.view === "find") renderFind();
+  else if (S.view === "browse") renderBrowse();
+  else renderDetail();
+}
+render();
+})();
+</script>
+</body>
+</html>
