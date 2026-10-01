@@ -1076,7 +1076,7 @@ function renderResult(top, asked){
 }
 function renderCandidates(top){
   S.declined.add(top.si); S.rejected.add(top.si);
-  const R = eng.ranking(S.answers, S.rejected), list = R.list.slice(0, 8);
+  const R = eng.ranking(S.answers, S.rejected), list = R.list.filter(c => !S.declined.has(c.si)).slice(0, 8);   // 방금 "아니에요" 한 새는 후보에서 뺀다
   $v.innerHTML = `<section class="screen">
     <div class="panel rise" style="max-width:680px">
       <p class="ask">지금까지의 답으로 추려진 후보예요</p>
