@@ -1,0 +1,253 @@
+[
+{
+  "id": "brotogeris-chrysoptera", "ko": null, "en": "Golden-winged Parakeet", "sci": "Brotogeris chrysoptera",
+  "region": "남아메리카 아마존 분지 열대우림", "sizeCm": 16,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-winged_parakeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157246723/medium.jpeg", "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["g"], "forehead": ["br"], "face": ["g"], "cheek": "none", "throat": ["g", "o"], "collar": "none",
+    "breast": ["g"], "belly": ["g"], "back": ["g"], "wing": ["g", "o"], "tail": ["g"], "beak": null,
+    "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조 (기준아종)" },
+    { "label": "어린 새", "wing": ["g"] }
+  ]
+},
+{
+  "id": "psitteuteles-versicolor", "ko": null, "en": "Varied Lorikeet", "sci": "Psitteuteles versicolor",
+  "region": "오스트레일리아 북부 사바나·우림", "sizeCm": 19,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Varied_lorikeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91719606/medium.jpeg", "credit": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood (cc-by-sa) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["r"], "forehead": ["r"], "face": ["r", "g"], "cheek": "none", "throat": ["g"], "collar": "none",
+    "breast": ["v", "y"], "belly": ["g"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": ["r"],
+    "eyeSkin": "ring", "eyeSkinColor": "w", "crest": false, "tailShape": "long", "pattern": "plain" },
+  "looks": [
+    { "label": "수컷" },
+    { "label": "암컷", "crown": ["g", "r"], "breast": ["v", "g"] },
+    { "label": "어린 새", "crown": ["g"], "forehead": ["o"], "face": ["g"], "breast": ["g"], "beak": ["br", "o"] }
+  ]
+},
+{
+  "id": "amazona-brasiliensis", "ko": null, "en": "Red-tailed Amazon", "sci": "Amazona brasiliensis",
+  "region": "브라질 남동부 해안 대서양림", "sizeCm": 35,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Red-tailed_amazon",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/230183784/medium.jpg", "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["r", "g"], "forehead": ["r"], "face": ["v"], "cheek": "none", "throat": ["v"], "collar": "none",
+    "breast": ["g"], "belly": ["g"], "back": ["g", "k"], "wing": ["g", "k", "r"], "tail": ["r", "y", "b"], "beak": ["y", "k"],
+    "eyeSkin": "ring", "eyeSkinColor": "gr", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "ognorhynchus-icterotis", "ko": null, "en": "Yellow-eared Parrot", "sci": "Ognorhynchus icterotis",
+  "region": "콜롬비아·에콰도르 안데스 고산 왁스야자 숲 (멸종위기)", "sizeCm": 42,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-eared_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/97396269/medium.jpg", "credit": "(c) Arley Vargas, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["g"], "forehead": ["y"], "face": ["g", "y"], "cheek": "none", "throat": ["g"], "collar": "none",
+    "breast": ["g"], "belly": ["g"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": ["gr", "k"],
+    "eyeSkin": "none", "crest": false, "tailShape": "long", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "graydidascalus-brachyurus", "ko": null, "en": "Short-tailed Parrot", "sci": "Graydidascalus brachyurus",
+  "region": "아마존 분지 강변 숲", "sizeCm": 25,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Short-tailed_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157315163/medium.jpeg", "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["g"], "forehead": ["g"], "face": ["g"], "cheek": "none", "throat": ["g"], "collar": "none",
+    "breast": ["g", "y"], "belly": ["y", "g"], "back": ["g"], "wing": ["g", "y"], "tail": ["g", "r"], "beak": ["gr", "g"],
+    "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" },
+    { "label": "어린 새", "tail": ["g"] }
+  ]
+},
+{
+  "id": "leptosittaca-branickii", "ko": null, "en": "Golden-plumed Parakeet", "sci": "Leptosittaca branickii",
+  "region": "콜롬비아·에콰도르·페루 안데스 구름숲", "sizeCm": 40,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-plumed_parakeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/45204910/medium.jpg", "credit": "(c) George Armistead/Hillstar Nature, some rights reserved (CC BY-NC), uploaded by George Armistead/Hillstar Nature (cc-by-nc) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["g"], "forehead": ["g"], "face": ["g", "o"], "cheek": "none", "throat": ["g"], "collar": "none",
+    "breast": ["g"], "belly": ["y", "g", "o"], "back": ["g"], "wing": ["g", "y"], "tail": ["g", "r"], "beak": null,
+    "eyeSkin": "none", "crest": true, "crestColor": ["y"], "tailShape": "long", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" },
+    { "label": "어린 새", "belly": ["g", "y", "o"], "beak": ["p"] }
+  ]
+},
+{
+  "id": "ara-rubrogenys", "ko": null, "en": "Red-fronted Macaw", "sci": "Ara rubrogenys",
+  "region": "볼리비아 안데스 계곡 고유종 (멸종위기)", "sizeCm": 60,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Red-fronted_macaw",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/582858983/medium.jpg", "credit": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte (cc-by) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["g"], "forehead": ["r"], "face": ["g"], "cheek": ["r"], "throat": ["g"], "collar": "none",
+    "breast": ["g"], "belly": ["g"], "back": ["g"], "wing": ["g", "b", "r"], "tail": ["g", "b"], "beak": null,
+    "eyeSkin": "face", "eyeSkinColor": "p", "crest": false, "tailShape": "long", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "coracopsis-nigra", "ko": null, "en": "Lesser Vasa Parrot", "sci": "Coracopsis nigra",
+  "region": "마다가스카르 맹그로브·상록림", "sizeCm": 32,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Lesser_vasa_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/245251487/medium.jpeg", "credit": "(c) Janne Teivonen, some rights reserved (CC BY), uploaded by Janne Teivonen (cc-by) / iNaturalist" },
+  "base": { "main": ["k"], "crown": ["k"], "forehead": ["k"], "face": ["k"], "cheek": "none", "throat": ["k"], "collar": "none",
+    "breast": ["k"], "belly": ["k"], "back": ["k"], "wing": ["k"], "tail": ["k"], "beak": ["gr"],
+    "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" },
+    { "label": "번식기 암컷 (머리 황색조)", "crown": ["y", "k"], "face": ["y", "k"] }
+  ]
+},
+{
+  "id": "amazona-rhodocorytha", "ko": null, "en": "Red-browed Amazon", "sci": "Amazona rhodocorytha",
+  "region": "브라질 대서양림 고유종", "sizeCm": 35,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Red-browed_amazon",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/280718249/medium.jpg", "credit": "(c) rebeca_andrade9, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["r", "br"], "forehead": ["r"], "face": ["b"], "cheek": "none", "throat": ["b"], "collar": "none",
+    "breast": ["g"], "belly": ["g"], "back": ["g", "k"], "wing": ["g", "k", "r"], "tail": ["r", "y", "g"], "beak": ["gr"],
+    "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "agapornis-lilianae", "ko": null, "en": "Lilian's Lovebird", "sci": "Agapornis lilianae",
+  "region": "남부 아프리카 잠베지강 유역 미옴보 숲", "sizeCm": 13,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Lilian's_lovebird",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6243832/medium.jpg", "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["o"], "forehead": ["o"], "face": ["o"], "cheek": "none", "throat": ["o"], "collar": "none",
+    "breast": ["o"], "belly": ["g"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": null,
+    "eyeSkin": "ring", "eyeSkinColor": "w", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조 (암수 동일)" }
+  ]
+},
+{
+  "id": "pyrrhura-leucotis", "ko": null, "en": "Maroon-faced Parakeet", "sci": "Pyrrhura leucotis",
+  "region": "브라질 동부 대서양림", "sizeCm": 25,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/White-eared_parakeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/192217224/medium.jpg", "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["br"], "forehead": ["b"], "face": ["br"], "cheek": ["w"], "throat": ["g"], "collar": "none",
+    "breast": ["g"], "belly": ["br", "g"], "back": ["g", "r"], "wing": ["g", "r", "b"], "tail": ["br"], "beak": null,
+    "eyeSkin": "none", "crest": false, "tailShape": "long", "pattern": "scaled" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "psittacara-frontatus", "ko": null, "en": "Cordilleran Parakeet", "sci": "Psittacara frontatus",
+  "region": "페루 안데스 서부 사면", "sizeCm": 40,
+  "extinct": false, "wikipedia_url": "https://en.wikipedia.org/wiki/Cordilleran_parakeet",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/319538681/medium.jpeg", "credit": "(c) biped_cub, some rights reserved (CC BY), uploaded by biped_cub (cc-by) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["r"], "forehead": ["r"], "face": ["g"], "cheek": "none", "throat": ["g"], "collar": "none",
+    "breast": ["g", "y"], "belly": ["y", "g"], "back": ["g"], "wing": ["g", "r"], "tail": ["g", "y"], "beak": ["w"],
+    "eyeSkin": "ring", "eyeSkinColor": "w", "crest": false, "tailShape": "long", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" },
+    { "label": "어린 새", "forehead": ["g", "r"], "crown": ["g"] }
+  ]
+},
+{
+  "id": "pionus-fuscus", "ko": null, "en": "Dusky Parrot", "sci": "Pionus fuscus",
+  "region": "남아메리카 북부 습윤림", "sizeCm": 24,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Dusky_parrot",
+  "base": { "main": ["gr", "k"], "crown": ["gr"], "forehead": ["gr"], "face": ["gr"], "cheek": "none", "throat": ["w"], "collar": "none",
+    "breast": ["gr"], "belly": ["p", "gr"], "back": ["gr"], "wing": ["gr", "b"], "tail": ["b", "r"], "beak": null,
+    "eyeSkin": "ring", "eyeSkinColor": "gr", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118192000/medium.jpeg", "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "neophema-chrysogaster", "ko": null, "en": "Orange-bellied Parrot", "sci": "Neophema chrysogaster",
+  "region": "오스트레일리아 태즈메이니아~남동부 해안 (멸종위기 이동철새)", "sizeCm": 20,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-bellied_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/494555886/medium.jpeg", "credit": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt (cc-by-nc) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["g"], "forehead": ["b"], "face": ["g"], "cheek": "none", "throat": ["g"], "collar": "none",
+    "breast": ["y", "g"], "belly": ["y", "o"], "back": ["g"], "wing": ["g", "b"], "tail": ["g", "y"], "beak": ["k", "gr"],
+    "eyeSkin": "ring", "eyeSkinColor": "gr", "crest": false, "tailShape": "mid", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" },
+    { "label": "어린 새", "main": ["y", "g"], "forehead": ["b", "g"], "beak": ["y", "br"] }
+  ]
+},
+{
+  "id": "pionus-tumultuosus", "ko": null, "en": "Speckle-faced Parrot", "sci": "Pionus tumultuosus",
+  "region": "페루·볼리비아 안데스 구름숲", "sizeCm": 29,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Speckle-faced_parrot",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/389682131/medium.jpg", "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist" },
+  "base": { "main": ["g"], "crown": null, "forehead": null, "face": null, "cheek": "none", "throat": null, "collar": "none",
+    "breast": null, "belly": ["r"], "back": ["g"], "wing": null, "tail": ["b"], "beak": null,
+    "eyeSkin": "ring", "eyeSkinColor": "gr", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "cacatua-pastinator", "ko": null, "en": "Western Corella", "sci": "Cacatua pastinator",
+  "region": "오스트레일리아 서부", "sizeCm": 48,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Western_corella",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/434979191/medium.jpeg", "credit": "(c) Cairina, some rights reserved (CC BY-NC), uploaded by Cairina (cc-by-nc) / iNaturalist" },
+  "base": { "main": ["w"], "crown": ["w"], "forehead": ["w"], "face": ["w", "p"], "cheek": "none", "throat": ["p", "w"], "collar": "none",
+    "breast": ["w"], "belly": ["w"], "back": ["w"], "wing": ["w", "y"], "tail": ["w"], "beak": ["gr", "w"],
+    "eyeSkin": "ring", "eyeSkinColor": "gr", "crest": true, "crestColor": ["w"], "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "amazona-barbadensis", "ko": null, "en": "Yellow-shouldered Amazon", "sci": "Amazona barbadensis",
+  "region": "베네수엘라 해안·카리브해 섬 건조림", "sizeCm": 33,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-shouldered_amazon",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64838618/medium.jpg", "credit": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis (cc-by-nc) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["y"], "forehead": ["w"], "face": ["y"], "cheek": "none", "throat": ["y", "b"], "collar": "none",
+    "breast": ["g", "b"], "belly": ["g", "b"], "back": ["g"], "wing": ["g", "b", "r", "y"], "tail": ["g"], "beak": null,
+    "eyeSkin": "ring", "eyeSkinColor": "w", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "ara-glaucogularis", "ko": null, "en": "Blue-throated Macaw", "sci": "Ara glaucogularis",
+  "region": "볼리비아 베니주 야자 사바나 고유종 (심각한 멸종위기)", "sizeCm": 85,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-throated_macaw",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157595508/medium.jpg", "credit": "(c) David Friel, some rights reserved (CC BY) (cc-by) / iNaturalist" },
+  "base": { "main": ["b"], "crown": ["b"], "forehead": ["b"], "face": ["b", "p"], "cheek": "none", "throat": ["b"], "collar": "none",
+    "breast": ["y"], "belly": ["y", "sb"], "back": ["b"], "wing": ["b"], "tail": ["b"], "beak": ["k"],
+    "eyeSkin": "face", "eyeSkinColor": "p", "crest": false, "tailShape": "long", "pattern": "plain" },
+  "looks": [
+    { "label": "성조" }
+  ]
+},
+{
+  "id": "bolbopsittacus-lunulatus", "ko": null, "en": "Guaiabero", "sci": "Bolbopsittacus lunulatus",
+  "region": "필리핀 고유종 저지대 숲", "sizeCm": 15,
+  "extinct": false, "wikipedia_url": "http://en.wikipedia.org/wiki/Guaiabero",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/341450530/medium.jpg", "credit": "(c) Kirkamon Cabello, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["g"], "forehead": ["g"], "face": ["b"], "cheek": "none", "throat": ["g"], "collar": "none",
+    "breast": ["g"], "belly": ["g"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": null,
+    "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "수컷", "face": ["b", "g"] },
+    { "label": "암컷", "face": ["g"] }
+  ]
+},
+{
+  "id": "vini-solitaria", "ko": null, "en": "Collared Lory", "sci": "Vini solitaria",
+  "region": "남태평양 사모아·통가 등 섬 숲", "sizeCm": 20,
+  "extinct": false, "wikipedia_url": "https://en.wikipedia.org/wiki/Collared_lory",
+  "photo": { "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159065874/medium.jpg", "credit": "(c) DickDaniels, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist" },
+  "base": { "main": ["g"], "crown": ["v"], "forehead": ["r"], "face": ["r"], "cheek": "none", "throat": ["r"], "collar": "none",
+    "breast": ["r"], "belly": ["v", "r"], "back": ["g"], "wing": ["g"], "tail": ["g"], "beak": ["o", "y"],
+    "eyeSkin": "none", "crest": false, "tailShape": "short", "pattern": "plain" },
+  "looks": [
+    { "label": "수컷" },
+    { "label": "암컷", "crown": ["v", "g"] },
+    { "label": "어린 새", "belly": ["v", "br"], "beak": ["br"] }
+  ]
+}
+]

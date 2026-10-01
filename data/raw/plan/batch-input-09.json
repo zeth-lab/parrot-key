@@ -1,0 +1,322 @@
+[
+ {
+  "id": "agapornis-taranta",
+  "sci": "Agapornis taranta",
+  "en": "Black-winged Lovebird",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-winged_lovebird",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54371613/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 16.5,
+  "desc_thin": false,
+  "description": "The black-winged lovebird, with a length of about 16–16.5 cm (6.3–6.5 inches), is the largest species of lovebird. It is sexually dimorphic, as are the red-headed lovebird and grey-headed lovebird. The dimorphism becomes apparent in juvenile birds after their first molt at about eight or nine months of age.  Both the male and female black-winged lovebird are mostly green, and only the adult male black-winged lovebird has a red forehead and a ring of red feathers around its eyes.\nThe tail is black tipped and feathers below the tail show a yellowish colour. The rump and feathers above the tail are light green. In the male, feathers under the wing are typically black, and in the female the feathers under the wing are typically greenish or brownish black. Both sexes have a red beak and gray feet."
+ },
+ {
+  "id": "loriculus-stigmatus",
+  "sci": "Loriculus stigmatus",
+  "en": "Sulawesi Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Great_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/198569419/medium.jpg",
+   "credit": "(c) andez197, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The great hanging parrot (Loriculus stigmatus), also called Celebes hanging parrot, Sulawesi hanging parrot and maroon-rumped hanging parrot, is a species of parrot in the family Psittaculidae. It is endemic to Sulawesi and nearby smaller islands in Indonesia, where it occurs in forest, secondary growth and tall mangrove."
+ },
+ {
+  "id": "pezoporus-wallicus",
+  "sci": "Pezoporus wallicus",
+  "en": "Ground Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Eastern_ground_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/165072133/medium.jpg",
+   "credit": "(c) Gavin Goodyear, some rights reserved (CC BY-NC), uploaded by Gavin Goodyear (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Pezoporus is a genus of parrot endemic to Australia. It contains two species: the night parrot (P. occidentalis) and the ground parrot (P. wallicus) which is divided into three subspecies. The night parrot was previously separated in a distinct genus, Geopsittacus. The genus is part of the tribe  Pezoporini and subfamily Platycercinae."
+ },
+ {
+  "id": "forpus-crassirostris",
+  "sci": "Forpus crassirostris",
+  "en": "Riparian Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Riparian_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63809635/medium.jpeg",
+   "credit": "(c) Eric van den Berghe, some rights reserved (CC BY-NC), uploaded by Eric van den Berghe (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 13.0,
+  "desc_thin": false,
+  "description": "Riparian parrotlets are typically 12–13 centimetres (4.7–5.1 in) long and weigh about 28 grams (0.99 oz). Their bodies are mostly yellow-green. Eyes are dark brown and beaks and feet are light peach. Riparian parrotlets are sexually dimorphic: males have blue rumps and lower backs, with blue feathers along the leading edges of their wings and blue secondaries; primary coverts are blue-gray. Females have no blue feathers and a yellow-green belly."
+ },
+ {
+  "id": "poicephalus-rueppellii",
+  "sci": "Poicephalus rueppellii",
+  "en": "Rüppell's Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rüppell's_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158984676/medium.jpg",
+   "credit": "(c) Charles J. Sharp\n, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "Rüppell's parrot is 22–25 cm (8.7–9.8 in) long and weighs 121–156 g (4.3–5.5 oz). It has an overall black color. Both adult male and female birds have some yellow feathers on the leading edge of the wings, and yellow feathers covering their upper legs; in immature birds, the yellow is dull or missing. It is sexually dimorphic; adult female birds have blue feathers on the lower back and the rump, while male birds lose this blue feather coloration as they become mature."
+ },
+ {
+  "id": "psittinus-cyanurus",
+  "sci": "Psittinus cyanurus",
+  "en": "Blue-rumped Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-rumped_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/253722041/medium.jpg",
+   "credit": "(c) Ultraman Max, some rights reserved (CC BY-NC), uploaded by Ultraman Max (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "The blue-rumped parrot (Psittinus cyanurus) is a parrot found in the very southern tip of Myanmar, peninsular Thailand, Malaysia, Borneo, Sumatra and nearby islands. It is a small parrot (18 cm) and is primarily green with bright red underwing coverts, a reddish shoulder patch, and yellowish margins on the wing coverts. It is sexually dimorphic. The female has a grey-brown head. The male has a black mantle, red upper mandible, and blue head and rump.\nIt was formerly considered the only member of the genus Psittinus, but BirdLife International recognised the subspecies abbottii as a separate species, the Simeulue parrot, and the IOC later followed suit, supporting it as a distinct species.\nThere are two subspecies:\n\nP. c. cyanurus: Malay peninsula, Sumatra and Borneo.\nP. c. pontius: Mentawai Islands southwards from Siberut. Larger than the nominate subspecies.\nIt is found in lowland forests, generally below 700 m, in forest, open woodland, orchards and plantations, mangroves, dense scrub, and coconut groves. It occurs in flocks up to 20 birds. They eat seeds, fruit and blossoms."
+ },
+ {
+  "id": "amazona-collaria",
+  "sci": "Amazona collaria",
+  "en": "Yellow-billed Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-billed_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/12449103/medium.jpg",
+   "credit": "(c) Kevin Schafer, some rights reserved (CC BY-NC-ND), uploaded by Kevin Schafer (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The yellow-billed amazon is 28 cm (11 in) long. Its plumage is mostly green with pink over the throat, upper breast and sides of neck, and blue in the larger wing feathers. Feathers over the ears are dark blue-green. The bare white eye-rings are surrounded by a narrow rim of white plumage, which continues as a narrow band of white over the forehead. Plumage over the lores is pale blue and the fore-crown is blue. A barred appearance over the back and sides of neck arises from the green feathers having black tips and edges. The tail feathers are green with red bases. Its beak is yellow, its irises are brown, and its legs are pink. The adult male and female are identical in external appearance. Juveniles have grey on the upper mandible and are otherwise similar to adults."
+ },
+ {
+  "id": "pyrrhura-griseipectus",
+  "sci": "Pyrrhura griseipectus",
+  "en": "Gray-breasted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-breasted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992309/medium.jpg",
+   "credit": "(c) Michael Hurben, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The grey-breasted parakeet is 20 to 23 cm (7.9 to 9.1 in) long. The sexes are the same. Adults have a brown crown, a plum-red face, and white ear coverts. Their upperparts are mostly green with a red-brown rump. Their chin, throat, and the sides of their neck are grayish with a scaly appearance. The center of their belly is red-brown and the rest of their underparts are green. Their wing is mostly green with a red shoulder and bluish flight feathers. Their tail is red-brown. Immatures are similar to adults."
+ },
+ {
+  "id": "cyanoramphus-malherbi",
+  "sci": "Cyanoramphus malherbi",
+  "en": "Malherbe's Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Malherbe's_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/364258100/medium.jpeg",
+   "credit": "(c) ppgesus, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 20.0,
+  "desc_thin": false,
+  "description": "The orange-fronted parakeet is a medium-sized parrot, about 20 cm long. Its body is primarily a bright blue-green, with azure blue primary covert and leading-edge feathers on its wings.\nIt has a distinctive (and diagnostic) orange frontal band with a lemon yellow crown, but this is absent in juvenile birds, which have a band of pale yellow. The orange frontal band begins to develop when the bird is 2–5 weeks old. Its rump has orange patches on the sides. Colouration in males tends to be brighter, and juveniles are distinctly duller.\nThe only reliable features that separate mature orange-fronted parakeets from the similar yellow-crowned parakeet (C. auriceps) are the colour of the frontal band and rump, though there are more subtle differences in size, plumage colour and habits."
+ },
+ {
+  "id": "pyrrhura-amazonum",
+  "sci": "Pyrrhura amazonum",
+  "en": "Santarém Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Santarem_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/188162038/medium.jpg",
+   "credit": "(c) Hector Bottai, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 22.0,
+  "desc_thin": false,
+  "description": "Total length c. 22 cm (8+3⁄4 in). As other members of the Pyrrhura picta complex, it is a long-tailed mainly green parakeet with a dark red belly, rump and tail-tip (tail all dark red from below), a whitish or dull buff patch on the auriculars and bluish remiges. The cheeks and ocular region are dark maroon. The nominate subspecies (P. a. amazonum) has a narrow blue forehead-band and pale grey scaling to the chest. The remaining subspecies, P. a. snethlageae and P. a. lucida, have little or no blue to the forecrown and their chests are, uniquely for the P. picta complex, overall pale with relatively narrow, dark pointed markings. P. a. lucida is slightly smaller and paler than P. a. snethlageae. Some P. a. snethlageae have a yellowish eye-ring (the basis for this variation remains unknown), but it is more commonly dark grey as in the remaining subspecies. All subspecies have dark greyish legs."
+ },
+ {
+  "id": "pionopsitta-pileata",
+  "sci": "Pionopsitta pileata",
+  "en": "Pileated Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pileated_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/5650240/medium.jpeg",
+   "credit": "(c) Douglas Bete, some rights reserved (CC BY-NC), uploaded by Douglas Bete (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 22.0,
+  "desc_thin": false,
+  "description": "The pileated parrot is 20 to 22 cm (7.9 to 8.7 in) long and weighs 98 to 120 g (3.5 to 4.2 oz). Adults have an essentially all green body, with a yellowish abdomen. Their primaries, primary coverts, and the edges and tips of their tail feathers are dull blue. Males have a red forehead, crown, lores, and upper ear coverts. Females do not have any red but do have a faint blue wash on the forehead and breast. Immature males have less red on the head than adults, and females have less blue on the wings."
+ },
+ {
+  "id": "psittacula-derbiana",
+  "sci": "Psittacula derbiana",
+  "en": "Derbyan Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lord_Derby's_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/257726569/medium.jpg",
+   "credit": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 50.0,
+  "desc_thin": false,
+  "description": "Lord Derby's parakeets are 45–50 cm (18–20 in) in length and are sexually dimorphic. They have a mostly green plumage over their dorsal surface (i.e. from behind), black lores and lower cheeks, a bluish-purple crown and pale yellow eyes. The throat, breast, abdomen and under-wing coverts are greyish blue to lavender. The thighs and vent area are yellowish green with blue edging on some of the feathers. The tail feathers are shades of green, some edged with blue. Male birds have a red upper mandible with a yellow tip, while the lower mandible is black. The females have an all-black beak.\nImmature Lord Derby's parakeets are duller in colour than the adults. Juvenile birds have green crowns, orange-red upper and lower mandible (beak), and their irises are dark and do not lighten until they reach maturity between two and three years of age.\n\n\n=== Sexual dimorphism ==="
+ },
+ {
+  "id": "amazona-tucumana",
+  "sci": "Amazona tucumana",
+  "en": "Tucumán Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tucumán_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/226964062/medium.jpeg",
+   "credit": "(c) Pablo Demaio, some rights reserved (CC BY-NC), uploaded by Pablo Demaio (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 31.0,
+  "desc_thin": false,
+  "description": "The Tucumán amazon is about 31 cm (12 in) long and weighs 250 to 280 g (8.8 to 9.9 oz). It is mostly green, with black edges on the body feathers that give a scaly appearance. Its forehead and sometimes its lores are red. Bare white skin surrounds its eye. Its lower thighs are orange-yellow, its primary coverts red, and its undertail coverts yellow-green. Its primaries have blue tips and its tail feathers yellowish tips. Immature birds have entirely green thighs."
+ },
+ {
+  "id": "myiopsitta-luchsi",
+  "sci": "Myiopsitta luchsi",
+  "en": "Cliff Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cliff_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/76303269/medium.jpg",
+   "credit": "(c) eppsa, some rights reserved (CC BY-NC), uploaded by eppsa (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The cliff parakeet is 30 cm (12 in) long and weighs about 120 g (4.2 oz). Adults have a gray face, throat, and breast and a yellow belly. Their flanks, vent, undertail coverts, and thighs are green. Their hindcrown, nape, and back are various shades of green. Their central tail feathers are dark green to bluish and the rest have green outer webs and yellow inner webs and tips. Their primaries, outer secondaries, and their coverts are blue and the rest of the wing green. Their bill is yellowish brown, sometimes with a rose tinge. Their iris is dark brown and their eye is surrounded by bare gray skin.\nThe cliff parakeet differs from the monk parakeet by their paler breast color and lack of scaling, they also tend to be more vibrant."
+ },
+ {
+  "id": "primolius-couloni",
+  "sci": "Primolius couloni",
+  "en": "Blue-headed Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-headed_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/115329865/medium.jpg",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 41.0,
+  "desc_thin": false,
+  "description": "The blue-headed macaw is 41 cm (16 in) long. It has mainly green plumage (often tinged olive, esp. below) with the head, flight feathers and primary coverts blue. The uppertail has a maroon base, a narrow green center and a blue tip. The undertail and underwing are greenish-yellow similar to that of several other small macaws (e.g. red-bellied and golden-collared macaw). The medium-sized bill is pale greyish-horn with a black base (extent varies, but upper mandible in adults typically appears mainly pale). The iris is whitish with a narrow, often barely visible, maroon eye-ring. Unlike most other macaws, the facial skin and lores are dark greyish. The legs are dull pinkish. Juveniles resemble adults, but with the entire bill black, greyer legs, darker iris and the facial skin and lores white."
+ },
+ {
+  "id": "pyrrhura-cruentata",
+  "sci": "Pyrrhura cruentata",
+  "en": "Ochre-marked Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ochre-marked_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/395897384/medium.jpg",
+   "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "anodorhynchus-leari",
+  "sci": "Anodorhynchus leari",
+  "en": "Indigo Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lear's_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/411582031/medium.jpeg",
+   "credit": "(c) Thiago Gonçalves Coronado Antunes, some rights reserved (CC BY-NC), uploaded by Thiago Gonçalves Coronado Antunes (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 75.0,
+  "desc_thin": false,
+  "description": "Lear's macaw is 70–75 cm (27+1⁄2–29+1⁄2 in) long and weighs around 950 g (2 lb 2 oz).\nThe body, tail, and wings are dark metallic blue with a faint, often barely visible, tinge of green, and the head is a slightly paler shade. It has an area of pale-yellow skin adjacent to the base of its beak, and orange-yellow eye rings. It has a large, blackish beak and dark grey feet.\n\nLear's macaw is similar to the larger hyacinth macaw and the slightly smaller glaucous macaw. The hyacinth macaw can be distinguished by its darker plumage, lack of greenish tinge, and a differently shaped patch of yellow skin adjacent to the base of the bill. The glaucous macaw is paler and has a more greyish head."
+ },
+ {
+  "id": "agapornis-pullarius",
+  "sci": "Agapornis pullarius",
+  "en": "Red-headed Lovebird",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-headed_lovebird",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/243325240/medium.jpeg",
+   "credit": "(c) Tommy Andriollo, some rights reserved (CC BY), uploaded by Tommy Andriollo (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 15.0,
+  "desc_thin": false,
+  "description": "The red-headed lovebird is a 15 cm (6 inches) long, mostly green parrot. It has a well demarcated red area on its head extending from the top of the beak, over the forehead to mid-crown, and extending to the left and right up to the eyelid margins. It has grey feet. The underside of the wings is a lighter green. The female has orange head colouring, which is less well demarcated than the male's red head.  The adult male has a red beak while the female's is a paler red."
+ },
+ {
+  "id": "poicephalus-robustus",
+  "sci": "Poicephalus robustus",
+  "en": "Cape Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cape_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/104453705/medium.jpg",
+   "credit": "no rights reserved, uploaded by Dave Brown (cc0) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The Cape parrot is a short-tailed moderately large bird with a very large beak used to crack all sorts of hard nuts and fruit kernels, especially those of African yellowwood trees (Podocarpus spp.). This contrasts with the closely related savanna species (Poicephalus fuscicollis) which feeds on a wide variety of tropical woodland trees such as marula, Commiphora spp. and Terminalia spp. These species are sexually dimorphic, with females typically sporting an orange frontal patch on the forehead. Juveniles also show a larger orange - pink patch on the forehead but lack the red on shoulders and legs of adults. These plumage characteristics vary among individuals and among the three recognized forms."
+ },
+ {
+  "id": "forpus-modestus",
+  "sci": "Forpus modestus",
+  "en": "Dusky-billed Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dusky-billed_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/115419426/medium.jpg",
+   "credit": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The dusky-billed parrotlet (Forpus modestus), also known as Sclater's parrotlet, is a small species of parrot in the family Psittacidae. It is the nominate species (F. m. modestus).\nThere is one subspecies: Forpus modestus sclateri."
+ }
+]

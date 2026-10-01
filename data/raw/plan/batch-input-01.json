@@ -1,0 +1,322 @@
+[
+ {
+  "id": "platycercus-eximius",
+  "sci": "Platycercus eximius",
+  "en": "Eastern Rosella",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Eastern_rosella",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/232541417/medium.jpg",
+   "credit": "(c) Kenton, some rights reserved (CC BY-NC), uploaded by Kenton (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The eastern rosella is 30 cm (12 in) long. Its cheeks are white, and it has a red-coloured head. The beak is white, and the irises are brown. Its upper breast is red, and its lower breast is yellow and fades to pale green over the abdomen. The black feathers on the back and shoulders have yellowish and greenish margins which gives the scalloped look that differs between the sexes and subspecies. The wings and lateral tail feathers are bluish, the tail is dark green, and the legs are grey. Female colouration is similar to the males of the species, but their plumage is  duller overall, and they sport an underwing stripe.  Juveniles are duller than the females and have an underwing stripe."
+ },
+ {
+  "id": "alisterus-scapularis",
+  "sci": "Alisterus scapularis",
+  "en": "Australian King Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Australian_king_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/13147638/medium.jpeg",
+   "credit": "(c) Carole Riley, some rights reserved (CC BY-NC), uploaded by Carole Riley (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 43.0,
+  "desc_thin": false,
+  "description": "Adults of both sexes are about 43 cm (17 in) in length, including the long, broad tail. The adult male has a red head, breast, and lower undersides, with a blue band on the back of the neck between the red above and green on the back, the wings are green and each has a pale green shoulder band, the tail is green, and the rump is blue. The male has a reddish-orange upper mandible with a black tip, a black lower mandible with an orange base, and yellow irises.  The plumage of the female is very different from the male having a green head and breast, a grey beak, and the pale shoulder band is small or absent. Juveniles of both sexes have brown irises and a yellowish beak, and otherwise resemble the female.\nThe two subspecies are A. s. minor, found at the northern limit of the species range and is similar in appearance to the nominate subspecies but smaller, typically about 5 cm (2 in) smaller in length.\nOn those rare individuals which have areas without melanin, feathers are orange to yellow. Such a bird can look startingly different from the more common scarlet and green variety."
+ },
+ {
+  "id": "zanda-funerea",
+  "sci": "Zanda funerea",
+  "en": "Yellow-tailed Black Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yellow-tailed_black_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/266820660/medium.jpg",
+   "credit": "(c) Sam Gordon, some rights reserved (CC BY-NC-SA), uploaded by Sam Gordon (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 65.0,
+  "desc_thin": false,
+  "description": "The yellow-tailed black cockatoo is 55–65 cm (22–26 in) in length and 750–900 grams in weight. It has a short mobile crest on the top of its head, and the plumage is mostly brownish-black with paler feather-margins in the neck, nape, and wings, and pale yellow bands in the tail feathers. The tails of birds of subspecies funereus measure around 33 cm (13 in), with an average tail length 5 cm (2.0 in) longer than xanthanotus. Male funereus birds weigh on average around 731 g (1.612 lb) and females weigh about 800 g (1.8 lb). Birds of the xanthanotus race on the mainland average heavier than the Tasmanian birds; the males on the mainland weigh on average around 630 g and females 637 g (1.404 lb), while those on Tasmania average 583 and 585 g (1.290 lb) respectively. Both mainland and Tasmanian birds of the xanthanotus race average about 28 cm (11 in) in tail length. The plumage is a more solid brown-black in the eastern subspecies, while the southern race has more pronounced yellow scalloping on the underparts.\nThe male yellow-tailed black cockatoo has a black bill, a dull yellow patch behind each eye, and pinkish or reddish eye-rings. The female has grey eye-rings, a horn-coloured bill, and brighter and more clearly defined yellow cheek-patches. Immature birds have duller plumage overall, a horn-coloured bill, and grey eye-rings; The upper beak of the immature male darkens to black by two years of age, commencing at the base of the bill and spreading over ten weeks. The lower beak blackens later by four years of age. The elongated bill has a pointed maxilla (upper beak), suited to digging out grubs from tree branches and trunks. Records of the timing of the eye ring changing from grey to pink in male birds are sparse, but have been recorded anywhere from one to four years of age. Australian farmer and amateur ornithologist John Courtney proposed that the similarity between juvenile and female eye rings prevented adult males becoming aggressive to younger birds. He also observed the eye rings to flush brighter in aggressive males. Moulting appears to take place in stages over the course of a year, and is poorly understood.\nThe yellow-tailed black cockatoo is distinguished from other dark-plumaged birds by its yellow tail and ear markings, and its contact call. Parts of its range overlap with the ranges of two cockatoo species that have red tail banding, the red-tailed cockatoo and the glossy black cockatoo. Crow species may appear similar when seen flying at a distance; however, crows have shorter tails, a quicker wing beat, and different calls.\nAn all-yellow bird lacking black pigment was recorded in Wauchope, New South Wales, in December 1996, and it remained part of the local group of cockatoos for four years. Birds with part-yellow plumage have been recorded from different areas in Victoria. Another all-yellow bird was discovered in 2024 and is housed at the Bonorong Wildlife Sanctuary."
+ },
+ {
+  "id": "cacatua-sanguinea",
+  "sci": "Cacatua sanguinea",
+  "en": "Little Corella",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Little_corella",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/594571379/medium.jpg",
+   "credit": "(c) Victoria, some rights reserved (CC BY-NC), uploaded by Victoria (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 41.0,
+  "desc_thin": false,
+  "description": "The little corella is a small white cockatoo growing to 35–41 cm (14–16 in) in length and weighs 370–630 g (13–22 oz), with a mean weight of 525 g (1.157 lb). It is similar in appearance to both the long-billed corella and the western corella, but the little corella is smaller, and unlike either of those species, it has upper and lower mandibles of similar length. It is easily distinguished from the long-billed corella by the lack of an orange throat bar. C. s. normantoni and C. s. transfreta are a little smaller than the nominate form. C. s. normantoni is lightly brownish on the underside of flight and tail feathers. C. s. gymnopis has darker blue eye-rings, more strongly marked pink lores and a yellow wash to the lower-ear coverts. Females are slightly smaller than males in weight, wing length, culmen size, tarsus length, tail length and eye ring diameter."
+ },
+ {
+  "id": "psephotus-haematonotus",
+  "sci": "Psephotus haematonotus",
+  "en": "Red-rumped Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-rumped_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/242426579/medium.jpg",
+   "credit": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "Red-rumped parrots are slim, moderate-sized parrots measuring approximately 28 cm (11 in) in length and weighing between 45 and 77 grams.\nThe adult male's plumage is mainly a bright emerald-green with yellow underparts. The mantle, upper back and scapulars are a dull green-blue. The lower back and rump is brick-red. blue highlights on the wings and upper back and bright yellow patches on the shoulders. The irises are light brown.\nThe adult female's plumage is less vibrant, with pale olive underparts. The mantle, upper back and scapulars are a dull olive-green. The lower back and rump are lime-green. The irises are a light grey-brown. The characteristic red rump is only found in the male.\nThe plumage of juvenile males resemble females, except for their red rumps and light blue-green faces. Adults of both sexes have grey bills, being darker in the male, whereas immature birds have brown to yellow-brown bills. Both sexes have dark-grey flight feathers and dark blue underwing coverts, with blue outer wing tips visible in flight. An off-white white underwing bar is present on females of all ages and is retained in juvenile and immature males. The underwing bar is absent in males of approximately 2 years of age or older. A few months following fledging, juveniles will moult into adult-like plumage, retaining their flight and tail feathers. Moulting into the complete adult plumage begins when the birds are about 1 year old.\n\nIt is similar in appearance to the closely related mulga parrot (Psephotellus varius) which can be distinguished by its overall difference in colour, mainly the yellow band above its bill, red patch on the nape and smaller, darker red patch at the base of the tail which is present in both males and females."
+ },
+ {
+  "id": "amazona-viridigenalis",
+  "sci": "Amazona viridigenalis",
+  "en": "Red-crowned Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-crowned_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/59186054/medium.jpeg",
+   "credit": "(c) James M. Maley, some rights reserved (CC BY), uploaded by James M. Maley (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "Their appearance is generally green with the most notable features being a bright red forehead and crown, dark blue streak behind the eyes, and light green cheeks. It is not uncommon for red-crowned amazons to have splashes of red and blue under their wings and have light yellow-tipped tails. They have a white eye-ring which brings out their eyes. Their iris color can range from a bright yellow to a deep red, although juveniles' eyes are gray until maturity. Red-crowned amazons usually have horn colored beaks and ceres but these can sometimes have black highlights. Their legs are beige or gray. They are approximately 11–13 inches (28–33 cm) in length from the beak to the tip of the tail feathers with a wingspan of 15–16 inches (38–41 cm). Most Amazon parrots are not sexually dimorphic (the exceptions being the White-fronted Amazona albifrons, Yellow-lored Amazona xantholora, and Blue-fronted Amazona aestiva) so the only true way to identify sex is by genetic testing. Their average weight is 270 grams (9.5 oz)."
+ },
+ {
+  "id": "callocephalon-fimbriatum",
+  "sci": "Callocephalon fimbriatum",
+  "en": "Gang-gang Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Gang-gang_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259067709/medium.jpg",
+   "credit": "(c) rodgerp, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 37.0,
+  "desc_thin": false,
+  "description": "The gang-gang cockatoo is 32–37 cm (13–15 in) in length with a 62–76 cm (24–30 in) wingspan, and weighs 230–334 grams. They are grey birds with wispy crests. The head and crest are bright red in males, but dark grey in females. The edges of feathers in the underparts have edges of yellow or pink. The edges of feathers on the upperparts are slightly paler grey than the rest of the feather, which makes the bird look somewhat barred. Juvenile males can be distinguished by their brighter crowns and shorter crests, but otherwise look similar to the adult female. The birds are not easily mistaken for other cockatoos, but while in flight may resemble the Galah. Gang-gangs are very social birds, but not overly noisy."
+ },
+ {
+  "id": "amazona-autumnalis",
+  "sci": "Amazona autumnalis",
+  "en": "Red-lored Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-lored_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30793351/medium.jpg",
+   "credit": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 35.0,
+  "desc_thin": false,
+  "description": "The red-lored amazon is 32–35 centimetres (13–14 in) in length, with a weight of 310–480 g. The plumage is primarily green, with a red forehead and, in some subspecies, yellow cheeks (sometimes with red spots).  The crown is blue.  Adult males and females do not differ in plumage.  Juveniles have less yellow on the cheeks, less red on the forehead, and dark irises."
+ },
+ {
+  "id": "amazona-albifrons",
+  "sci": "Amazona albifrons",
+  "en": "White-fronted Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-fronted_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/265412239/medium.jpg",
+   "credit": "(c) benmun89, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The white-fronted amazon, at about 25 cm (9.8 in) long, is the smallest of the amazon parrots. This species is named for the bright white patch of feathers on its forehead, although the amount of white varies from individual to individual. They have mostly green plumage with some blue colouring on their outspread wings. They have bright red colouring around their eyes (in some individuals almost like spectacles) and blue colouring behind the patch of white on their foreheads. Together with the red-spectacled amazon and the yellow-lored amazon, it is the only amazon species in which adult males and females easily can be distinguished by external appearance (sexual dimorphism): Males have bright red feathers on their \"shoulders\" (alula), while females have green \"shoulders\". Juveniles have pale grey irises and less red on their face and the white area is replaced with a smaller yellowish area."
+ },
+ {
+  "id": "psittacara-leucophthalmus",
+  "sci": "Psittacara leucophthalmus",
+  "en": "White-eyed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/White-eyed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/246857985/medium.jpg",
+   "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "brotogeris-jugularis",
+  "sci": "Brotogeris jugularis",
+  "en": "Orange-chinned Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-chinned_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157601516/medium.jpg",
+   "credit": "(c) Alejandro  Bayer Tamayo, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 19.0,
+  "desc_thin": false,
+  "description": "The orange-chinned parakeet is 18 to 19 cm (7.1 to 7.5 in) long and weighs between 53 and 65 g (1.9 and 2.3 oz). Adults of the nominate subspecies have a bright green head with a bluish wash on the crown, a white eye ring, an orange chin, and a pale bill. The chin patch is often hard to see. Their upperparts and tail are bluish green with brown wing coverts that show as \"shoulders\" when perched. Their underparts are mostly bright green with bluish vent and thighs. Their underwing coverts are yellow. Immature birds are similar to adults. Subspecies B. j. exsul has entirely green underparts and a smaller and paler orange chin patch, darker \"shoulders\", and more olive in the mantle than the nominate."
+ },
+ {
+  "id": "barnardius-zonarius",
+  "sci": "Barnardius zonarius",
+  "en": "Australian Ringneck",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Australian_ringneck",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/455269240/medium.jpg",
+   "credit": "(c) matthewkwan, some rights reserved (CC BY-NC-ND), uploaded by matthewkwan (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "The subspecies of the Australian ringneck differ considerably in colouration. It is a medium size species around 33 cm (13 in) long. The basic colour is green, and all four subspecies have the characteristic yellow ring around the hindneck; wings and tail are a mixture of green and blue.\n\nThe B. z. zonarius and B. z. semitorquatus subspecies have a dull black head; back, rump and wings are brilliant green; throat and breast bluish-green. The difference between these two subspecies is that B. z. zonarius has a yellow abdomen while B. z. semitorquatus has a green abdomen; the latter has also a prominent crimson frontal band that the former lacks (the intermediate shown in the box has characteristics of both subspecies). The two other subspecies differ from these subspecies by the bright green crown and nape and blush cheek-patches. The underparts of B. z. barnardi are turquoise-green with an irregular orange-yellow band across the abdomen; the back and mantle are deep blackish-blue and this subspecies has a prominent red frontal band. The B. z. macgillivrayi is generally pale green, with no red frontal band, and a wide uniform pale yellow band across the abdomen.\nThe calls of the Mallee ringneck and Cloncurry parrot have been described as \"ringing\", and the calls of the Port Lincoln ringneck and Twenty-eight parrot have been described as \"strident\". The name of the Twenty-eight  is an onomatopoeic derived from its distinctive call, which sounds like \"twenty-eight\"  (or the French equivalent, vingt-huit, according to one early description)."
+ },
+ {
+  "id": "cacatua-tenuirostris",
+  "sci": "Cacatua tenuirostris",
+  "en": "Long-billed Corella",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Long-billed_corella",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/255623679/medium.jpg",
+   "credit": "(c) Proteros, some rights reserved (CC BY), uploaded by Proteros (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 41.0,
+  "desc_thin": false,
+  "description": "The adult long-billed corella measures from 38 to 41 cm in length, has a wingspan around 80–90 cm, and averages 567 g in weight. It has a long, bone-coloured beak, and a rim of featherless, bluish skin around the eyes. The plumage is predominantly white with reddish feathers around the eyes and lores. The underside of the wings and tail feathers are tinged with yellow."
+ },
+ {
+  "id": "nestor-meridionalis",
+  "sci": "Nestor meridionalis",
+  "en": "New Zealand Kaka",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/New_Zealand_kaka",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/336381381/medium.jpg",
+   "credit": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 45.0,
+  "desc_thin": false,
+  "description": "The New Zealand kākā is a medium-sized parrot, measuring 45 cm (18 in) in length and weighing from 390 to 560 g (14 to 20 oz), with an average of 452 g (0.996 lb). It is closely related to the kea, but has darker plumage and is more arboreal. The forehead and crown are greyish-white and the nape is greyish brown. The neck and abdomen are more reddish, while the wings are more brownish. Both sub-species have a strongly patterned brown/green/grey plumage with orange and scarlet flashes under the wings; colour variants that show red to yellow colouration especially on the breast are sometimes found.\n\nThe calls include a harsh ka-aa and a whistling u-wiia.\nKākā beak morphology also differs slightly from its closest relatives, the kea and kākāpō. The rhinotheca (upper part of the beak) of the kākā is narrower than the kākāpō and slightly longer. However, it is not as long and sharp as the rhinotheca seen in kea. Therefore, the kākā's bill is between the kea and kākāpō in length, sharpness, and width.\nThere is some evidence of sexual dimorphism in the North Island kākā, with males tending to have larger bills than females. Male culmen lengths tended to be, on average, 13.6% and 12.4% larger than female culmen lengths. This is suggested to have evolved in male kākā due to the high proportion of provisioning the male kākā have to do for female kākā and hatchlings during the breeding season. Therefore, a larger culmen is needed to access food sources such as wood-boring larvae which only males tend to seek out."
+ },
+ {
+  "id": "eupsittula-canicularis",
+  "sci": "Eupsittula canicularis",
+  "en": "Orange-fronted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-fronted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/66853469/medium.jpg",
+   "credit": "(c) laurarefugeforwildlife, some rights reserved (CC BY-NC), uploaded by laurarefugeforwildlife (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Orange-fronted parakeet may refer to:\n\nEupsittula canicularis, also known as the orange-fronted conure, or half-moon conure, a species of bird from Central America\nCyanoramphus malherbi, also known as Malherbe's parakeet, or kākāriki karaka, a species of bird from New Zealand"
+ },
+ {
+  "id": "trichoglossus-concinnus",
+  "sci": "Trichoglossus concinnus",
+  "en": "Musk Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Musk_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159048583/medium.jpg",
+   "credit": "(c) patrickkavanagh, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 22.0,
+  "desc_thin": false,
+  "description": "The musk lorikeet is 22 centimetres (8.7 in) long. It is mainly green and it is identified by its red forehead, blue crown and a distinctive yellow band on its wing. Both upper and lower mandibles of the beak are red at the tip and darker near its base."
+ },
+ {
+  "id": "aratinga-nenday",
+  "sci": "Aratinga nenday",
+  "en": "Nanday Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Nanday_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/366685380/medium.jpeg",
+   "credit": "(c) JeffreyGammon, some rights reserved (CC BY-NC), uploaded by JeffreyGammon (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The nanday parakeet is 27–30 cm (11–12 in) long, weighs 140 g (4.9 oz), and is mostly green in color. Its most distinguishing characteristic, for which it is named, is its black facial mask and beak. It also shows black, trailing flight feathers on its wings and has a long tail edged at the end in blue. The upper chest is bluish-green and the lower chest is a paler green. Feathers covering the thighs are red."
+ },
+ {
+  "id": "brotogeris-chiriri",
+  "sci": "Brotogeris chiriri",
+  "en": "Yellow-chevroned Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-chevroned_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157600886/medium.jpg",
+   "credit": "(c) Paulo Barradas, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The bird is 20–25 cm in length, and is mostly light green in color. It has a trailing yellow edge on its folded wings, which is also seen when the bird is in flight.  It  was considered conspecific with the white-winged parakeet until 1997. Wild birds primarily use disturbed forests and forest clearings around settlements.  They rarely use deep tropical forests."
+ },
+ {
+  "id": "eupsittula-nana",
+  "sci": "Eupsittula nana",
+  "en": "Olive-throated Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Olive-throated_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345582937/medium.jpg",
+   "credit": "(c) Giff Beaton, some rights reserved (CC BY-NC), uploaded by Giff Beaton (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "platycercus-adscitus",
+  "sci": "Platycercus adscitus",
+  "en": "Pale-headed Rosella",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pale-headed_rosella",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/71282187/medium.jpg",
+   "credit": "(c) Sylvia Alexander, some rights reserved (CC BY-NC), uploaded by Sylvia Alexander (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ }
+]

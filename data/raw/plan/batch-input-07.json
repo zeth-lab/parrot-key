@@ -1,0 +1,322 @@
+[
+ {
+  "id": "pyrrhura-hoffmanni",
+  "sci": "Pyrrhura hoffmanni",
+  "en": "Sulphur-winged Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sulphur-winged_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/199465060/medium.jpg",
+   "credit": "(c) steven_bach, some rights reserved (CC BY-NC), uploaded by steven_bach (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "agapornis-canus",
+  "sci": "Agapornis canus",
+  "en": "Grey-headed Lovebird",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-headed_lovebird",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9092025/medium.jpeg",
+   "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 13.0,
+  "desc_thin": false,
+  "description": "The grey-headed lovebird is one of the smallest species of the lovebird genus, being 13 cm (5 inches) long and weighing about 30–36 grams. Its beak and feet are pale grey.  The species is sexually dimorphic: the adult female is entirely green, with a dark green back and wings, a bright green rump, and a paler green chest; the adult male are similarly colored, except that their entire head and upper chest are a pale grey."
+ },
+ {
+  "id": "tanygnathus-lucionensis",
+  "sci": "Tanygnathus lucionensis",
+  "en": "Blue-naped Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-naped_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/655850828/medium.jpg",
+   "credit": "(c) Sebastian Ow, some rights reserved (CC BY-NC), uploaded by Sebastian Ow (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 31.0,
+  "desc_thin": false,
+  "description": "This is a medium size parrot, around 31 cm (12 in) in length, primarily green except for a light blue rear crown and nape, pale blue lower back and rump, scalloped shoulders with orange-brown on black coverts, and blackish underwings with green underwing coverts."
+ },
+ {
+  "id": "pyrilia-barrabandi",
+  "sci": "Pyrilia barrabandi",
+  "en": "Orange-cheeked Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-cheeked_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118300227/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The parrots are 25 cm (9.8 in) in size and weigh 165–190 g (5.8–6.7 oz).\nAdults have an olive throat and breast. The thighs are yellow, with the bend of the wing and lesser wing coverts ranging from yellow to orange, and the carpal edge and underwing coverts being orange to red. The tips of the tail and the wing feathers are blue. P.b. aurantiigena has deep orange cheeks, bend of wing, underwing and lesser wing coverts, and thighs, lacking the yellow possessed by barrabandi. They have a black head and orange to yellow cheeks, with a distinctive white eye-ring around a brown eye. The beak is gray to black.\nJuveniles have a brown crown and olive forehead, nape, cheeks and chin, with a brown margin. The bend of the wings and lesser wing coverts are green with a scattered yellow. The carpal edge and underwing coverts are red with scattered green feathers.\n\n\n=== Vocalizations ===\nDistinctive calls that are reedy and slurred in flight. They have guttural alarm calls."
+ },
+ {
+  "id": "poicephalus-rufiventris",
+  "sci": "Poicephalus rufiventris",
+  "en": "Red-bellied Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-bellied_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/46238556/medium.jpg",
+   "credit": "(c) Donald Hampton, some rights reserved (CC BY-SA), uploaded by Donald Hampton (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The red-bellied parrot is a small parrot about 23 cm (9 in) long and weights 140 g (5 oz). It is a mostly greenish and grey bird with the green being more prominent over its lower surfaces and the grey more prominent over its upper surfaces.  Adult birds have green feathers covering the upper portions of their legs, red irises and dark grey beaks.  The species is sexually dimorphic; Typically, males have a bright orange lower chest and abdomen, whilst adult females are greenish on these lower areas. The dimorphism occurs from a young age and is seen even in young chicks still in the nest.\nThe red-bellied parrot eats seed, fruit kernels, flowers, nectar, and periodically leaves, bark, and juice from hard fruits.\nAlthough the name red-bellied parrot implies that the parrot has hints of red, the word for the color orange was not introduced into the English language until after the fruit orange was discovered and named, so some animals which are colored orange by our current definition were named red due to the fact that a word for the color orange didn't exist in English."
+ },
+ {
+  "id": "coracopsis-vasa",
+  "sci": "Coracopsis vasa",
+  "en": "Greater Vasa Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Greater_vasa_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/112161986/medium.jpg",
+   "credit": "(c) Janne Asp, some rights reserved (CC BY-NC-ND), uploaded by Janne Asp (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The greater vasa parrot's breeding season is uncertain, but is probably between October and December. It has a very unusual breeding biology and mating system; females are 25% larger than males, and are, physically, dominant. The species lives in loose, polygynandrous groups wherein each female has at least 3-8 sexual partners. The males have re-evolved a phallus, and copulations can last up to 90 minutes. Copulations come in two lengths—short (1–3 seconds) and long durations (averaging 36 minutes), with the latter involving a copulatory tie. A copulatory tie usually applies to mammals, such as canids and felids, where the two animals are unable to physically part during mating due to the swelling, and structure, of the penis within the female's body (being barbed or lined with small \"hooks\" in some species). During brooding and chick-rearing, females shed their head feathers and develop bright orange skin coloration, and also sing complex songs from perches close to the nest. These serve to attract males to approach and regurgitate food, which the female accepts while off the nest. The females also defend a territory around their nest from other females during this period."
+ },
+ {
+  "id": "psittacara-chloropterus",
+  "sci": "Psittacara chloropterus",
+  "en": "Hispaniolan Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hispaniolan_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/217474051/medium.jpg",
+   "credit": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "The Hispaniolan parakeet is 30 to 33 cm (12 to 13 in) long and weighs 144 to 147 g (5.1 to 5.2 oz). The sexes are alike. Adults are mostly green that is more yellowish on their underparts. Some have a few red flecks on their head. The bend and edge of their wing and their outermost underwing coverts are red. The undersides of their flight feathers and tail are dull yellowish. Their eye is surrounded by bare white skin. Immature birds have little or no red on the wing."
+ },
+ {
+  "id": "pyrrhura-melanura",
+  "sci": "Pyrrhura melanura",
+  "en": "Maroon-tailed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Maroon-tailed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158993196/medium.jpg",
+   "credit": "(c) ProAves Colombia, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The maroon-tailed parakeet is 23 to 25 cm (9.1 to 9.8 in) long and weighs about 83 g (2.9 oz). The sexes are the same. Adults of the nominate subspecies P. m. melanura have a mostly green head with a brown crown and nape. Their upperparts are green. Their throat, the sides of their neck, and their breast are dark green with buffy whitish feather edges that give a scaly appearance. The rest of their underparts are green. Their wing is mostly green with red and yellowish orange primary coverts; their primaries are mostly blue. Their tail's upper surface is maroon with a green base and its under surface is dusky grayish. Their bill is grayish, their iris dark brown with bare white skin surrounding it, and their legs and feet blackish gray. Immature birds are similar to adults but with less red on the primary coverts.\nSubspecies P. m. pacifica is darker than the nominate and has no yellow on its primary coverts. Its breast scaling is darker and narrower, its eye ring gray, and its bill blackish. P. m. chapmani is larger than the nominate with less red on its wing and a red patch on its belly. The scaly appearance of its breast extends around the back of its neck. P. m. souancei has a more heavily scaled throat than the nominate, with no yellow on the primary coverts, sometimes red on its carpals, a brownish red belly, and a blacker undertail. P. m. pacifica has even heavier throat scaling than souancei, red carpals, and a brownish red belly."
+ },
+ {
+  "id": "guaruba-guarouba",
+  "sci": "Guaruba guarouba",
+  "en": "Golden Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/190756616/medium.jpg",
+   "credit": "(c) Nereston (Nelinho) Camargo, some rights reserved (CC BY-NC), uploaded by Nereston (Nelinho) Camargo (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 36.0,
+  "desc_thin": false,
+  "description": "The golden parakeet is 34–36 cm (13–14 in) long and mainly yellow with green in the outer wings and with an all-yellow tail. It has a large horn-colored (gray) beak, pale-pink bare eye rings, brown irises, and pink legs. Males and females have identical external appearance. Juveniles are duller and have less yellow and more green plumage than the adults. The juvenile's head and neck are mostly green, the back is green and yellow, the upper side of tail is mostly green, the breast is greenish, the eye rings are pale-gray, and the legs are brown."
+ },
+ {
+  "id": "loriculus-philippensis",
+  "sci": "Loriculus philippensis",
+  "en": "Philippine Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philippine_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350052444/medium.jpg",
+   "credit": "(c) shierandrulist, some rights reserved (CC BY-NC), uploaded by shierandrulist (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 14.0,
+  "desc_thin": false,
+  "description": "Philippine hanging parrots are about 14 cm (5.5 in) long, weigh 32–40 grams, and have a short rounded tail. They are mainly green with areas of red, orange, yellow, and blue varying between subspecies. The forehead is red and the irises are dark brown. Adults have red beaks and orange legs.  They are sexually dimorphic with only the males having red on their chin or upper chest, except for the Loriculus (philippensis) camiguinensis in which neither the male or female has a red bib or chest. Juveniles have less red on their heads and paler beaks, but otherwise resemble the female."
+ },
+ {
+  "id": "amazona-mercenarius",
+  "sci": "Amazona mercenarius",
+  "en": "Scaly-naped Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scaly-naped_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/363897343/medium.jpg",
+   "credit": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 34.0,
+  "desc_thin": false,
+  "description": "Adults are 34 cm (13.2) long and weigh 300 g (10.5 oz). Nominate forms are bright green in color, with dark green feathers tinged a dull blue/black and tipped with a dull black from the crown to the nape. The eyes are red with a pale gray eye-ring. The first to third secondary wing feathers have red bases, with the remaining wing feathers having green bases. The carpal edge is yellow mixed with red and orange. The tail is green with a yellow-green band, with the side tail feather being banded red and blue-purple and the outermost tail feather being margined with blue-purple. The bill is gray and horn in color. Juveniles are similar in appearance to adults, but possess a pale horn colored bill tinged with gray and brown eyes.\n\n\n=== Vocalizations ===\nIt makes a variety of calls and vocalizations. One of the most common is a repeated ka-lee."
+ },
+ {
+  "id": "psittacula-roseata",
+  "sci": "Psittacula roseata",
+  "en": "Blossom-headed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blossom-headed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/115397108/medium.jpg",
+   "credit": "(c) Md. Zaber Ansary, some rights reserved (CC BY-NC), uploaded by Md. Zaber Ansary (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "lorius-lory",
+  "sci": "Lorius lory",
+  "en": "Black-capped Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-capped_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/242616808/medium.jpeg",
+   "credit": "(c) Pankaj Nirale, some rights reserved (CC BY-NC), uploaded by Pankaj Nirale (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "psephotellus-dissimilis",
+  "sci": "Psephotellus dissimilis",
+  "en": "Hooded Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hooded_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54694201/medium.jpg",
+   "credit": "(c) Mick Jerram, some rights reserved (CC BY-NC), uploaded by Mick Jerram (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 26.0,
+  "desc_thin": false,
+  "description": "The hooded parrot is a medium-sized parrot, up to 26 cm (10 in) long, weighing 50 to 60 g (1.8 to 2.1 oz). The male has a black head, bluish-grey beak, dark-brown irises, and its wings have a yellow patch. Its upper-parts are brown, its lower parts are turquoise blue, its back is brown, the tail is olive green tipped pale blue, and its legs are pink-grey. The female is a dull-green parrot with a grey-brown head and pink undertail coverts. Juveniles are similar to the female.\nThe male hooded parrot can be distinguished from the similar looking male golden-shouldered parrot mainly by the absence of a pale frontal band, a larger yellow patch on the wings, and absence of the red on the abdomen. The female is very similar to the female Yellow-shouldered parrot being identified by the absence of a pale frontal band and an absence of red on the abdomen."
+ },
+ {
+  "id": "amazona-ventralis",
+  "sci": "Amazona ventralis",
+  "en": "Hispaniolan Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hispaniolan_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64465180/medium.jpg",
+   "credit": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "They have bright green feathers with blue edges on most of them. They feature black ear coverts, some blue patches on the cheeks and crown, some red patches under the chin, and a noticeable white forehead and area surrounding the eyes. Additionally, they have red feathers on their abdomens, blue wind coverts, green outer web edges, yellowish green underfur, a green tail with yellow tips on the upper side, red outer tail feathers at the base, a horn-colored bill, and brown eyes with pale feet. Their bodies measure approximately 28 centimeters long. A typical adult weights 250g (8.75 oz), and they have a large, robust beak.\n\n\n=== Ecology ===\nThey inhabit a variety of wooded environments around 1,500 meters above sea level, from arid savanna palm groves, pine forests, and humid mountain forests. They frequently forage on cultivated lands, such as banana plantations and cornfields. They are found at all elevations in forests, groves, and thickets, wherever there are suitable fruits and seeds. Populations have been limited to forest reserves and national parks such as Jaragua, Cotubanamá, and Los Haitises. They consume seeds or fruits of Caesalpinia, Psidium and Ficus.\n\n\n=== Population ===\nThe population is estimated to be around 10,000-19,999 individuals. This equates to 6,667-13,333 mature individuals, rounded here to 6,000-15,000 mature individuals.\n\n\n=== Breeding ===\nParrots form a couple for life, and lay 2–4 eggs per clutch. They typically nest in cavities in trees up to 20 meters above the ground, but nests have been found as low as 1.5 meters. It has also been reported nesting on rocky ledges. Breeding between the months of February and June. Prospecting pairs have been observed in mid-April, suggesting that the season may extend further in the year."
+ },
+ {
+  "id": "psittacula-calthrapae",
+  "sci": "Psittacula calthrapae",
+  "en": "Layard's Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Layard's_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235406/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 29.0,
+  "desc_thin": false,
+  "description": "Layard's parakeet is a green parrot, 29 cm (11 in) long including a tail up to 13 cm (5.1 in). The adult has a bluish-grey head and back, separated by a green collar.  There is a broad black chin stripe and the tail is blue tipped yellow.  The upper mandible of the male's bill is red and the lower mandible is brown.\nThe female is similar, but has an all black beak and less green on the face than the male. Immature birds are mainly green, with an orange bill."
+ },
+ {
+  "id": "psilopsiagon-aurifrons",
+  "sci": "Psilopsiagon aurifrons",
+  "en": "Mountain Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mountain_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/50860121/medium.jpg",
+   "credit": "(c) Darío De la Fuente, some rights reserved (CC BY), uploaded by Darío De la Fuente (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "This small parrot reaches about 18 cm (7 in) in length and weighs about 45 g (1.6 oz). The male of the nominate subspecies, P. a. aurifrons, has a green head, mantle, back and tail. The otherwise green primary feathers have blue outer webs. The face, throat and breast are yellow gradually fading to a yellowish-green belly. The eye is brown and the bill horn-coloured. The female is similar to the male but has a yellow forehead, and the juvenile resembles the female but has a shorter tail.\nBoth sexes of P. a. margaritae are similar to the female P. a. aurifrons but are larger with shorter tails and the colour of the female's bill is grey. P. a. rubrirostris is a similar colour to P. a. margaritae but the head, breast and belly are a rather darker shade of green tinged with blue. The male's bill is pinkish-buff and the female's grey. The male and female P. a. robertsi resemble P. a. aurifrons but the belly is a darker shade of green and the chin and throat brighter yellow."
+ },
+ {
+  "id": "brotogeris-pyrrhoptera",
+  "sci": "Brotogeris pyrrhoptera",
+  "en": "Gray-cheeked Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-cheeked_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/395414/medium.jpg",
+   "credit": "(c) Ronald Navarrete, some rights reserved (CC BY-NC), uploaded by Ronald Navarrete (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 20.5,
+  "desc_thin": false,
+  "description": "The grey-cheeked parakeet is 19 to 20.5 cm (7.5 to 8.1 in) long and weighs between 60 and 68 g (2.1 and 2.4 oz). Adults are mostly green that is paler and yellower on the underparts. They have a pale blue crown, pale ashy gray cheeks and sides of the neck, and a whitish eye ring and bill. Their primary coverts are deep blue and their underwing coverts orange to orange-red. Immature birds have green instead of blue crowns."
+ },
+ {
+  "id": "platycercus-venustus",
+  "sci": "Platycercus venustus",
+  "en": "Northern Rosella",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Northern_rosella",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48827904/medium.jpeg",
+   "credit": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "Smaller than all rosella species except the western rosella, the adult northern rosella weighs 90 to 110 g (3.2 to 3.9 oz) and is 29 to 32 cm (11 to 13 in) long. It has broad wings with a wingspan of around 44 cm (17 in), and a long tail with twelve feathers. The sexes are almost indistinguishable, though some adult females have duller plumage and are more likely to have some red feathers on the head and breast. The adult bird has a black forehead, crown, lores, ear coverts, upper neck and nape, a whitish throat and large cheek-patches, which are mainly white with violet lower borders in the nominate subspecies, and more blue with a narrow white upper segment in subspecies hillii. The feathers of the lower neck, mantle and scapulars are black narrowly fringed with yellow, giving a scalloped appearance, while the feathers of the back, rump, upper tail coverts and underparts are pale yellow with black borders and concealed grey bases. Those of the breast have very dark grey bases, occasionally tinged with red. The undertail covert feathers are red with black fringes. The feathers on the upper leg are pale yellow tinged with blue. The central rectrices of the long tail are dark green changing to dark blue at the tips, while the other feathers are dark blue with two bands of pale blue and white tips. The undertail is pale blue with a white tip. The wings have a wide purplish blue shoulder patch at rest, with the secondary feathers edged darker blue and the primaries black edged with blue. The beak is off-white with a grey cere, the legs and feet are grey, and the iris is dark brown. Immature birds resemble adults but are duller overall, with less-well defined cheek patches. The black plumage in particular is more greyish, and there are more likely to be scattered red feathers on the head, neck and underparts."
+ },
+ {
+  "id": "amazona-vittata",
+  "sci": "Amazona vittata",
+  "en": "Puerto Rican Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Puerto_Rican_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157591938/medium.jpg",
+   "credit": "(c) U.S. Fish and Wildlife Service Southeast Region, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The Puerto Rican amazon measures 28–30 cm (11.0–11.8 in) and weighs 250–300 g (8.8–10.6 oz), or 275 g (9.7 oz) on average. Although small compared to amazons in general, it is similar in size to other Greater Antilles Amazona species. Sexual dimorphism is not present. Both males and females have predominantly green plumage, though their feathers have blue edges. The primary flight feathers of the wings and the main covert feathers are dark blue. The color of the feathers on the underside varies depending on the body part: the feathers on the underside of the wings, which can be seen during flight, are bright blue; those in the tail have yellow-green tone. Their underparts are paler and yellow-tinged, their foreheads are red, and they have white ovals around the eyes. The iris is brown, the bill a horn color, and the legs yellow-tan. Aside from DNA tests, males and females can only be distinguished by behavioral differences during the breeding season. Immature birds have plumage similar to adults."
+ }
+]

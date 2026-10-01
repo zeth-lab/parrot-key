@@ -1,0 +1,322 @@
+[
+ {
+  "id": "brotogeris-chrysoptera",
+  "sci": "Brotogeris chrysoptera",
+  "en": "Golden-winged Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-winged_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157246723/medium.jpeg",
+   "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 16.0,
+  "desc_thin": false,
+  "description": "The golden-winged parakeet is about 16 cm (6.3 in) long and weighs 47 to 80 g (1.7 to 2.8 oz). The species is almost entirely green. Adults of the nominate subspecies have a browish frontal band above the bill, and orange-brown spot on the chin, and bright orange primary coverts. Subspecies B. c. tuipara has an orange frontal band and chin and yellow edges on the outer tail feathers. B. c. chrysosema has a yellowish orange frontal band and yellow primary coverts. B. c. solimoensis is like chrysosema but with a paler frontal band. B. c. tenuifrons has yellow edges on the outer tail feathers like tuipara but no frontal band. Immature birds have entirely green wings."
+ },
+ {
+  "id": "psitteuteles-versicolor",
+  "sci": "Psitteuteles versicolor",
+  "en": "Varied Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Varied_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91719606/medium.jpeg",
+   "credit": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 19.0,
+  "desc_thin": false,
+  "description": "The varied lorikeet is about 19 centimetres (7.5 in) long. It is mainly green with short yellow longitudinal streaks. The fine yellow streaking and broad orbital patch are distinctive. The lores, forehead, and crown are red. The beak is red, the bare eye-rings are white, the lores are bare, and the irises are orange-yellow. The upper breast is mauve with longitudinal yellow streaks. The legs are bluish-grey. In the female the red on the head is less extensive, and the breast has duller colours. Juveniles are much duller and are mainly green with an orange forehead, pale-brown irises, and a brown beak that is orange at the base. Its flight is swift and direct and contact call is a distinct shrill screech. The call is given constantly in flight and flocks are often heard before they are seen. The varied lorikeet is a blossom nomad."
+ },
+ {
+  "id": "amazona-brasiliensis",
+  "sci": "Amazona brasiliensis",
+  "en": "Red-tailed Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-tailed_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/230183784/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 35.0,
+  "desc_thin": false,
+  "description": "Red-tailed amazons weigh around 425 g (15.0 oz) and are approximately 35 cm (14 in) long. As expected from its common name, it has a broad red band on its tail, but as it largely is limited to the inner webs of the feathers, it is mainly visible from below or when the tail is spread open. Additionally, the tail has a broad yellow tip, and the outer rectrices are dark purplish-blue at the base. The remaining plumage is green, while the throat, cheeks and auriculars are purple-blue, the forecrown is red, and the rectrices are broadly tipped dark blue. It has a yellowish bill with a blackish tip to the upper mandible, a pale gray eye ring, and orange irises. Juveniles have a duller plumage and brown irises."
+ },
+ {
+  "id": "ognorhynchus-icterotis",
+  "sci": "Ognorhynchus icterotis",
+  "en": "Yellow-eared Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-eared_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/97396269/medium.jpg",
+   "credit": "(c) Arley Vargas, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "graydidascalus-brachyurus",
+  "sci": "Graydidascalus brachyurus",
+  "en": "Short-tailed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Short-tailed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157315163/medium.jpeg",
+   "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The short-tailed parrot is 24 to 25 cm (9.4 to 9.8 in) long and weighs 188 to 233 g (6.6 to 8.2 oz). It has a large head and, as suggested by its name, a very short tail. Adults are almost entirely green that is yellowish on their underparts and their uppertail coverts. Their lores are dark which continues behind the eye. Their primaries are a darker green and their wing coverts have yellow edges. Their shoulder is a reddish brown that is seldom visible except in flight. Their outer tail feathers have red bands at their base. Their bill ranges from light green to dark gray and their iris is orange-red. Immature birds are the same as adults except they have no red on their tail."
+ },
+ {
+  "id": "leptosittaca-branickii",
+  "sci": "Leptosittaca branickii",
+  "en": "Golden-plumed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-plumed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/45204910/medium.jpg",
+   "credit": "(c) George Armistead/Hillstar Nature, some rights reserved (CC BY-NC), uploaded by George Armistead/Hillstar Nature (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The golden-plumed parakeet is a large and long tailed montane parakeet that resides in the Andean cloud forests of Colombia, Peru, and Ecuador. Adults are mostly bright green with orange-yellow lores and small golden yellow crests behind the eyes. Their bellies are a faded yellowish color with reddish orange feathers scattered about. Golden-plumed parakeets have yellowish flight feathers on their underside as well as strongly reddish color feathers on the underside of their tail. Juveniles strongly resemble the adults, but their bellies are a paler green, yellow, and orange color as well as having pale pink bills."
+ },
+ {
+  "id": "ara-rubrogenys",
+  "sci": "Ara rubrogenys",
+  "en": "Red-fronted Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-fronted_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/582858983/medium.jpg",
+   "credit": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 60.0,
+  "desc_thin": false,
+  "description": "The red-fronted macaw is 55–60 cm (21.5–23.5 in) long. It is mostly green, and has a red forehead, a red patch over the ears and bright red to orange edged under wing coverts. It has an area of pinkish skin around the eyes extending to the beak. It has red at the bend of wings and blue primary wing feathers."
+ },
+ {
+  "id": "coracopsis-nigra",
+  "sci": "Coracopsis nigra",
+  "en": "Lesser Vasa Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lesser_vasa_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/245251487/medium.jpeg",
+   "credit": "(c) Janne Teivonen, some rights reserved (CC BY), uploaded by Janne Teivonen (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The lesser vasa parrot or black parrot (Coracopsis nigra) is a black coloured parrot endemic to most of Madagascar. It is one of four species of vasa parrots, the others being the greater vasa parrot (C. vasa), the Seychelles black parrot (C. barklyi), and the Comoros black parrot (C. sibilans). The latter two were formerly considered conspecific with the lesser vasa parrot.\nLesser vasa parrots inhabit the mangrove swamps and evergreen forests of Madagascar. They eat seeds, blossoms and fruit - especially berries and mangos.\nThey build their nests in tree hollows and go through courtship in February. During this time, the female may shed the feathers on her head giving it a yellowish tone. The male's beak may also turn white during this time."
+ },
+ {
+  "id": "amazona-rhodocorytha",
+  "sci": "Amazona rhodocorytha",
+  "en": "Red-browed Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-browed_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/280718249/medium.jpg",
+   "credit": "(c) rebeca_andrade9, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The red-browed amazon has a bright red crown fading to purplish-brown at the back. The cheeks and throat are blue and the wing and body plumage is green with dark markings on the back of the neck. Black and red patches can be seen on the wings when they are spread and the tail feathers have red markings and are tipped with yellow. The beak and legs are grey and the iris of the eye is orange-brown."
+ },
+ {
+  "id": "agapornis-lilianae",
+  "sci": "Agapornis lilianae",
+  "en": "Lilian's Lovebird",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lilian's_lovebird",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6243832/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 13.0,
+  "desc_thin": false,
+  "description": "The Lilian's lovebird is 13 cm (5 inches) long and is mainly green with white eyerings. It has orange on its head, neck and upper chest and has a green rump. Male and female are identical in external appearance.\nThe Lilian's lovebird is often mistaken for the slightly larger Fischer's lovebird, which has an olive-green hood and a blue rump. It is also broadly similar to the rosy-faced lovebird, which has more clearly demarcated orange colouration, and lacks a white eyering.\n\n\n=== Food and feeding ===\nLilian's lovebirds feed on grass seeds, millet, wild rice, flowers, and the seeds and fruit of other species.\n\n\n=== Breeding ===\nThe breeding season for Lilian's lovebirds is from January to March and in June and July.  They make a roofed nest in tree crevices. In captivity the clutch consists of three to eight white eggs, which are incubated for about 22 days, and the chicks leave the nest after about 44 days from hatching."
+ },
+ {
+  "id": "pyrrhura-leucotis",
+  "sci": "Pyrrhura leucotis",
+  "en": "Maroon-faced Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-eared_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/192217224/medium.jpg",
+   "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The white-eared parakeet is 23 to 25 cm (9.1 to 9.8 in) long. The sexes are the same. Adults have a light brown crown, a bluish forehead and hindneck, a maroon face, and whitish ear coverts. Their upperparts are mostly green with a reddish rump. Their chin, throat, and the sides of their neck are green with light buff scaling. The center of their belly is brownish red and the rest of their underparts are green. Their wing is mostly green with a red shoulder and blue flight feathers. Their tail is brownish red with a duller underside. Immatures are similar to adults."
+ },
+ {
+  "id": "psittacara-frontatus",
+  "sci": "Psittacara frontatus",
+  "en": "Cordilleran Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cordilleran_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/319538681/medium.jpeg",
+   "credit": "(c) biped_cub, some rights reserved (CC BY), uploaded by biped_cub (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 40.0,
+  "desc_thin": false,
+  "description": "The cordilleran parakeet is 34 to 40 cm (13 to 16 in) long and weighs 162 to 217 g (5.7 to 7.7 oz). The sexes are alike. Adults are generally green that is yellower on the underparts; some have red speckles on their throat. Their forehead, the front part of their crown, and the bend of their wing are red. The undersides of their flight feathers and tail are olive-yellow. Their iris is pale gray surrounded by bare white skin, their bill horn colored, and their legs and feet brownish. Subspecies P. f. minor is overall somewhat smaller and greener than the nominate, the red on its crown is paler, and some individuals have yellow at the bend of the wing. Immature birds resemble adults but with less red on their head."
+ },
+ {
+  "id": "pionus-fuscus",
+  "sci": "Pionus fuscus",
+  "en": "Dusky Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dusky_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118192000/medium.jpeg",
+   "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "The dusky parrot is approximately 24 cm (9.4 in) long. It has a medium-wide gray eye-ring (often fades to white in captivity), a splay of cream-white feathers on its upper neck, a pinkish-red tinge to the belly, and red undertail coverts. The remiges and tail are blue, with the latter red at the base. Overall, the dusky parrot is a dark brownish-gray (tending towards black in poor light) bird."
+ },
+ {
+  "id": "neophema-chrysogaster",
+  "sci": "Neophema chrysogaster",
+  "en": "Orange-bellied Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-bellied_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/494555886/medium.jpeg",
+   "credit": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 20.0,
+  "desc_thin": false,
+  "description": "The orange-bellied parrot is a small parrot around 20 cm (8 in) long; the adult male has bright green head, neck and upperparts, and yellow-green breast, abdomen and flanks. The feathers of the cheeks, neck and underparts are yellow-green with lime green tips and fringes, and hence appear more bright green when the bird has just moulted and more yellowish as the plumage wears. Feathers on the crown are bright green with darker green tips. It has a prominent, two-toned blue frontal band, with a lighter blue border both above and below the horizontal dark blue band. On the belly is an oval patch of orange around 2 cm in diameter. The undertail coverts are yellow to pale yellow. The uppertail is green-blue with yellow sides. The under wing-coverts and flight feathers are dark blue, with paler blue median wing-coverts. The upper mandible of the bill is blackish grey with a greyish, orange-brown or salmon-coloured base and cutting edge, while the lower mandible a brownish orange a grey-black tip. The cere is blackish grey with a pale brown tinge around the nostrils, the orbital eye-ring is light grey and the iris is dark brown. The legs and feet are dark grey with a red tinge between scales. The adult female has slightly duller shades of green plumage overall, with a paler blue frontal band. Its orange belly patch is about 30% smaller and less distinct. Moulting takes place in late winter and early spring. The juvenile is a duller green to yellow-olive colour overall, with a much less prominent blue frontal band above the eyes. It has a dull yellowish or orange bill, which darkens to brown by the time the bird is three months old.\nThe orange-bellied parrot most commonly utters a single-note buzzing sound that is repeated every one to three seconds as a contact call. This is generally made by orange-bellied parrots while flying, but also by birds seeing others in flight. The alarm call is a quickly repeated tzeet that has a buzzing quality. Individuals may make this call when flushed from cover. The gurgle-buzz call is made by birds acting as sentries at feeding areas, and is a mixture of an alarm call interspersed with chattering and hissing. When feeding, orange-bellied parrots may make soft low-pitched chitting sounds.\nThe blue-winged and elegant parrots can be mistaken for the orange-bellied parrot; however, their tinkling alarm calls and lighter olive-green upperparts distinguish them. Their blue frontal bands have only light blue border on one side. Blue-winged and female elegant parrots have yellow plumage behind and above the eye."
+ },
+ {
+  "id": "pionus-tumultuosus",
+  "sci": "Pionus tumultuosus",
+  "en": "Speckle-faced Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Speckle-faced_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/389682131/medium.jpg",
+   "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "cacatua-pastinator",
+  "sci": "Cacatua pastinator",
+  "en": "Western Corella",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Western_corella",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/434979191/medium.jpeg",
+   "credit": "(c) Cairina, some rights reserved (CC BY-NC), uploaded by Cairina (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 48.0,
+  "desc_thin": false,
+  "description": "Cacatua pastinator is a white cockatoo with the upper wing entirely white and under surface of the wing pale yellow. It has an erect white crest, blue grey eye skin, crimson pink colouring between the eyes and beak, a small pink patch on the throat, and long pointed bill. Cacatua pastinator lacks sexual dimorphism and the sexes are difficult to distinguish. Determination of the sex of Cacatua pastinator cannot be determined on the basis of eye colour or plumage, observations of pairs have revealed that the males are larger than the females and have a deeper alarm call. Cacatua pastinator is a medium-sized stocky cockatoo with broad rounded wings, a short tail, and a crest which is usually flattened. Muir's Corella (Cacatua pastinator pastinator) adults range in length from 43–48 centimetres (17–19 in) and weigh 560–815 grams (19.8–28.7 oz). The northern subspecies, Butler's Corella (Cacatua pastinator butleri), are a smaller bird with adults 40–48 centimetres (16–19 in) in length and weighing up to 700 grams (25 oz). The bill is a dullish grey white, the legs are dark grey and the upper mandible has a long tip. The underparts are often stained or dirty as a result of feeding on the ground and digging.\nThe flesh of the western corella is described as plump and tender, and suitable for stewing."
+ },
+ {
+  "id": "amazona-barbadensis",
+  "sci": "Amazona barbadensis",
+  "en": "Yellow-shouldered Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-shouldered_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64838618/medium.jpg",
+   "credit": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "The yellow-shouldered amazon is mainly green and about 33 cm long (~13 inches). It has a whitish forehead and lores, and a yellow crown, ocular region and - often - ear coverts and chin. The bare eye-ring is white. The thighs and the bend of the wing (\"shoulder\") are yellow, but both can be difficult to see. The throat, cheeks and belly often have a bluish tinge. As most members of the genus Amazona, it has broad dark blue tips to the remiges and a red wing-speculum.\nThe yellow-shouldered amazon can be distinguished from the very similar orange-winged amazon by the latter's lack of yellow on its shoulders and blue colouration around the eyes. Another way of distinguishing it from other Amazona species is its somewhat higher pitched vocalizations."
+ },
+ {
+  "id": "ara-glaucogularis",
+  "sci": "Ara glaucogularis",
+  "en": "Blue-throated Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-throated_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157595508/medium.jpg",
+   "credit": "(c) David Friel, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 85.0,
+  "desc_thin": false,
+  "description": "The blue-throated macaw is about 85 cm (33 in) long including the length of its tail feathers and has a wingspan of approximately three feet or 90 cm. It weighs about 900 g (32 oz) to 1,100 g (39 oz). There is little easily observable sexual dimorphism; however, males tend to be a little bigger than females with approximate masses of 750 g and 950 g respectively.\nUpperparts are turquoise-blue, slightly duller on crown and brighter on rump. Underparts largely bright yellow but the vent is pale blue. It has a bare facial patch obscured by blue feather-lines merging into a blue lower cheek and throat, separated from its crown by a narrow yellow stripe and bare pink skin around base of the large, black bill. On the face there is a sparsely feathered patch of skin near the base of the large dark-colored bill that has 5 or 6 horizontal stripes of blue feathers which are unique for every blue-throated macaw and can be used to individually identify adults.\nThe adults have yellow irises and the juveniles have brown irises. The eye color of a nestling is initially black and changes to brown soon after the eyes open. Between one and three years old, the eyes will turn grey, then white. As the macaw matures, the iris turns yellow and the amount of gold increases with age after 10 years. Elderly macaws show a ring of dark grey surrounding the pupil where the iris has become thinner and the back of the retina shows through. It can be separated from the slightly larger blue-and-yellow macaw by the blue (not black) throat, the blue (not green) crown and the lack of contrast between the remiges and upperwing coverts."
+ },
+ {
+  "id": "bolbopsittacus-lunulatus",
+  "sci": "Bolbopsittacus lunulatus",
+  "en": "Guaiabero",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Guaiabero",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/341450530/medium.jpg",
+   "credit": "(c) Kirkamon Cabello, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The guaiabero (Bolbopsittacus lunulatus) is a species of parrot in the family Psittaculidae, belonging to the  monotypic genus Bolbopsittacus and closely related to the lovebirds and hanging parrots . It is endemic to the Philippines and locally known as bubutok. Its common name is derived from its reputation for eating guavas."
+ },
+ {
+  "id": "vini-solitaria",
+  "sci": "Vini solitaria",
+  "en": "Collared Lory",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Collared_lory",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159065874/medium.jpg",
+   "credit": "(c) DickDaniels, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 20.0,
+  "desc_thin": false,
+  "description": "Adult birds are around 20 cm (7.9 in) long and exhibit slight sexual dimorphism. The male has bright scarlet cheeks, throat, breast, and upper abdomen. The crown is dark purple. The nape is lime green and red and some of the feathers on the nape are elongated. The wings, back, and tail are greenish. The lower abdomen is purple. The bill is yellow-orange, the feet pink-orange, and the irises are orange-red. The female is similar but with a paler crown that has a greenish hue posteriorly. Juveniles are duller with vague purple transverse striations on the upper abdomen and breast, and they have a brown beak and pale brown irises."
+ }
+]

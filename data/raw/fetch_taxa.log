@@ -1,0 +1,30 @@
+  retry 1 for https://api.inaturalist.org/v1/taxa/18957: <urlopen error _ssl.c:1015: The handshake operation timed out>
+fetching page 1 ...
+  got 200 (total so far 200 / 415)
+fetching page 2 ...
+  got 200 (total so far 400 / 415)
+fetching page 3 ...
+  got 15 (total so far 415 / 415)
+Total species taxa fetched: 415
+  processed 20/415 (no photo so far: 0)
+  processed 40/415 (no photo so far: 0)
+  processed 60/415 (no photo so far: 0)
+  processed 80/415 (no photo so far: 0)
+  processed 100/415 (no photo so far: 0)
+  processed 120/415 (no photo so far: 0)
+  processed 140/415 (no photo so far: 0)
+  processed 160/415 (no photo so far: 0)
+  processed 180/415 (no photo so far: 0)
+  processed 200/415 (no photo so far: 0)
+  processed 220/415 (no photo so far: 0)
+  processed 240/415 (no photo so far: 0)
+  processed 260/415 (no photo so far: 0)
+  processed 280/415 (no photo so far: 0)
+  processed 300/415 (no photo so far: 0)
+  processed 320/415 (no photo so far: 0)
+  processed 340/415 (no photo so far: 0)
+  processed 360/415 (no photo so far: 0)
+  processed 380/415 (no photo so far: 0)
+  processed 400/415 (no photo so far: 12)
+DONE: 415 species saved to C:\Users\user\Downloads\parrot-key\parrot-key\data\raw\taxa.json
+No-photo species: 20

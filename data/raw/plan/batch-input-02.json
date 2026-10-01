@@ -1,0 +1,322 @@
+[
+ {
+  "id": "psittacula-eupatria",
+  "sci": "Psittacula eupatria",
+  "en": "Alexandrine Parakeet",
+  "ko": "대본청앵무",
+  "koMissing": false,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Alexandrine_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/61055458/medium.jpeg",
+   "credit": "(c) jageshwerverma, some rights reserved (CC BY-NC), uploaded by jageshwerverma (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 62.0,
+  "desc_thin": false,
+  "description": "The Alexandrine parakeet is one of the largest parakeets, measuring 56 to 62 cm (22 to 24 in) from the top of the head to the tip of the tail and weighing 200 to 300 g (7.1 to 10.6 oz). The tail measures 28 to 35 cm (11 to 14 in). It is predominantly green with a light blue-grey sheen on the cheeks and nape (back of the neck), yellow-green abdomen, red patch on the shoulders and massive red beak with yellow tips. The upper-side of the tail passes from green at the top to blue further down, and is yellow at the tip. The underside of the tail is yellow.\nAdults are sexually dimorphic. Adult males have a black stripe across their lower cheeks and a pink band on their nape. Adult females lack both a black cheek stripe and a pink nape band. The young are similar in appearance to adult females but have shorter tails."
+ },
+ {
+  "id": "pionus-menstruus",
+  "sci": "Pionus menstruus",
+  "en": "Blue-headed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-headed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64477914/medium.jpg",
+   "credit": "(c) Arman Moreno, some rights reserved (CC BY-NC), uploaded by Arman Moreno (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The blue-headed parrot is about 28 cm (11 in) long and weighs 245 g (8.6 oz). It is mainly green with a blue head, neck and upper breast, red undertail coverts, and some yellowish on the wing coverts. The upper mandible is black with reddish areas on both sides. They have dark ear patches. In addition to the well-known nominate subspecies found throughout most of the species' South American range, there are two more localized subspecies: rubrigularis from southern Central America and the Chocó has an overall paler plumage and typically a relatively distinct pinkish patch on the throat, and reichenowi from the Atlantic Forest in east Brazil has a paler bill and most of the underparts blue. In all subspecies the male and the female are alike, and juvenile birds have less blue on the head, as well as red or pinkish feathers around the ceres. They moult into their adult plumage at about 8 months of age, but it can take up to two years for the full blue hood to emerge."
+ },
+ {
+  "id": "calyptorhynchus-lathami",
+  "sci": "Calyptorhynchus lathami",
+  "en": "Glossy Black Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Glossy_black_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157561221/medium.jpg",
+   "credit": "(c) Bowerbirdaus, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 50.0,
+  "desc_thin": false,
+  "description": "Like the related red-tailed black cockatoo, this species is sexually dimorphic. The male glossy black cockatoo is predominantly black with a chocolate-brown head and striking caudal red patches. The female is a duller dark brown, with flecks of yellow in the tail and collar. The female's tail is barred whereas the male's tail is patched. An adult will grow to be about 46–50 cm (18–19.5 in) in length."
+ },
+ {
+  "id": "psittacara-mitratus",
+  "sci": "Psittacara mitratus",
+  "en": "Mitred Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mitred_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/509419990/medium.jpg",
+   "credit": "(c) Leonardo Zoat, some rights reserved (CC BY-NC), uploaded by Leonardo Zoat (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 38.0,
+  "desc_thin": false,
+  "description": "The mitred parakeet is 31 to 38 cm (12 to 15 in) long and weighs 219 to 275 g (7.7 to 9.7 oz). The sexes are alike. Adults of all subspecies are mostly green with a purplish forehead and a variable amount and pattern of red on the face. All subspecies have a red forecrown and red in front of their eye. The red usually extends past the eye and down the cheeks, and is often just flecks on the ear coverts.   Subspecies P. m. chlorogenys has less red around and below the eye than the others, often a blue tinge on the crown, and some red on the thighs. Some individuals of all subspecies have a small amount of red at the bend of the wing. Their eye is surrounded by bare white skin and their bill is horn colored. Juveniles have little or no red.\nThe differences in plumage coloration noted in the field and in specimens are possibly due to erroneous age assignments, and might also be clinal."
+ },
+ {
+  "id": "psittacara-erythrogenys",
+  "sci": "Psittacara erythrogenys",
+  "en": "Red-masked Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-masked_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/215867200/medium.jpg",
+   "credit": "(c) Tom Benson, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "Red-masked parakeets average about 33 centimetres (13 in) long, of which half is the tail. They are bright green with a mostly red head on which the elongated pale eye-ring is conspicuous; the nape is green. Also, the lesser and median underwing coverts are red, and there is some red on the neck, the thighs, and the leading edge of the wings. Juveniles have green plumage, until their first red feathers appear at around the age of four months. Its call is two-syllabled, harsh and loud."
+ },
+ {
+  "id": "psittacula-alexandri",
+  "sci": "Psittacula alexandri",
+  "en": "Red-breasted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-breasted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/230390646/medium.jpg",
+   "credit": "(c) Marc Choisy, some rights reserved (CC BY-NC), uploaded by Marc Choisy (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The red-breasted parakeet (Psittacula alexandri) is a parrot native to Southeast Asia. It is among the more widespread species of the genus and is the species which has the most geographical variations. It is easily identified by the large red patch on its breast. An alternative name is the moustached parakeet depending on subspecies. Most of the subspecies are confined to minuscule islands or a cluster of islands in Indonesia. One subspecies occurs in the Andaman Islands, and one subspecies occurs in continental Southeast Asia and partly extending to northeastern parts of South Asia along the foothills of the Himalayas. Some of the island races may be threatened by the wild bird trade. The nominate race, which occurs in Java, is close to extinction.\nFeral populations of this species have now established themselves in cities like Mumbai and Singapore. Small numbers occur in other cities such as Chennai and Bangalore in India."
+ },
+ {
+  "id": "amazona-ochrocephala",
+  "sci": "Amazona ochrocephala",
+  "en": "Yellow-crowned Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-crowned_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473737022/medium.jpg",
+   "credit": "(c) barloventomagico, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "amazona-amazonica",
+  "sci": "Amazona amazonica",
+  "en": "Orange-winged Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-winged_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/450563214/medium.jpeg",
+   "credit": "(c) Carlos Alexandre Mattos Raposo, some rights reserved (CC BY), uploaded by Carlos Alexandre Mattos Raposo (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 33.0,
+  "desc_thin": false,
+  "description": "The orange-winged amazon is a mainly green parrot about 33 cm (13 in) long and weighing about 340 g. It has blue and yellow feathers on its head which varies in extent between individuals. The upper mandible is partly horn colored (gray) and partly dark-gray. It has orange feathers in the wings and tail, which can be seen when in flight. The male and female are identical in external appearance."
+ },
+ {
+  "id": "trichoglossus-chlorolepidotus",
+  "sci": "Trichoglossus chlorolepidotus",
+  "en": "Scaly-breasted Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scaly-breasted_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/367994967/medium.jpg",
+   "credit": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The scaly-breasted lorikeet is about 23 cm (9.1 in) long. The crown and sides of head are emerald-green slightly tinged with blue, while the feathers of the back of the neck and throat and breast are yellow, broadly edged with green, giving scaly appearance. The tail is green with the base of the outer tail-feathers marked with orange-red. The lower flanks, thighs and undertail-coverts green are strongly marked with yellow, while the underwing-coverts are orange-red. They have orange-red eyes, and their bills (beaks) are dark coral-red. Their legs are generally grey-brown.\nMale and female are similar in external appearance. Juveniles appear similar to adults, but their tails are shorter. Eyes are pale brown or black, and bills are brown with some yellow markings or orange with brown markings."
+ },
+ {
+  "id": "amazona-oratrix",
+  "sci": "Amazona oratrix",
+  "en": "Yellow-headed Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-headed_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/35519714/medium.jpg",
+   "credit": "(c) Bryan Pfeiffer, some rights reserved (CC BY-NC), uploaded by Bryan Pfeiffer (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 43.0,
+  "desc_thin": false,
+  "description": "The yellow-headed amazon averages 38–43 centimetres (15–17 in) long. The shape is typical of amazons, with a robust build, rounded wings, and a square tail. The body is bright green, with yellow on the head, dark scallops on the neck, red at the bend of the wing, and yellow thighs. The flight feathers are blackish to bluish violet with a red patch on the outer secondaries.  The base of the tail also has a red patch, which is usually hidden.  The outer tail feathers have yellowish tips.\n\nThe bill is horn-colored (gray), darker in immatures of the Belizean subspecies.  The eye ring is whitish in Mexican birds and grayish in others.  The most conspicuous geographical difference is the amount of yellow.  In adults, the head and upper chest are yellow in the subspecies of the Tres Marías Islands (tresmariae); just the head in the widespread subspecies of Mexico (oratrix); just the crown in Belize (belizensis); and the crown and nape in the Sula Valley of Honduras (hondurensis, which thus resembles the yellow-naped parrot). Immatures have less yellow than adults; they attain adult plumage in 2 to 4 years.\nThe variety \"Magna\" (or \"Magnum\") is bred for more yellow and commands a premium price as a pet.  Some \"extreme\" Magnas have as much yellow as Tres Marías birds, but are distinguished from them by heavier barring on the chest and a less bluish tint to the green plumage.\nWild birds give low-pitched, sometimes human-sounding screams, but often fly silently (unlike many other parrots).  The calls can be described as \"a rolled kyaa-aa-aaah and krra-aah-aa-ow, a deep, rolled ahrrrr or ahrhrrrr,\" etc.  Young birds make a \"clucking\" sound to indicate that they are hungry."
+ },
+ {
+  "id": "eupsittula-pertinax",
+  "sci": "Eupsittula pertinax",
+  "en": "Brown-throated Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-throated_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/100107080/medium.jpg",
+   "credit": "(c) Fernando Nunes, some rights reserved (CC BY-NC), uploaded by Fernando Nunes (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The brown-throated parakeet is 23 to 28 cm (9.1 to 11 in) long and weighs 76 to 102 g (2.7 to 3.6 oz). The sexes are alike. Adults of the nominate subspecies E. p. pertinax have a yellow forehead, face, and chin. Their crown, nape, and upperparts are green. Their breast is dull olive and their belly grass green with an orange patch in its center. Their wings are mostly green with dullish blue edges and tips on the flight feathers; their tail feathers are also green with dullish blue edges and tips. Immature birds have very little yellow.\nThe other subspecies differ from the nominate thus:\n\nE. p. aeruginosa – buff forehead and orange-yellow crown and nape\nE. p. arubensis – yellow face with some brown mixed in\nE. p. chrysogenys – darker than all others and all a green forehead and crown\nE. p. chrysophrys – whitish forehead and rich brown face\nE. p. griseipecta – buff forehead, orange-yellow crown and nape, and olive-gray cheeks and breast\nE. p. lehmanni – buff forehead and orange-yellow crown, nape, and around the eye\nE. p. margaritensis – whitish forehead and olive-brown face\nE. p. ocularis: olive-brown face\nE. p. paraensis – darker than all but chrysogenys with an orange-yellow belly\nE. p. surinama – whitish forehead, rich brown face with orange below the eye, and greener breast\nE. p. tortugensis – buff forehead and orange-yellow crown, nape, and sides of the head\nE. p. venezuelae – whitish forehead, olive-brown face, and yellowish upperparts\nE. p. xanthogenia – orange-yellow crown and nape"
+ },
+ {
+  "id": "amazona-farinosa",
+  "sci": "Amazona farinosa",
+  "en": "Mealy Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Southern_mealy_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/390434181/medium.jpg",
+   "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 41.0,
+  "desc_thin": false,
+  "description": "The southern mealy amazon has a total length of about 38–41 cm (15–16 in) and weighs 540–700 g (19–25 oz). Captives commonly are heavier. It is among the largest parrots in the Americas, mainly being surpassed by the large macaws. It has a relatively short and square shaped tail, as do the other members of the Amazona genus. \n\nThe southern mealy amazon is mainly green. The back and nape often have a whitish tinge; almost as if it had been covered in a thin layer of flour (\"meal\"; hence its name). The distal half of the tail is paler and more yellow than the basal half, thus resulting in a distinctly bi-colored look. In flight it shows a bluish-black trailing edge to the wing and a conspicuous red speculum. Occasionally a few yellow feathers are apparent on the top of the head.\nIn South America, it is commonly confused with the yellow-crowned amazon, but can be recognized by its larger size, less yellow to the crown (not entirely reliable, as some yellow-crowned may show almost none), the whitish tinge to its plumage, broader white eye-ring, and red of the leading edge of the wing placed near the phalanx (not near the radiale), but this is often difficult to see (especially on perched birds). Their voices are also strikingly different.\nThe southern mealy amazon was formerly considered conspecific with the northern mealy amazon. The species were split based on the results of a genetic study published in 2012."
+ },
+ {
+  "id": "ara-militaris",
+  "sci": "Ara militaris",
+  "en": "Military Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Military_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/133941924/medium.jpeg",
+   "credit": "(c) Christopher Lindsey, some rights reserved (CC BY-NC), uploaded by Christopher Lindsey (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 85.0,
+  "desc_thin": false,
+  "description": "Military macaws measure from 70 to 85 centimeters (28 to 33 inches) long on-average, with a 99–110 cm (39–43 in) wingspan. The birds are mostly green-plumed, with light-blue and yellow flight and tail feathers, and a bright-red patch on the forehead. Their face is bare, as with most macaws, being whitish in colour with black striations. The large, strong bill is a slate-grey, blackish tone, and the iris is yellow.\nThey are very visually-similar to great green macaws, but can be distinguished by their smaller size, completely black bill, and overall darker, deeper plumage. The two can also be separated by differences in calls and communication, while great green macaws prefer humid forest habitats; military macaws are usually a deciduous forest species. Phylogenetic studies have shown that the two species are sister clades.\nThe military macaw subspecies also differ from each other in size and coloration; the size variance is generally between 70–80 cm (28–31 in), with the militaris subspecies being the smallest and the mexicana being the largest."
+ },
+ {
+  "id": "thectocercus-acuticaudatus",
+  "sci": "Thectocercus acuticaudatus",
+  "en": "Blue-crowned Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3931867/medium.jpg",
+   "credit": "(c) Bill Keim, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 37.0,
+  "desc_thin": false,
+  "description": "The blue-crowned parakeet is a medium-sized bird measuring approximately 37 cm (14.5 in) in length and weighing between 140 and 190 g (4.9 and 6.7 oz).\nBlue-crowns are born with red coloring around the head, but blue-crowns are predominantly green, with dull blue coloring on the forehead, crown, cheeks, and ears in the nominate, but less blue in other subspecies. It has a ring of white featherless skin around each eye, though this is bright orange-yellow in wild T. acuticaudata neumanni.  The breast feathers may also be tinged with blue, though they are more commonly green to yellow-green. Closed wing coloring matches that of the body while extended wings show blue-brown, becoming chestnut on the outer flight feathers. The tail feathers are green on top, maroon to red-brown on the underside, iridescing to bright orange and scarlet under full-spectrum light. Legs are pink-brown with grey-brown claws. The upper mandible is horn-colored, tapering to a needle-sharp, grey-black tip. In the southern and western nominate and subspecies neumanni, the lower mandible is horn-colored in juveniles, fading to grey-black by the bird's second year. The remaining eastern, central and northern subspecies retain the horn-colored lower mandible throughout adulthood."
+ },
+ {
+  "id": "eupsittula-aurea",
+  "sci": "Eupsittula aurea",
+  "en": "Peach-fronted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peach-fronted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/97806849/medium.jpg",
+   "credit": "(c) Reinaldo de Oliveira Elias, some rights reserved (CC BY), uploaded by Reinaldo de Oliveira Elias (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The peach-fronted parakeet is 23 to 28 cm (9.1 to 11 in) long and weighs 74 to 94 g (2.6 to 3.3 oz). The sexes are the same. Adults have a peachy orange forehead (the \"front\") and forecrown; their hindcrown is dull blue. Bare yellow skin surrounds their eye. Their nape, upperparts, and tail are dull green. Their cheeks and throat are pale olive-brown that transitions through their breast and belly to a greenish yellow vent and undertail coverts. Their wings are mostly green on top and yellow green on the bottom, with greenish blue flight feathers. Immature birds are similar to adults but have less orange and blue on their head."
+ },
+ {
+  "id": "ara-severus",
+  "sci": "Ara severus",
+  "en": "Chestnut-fronted Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chestnut-fronted_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/390762327/medium.jpg",
+   "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 50.0,
+  "desc_thin": false,
+  "description": "The chestnut-fronted or severe macaw is mostly green in colour with patches of red and blue on the wings. The head has a chestnut brown patch just above the beak. The beak is black and the patches around the eyes are white with lines of small black feathers. It is the only one of the miniature macaws that has lines of feathers in the bare patches around its eyes. In the wild their typically gregarious personality can become more aggressive at puberty, giving them the name \"severe macaw\". This tendency can be curbed in captivity but the species requires significant handling to make a tame pet. It is 45–50 cm (17.5–19.5 in) long and weighs 300–410 g (11–14 oz)."
+ },
+ {
+  "id": "amazona-finschi",
+  "sci": "Amazona finschi",
+  "en": "Lilac-crowned Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lilac-crowned_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252786151/medium.jpeg",
+   "credit": "(c) Mexfant Maravilloso, some rights reserved (CC BY-NC), uploaded by Mexfant Maravilloso (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The plumage of an adult lilac-crowned amazon is primarily green with yellowish underparts and black edging.\nThe forehead is a maroon colour with a light blue-lilac neck, nape, and crown.\nThe cheeks and ear coverts are a greenish yellow that lacks the edging that is present in most of the plumage.\nThe primary feathers are dark blue with the secondary feathers being green while being tipped with the same dark blue colouring.\nFurthermore, the initial five secondary feathers have a bright red speculum on the edge of the feathers.\nThe wing coverts, the underside of the flight feathers, and the tail are green while the tail is tipped with a yellowish colouring similar to that of the cheeks and ear coverts.\nTheir beak, orbital rings, and legs are a pale brown-grey colouring.\nThe irides of adult lilac-crowned parrots are amber-coloured.\nJuvenile lilac-crowned amazons are visually similar to their adult forms except for minor differences. One difference is that the iris of juveniles is a dark brown as opposed to the amber colouring that is found in adults.\nThe other major difference is that there less maroon coloured feathers on the forehead of juveniles. After about one-year juveniles begin to acquire these adult features."
+ },
+ {
+  "id": "pyrrhura-frontalis",
+  "sci": "Pyrrhura frontalis",
+  "en": "Maroon-bellied Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Maroon-bellied_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992021/medium.jpg",
+   "credit": "(c) Dario Sanches, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "forpus-conspicillatus",
+  "sci": "Forpus conspicillatus",
+  "en": "Spectacled Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spectacled_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64735989/medium.jpg",
+   "credit": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "psittacara-holochlorus",
+  "sci": "Psittacara holochlorus",
+  "en": "Green Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Green_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/149994371/medium.jpeg",
+   "credit": "(c) rakshas, some rights reserved (CC BY-NC), uploaded by rakshas (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 30.5,
+  "desc_thin": false,
+  "description": "The green parakeet is 28 to 30.5 cm (11 to 12 in) long and weighs about 230 g (8.1 oz). The sexes are alike. Adults of both subspecies are generally green that is paler and yellower on their underparts. Their cheeks and throat have variable amounts of red speckles. Their underwing coverts are yellowish green and the undersides of their flight feathers and tail are olive-yellow. Their iris is orange-red surrounded by bare pale beige skin, their bill horn colored, and their legs and feet brownish. The subspecies P. h. brewsteri is overall somewhat darker than the nominate and has a slight glaucous cast on its head."
+ }
+]

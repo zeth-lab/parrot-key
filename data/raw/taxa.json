@@ -1,0 +1,4922 @@
+[
+ {
+  "taxon_id": 19349,
+  "sci": "Myiopsitta monachus",
+  "en": "Monk Parakeet",
+  "ko": "퀘이커앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Monk_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/101224790/medium.jpg",
+   "credit": "(c) Juan Emilio, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18911,
+  "sci": "Psittacula krameri",
+  "en": "Rose-ringed Parakeet",
+  "ko": "장미목도리앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rose-ringed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2035460/medium.jpg",
+   "credit": "(c) Mousam Ray, some rights reserved (CC BY-NC), uploaded by Mousam Ray (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 980095,
+  "sci": "Trichoglossus moluccanus",
+  "en": "Rainbow Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rainbow_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/49571056/medium.jpg",
+   "credit": "(c) Andrew Allen, some rights reserved (CC BY), uploaded by Andrew Allen (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116834,
+  "sci": "Cacatua galerita",
+  "en": "Sulphur-crested Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sulphur-crested_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/247007913/medium.jpg",
+   "credit": "(c) Peter and Shelly, some rights reserved (CC BY-NC), uploaded by Peter and Shelly (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144560,
+  "sci": "Eolophus roseicapilla",
+  "en": "Galah",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Galah",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/147415773/medium.jpg",
+   "credit": "(c) Andrew Allen, some rights reserved (CC BY), uploaded by Andrew Allen (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18921,
+  "sci": "Platycercus elegans",
+  "en": "Crimson Rosella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crimson_rosella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/13295378/medium.jpg",
+   "credit": "(c) Kevin Schafer, some rights reserved (CC BY-NC-ND), uploaded by Kevin Schafer (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18920,
+  "sci": "Platycercus eximius",
+  "en": "Eastern Rosella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Eastern_rosella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/232541417/medium.jpg",
+   "credit": "(c) Kenton, some rights reserved (CC BY-NC), uploaded by Kenton (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19196,
+  "sci": "Alisterus scapularis",
+  "en": "Australian King Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Australian_king_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/13147638/medium.jpeg",
+   "credit": "(c) Carole Riley, some rights reserved (CC BY-NC), uploaded by Carole Riley (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1432688,
+  "sci": "Zanda funerea",
+  "en": "Yellow-tailed Black Cockatoo",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yellow-tailed_black_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/266820660/medium.jpg",
+   "credit": "(c) Sam Gordon, some rights reserved (CC BY-NC-SA), uploaded by Sam Gordon (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116838,
+  "sci": "Cacatua sanguinea",
+  "en": "Little Corella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Little_corella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/594571379/medium.jpg",
+   "credit": "(c) Victoria, some rights reserved (CC BY-NC), uploaded by Victoria (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19022,
+  "sci": "Ara macao",
+  "en": "Scarlet Macaw",
+  "ko": "금강앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scarlet_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/233350330/medium.jpg",
+   "credit": "(c) Matthew Patchett, some rights reserved (CC BY-NC), uploaded by Matthew Patchett (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19018,
+  "sci": "Ara ararauna",
+  "en": "Blue-and-yellow Macaw",
+  "ko": "청금강앵무",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-and-yellow_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/414331079/medium.jpeg",
+   "credit": "(c) KENNEDY BORGES, some rights reserved (CC BY-NC), uploaded by KENNEDY BORGES (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19009,
+  "sci": "Psephotus haematonotus",
+  "en": "Red-rumped Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-rumped_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/242426579/medium.jpg",
+   "credit": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19339,
+  "sci": "Melopsittacus undulatus",
+  "en": "Budgerigar",
+  "ko": "사랑앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Budgerigar",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/66388650/medium.jpg",
+   "credit": "(c) Joseph j7uy5, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18976,
+  "sci": "Amazona viridigenalis",
+  "en": "Red-crowned Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-crowned_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/59186054/medium.jpeg",
+   "credit": "(c) James M. Maley, some rights reserved (CC BY), uploaded by James M. Maley (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116842,
+  "sci": "Callocephalon fimbriatum",
+  "en": "Gang-gang Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Gang-gang_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259067709/medium.jpg",
+   "credit": "(c) rodgerp, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18990,
+  "sci": "Amazona autumnalis",
+  "en": "Red-lored Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-lored_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30793351/medium.jpg",
+   "credit": "(c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18995,
+  "sci": "Amazona albifrons",
+  "en": "White-fronted Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-fronted_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/265412239/medium.jpg",
+   "credit": "(c) benmun89, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367573,
+  "sci": "Psittacara leucophthalmus",
+  "en": "White-eyed Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/White-eyed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/246857985/medium.jpg",
+   "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19211,
+  "sci": "Brotogeris jugularis",
+  "en": "Orange-chinned Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-chinned_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157601516/medium.jpg",
+   "credit": "(c) Alejandro  Bayer Tamayo, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19265,
+  "sci": "Barnardius zonarius",
+  "en": "Australian Ringneck",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Australian_ringneck",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/455269240/medium.jpg",
+   "credit": "(c) matthewkwan, some rights reserved (CC BY-NC-ND), uploaded by matthewkwan (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116839,
+  "sci": "Cacatua tenuirostris",
+  "en": "Long-billed Corella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Long-billed_corella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/255623679/medium.jpg",
+   "credit": "(c) Proteros, some rights reserved (CC BY), uploaded by Proteros (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116844,
+  "sci": "Calyptorhynchus banksii",
+  "en": "Red-tailed Black Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-tailed_black_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157560361/medium.jpg",
+   "credit": "(c) Michael Schmid, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18943,
+  "sci": "Nestor meridionalis",
+  "en": "New Zealand Kaka",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/New_Zealand_kaka",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/336381381/medium.jpg",
+   "credit": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367558,
+  "sci": "Eupsittula canicularis",
+  "en": "Orange-fronted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-fronted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/66853469/medium.jpg",
+   "credit": "(c) laurarefugeforwildlife, some rights reserved (CC BY-NC), uploaded by laurarefugeforwildlife (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1580414,
+  "sci": "Trichoglossus concinnus",
+  "en": "Musk Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Musk_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159048583/medium.jpg",
+   "credit": "(c) patrickkavanagh, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116993,
+  "sci": "Nymphicus hollandicus",
+  "en": "Cockatiel",
+  "ko": "왕관앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cockatiel",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/260517157/medium.jpg",
+   "credit": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367562,
+  "sci": "Aratinga nenday",
+  "en": "Nanday Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Nanday_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/366685380/medium.jpeg",
+   "credit": "(c) JeffreyGammon, some rights reserved (CC BY-NC), uploaded by JeffreyGammon (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19215,
+  "sci": "Brotogeris chiriri",
+  "en": "Yellow-chevroned Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-chevroned_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157600886/medium.jpg",
+   "credit": "(c) Paulo Barradas, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367556,
+  "sci": "Eupsittula nana",
+  "en": "Olive-throated Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Olive-throated_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345582937/medium.jpg",
+   "credit": "(c) Giff Beaton, some rights reserved (CC BY-NC), uploaded by Giff Beaton (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18917,
+  "sci": "Platycercus adscitus",
+  "en": "Pale-headed Rosella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pale-headed_rosella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/71282187/medium.jpg",
+   "credit": "(c) Sylvia Alexander, some rights reserved (CC BY-NC), uploaded by Sylvia Alexander (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18904,
+  "sci": "Psittacula eupatria",
+  "en": "Alexandrine Parakeet",
+  "ko": "대본청앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Alexandrine_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/61055458/medium.jpeg",
+   "credit": "(c) jageshwerverma, some rights reserved (CC BY-NC), uploaded by jageshwerverma (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19079,
+  "sci": "Agapornis roseicollis",
+  "en": "Rosy-faced Lovebird",
+  "ko": "모란앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rosy-faced_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/380949978/medium.jpg",
+   "credit": "(c) pat_jones, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19096,
+  "sci": "Pionus menstruus",
+  "en": "Blue-headed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-headed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64477914/medium.jpg",
+   "credit": "(c) Arman Moreno, some rights reserved (CC BY-NC), uploaded by Arman Moreno (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19016,
+  "sci": "Ara chloropterus",
+  "en": "Red-and-green Macaw",
+  "ko": "홍금강앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-and-green_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/411585383/medium.jpeg",
+   "credit": "(c) Thiago Gonçalves Coronado Antunes, some rights reserved (CC BY-NC), uploaded by Thiago Gonçalves Coronado Antunes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18941,
+  "sci": "Nestor notabilis",
+  "en": "Kea",
+  "ko": "케아앵무",
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Kea",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/487649966/medium.jpg",
+   "credit": "(c) Ben Ackerley, some rights reserved (CC BY-NC), uploaded by Ben Ackerley (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18978,
+  "sci": "Amazona aestiva",
+  "en": "Turquoise-fronted Amazon",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Turquoise-fronted_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/167963315/medium.jpg",
+   "credit": "(c) Nick Lima, some rights reserved (CC BY-NC), uploaded by Nick Lima (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116846,
+  "sci": "Calyptorhynchus lathami",
+  "en": "Glossy Black Cockatoo",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Glossy_black_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157561221/medium.jpg",
+   "credit": "(c) Bowerbirdaus, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367571,
+  "sci": "Psittacara mitratus",
+  "en": "Mitred Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mitred_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/509419990/medium.jpg",
+   "credit": "(c) Leonardo Zoat, some rights reserved (CC BY-NC), uploaded by Leonardo Zoat (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367572,
+  "sci": "Psittacara erythrogenys",
+  "en": "Red-masked Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-masked_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/215867200/medium.jpg",
+   "credit": "(c) Tom Benson, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18901,
+  "sci": "Psittacula alexandri",
+  "en": "Red-breasted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-breasted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/230390646/medium.jpg",
+   "credit": "(c) Marc Choisy, some rights reserved (CC BY-NC), uploaded by Marc Choisy (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19003,
+  "sci": "Amazona ochrocephala",
+  "en": "Yellow-crowned Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-crowned_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473737022/medium.jpg",
+   "credit": "(c) barloventomagico, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18982,
+  "sci": "Amazona amazonica",
+  "en": "Orange-winged Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-winged_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/450563214/medium.jpeg",
+   "credit": "(c) Carlos Alexandre Mattos Raposo, some rights reserved (CC BY), uploaded by Carlos Alexandre Mattos Raposo (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19115,
+  "sci": "Trichoglossus chlorolepidotus",
+  "en": "Scaly-breasted Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scaly-breasted_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/367994967/medium.jpg",
+   "credit": "(c) Nicole Brooker, some rights reserved (CC BY-NC), uploaded by Nicole Brooker (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18998,
+  "sci": "Amazona oratrix",
+  "en": "Yellow-headed Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-headed_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/35519714/medium.jpg",
+   "credit": "(c) Bryan Pfeiffer, some rights reserved (CC BY-NC), uploaded by Bryan Pfeiffer (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367560,
+  "sci": "Eupsittula pertinax",
+  "en": "Brown-throated Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-throated_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/100107080/medium.jpg",
+   "credit": "(c) Fernando Nunes, some rights reserved (CC BY-NC), uploaded by Fernando Nunes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19005,
+  "sci": "Amazona farinosa",
+  "en": "Mealy Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Southern_mealy_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/390434181/medium.jpg",
+   "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19020,
+  "sci": "Ara militaris",
+  "en": "Military Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Military_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/133941924/medium.jpeg",
+   "credit": "(c) Christopher Lindsey, some rights reserved (CC BY-NC), uploaded by Christopher Lindsey (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367564,
+  "sci": "Thectocercus acuticaudatus",
+  "en": "Blue-crowned Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3931867/medium.jpg",
+   "credit": "(c) Bill Keim, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367559,
+  "sci": "Eupsittula aurea",
+  "en": "Peach-fronted Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Peach-fronted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/97806849/medium.jpg",
+   "credit": "(c) Reinaldo de Oliveira Elias, some rights reserved (CC BY), uploaded by Reinaldo de Oliveira Elias (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72520,
+  "sci": "Ara severus",
+  "en": "Chestnut-fronted Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chestnut-fronted_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/390762327/medium.jpg",
+   "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18993,
+  "sci": "Amazona finschi",
+  "en": "Lilac-crowned Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lilac-crowned_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252786151/medium.jpeg",
+   "credit": "(c) Mexfant Maravilloso, some rights reserved (CC BY-NC), uploaded by Mexfant Maravilloso (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19162,
+  "sci": "Pyrrhura frontalis",
+  "en": "Maroon-bellied Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Maroon-bellied_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992021/medium.jpg",
+   "credit": "(c) Dario Sanches, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19064,
+  "sci": "Forpus conspicillatus",
+  "en": "Spectacled Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spectacled_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64735989/medium.jpg",
+   "credit": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 979922,
+  "sci": "Psittacara holochlorus",
+  "en": "Green Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Green_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/149994371/medium.jpeg",
+   "credit": "(c) rakshas, some rights reserved (CC BY-NC), uploaded by rakshas (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19214,
+  "sci": "Brotogeris tirica",
+  "en": "Plain Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Plain_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158896391/medium.jpg",
+   "credit": "(c) Luiz Carlos  Rocha, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 68499,
+  "sci": "Psittacula cyanocephala",
+  "en": "Plum-headed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Plum-headed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/349177488/medium.jpg",
+   "credit": "(c) Hari K  Patibanda, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19347,
+  "sci": "Cyanoliseus patagonus",
+  "en": "Burrowing Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Burrowing_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/79627019/medium.jpg",
+   "credit": "(c) jose_canas_fotografia, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367569,
+  "sci": "Psittacara finschi",
+  "en": "Crimson-fronted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Finsch's_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172916437/medium.jpg",
+   "credit": "(c) Lydia Cox, some rights reserved (CC BY-NC), uploaded by Lydia Cox (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1432694,
+  "sci": "Zanda latirostris",
+  "en": "Carnaby's Black Cockatoo",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Carnaby's_black_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/287180277/medium.jpg",
+   "credit": "(c) John Bromilow, some rights reserved (CC BY-NC), uploaded by John Bromilow (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18922,
+  "sci": "Platycercus caledonicus",
+  "en": "Green Rosella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Green_rosella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/53221261/medium.jpg",
+   "credit": "(c) Shane Walker, some rights reserved (CC BY), uploaded by Shane Walker (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18938,
+  "sci": "Anodorhynchus hyacinthinus",
+  "en": "Hyacinth Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hyacinth_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/144156185/medium.jpg",
+   "credit": "(c) Paul Donahue, some rights reserved (CC BY-NC), uploaded by Paul Donahue (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19069,
+  "sci": "Forpus xanthopterygius",
+  "en": "Cobalt-rumped Parrotlet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-winged_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/384587/medium.JPG",
+   "credit": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19100,
+  "sci": "Pionus senilis",
+  "en": "White-crowned Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-crowned_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/250092444/medium.jpg",
+   "credit": "(c) Dean Thompson, some rights reserved (CC BY-NC), uploaded by Dean Thompson (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19334,
+  "sci": "Aprosmictus erythropterus",
+  "en": "Red-winged Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-winged_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159014131/medium.jpg",
+   "credit": "(c) KityKat79, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 204498,
+  "sci": "Cyanoramphus novaezelandiae",
+  "en": "Red-crowned Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-crowned_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/409524714/medium.jpg",
+   "credit": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19094,
+  "sci": "Pionus maximiliani",
+  "en": "Scaly-headed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scaly-headed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/314019219/medium.jpg",
+   "credit": "(c) David Rodriguez, some rights reserved (CC BY-NC), uploaded by David Rodriguez (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19269,
+  "sci": "Psittacus erithacus",
+  "en": "Gray Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/47367883/medium.jpg",
+   "credit": "(c) Valerie, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72814,
+  "sci": "Diopsittaca nobilis",
+  "en": "Red-shouldered Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-shouldered_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157826775/medium.jpg",
+   "credit": "(c) Diego Torres Silvestre, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 47675,
+  "sci": "Ara ambiguus",
+  "en": "Great Green Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Great_green_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/251572277/medium.jpeg",
+   "credit": "(c) Walter Welss, some rights reserved (CC BY-NC), uploaded by Walter Welss (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19075,
+  "sci": "Agapornis fischeri",
+  "en": "Fischer's Lovebird",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Fischer's_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/312928188/medium.jpeg",
+   "credit": "(c) Floyd E. Hayes, some rights reserved (CC BY-NC), uploaded by Floyd E. Hayes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19066,
+  "sci": "Forpus coelestis",
+  "en": "Pacific Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pacific_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138583603/medium.jpeg",
+   "credit": "(c) Nelson Apolo, some rights reserved (CC BY-NC), uploaded by Nelson Apolo (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19182,
+  "sci": "Aratinga weddellii",
+  "en": "Dusky-headed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dusky-headed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/272358567/medium.jpeg",
+   "credit": "(c) Edison Araguillin, some rights reserved (CC BY-NC), uploaded by Edison Araguillin (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18984,
+  "sci": "Amazona auropalliata",
+  "en": "Yellow-naped Amazon",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yellow-naped_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6012624/medium.jpeg",
+   "credit": "(c) elizabeth1, some rights reserved (CC BY-NC), uploaded by elizabeth1 (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116759,
+  "sci": "Cacatua sulphurea",
+  "en": "Yellow-crested Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-crested_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/179243597/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19262,
+  "sci": "Enicognathus ferrugineus",
+  "en": "Austral Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Austral_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/198371508/medium.jpeg",
+   "credit": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19192,
+  "sci": "Purpureicephalus spurius",
+  "en": "Red-capped Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-capped_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/55463036/medium.jpg",
+   "credit": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1505888,
+  "sci": "Psephotellus varius",
+  "en": "Mulga Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mulga_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/175496368/medium.jpg",
+   "credit": "(c) Kym Nicolson, some rights reserved (CC BY), uploaded by Kym Nicolson (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18913,
+  "sci": "Psittacula longicauda",
+  "en": "Long-tailed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Long-tailed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/328604108/medium.jpeg",
+   "credit": "(c) Dixon Lau, some rights reserved (CC BY-NC), uploaded by Dixon Lau (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18974,
+  "sci": "Loriculus vernalis",
+  "en": "Vernal Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Vernal_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/103731438/medium.jpg",
+   "credit": "(c) prajath, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367563,
+  "sci": "Orthopsittaca manilatus",
+  "en": "Red-bellied Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-bellied_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/35115974/medium.jpg",
+   "credit": "(c) Paul Cools, some rights reserved (CC BY-NC), uploaded by Paul Cools (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116835,
+  "sci": "Cacatua leadbeateri",
+  "en": "Pink Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Major_Mitchell's_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/112785464/medium.jpeg",
+   "credit": "(c) Jeff Melvaine, some rights reserved (CC BY-NC), uploaded by Jeff Melvaine (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19152,
+  "sci": "Pyrrhura molinae",
+  "en": "Green-cheeked Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Green-cheeked_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/175564157/medium.jpg",
+   "credit": "(c) Pablo Demaio, some rights reserved (CC BY-NC), uploaded by Pablo Demaio (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19252,
+  "sci": "Polytelis swainsonii",
+  "en": "Superb Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Superb_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/112430365/medium.jpeg",
+   "credit": "(c) John Bromilow, some rights reserved (CC BY-NC), uploaded by John Bromilow (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18918,
+  "sci": "Platycercus icterotis",
+  "en": "Western Rosella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Western_rosella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/321987479/medium.jpg",
+   "credit": "(c) wacrakey, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 202471,
+  "sci": "Aratinga solstitialis",
+  "en": "Sun Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sun_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6800696/medium.jpg",
+   "credit": "(c) Cullen Hanks, some rights reserved (CC BY-NC), uploaded by Cullen Hanks (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19210,
+  "sci": "Brotogeris versicolurus",
+  "en": "White-winged Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-winged_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/458309507/medium.jpeg",
+   "credit": "(c) Justin Walker, some rights reserved (CC BY-NC), uploaded by Justin Walker (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19076,
+  "sci": "Agapornis personatus",
+  "en": "Yellow-collared Lovebird",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-collared_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/337016949/medium.jpg",
+   "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18881,
+  "sci": "Neophema elegans",
+  "en": "Elegant Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Elegant_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157281809/medium.jpeg",
+   "credit": "(c) Dustyn and Catherine, some rights reserved (CC BY-NC), uploaded by Dustyn and Catherine (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19099,
+  "sci": "Pionus chalcopterus",
+  "en": "Bronze-winged Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bronze-winged_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158982399/medium.jpg",
+   "credit": "(c) Randy, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19212,
+  "sci": "Brotogeris cyanoptera",
+  "en": "Cobalt-winged Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cobalt-winged_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/46954886/medium.jpg",
+   "credit": "(c) stanlilley, some rights reserved (CC BY-NC), uploaded by stanlilley (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19067,
+  "sci": "Forpus cyanopygius",
+  "en": "Mexican Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mexican_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32526528/medium.jpeg",
+   "credit": "(c) eduarditea, some rights reserved (CC BY-NC), uploaded by eduarditea (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73274,
+  "sci": "Primolius maracana",
+  "en": "Blue-winged Macaw",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-winged_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/71880063/medium.jpg",
+   "credit": "(c) Norton Santos, some rights reserved (CC BY-NC), uploaded by Norton Santos (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19284,
+  "sci": "Lathamus discolor",
+  "en": "Swift Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Swift_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/332002192/medium.jpg",
+   "credit": "(c) David de Groot, some rights reserved (CC BY-NC), uploaded by David de Groot (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19055,
+  "sci": "Poicephalus meyeri",
+  "en": "Meyer's Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Meyer's_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/337875683/medium.jpg",
+   "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18967,
+  "sci": "Loriculus galgulus",
+  "en": "Blue-crowned Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64901100/medium.jpg",
+   "credit": "(c) Lip Kee, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 602513,
+  "sci": "Northiella haematogaster",
+  "en": "Greater Bluebonnet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Eastern_bluebonnet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/133009/medium.jpg",
+   "credit": "(c) David Cook, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1506168,
+  "sci": "Eclectus polychloros",
+  "en": "Papuan Eclectus",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Papuan_eclectus",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/253840423/medium.jpg",
+   "credit": "(c) Rob Solic, some rights reserved (CC BY-NC), uploaded by Rob Solic (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18880,
+  "sci": "Neophema chrysostoma",
+  "en": "Blue-winged Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-winged_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/241698019/medium.jpg",
+   "credit": "(c) zebsphotography, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19052,
+  "sci": "Poicephalus senegalus",
+  "en": "Senegal Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Senegal_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/347834585/medium.jpg",
+   "credit": "(c) Arjan Haverkamp, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73250,
+  "sci": "Pionites melanocephalus",
+  "en": "Black-headed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-headed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473294412/medium.jpg",
+   "credit": "(c) Diego Tirira, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 980098,
+  "sci": "Trichoglossus haematodus",
+  "en": "Coconut Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Coconut_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/269684159/medium.jpg",
+   "credit": "(c) David J Barton, some rights reserved (CC BY-NC), uploaded by David J Barton (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73323,
+  "sci": "Pyrilia haematotis",
+  "en": "Brown-hooded Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-hooded_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64607161/medium.jpg",
+   "credit": "(c) Anneke Jonker, some rights reserved (CC BY-NC), uploaded by Anneke Jonker (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584102,
+  "sci": "Psitteuteles porphyrocephalus",
+  "en": "Purple-crowned Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Purple-crowned_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29673329/medium.jpg",
+   "credit": "(c) Alan Melville, some rights reserved (CC BY-NC-ND), uploaded by Alan Melville (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 980094,
+  "sci": "Trichoglossus rubritorquis",
+  "en": "Red-collared Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-collared_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10151673/medium.jpg",
+   "credit": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19065,
+  "sci": "Forpus passerinus",
+  "en": "Green-rumped Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Green-rumped_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/65615037/medium.jpeg",
+   "credit": "(c) Nelson Wisnik, some rights reserved (CC BY-NC), uploaded by Nelson Wisnik (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1432695,
+  "sci": "Zanda baudinii",
+  "en": "Baudin's Black Cockatoo",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Baudin's_black_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/321031882/medium.jpg",
+   "credit": "(c) wacrakey, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19050,
+  "sci": "Poicephalus cryptoxanthus",
+  "en": "Brown-headed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-headed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/410668181/medium.jpg",
+   "credit": "(c) lance_robinson, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19251,
+  "sci": "Polytelis anthopeplus",
+  "en": "Regent Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Regent_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/335751119/medium.jpg",
+   "credit": "(c) Matt Campbell, some rights reserved (CC BY-NC), uploaded by Matt Campbell (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19184,
+  "sci": "Aratinga jandaya",
+  "en": "Jandaya Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Jandaya_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/163703172/medium.jpeg",
+   "credit": "(c) Lucas C. Marinho, some rights reserved (CC BY-NC), uploaded by Lucas C. Marinho (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73297,
+  "sci": "Psilopsiagon aymara",
+  "en": "Gray-hooded Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-hooded_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1152855/medium.jpg",
+   "credit": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72522,
+  "sci": "Aratinga auricapillus",
+  "en": "Golden-capped Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-capped_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118279128/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367561,
+  "sci": "Eupsittula cactorum",
+  "en": "Cactus Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Caatinga_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/141276572/medium.jpg",
+   "credit": "(c) Breno Farias, some rights reserved (CC BY-NC), uploaded by Breno Farias (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 117152,
+  "sci": "Cacatua goffiniana",
+  "en": "Tanimbar Corella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tanimbar_corella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/337787529/medium.jpeg",
+   "credit": "no rights reserved, uploaded by James Eaton (cc0) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 117073,
+  "sci": "Probosciger aterrimus",
+  "en": "Palm Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Palm_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/256916871/medium.jpg",
+   "credit": "(c) Mark Simpson, some rights reserved (CC BY-NC), uploaded by Mark Simpson (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367570,
+  "sci": "Psittacara wagleri",
+  "en": "Scarlet-fronted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scarlet-fronted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60173896/medium.jpg",
+   "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19275,
+  "sci": "Cyclopsitta diophthalma",
+  "en": "Double-eyed Fig Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Double-eyed_fig_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/599926690/medium.jpg",
+   "credit": "(c) Owen Lishmund, some rights reserved (CC BY-NC), uploaded by Owen Lishmund (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18986,
+  "sci": "Amazona vinacea",
+  "en": "Vinaceous-breasted Amazon",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vinaceous-breasted_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/258128302/medium.jpg",
+   "credit": "(c) sobania, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367568,
+  "sci": "Psittacara strenuus",
+  "en": "Pacific Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pacific_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177135578/medium.jpg",
+   "credit": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18927,
+  "sci": "Cyanoramphus auriceps",
+  "en": "Yellow-crowned Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-crowned_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57107378/medium.jpeg",
+   "credit": "(c) Ben Weatherley, some rights reserved (CC BY-NC), uploaded by Ben Weatherley (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18988,
+  "sci": "Amazona leucocephala",
+  "en": "Cuban Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cuban_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/16664274/medium.jpg",
+   "credit": "(c) mamu_man, some rights reserved (CC BY-NC), uploaded by mamu_man (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18912,
+  "sci": "Psittacula columboides",
+  "en": "Malabar Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-winged_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107007214/medium.jpeg",
+   "credit": "(c) Manuel Ruedi, some rights reserved (CC BY-NC), uploaded by Manuel Ruedi (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584101,
+  "sci": "Psitteuteles pusillus",
+  "en": "Little Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Little_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91942214/medium.jpeg",
+   "credit": "(c) Anthony Katon, some rights reserved (CC BY-NC), uploaded by Anthony Katon (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18883,
+  "sci": "Neophema pulchella",
+  "en": "Turquoise Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Turquoise_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30680196/medium.jpg",
+   "credit": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19095,
+  "sci": "Pionus sordidus",
+  "en": "Red-billed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-billed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54296584/medium.jpg",
+   "credit": "(c) Felipe Campos, some rights reserved (CC BY-NC), uploaded by Felipe Campos (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18902,
+  "sci": "Psittacula himalayana",
+  "en": "Slaty-headed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Slaty-headed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159251764/medium.jpg",
+   "credit": "(c) Koshy Koshy, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19208,
+  "sci": "Brotogeris sanctithomae",
+  "en": "Tui Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tui_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158896010/medium.jpg",
+   "credit": "(c) Félix Uribe, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73272,
+  "sci": "Primolius auricollis",
+  "en": "Yellow-collared Macaw",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Golden-collared_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/92152569/medium.jpg",
+   "credit": "(c) doug_clarke, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18963,
+  "sci": "Loriculus beryllinus",
+  "en": "Sri Lanka Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sri_Lanka_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/95897071/medium.jpg",
+   "credit": "(c) Ravisara Jayamanna, some rights reserved (CC BY-NC), uploaded by Ravisara Jayamanna (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18991,
+  "sci": "Amazona festiva",
+  "en": "Festive Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Festive_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/130246133/medium.jpeg",
+   "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18878,
+  "sci": "Neophema petrophila",
+  "en": "Rock Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rock_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/278320126/medium.jpg",
+   "credit": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 117192,
+  "sci": "Cacatua moluccensis",
+  "en": "Salmon-crested Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Salmon-crested_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263625646/medium.jpg",
+   "credit": "(c) Kyle Pearce, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18977,
+  "sci": "Amazona xantholora",
+  "en": "Yellow-lored Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yucatan_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2291842/medium.JPG",
+   "credit": "(c) J. Ismael Arellano Ciau, some rights reserved (CC BY-NC), uploaded by J. Ismael Arellano Ciau (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73324,
+  "sci": "Pyrilia pulchra",
+  "en": "Rose-faced Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rose-faced_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/471658689/medium.jpeg",
+   "credit": "(c) Alexandre Terrigeol, some rights reserved (CC BY-NC-ND), uploaded by Alexandre Terrigeol (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19317,
+  "sci": "Rhynchopsitta terrisi",
+  "en": "Maroon-fronted Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Maroon-fronted_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249378304/medium.jpg",
+   "credit": "(c) Leonardo Guzmán, some rights reserved (CC BY-NC-ND), uploaded by Leonardo Guzmán (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 117191,
+  "sci": "Cacatua alba",
+  "en": "White Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91620138/medium.jpg",
+   "credit": "(c) www.viajar24h.com, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19223,
+  "sci": "Geoffroyus geoffroyi",
+  "en": "Red-cheeked Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-cheeked_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/360987940/medium.jpeg",
+   "credit": "(c) Abu Hamas, some rights reserved (CC BY-SA), uploaded by Abu Hamas (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19261,
+  "sci": "Enicognathus leptorhynchus",
+  "en": "Slender-billed Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Slender-billed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29552701/medium.jpeg",
+   "credit": "(c) Alexander Görlt, some rights reserved (CC BY-NC), uploaded by Alexander Görlt (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19202,
+  "sci": "Deroptyus accipitrinus",
+  "en": "Red-fan Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-fan_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64881892/medium.jpg",
+   "credit": "(c) Frank Dietze, some rights reserved (CC BY), uploaded by Frank Dietze (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72484,
+  "sci": "Alipiopsitta xanthops",
+  "en": "Yellow-faced Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-faced_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/275319999/medium.jpg",
+   "credit": "(c) abelardomendesjr, some rights reserved (CC BY-NC), uploaded by abelardomendesjr (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73087,
+  "sci": "Neopsephotus bourkii",
+  "en": "Bourke's Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bourke's_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/264897644/medium.jpg",
+   "credit": "(c) JJ Harrison, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19254,
+  "sci": "Pionites leucogaster",
+  "en": "White-bellied Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Green-thighed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/432053134/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19318,
+  "sci": "Rhynchopsitta pachyrhyncha",
+  "en": "Thick-billed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Thick-billed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/102436108/medium.jpg",
+   "credit": "(c) Hennie Cuper, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19159,
+  "sci": "Pyrrhura hoffmanni",
+  "en": "Sulphur-winged Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sulphur-winged_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/199465060/medium.jpg",
+   "credit": "(c) steven_bach, some rights reserved (CC BY-NC), uploaded by steven_bach (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19078,
+  "sci": "Agapornis canus",
+  "en": "Grey-headed Lovebird",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-headed_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9092025/medium.jpeg",
+   "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19279,
+  "sci": "Tanygnathus lucionensis",
+  "en": "Blue-naped Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-naped_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/655850828/medium.jpg",
+   "credit": "(c) Sebastian Ow, some rights reserved (CC BY-NC), uploaded by Sebastian Ow (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73321,
+  "sci": "Pyrilia barrabandi",
+  "en": "Orange-cheeked Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-cheeked_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118300227/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19051,
+  "sci": "Poicephalus rufiventris",
+  "en": "Red-bellied Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-bellied_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/46238556/medium.jpg",
+   "credit": "(c) Donald Hampton, some rights reserved (CC BY-SA), uploaded by Donald Hampton (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19272,
+  "sci": "Coracopsis vasa",
+  "en": "Greater Vasa Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Greater_vasa_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/112161986/medium.jpg",
+   "credit": "(c) Janne Asp, some rights reserved (CC BY-NC-ND), uploaded by Janne Asp (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367575,
+  "sci": "Psittacara chloropterus",
+  "en": "Hispaniolan Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hispaniolan_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/217474051/medium.jpg",
+   "credit": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19160,
+  "sci": "Pyrrhura melanura",
+  "en": "Maroon-tailed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Maroon-tailed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158993196/medium.jpg",
+   "credit": "(c) ProAves Colombia, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72901,
+  "sci": "Guaruba guarouba",
+  "en": "Golden Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Golden_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/190756616/medium.jpg",
+   "credit": "(c) Nereston (Nelinho) Camargo, some rights reserved (CC BY-NC), uploaded by Nereston (Nelinho) Camargo (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 204536,
+  "sci": "Loriculus philippensis",
+  "en": "Philippine Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Philippine_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350052444/medium.jpg",
+   "credit": "(c) shierandrulist, some rights reserved (CC BY-NC), uploaded by shierandrulist (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144265,
+  "sci": "Amazona mercenarius",
+  "en": "Scaly-naped Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scaly-naped_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/363897343/medium.jpg",
+   "credit": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18905,
+  "sci": "Psittacula roseata",
+  "en": "Blossom-headed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blossom-headed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/115397108/medium.jpg",
+   "credit": "(c) Md. Zaber Ansary, some rights reserved (CC BY-NC), uploaded by Md. Zaber Ansary (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18950,
+  "sci": "Lorius lory",
+  "en": "Black-capped Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-capped_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/242616808/medium.jpeg",
+   "credit": "(c) Pankaj Nirale, some rights reserved (CC BY-NC), uploaded by Pankaj Nirale (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1505883,
+  "sci": "Psephotellus dissimilis",
+  "en": "Hooded Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hooded_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54694201/medium.jpg",
+   "credit": "(c) Mick Jerram, some rights reserved (CC BY-NC), uploaded by Mick Jerram (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18983,
+  "sci": "Amazona ventralis",
+  "en": "Hispaniolan Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Hispaniolan_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64465180/medium.jpg",
+   "credit": "(c) Pedro Genaro Rodriguez, some rights reserved (CC BY-NC), uploaded by Pedro Genaro Rodriguez (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367554,
+  "sci": "Psittacula calthrapae",
+  "en": "Layard's Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Layard's_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235406/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73296,
+  "sci": "Psilopsiagon aurifrons",
+  "en": "Mountain Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mountain_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/50860121/medium.jpg",
+   "credit": "(c) Darío De la Fuente, some rights reserved (CC BY), uploaded by Darío De la Fuente (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72570,
+  "sci": "Brotogeris pyrrhoptera",
+  "en": "Gray-cheeked Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-cheeked_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/395414/medium.jpg",
+   "credit": "(c) Ronald Navarrete, some rights reserved (CC BY-NC), uploaded by Ronald Navarrete (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18916,
+  "sci": "Platycercus venustus",
+  "en": "Northern Rosella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Northern_rosella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48827904/medium.jpeg",
+   "credit": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19006,
+  "sci": "Amazona vittata",
+  "en": "Puerto Rican Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Puerto_Rican_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157591938/medium.jpg",
+   "credit": "(c) U.S. Fish and Wildlife Service Southeast Region, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72569,
+  "sci": "Brotogeris chrysoptera",
+  "en": "Golden-winged Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-winged_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157246723/medium.jpeg",
+   "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19302,
+  "sci": "Psitteuteles versicolor",
+  "en": "Varied Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Varied_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91719606/medium.jpeg",
+   "credit": "(c) Graham Winterflood, some rights reserved (CC BY-SA), uploaded by Graham Winterflood (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18980,
+  "sci": "Amazona brasiliensis",
+  "en": "Red-tailed Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-tailed_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/230183784/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19315,
+  "sci": "Ognorhynchus icterotis",
+  "en": "Yellow-eared Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-eared_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/97396269/medium.jpg",
+   "credit": "(c) Arley Vargas, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19127,
+  "sci": "Graydidascalus brachyurus",
+  "en": "Short-tailed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Short-tailed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157315163/medium.jpeg",
+   "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19298,
+  "sci": "Leptosittaca branickii",
+  "en": "Golden-plumed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-plumed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/45204910/medium.jpg",
+   "credit": "(c) George Armistead/Hillstar Nature, some rights reserved (CC BY-NC), uploaded by George Armistead/Hillstar Nature (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19019,
+  "sci": "Ara rubrogenys",
+  "en": "Red-fronted Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-fronted_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/582858983/medium.jpg",
+   "credit": "(c) David F. Belmonte, some rights reserved (CC BY), uploaded by David F. Belmonte (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 793122,
+  "sci": "Coracopsis nigra",
+  "en": "Lesser Vasa Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lesser_vasa_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/245251487/medium.jpeg",
+   "credit": "(c) Janne Teivonen, some rights reserved (CC BY), uploaded by Janne Teivonen (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18997,
+  "sci": "Amazona rhodocorytha",
+  "en": "Red-browed Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-browed_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/280718249/medium.jpg",
+   "credit": "(c) rebeca_andrade9, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19073,
+  "sci": "Agapornis lilianae",
+  "en": "Lilian's Lovebird",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lilian's_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6243832/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19144,
+  "sci": "Pyrrhura leucotis",
+  "en": "Maroon-faced Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-eared_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/192217224/medium.jpg",
+   "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1507102,
+  "sci": "Psittacara frontatus",
+  "en": "Cordilleran Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cordilleran_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/319538681/medium.jpeg",
+   "credit": "(c) biped_cub, some rights reserved (CC BY), uploaded by biped_cub (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19097,
+  "sci": "Pionus fuscus",
+  "en": "Dusky Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dusky_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118192000/medium.jpeg",
+   "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18877,
+  "sci": "Neophema chrysogaster",
+  "en": "Orange-bellied Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-bellied_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/494555886/medium.jpeg",
+   "credit": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19098,
+  "sci": "Pionus tumultuosus",
+  "en": "Speckle-faced Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Speckle-faced_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/389682131/medium.jpg",
+   "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116836,
+  "sci": "Cacatua pastinator",
+  "en": "Western Corella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Western_corella",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/434979191/medium.jpeg",
+   "credit": "(c) Cairina, some rights reserved (CC BY-NC), uploaded by Cairina (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19002,
+  "sci": "Amazona barbadensis",
+  "en": "Yellow-shouldered Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-shouldered_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64838618/medium.jpg",
+   "credit": "(c) Mark Dennis, some rights reserved (CC BY-NC), uploaded by Mark Dennis (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19024,
+  "sci": "Ara glaucogularis",
+  "en": "Blue-throated Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-throated_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157595508/medium.jpg",
+   "credit": "(c) David Friel, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19332,
+  "sci": "Bolbopsittacus lunulatus",
+  "en": "Guaiabero",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Guaiabero",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/341450530/medium.jpg",
+   "credit": "(c) Kirkamon Cabello, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1432680,
+  "sci": "Vini solitaria",
+  "en": "Collared Lory",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Collared_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159065874/medium.jpg",
+   "credit": "(c) DickDaniels, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19074,
+  "sci": "Agapornis taranta",
+  "en": "Black-winged Lovebird",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-winged_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54371613/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18970,
+  "sci": "Loriculus stigmatus",
+  "en": "Sulawesi Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Great_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/198569419/medium.jpg",
+   "credit": "(c) andez197, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19111,
+  "sci": "Pezoporus wallicus",
+  "en": "Ground Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Eastern_ground_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/165072133/medium.jpg",
+   "credit": "(c) Gavin Goodyear, some rights reserved (CC BY-NC), uploaded by Gavin Goodyear (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1286946,
+  "sci": "Forpus crassirostris",
+  "en": "Riparian Parrotlet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Riparian_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63809635/medium.jpeg",
+   "credit": "(c) Eric van den Berghe, some rights reserved (CC BY-NC), uploaded by Eric van den Berghe (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19048,
+  "sci": "Poicephalus rueppellii",
+  "en": "Rüppell's Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rüppell's_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158984676/medium.jpg",
+   "credit": "(c) Charles J. Sharp\n, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19225,
+  "sci": "Eclectus roratus",
+  "en": "Moluccan Eclectus",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Eclectus_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/366464195/medium.jpg",
+   "credit": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19313,
+  "sci": "Psittinus cyanurus",
+  "en": "Blue-rumped Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-rumped_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/253722041/medium.jpg",
+   "credit": "(c) Ultraman Max, some rights reserved (CC BY-NC), uploaded by Ultraman Max (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18979,
+  "sci": "Amazona collaria",
+  "en": "Yellow-billed Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-billed_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/12449103/medium.jpg",
+   "credit": "(c) Kevin Schafer, some rights reserved (CC BY-NC-ND), uploaded by Kevin Schafer (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73329,
+  "sci": "Pyrrhura griseipectus",
+  "en": "Gray-breasted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-breasted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158992309/medium.jpg",
+   "credit": "(c) Michael Hurben, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18930,
+  "sci": "Cyanoramphus malherbi",
+  "en": "Malherbe's Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Malherbe's_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/364258100/medium.jpeg",
+   "credit": "(c) ppgesus, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144567,
+  "sci": "Pyrrhura amazonum",
+  "en": "Santarém Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Santarem_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/188162038/medium.jpg",
+   "credit": "(c) Hector Bottai, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19169,
+  "sci": "Pionopsitta pileata",
+  "en": "Pileated Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pileated_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/5650240/medium.jpeg",
+   "credit": "(c) Douglas Bete, some rights reserved (CC BY-NC), uploaded by Douglas Bete (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18903,
+  "sci": "Psittacula derbiana",
+  "en": "Derbyan Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lord_Derby's_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/257726569/medium.jpg",
+   "credit": "(c) Uday Agashe, some rights reserved (CC BY-NC), uploaded by Uday Agashe (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18996,
+  "sci": "Amazona tucumana",
+  "en": "Tucumán Amazon",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tucumán_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/226964062/medium.jpeg",
+   "credit": "(c) Pablo Demaio, some rights reserved (CC BY-NC), uploaded by Pablo Demaio (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1651787,
+  "sci": "Myiopsitta luchsi",
+  "en": "Cliff Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cliff_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/76303269/medium.jpg",
+   "credit": "(c) eppsa, some rights reserved (CC BY-NC), uploaded by eppsa (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73273,
+  "sci": "Primolius couloni",
+  "en": "Blue-headed Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-headed_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/115329865/medium.jpg",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19145,
+  "sci": "Pyrrhura cruentata",
+  "en": "Ochre-marked Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ochre-marked_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/395897384/medium.jpg",
+   "credit": "(c) Gabriel Bonfa, some rights reserved (CC BY-NC-ND), uploaded by Gabriel Bonfa (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18937,
+  "sci": "Anodorhynchus leari",
+  "en": "Indigo Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lear's_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/411582031/medium.jpeg",
+   "credit": "(c) Thiago Gonçalves Coronado Antunes, some rights reserved (CC BY-NC), uploaded by Thiago Gonçalves Coronado Antunes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19032,
+  "sci": "Bolborhynchus lineola",
+  "en": "Barred Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Barred_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/217153931/medium.jpg",
+   "credit": "(c) photokeen, some rights reserved (CC BY-NC-ND), uploaded by photokeen (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19072,
+  "sci": "Agapornis pullarius",
+  "en": "Red-headed Lovebird",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-headed_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/243325240/medium.jpeg",
+   "credit": "(c) Tommy Andriollo, some rights reserved (CC BY), uploaded by Tommy Andriollo (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19056,
+  "sci": "Poicephalus robustus",
+  "en": "Cape Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Cape_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/104453705/medium.jpg",
+   "credit": "no rights reserved, uploaded by Dave Brown (cc0) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72865,
+  "sci": "Forpus modestus",
+  "en": "Dusky-billed Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dusky-billed_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/115419426/medium.jpg",
+   "credit": "(c) Edson Guilherme, some rights reserved (CC BY-NC), uploaded by Edson Guilherme (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 467996,
+  "sci": "Poicephalus fuscicollis",
+  "en": "Grey-headed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-necked_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52413073/medium.jpeg",
+   "credit": "(c) Gawie Malan, some rights reserved (CC BY-NC), uploaded by Gawie Malan (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1505882,
+  "sci": "Psephotellus chrysopterygius",
+  "en": "Golden-shouldered Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Golden-shouldered_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/291899584/medium.jpg",
+   "credit": "(c) Doug Herrington, some rights reserved (CC BY-NC), uploaded by Doug Herrington (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 604305,
+  "sci": "Pyrrhura picta",
+  "en": "Painted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Painted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/475736829/medium.jpg",
+   "credit": "(c) Alan Wight, some rights reserved (CC BY-NC), uploaded by Alan Wight (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584114,
+  "sci": "Trichoglossus borneus",
+  "en": "Red Lory",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387839929/medium.jpg",
+   "credit": "(c) Navin, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 979921,
+  "sci": "Psittacara brevipes",
+  "en": "Socorro Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Socorro_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/39350698/medium.jpg",
+   "credit": "(c) world_lineage, osa oikeuksista pidätetään (CC BY-NC), lähettänyt world_lineage (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19044,
+  "sci": "Prosopeia personata",
+  "en": "Masked Shining-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Masked_shining_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249722207/medium.jpg",
+   "credit": "(c) peterodekerken, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18987,
+  "sci": "Amazona pretrei",
+  "en": "Red-spectacled Amazon",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-spectacled_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/87821405/medium.jpg",
+   "credit": "(c) Juan Diego Döke, some rights reserved (CC BY-NC), uploaded by Juan Diego Döke (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18948,
+  "sci": "Lorius garrulus",
+  "en": "Chattering Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chattering_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159056035/medium.jpg",
+   "credit": "(c) Doug Janson, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18907,
+  "sci": "Psittacula finschii",
+  "en": "Gray-headed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-headed_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/156483873/medium.jpeg",
+   "credit": "(c) Cole Gaerber, some rights reserved (CC BY-NC), uploaded by Cole Gaerber (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19125,
+  "sci": "Trichoglossus euteles",
+  "en": "Olive-headed Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Olive-headed_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387859802/medium.jpg",
+   "credit": "(c) Ram-Man, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18981,
+  "sci": "Amazona arausiaca",
+  "en": "Red-necked Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-necked_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/137172423/medium.jpg",
+   "credit": "(c) Stephen Cresswell, some rights reserved (CC BY-NC-ND), uploaded by Stephen Cresswell (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19153,
+  "sci": "Pyrrhura calliptera",
+  "en": "Brown-breasted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Flame-winged_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158990959/medium.jpg",
+   "credit": "(c) Anthony Kaduck, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18925,
+  "sci": "Cyanoramphus cookii",
+  "en": "Norfolk Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Norfolk_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/408874944/medium.jpeg",
+   "credit": "(c) Duncan Henderson, some rights reserved (CC BY-NC), uploaded by Duncan Henderson (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19281,
+  "sci": "Tanygnathus sumatranus",
+  "en": "Azure-rumped Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-backed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/171182409/medium.jpeg",
+   "credit": "(c) Phil Benstead, some rights reserved (CC BY-NC), uploaded by Phil Benstead (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144244,
+  "sci": "Psittacus timneh",
+  "en": "Timneh Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Timneh_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/184856458/medium.jpeg",
+   "credit": "(c) mlanguy, some rights reserved (CC BY-NC), uploaded by mlanguy (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19194,
+  "sci": "Psittrichas fulgidus",
+  "en": "Pesquet's Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pesquet's_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449330094/medium.jpeg",
+   "credit": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18931,
+  "sci": "Cyanoramphus unicolor",
+  "en": "Antipodes Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Antipodes_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159025886/medium.jpg",
+   "credit": "(c) russellstreet, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19046,
+  "sci": "Prosopeia tabuensis",
+  "en": "Red Shining-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Maroon_shining_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/147718635/medium.jpeg",
+   "credit": "(c) happymountainnz, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19328,
+  "sci": "Eunymphicus cornutus",
+  "en": "Horned Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Horned_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046976/medium.jpg",
+   "credit": "(c) Roger Le Guen, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18879,
+  "sci": "Neophema splendida",
+  "en": "Scarlet-chested Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scarlet-chested_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/301418547/medium.jpeg",
+   "credit": "(c) hone, some rights reserved (CC BY-NC), uploaded by hone (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584118,
+  "sci": "Trichoglossus squamatus",
+  "en": "Violet-necked Lory",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Violet-necked_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046670/medium.jpg",
+   "credit": "(c) Doug Janson, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19151,
+  "sci": "Pyrrhura devillei",
+  "en": "Blaze-winged Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blaze-winged_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/216692321/medium.jpg",
+   "credit": "(c) Robin Gwen Agarwal, some rights reserved (CC BY-NC), uploaded by Robin Gwen Agarwal (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19250,
+  "sci": "Polytelis alexandrae",
+  "en": "Princess Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Princess_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/260670801/medium.jpg",
+   "credit": "(c) Steve Murray, some rights reserved (CC BY-NC), uploaded by Steve Murray (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1286947,
+  "sci": "Forpus spengeli",
+  "en": "Turquoise-winged Parrotlet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Turquoise-winged_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/376534819/medium.jpeg",
+   "credit": "(c) Riley-Brendan Walsh, some rights reserved (CC BY-NC), uploaded by Riley-Brendan Walsh (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19341,
+  "sci": "Triclaria malachitacea",
+  "en": "Blue-bellied Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-bellied_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159008429/medium.jpg",
+   "credit": "(c) Hector Bottai, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 793121,
+  "sci": "Coracopsis barklyi",
+  "en": "Seychelles Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Seychelles_black_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67444195/medium.jpg",
+   "credit": "(c) sergiocanobbio, some rights reserved (CC BY-NC), uploaded by sergiocanobbio (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19053,
+  "sci": "Poicephalus gulielmi",
+  "en": "Red-fronted Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-fronted_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/143115351/medium.jpeg",
+   "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19155,
+  "sci": "Pyrrhura viridicata",
+  "en": "Santa Marta Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Santa_Marta_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/285526447/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367574,
+  "sci": "Psittacara euops",
+  "en": "Cuban Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cuban_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/367776828/medium.jpg",
+   "credit": "(c) ydielveunes, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18992,
+  "sci": "Amazona versicolor",
+  "en": "St. Lucia Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Saint_Lucia_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/460154441/medium.jpg",
+   "credit": "(c) Alexander DeBear, some rights reserved (CC BY-NC), uploaded by Alexander DeBear (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1650086,
+  "sci": "Amazona lilacina",
+  "en": "Lilacine Amazon",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lilacine_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157795508/medium.jpg",
+   "credit": "(c) frank wouters, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584019,
+  "sci": "Strigops habroptilus",
+  "en": "Kākāpō",
+  "ko": "카카포",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kākāpō",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/592580290/medium.jpg",
+   "credit": "(c) Jake Osborne, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116833,
+  "sci": "Cacatua ducorpsii",
+  "en": "Solomons Corella",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Solomons_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/477908995/medium.jpg",
+   "credit": "(c) Jane Kempler &amp; Andrew Goldby Freelance, some rights reserved (CC BY-NC-ND), uploaded by Jane Kempler &amp; Andrew Goldby Freelance (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19282,
+  "sci": "Tanygnathus megalorynchos",
+  "en": "Great-billed Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Great-billed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/592140430/medium.jpg",
+   "credit": "(c) John Sterling, some rights reserved (CC BY-NC), uploaded by John Sterling (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19147,
+  "sci": "Pyrrhura rupicola",
+  "en": "Black-capped Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-capped_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/239839401/medium.jpg",
+   "credit": "(c) Josh van der Meulen, some rights reserved (CC BY-NC-ND), uploaded by Josh van der Meulen (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19161,
+  "sci": "Pyrrhura perlata",
+  "en": "Crimson-bellied Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crimson-bellied_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158993954/medium.jpg",
+   "credit": "(c) Beatriz Bukowitz, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73513,
+  "sci": "Touit surdus",
+  "en": "Golden-tailed Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-tailed_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/187592531/medium.jpeg",
+   "credit": "(c) Eric Carpenter, some rights reserved (CC BY-NC), uploaded by Eric Carpenter (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19198,
+  "sci": "Alisterus amboinensis",
+  "en": "Moluccan King Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Moluccan_king_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/416821351/medium.jpeg",
+   "credit": "no rights reserved, uploaded by James Eaton (cc0) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73325,
+  "sci": "Pyrilia pyrilia",
+  "en": "Saffron-headed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Saffron-headed_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/45165845/medium.jpg",
+   "credit": "(c) Ryan Shaw, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72788,
+  "sci": "Cyanoramphus saisseti",
+  "en": "New Caledonian Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/New_Caledonian_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159025310/medium.jpg",
+   "credit": "(c) Fred-Desmoulins, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19287,
+  "sci": "Psittacella brehmii",
+  "en": "Brehm's Tiger Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brehm's_tiger_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235803/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 980096,
+  "sci": "Trichoglossus capistratus",
+  "en": "Marigold Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Marigold_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67553014/medium.jpg",
+   "credit": "(c) coracii, some rights reserved (CC BY-NC-ND) (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19154,
+  "sci": "Pyrrhura orcesi",
+  "en": "El Oro Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/El_Oro_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32748192/medium.jpeg",
+   "credit": "(c) Leovigildo Cabrera, some rights reserved (CC BY-NC), uploaded by Leovigildo Cabrera (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1650085,
+  "sci": "Amazona diadema",
+  "en": "Diademed Amazon",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Diademed_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/305787371/medium.jpg",
+   "credit": "(c) Ivo Carlos Zecchin, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Ivo Carlos Zecchin (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1289575,
+  "sci": "Hypocharmosyna placentis",
+  "en": "Red-flanked Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-flanked_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/85044726/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18989,
+  "sci": "Amazona agilis",
+  "en": "Black-billed Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-billed_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/247588454/medium.jpeg",
+   "credit": "(c) Jay VanderGaast, some rights reserved (CC BY-NC-ND), uploaded by Jay VanderGaast (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19058,
+  "sci": "Chalcopsitta cardinalis",
+  "en": "Cardinal Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cardinal_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/377058160/medium.jpeg",
+   "credit": "(c) Noam Markus, some rights reserved (CC BY-NC), uploaded by Noam Markus (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18964,
+  "sci": "Loriculus pusillus",
+  "en": "Yellow-throated Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-throated_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/47091405/medium.jpg",
+   "credit": "(c) mwbirdco, some rights reserved (CC BY-NC), uploaded by mwbirdco (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18908,
+  "sci": "Psittacula eques",
+  "en": "Echo Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Echo_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159249541/medium.jpg",
+   "credit": "(c) colin houston, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19325,
+  "sci": "Hapalopsittaca fuertesi",
+  "en": "Indigo-winged Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Fuertes's_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/478388372/medium.jpeg",
+   "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144568,
+  "sci": "Pyrrhura lucianii",
+  "en": "Bonaparte's Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bonaparte's_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/237933477/medium.jpg",
+   "credit": "(c) hbottai, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19136,
+  "sci": "Touit huetii",
+  "en": "Scarlet-shouldered Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scarlet-shouldered_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/221313125/medium.jpeg",
+   "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18961,
+  "sci": "Prioniturus platurus",
+  "en": "Golden-mantled Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Golden-mantled_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/359777673/medium.jpg",
+   "credit": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73322,
+  "sci": "Pyrilia caica",
+  "en": "Caica Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Caica_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118300462/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 116758,
+  "sci": "Cacatua haematuropygia",
+  "en": "Philippine Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-vented_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/584822855/medium.jpg",
+   "credit": "(c) matthewkwan, some rights reserved (CC BY-NC-ND), uploaded by matthewkwan (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19156,
+  "sci": "Pyrrhura albipectus",
+  "en": "White-necked Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-breasted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/43723934/medium.jpg",
+   "credit": "(c) Stephen John Davies, some rights reserved (CC BY-NC), uploaded by Stephen John Davies (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144569,
+  "sci": "Pyrrhura roseifrons",
+  "en": "Rose-fronted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rose-fronted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30781301/medium.jpg",
+   "credit": "(c) shrike2, some rights reserved (CC BY-NC), uploaded by shrike2 (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18945,
+  "sci": "Lorius chlorocercus",
+  "en": "Yellow-bibbed Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-bibbed_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249781921/medium.jpg",
+   "credit": "(c) sopacexplorer, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18946,
+  "sci": "Lorius hypoinochrous",
+  "en": "Purple-bellied Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Purple-bellied_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26434899/medium.jpeg",
+   "credit": "(c) Simon Nicholas, some rights reserved (CC BY-NC), uploaded by Simon Nicholas (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19116,
+  "sci": "Trichoglossus ornatus",
+  "en": "Ornate Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ornate_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/377513292/medium.jpg",
+   "credit": "(c) fachrynurmallojr, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19000,
+  "sci": "Amazona guildingii",
+  "en": "St. Vincent Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Saint_Vincent_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/256246154/medium.jpeg",
+   "credit": "(c) mikeakresh, some rights reserved (CC BY-NC), uploaded by mikeakresh (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19077,
+  "sci": "Agapornis nigrigenis",
+  "en": "Black-cheeked Lovebird",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-cheeked_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2861691/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19137,
+  "sci": "Touit melanonotus",
+  "en": "Brown-backed Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-backed_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159007623/medium.jpg",
+   "credit": "(c) Dario Sanches, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19035,
+  "sci": "Bolborhynchus ferrugineifrons",
+  "en": "Rufous-fronted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rufous-fronted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/236769396/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19034,
+  "sci": "Bolborhynchus orbygnesius",
+  "en": "Andean Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Andean_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/316879587/medium.jpeg",
+   "credit": "no rights reserved, uploaded by Manuel Roncal (cc0) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73509,
+  "sci": "Touit batavicus",
+  "en": "Lilac-tailed Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Lilac-tailed_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28340645/medium.jpg",
+   "credit": "(c) Jerome Foster, some rights reserved (CC BY-NC), uploaded by Jerome Foster (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19049,
+  "sci": "Poicephalus flavifrons",
+  "en": "Yellow-fronted Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-fronted_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158984005/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19068,
+  "sci": "Forpus xanthops",
+  "en": "Yellow-faced Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-faced_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/319904482/medium.jpeg",
+   "credit": "no rights reserved, uploaded by Manuel Roncal (cc0) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18958,
+  "sci": "Prioniturus platenae",
+  "en": "Blue-headed Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-headed_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159072084/medium.jpg",
+   "credit": "(c) Rackk67, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19045,
+  "sci": "Prosopeia splendens",
+  "en": "Crimson Shining-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Crimson_shining_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/194964946/medium.jpg",
+   "credit": "(c) Keith Martin-Smith،  بعض الحقوق محفوظة (CC BY-NC-SA), uploaded by Keith Martin-Smith (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584103,
+  "sci": "Chalcopsitta fuscata",
+  "en": "Dusky Lory",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dusky_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64903218/medium.jpg",
+   "credit": "(c) SandyCole, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73330,
+  "sci": "Pyrrhura lepida",
+  "en": "Pearly Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pearly_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/443923443/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19324,
+  "sci": "Hapalopsittaca amazonina",
+  "en": "Rusty-faced Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rusty-faced_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/73726759/medium.jpeg",
+   "credit": "(c) ricardoalvarezzamora, some rights reserved (CC BY-NC), uploaded by ricardoalvarezzamora (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1507089,
+  "sci": "Charmosyna stellae",
+  "en": "Stella’s Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Stella's_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235306/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18959,
+  "sci": "Prioniturus flavicans",
+  "en": "Yellow-breasted Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-breasted_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107895066/medium.jpg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18966,
+  "sci": "Loriculus exilis",
+  "en": "Pygmy Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pygmy_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/80945499/medium.jpeg",
+   "credit": "(c) ꦥꦤ꧀ꦗꦶꦒꦸꦱ꧀ꦠꦶꦄꦏ꧀ꦧꦂ, some rights reserved (CC BY), uploaded by ꦥꦤ꧀ꦗꦶꦒꦸꦱ꧀ꦠꦶꦄꦏ꧀ꦧꦂ (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1505573,
+  "sci": "Cacatua citrinocristata",
+  "en": "Citron-crested Cockatoo",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Citron-crested_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/304390963/medium.jpeg",
+   "credit": "(c) emskakoon, some rights reserved (CC BY-NC), uploaded by emskakoon (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584163,
+  "sci": "Trichoglossus meyeri",
+  "en": "Yellow-cheeked Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sula_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107838470/medium.jpg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73332,
+  "sci": "Pyrrhura pfrimeri",
+  "en": "Pfrimer's Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pfrimer's_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29229562/medium.jpg",
+   "credit": "(c) Karina Avila, some rights reserved (CC BY), uploaded by Karina Avila (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19060,
+  "sci": "Chalcopsitta atra",
+  "en": "Black Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473253710/medium.jpg",
+   "credit": "(c) Packa, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18955,
+  "sci": "Prioniturus luconensis",
+  "en": "Green Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Green_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159071682/medium.png",
+   "credit": "(c) Vinz Pascua, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19291,
+  "sci": "Micropsitta keiensis",
+  "en": "Yellow-capped Pygmy-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-capped_pygmy_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/65379580/medium.jpeg",
+   "credit": "(c) Ganjar Cahyadi, some rights reserved (CC BY-NC), uploaded by Ganjar Cahyadi (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73510,
+  "sci": "Touit dilectissimus",
+  "en": "Blue-fronted Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-fronted_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89687075/medium.jpeg",
+   "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1649792,
+  "sci": "Pyrrhura emma",
+  "en": "Venezuelan Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Venezuelan_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/429689616/medium.jpg",
+   "credit": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 117193,
+  "sci": "Cacatua ophthalmica",
+  "en": "Blue-eyed Cockatoo",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-eyed_cockatoo",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8203569/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19124,
+  "sci": "Trichoglossus johnstoniae",
+  "en": "Mindanao Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mindanao_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48163447/medium.jpg",
+   "credit": "(c) William Warby, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584109,
+  "sci": "Trichoglossus reticulatus",
+  "en": "Blue-streaked Lory",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-streaked_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387832238/medium.jpg",
+   "credit": "(c) Doug Janson, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584160,
+  "sci": "Trichoglossus iris",
+  "en": "Iris Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Iris_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60030040/medium.jpg",
+   "credit": "(c) SandyCole, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584091,
+  "sci": "Cyclopsitta desmarestii",
+  "en": "Large Fig Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Large_fig_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/223722645/medium.jpg",
+   "credit": "(c) yuvalofek, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18994,
+  "sci": "Amazona dufresniana",
+  "en": "Blue-cheeked Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-cheeked_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/204511/medium.jpg",
+   "credit": "(c) TJ Lin, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18999,
+  "sci": "Amazona kawalli",
+  "en": "Kawall's Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Kawall's_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157587156/medium.jpg",
+   "credit": "(c) \nJacek Kisielewski, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 604029,
+  "sci": "Prioniturus discurus",
+  "en": "Blue-crowned Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/59810113/medium.jpg",
+   "credit": "(c) Christian Artuso, some rights reserved (CC BY-NC-ND), uploaded by Christian Artuso (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19222,
+  "sci": "Geoffroyus heteroclitus",
+  "en": "Singing Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Song_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/43439760/medium.jpg",
+   "credit": "(c) devonderaad, some rights reserved (CC BY-NC), uploaded by devonderaad (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19295,
+  "sci": "Micropsitta bruijnii",
+  "en": "Red-breasted Pygmy-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-breasted_pygmy_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/127886310/medium.jpg",
+   "credit": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19130,
+  "sci": "Vini peruviana",
+  "en": "Blue Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164493513/medium.jpg",
+   "credit": "(c) Joseph Brider, some rights reserved (CC BY-NC-ND), uploaded by Joseph Brider (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18947,
+  "sci": "Lorius domicella",
+  "en": "Purple-naped Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Purple-naped_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63563327/medium.jpg",
+   "credit": "(c) Lorius_domicella_-Jurong_Bird_Park,_Singapore-8a.jpg, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19133,
+  "sci": "Vini australis",
+  "en": "Blue-crowned Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-crowned_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/31024129/medium.jpg",
+   "credit": "(c) Casey Weissburg, some rights reserved (CC BY-NC), uploaded by Casey Weissburg (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73511,
+  "sci": "Touit purpuratus",
+  "en": "Sapphire-rumped Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sapphire-rumped_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114137391/medium.jpeg",
+   "credit": "(c) Tomaz Nascimento de Melo, some rights reserved (CC BY-NC-ND), uploaded by Tomaz Nascimento de Melo (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19117,
+  "sci": "Trichoglossus rubiginosus",
+  "en": "Pohnpei Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pohnpei_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/39755837/medium.jpeg",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19326,
+  "sci": "Hapalopsittaca pyrrhops",
+  "en": "Red-faced Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-faced_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6741584/medium.jpg",
+   "credit": "(c) Leslie Flint, some rights reserved (CC BY-NC), uploaded by Leslie Flint (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19132,
+  "sci": "Vini kuhlii",
+  "en": "Kuhl's Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Kuhl's_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109930405/medium.jpg",
+   "credit": "(c) desertnaturalist, some rights reserved (CC BY), uploaded by desertnaturalist (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19219,
+  "sci": "Oreopsittacus arfaki",
+  "en": "Plum-faced Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Plum-faced_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9663349/medium.jpeg",
+   "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19309,
+  "sci": "Neopsittacus musschenbroekii",
+  "en": "Yellow-billed Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-billed_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9519328/medium.jpeg",
+   "credit": "(c) markus lilje, some rights reserved (CC BY-NC-ND), uploaded by markus lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19292,
+  "sci": "Micropsitta pusio",
+  "en": "Buff-faced Pygmy-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Buff-faced_pygmy_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10666647/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18898,
+  "sci": "Charmosyna papou",
+  "en": "West Papuan Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Papuan_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3308705/medium.jpg",
+   "credit": "(c) Nigel Voaden, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 367555,
+  "sci": "Chalcopsitta scintillata",
+  "en": "Yellow-streaked Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellowish-streaked_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387831343/medium.jpg",
+   "credit": "(c) Linda Kenney, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19197,
+  "sci": "Alisterus chloropterus",
+  "en": "Papuan King Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Papuan_king_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/180644829/medium.jpg",
+   "credit": "(c) David Barros Cardona, some rights reserved (CC BY-NC), uploaded by David Barros Cardona (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144561,
+  "sci": "Cyanoramphus hochstetteri",
+  "en": "Reischek's Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Reischek's_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387302822/medium.jpeg",
+   "credit": "no rights reserved, uploaded by Mark Fraser (cc0) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18971,
+  "sci": "Loriculus amabilis",
+  "en": "Moluccan Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Moluccan_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/340220214/medium.jpg",
+   "credit": "(c) Martin Walsh, some rights reserved (CC BY-NC-ND), uploaded by Martin Walsh (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72786,
+  "sci": "Cyanoramphus forbesi",
+  "en": "Chatham Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chatham_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/14512387/medium.jpeg",
+   "credit": "(c) Catherine Beard, some rights reserved (CC BY-NC), uploaded by Catherine Beard (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19308,
+  "sci": "Neopsittacus pullicauda",
+  "en": "Orange-billed Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-billed_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3093633/medium.jpg",
+   "credit": "(c) Nigel Voaden, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19204,
+  "sci": "Conuropsis carolinensis",
+  "en": "Carolina Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Carolina_parakeet",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/519212147/medium.jpg",
+   "credit": "(c) Mario Aliana Pedrosa, some rights reserved (CC BY-NC), uploaded by Mario Aliana Pedrosa (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584081,
+  "sci": "Nannopsittacus melanogenia",
+  "en": "Dusky-cheeked Fig Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dusky-cheeked_fig_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235288/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19335,
+  "sci": "Aprosmictus jonquillaceus",
+  "en": "Olive-shouldered Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Jonquil_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107995052/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1649791,
+  "sci": "Pyrrhura caeruleiceps",
+  "en": "Perija Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Perija_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/291684076/medium.jpeg",
+   "credit": "(c) Christoph Moning, osa oikeuksista pidätetään (CC BY), lähettänyt Christoph Moning (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19321,
+  "sci": "Nannopsittaca dachilleae",
+  "en": "Amazonian Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Manu_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158981228/medium.jpg",
+   "credit": "(c) Hector Bottai, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 72997,
+  "sci": "Loriculus sclateri",
+  "en": "Sula Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sula_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/101919921/medium.jpeg",
+   "credit": "(c) Alpian Maleso, some rights reserved (CC BY-NC), uploaded by Alpian Maleso (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1432697,
+  "sci": "Glossoptilus goldiei",
+  "en": "Goldie's Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Goldie's_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8235301/medium.jpg",
+   "credit": "(c) Markus  Lilje, some rights reserved (CC BY-NC-ND), uploaded by Markus  Lilje (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 497505,
+  "sci": "Northiella narethae",
+  "en": "Naretha Bluebonnet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Naretha_bluebonnet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/96432358/medium.jpg",
+   "credit": "(c) Tim Bawden, some rights reserved (CC BY-NC), uploaded by Tim Bawden (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73326,
+  "sci": "Pyrilia vulturina",
+  "en": "Vulturine Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Vulturine_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/329487745/medium.jpg",
+   "credit": "(c) Steve Foss, some rights reserved (CC BY-NC), uploaded by Steve Foss (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19296,
+  "sci": "Micropsitta geelvinkiana",
+  "en": "Geelvink Pygmy-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Geelvink_pygmy_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/117967181/medium.jpeg",
+   "credit": "(c) Benoît Segerer, some rights reserved (CC BY-NC), uploaded by Benoît Segerer (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19286,
+  "sci": "Psittacella modesta",
+  "en": "Modest Tiger Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Modest_tiger_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60662771/medium.jpg",
+   "credit": "(c) Nik Borrow, some rights reserved (CC BY-NC), uploaded by Nik Borrow (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1506166,
+  "sci": "Eclectus cornelia",
+  "en": "Sumba Eclectus",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sumba_eclectus",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26729122/medium.jpeg",
+   "credit": "(c) Yovie Jehabut, some rights reserved (CC BY-NC), uploaded by Yovie Jehabut (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 980097,
+  "sci": "Trichoglossus forsteni",
+  "en": "Sunset Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sunset_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387860460/medium.jpg",
+   "credit": "(c) Ted, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19001,
+  "sci": "Amazona imperialis",
+  "en": "Imperial Amazon",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Imperial_amazon",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157586831/medium.jpg",
+   "credit": "(c) Amazona_imperialis_-Roseau_-Dominica_-aviary-6a.jpg, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19071,
+  "sci": "Agapornis swindernianus",
+  "en": "Black-collared Lovebird",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-collared_lovebird",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54851606/medium.jpg",
+   "credit": "(c) Mathias D'haen, some rights reserved (CC BY-NC), uploaded by Mathias D'haen (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584089,
+  "sci": "Cyclopsitta salvadorii",
+  "en": "Salvadori's Fig Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Salvadori's_fig_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387855822/medium.jpg",
+   "credit": "(c) \nPetr Hamerník, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19157,
+  "sci": "Pyrrhura hoematotis",
+  "en": "Red-eared Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blood-eared_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/705391465/medium.jpg",
+   "credit": "(c) Oswaldo Hernández, some rights reserved (CC BY-NC), uploaded by Oswaldo Hernández (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584080,
+  "sci": "Nannopsittacus gulielmitertii",
+  "en": "Blue-fronted Fig Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-fronted_fig_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29312921/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 100721,
+  "sci": "Eunymphicus uvaeensis",
+  "en": "Ouvea Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ouvea_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/27395234/medium.jpg",
+   "credit": "(c) Frédéric Desmoulins،  بعض الحقوق محفوظة (CC BY-NC), uploaded by Frédéric Desmoulins (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18968,
+  "sci": "Loriculus aurantiifrons",
+  "en": "Papuan Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Orange-fronted_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/180896194/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19288,
+  "sci": "Psittacella picta",
+  "en": "Painted Tiger Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Painted_tiger_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3068969/medium.jpg",
+   "credit": "(c) Nigel Voaden, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19059,
+  "sci": "Chalcopsitta duivenbodei",
+  "en": "Brown Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159017163/medium.jpg",
+   "credit": "(c) bob|P-&-S, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19138,
+  "sci": "Touit costaricensis",
+  "en": "Red-fronted Parrotlet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-fronted_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/33791607/medium.jpeg",
+   "credit": "(c) Oliver Komar, some rights reserved (CC BY-NC), uploaded by Oliver Komar (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18969,
+  "sci": "Loriculus catamene",
+  "en": "Sangihe Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sangihe_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/377528884/medium.jpeg",
+   "credit": "(c) fachrynurmallojr, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584117,
+  "sci": "Trichoglossus cyanogenius",
+  "en": "Black-winged Lory",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black-winged_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/533056790/medium.jpg",
+   "credit": "(c) Jonathan Newman, some rights reserved (CC BY-NC), uploaded by Jonathan Newman (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144571,
+  "sci": "Aratinga maculata",
+  "en": "Sulphur-breasted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sulphur-breasted_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/359493733/medium.jpeg",
+   "credit": "(c) Thomas Diemer, some rights reserved (CC BY-NC), uploaded by Thomas Diemer (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18954,
+  "sci": "Prioniturus waterstradti",
+  "en": "Mindanao Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mindanao_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159072366/medium.png",
+   "credit": "(c) Chetatata, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584159,
+  "sci": "Trichoglossus histrio",
+  "en": "Red-and-blue Lory",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-and-blue_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/56135328/medium.jpg",
+   "credit": "(c) Christian Artuso, some rights reserved (CC BY-NC-ND), uploaded by Christian Artuso (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19294,
+  "sci": "Micropsitta finschii",
+  "en": "Finsch's Pygmy-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Finsch's_pygmy_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/469859041/medium.jpeg",
+   "credit": "(c) Bird Explorers, some rights reserved (CC BY-NC), uploaded by Bird Explorers (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 980093,
+  "sci": "Trichoglossus weberi",
+  "en": "Leaf Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leaf_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67553820/medium.jpg",
+   "credit": "(c) Serge Melki, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19343,
+  "sci": "Cyanopsitta spixii",
+  "en": "Spix's Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spix's_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157825506/medium.jpg",
+   "credit": "(c) Etna 1984, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1289573,
+  "sci": "Charmosynopsis pulchella",
+  "en": "Fairy Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fairy_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159020705/medium.jpg",
+   "credit": "(c) Nick Athanas, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584090,
+  "sci": "Cyclopsitta edwardsii",
+  "en": "Edwards's Fig Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Edwards's_fig_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/141356624/medium.jpg",
+   "credit": "(c) http://www.birdphotos.com, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73320,
+  "sci": "Pyrilia aurantiocephala",
+  "en": "Bald Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bald_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/307293772/medium.jpg",
+   "credit": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19323,
+  "sci": "Hapalopsittaca melanotis",
+  "en": "Black-winged Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-winged_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/66329570/medium.jpg",
+   "credit": "(c) Thibaud Aronson, some rights reserved (CC BY-SA), uploaded by Thibaud Aronson (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19123,
+  "sci": "Trichoglossus flavoviridis",
+  "en": "Sula Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Citrine_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/143748751/medium.jpg",
+   "credit": "(c) Peter Wilton, some rights reserved (CC BY-NC), uploaded by Peter Wilton (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1507091,
+  "sci": "Loriculus bonapartei",
+  "en": "Black-billed Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black-billed_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/308656640/medium.jpg",
+   "credit": "(c) abdel1980, osa oikeuksista pidätetään (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19129,
+  "sci": "Vini ultramarina",
+  "en": "Ultramarine Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Ultramarine_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160179416/medium.jpg",
+   "credit": "(c) peterodekerken, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18956,
+  "sci": "Prioniturus mada",
+  "en": "Buru Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Buru_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67552490/medium.jpg",
+   "credit": "(c) Quartl, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73512,
+  "sci": "Touit stictopterus",
+  "en": "Spot-winged Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Spot-winged_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/231273993/medium.jpg",
+   "credit": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1506399,
+  "sci": "Psittinus abbotti",
+  "en": "Simeulue Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Simeulue_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/178431995/medium.jpg",
+   "credit": "(c) Mehd Halaouate, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Mehd Halaouate (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 496005,
+  "sci": "Pyrrhura subandina",
+  "en": "Subandean Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sinú_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30063515/medium.jpg",
+   "credit": "(c) keesgroenendijk, some rights reserved (CC BY), uploaded by keesgroenendijk (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1506165,
+  "sci": "Trichoglossus rosenbergii",
+  "en": "Biak Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Biak_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30360034/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1505806,
+  "sci": "Coracopsis sibilans",
+  "en": "Comoro Black Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Comoro_black_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/62115800/medium.jpg",
+   "credit": "(c) Mikael Bauer, osa oikeuksista pidätetään (CC BY), lähettänyt Mikael Bauer (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19131,
+  "sci": "Vini stepheni",
+  "en": "Stephen's Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Stephen's_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/395655071/medium.jpg",
+   "credit": "no rights reserved, uploaded by James Eaton (cc0) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 73180,
+  "sci": "Pezoporus occidentalis",
+  "en": "Night Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Night_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/616046530/medium.jpg",
+   "credit": "(c) Hugo Sun, some rights reserved (CC BY-NC), uploaded by Hugo Sun (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18895,
+  "sci": "Charmosyna josefinae",
+  "en": "Josephine's Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Josephine's_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/227362848/medium.jpg",
+   "credit": "(c) Jonathan M, some rights reserved (CC BY-NC), uploaded by Jonathan M (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1584112,
+  "sci": "Trichoglossus semilarvatus",
+  "en": "Blue-eared Lory",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-eared_lory",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159046442/medium.jpg",
+   "credit": "(c) Quartl, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19158,
+  "sci": "Pyrrhura rhodocephala",
+  "en": "Rose-headed Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rose-crowned_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/730614168/medium.jpg",
+   "credit": "(c) Sergio Rivero Beneitez, algunos derechos reservados (CC BY-NC-SA), subido por Sergio Rivero Beneitez (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19221,
+  "sci": "Geoffroyus simplex",
+  "en": "Blue-collared Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-collared_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/127887342/medium.jpg",
+   "credit": "(c) David Bishop, some rights reserved (CC BY-NC), uploaded by David Bishop (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19320,
+  "sci": "Nannopsittaca panychlora",
+  "en": "Tepui Parrotlet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tepui_parrotlet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/33099666/medium.jpg",
+   "credit": "(c) Catherine Harper, some rights reserved (CC BY-NC-ND), uploaded by Catherine Harper (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 201087,
+  "sci": "Prioniturus mindorensis",
+  "en": "Mindoro Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mindoro_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/477089860/medium.jpeg",
+   "credit": "(c) Marc Thibault, some rights reserved (CC BY-NC), uploaded by Marc Thibault (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 144566,
+  "sci": "Loriculus camiguinensis",
+  "en": "Camiguin Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Camiguin_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259150210/medium.jpeg",
+   "credit": "(c) Keith Wheatley, osa oikeuksista pidätetään (CC BY-NC), lähettänyt Keith Wheatley (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19289,
+  "sci": "Psittacella madaraszi",
+  "en": "Madarasz's Tiger Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Madarasz's_tiger_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/84046060/medium.jpeg",
+   "credit": "(c) Jay VanderGaast, osa oikeuksista pidätetään (CC BY-NC-ND), lähettänyt Jay VanderGaast (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19150,
+  "sci": "Pyrrhura egregia",
+  "en": "Fiery-shouldered Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Fiery-shouldered_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/419307048/medium.jpg",
+   "credit": "(c) Sergio Rivero Beneitez, algunos derechos reservados (CC BY-NC-SA), subido por Sergio Rivero Beneitez (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18906,
+  "sci": "Psittacula caniceps",
+  "en": "Nicobar Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Nicobar_parakeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/51005337/medium.jpg",
+   "credit": "(c) Milan Sojitra, some rights reserved (CC BY-NC), uploaded by Milan Sojitra (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1289576,
+  "sci": "Hypocharmosyna rubronotata",
+  "en": "Red-fronted Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-fronted_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/179242989/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18957,
+  "sci": "Prioniturus montanus",
+  "en": "Luzon Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Montane_racket-tail",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252852735/medium.jpg",
+   "credit": "(c) Forest Botial-Jarvis, some rights reserved (CC BY), uploaded by Forest Botial-Jarvis (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18973,
+  "sci": "Loriculus flosculus",
+  "en": "Wallace's Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Wallace's_hanging_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107995904/medium.jpeg",
+   "credit": "(c) Christoph Moning, some rights reserved (CC BY), uploaded by Christoph Moning (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18892,
+  "sci": "Charmosyna multistriata",
+  "en": "Striated Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Striated_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160616590/medium.jpg",
+   "credit": "(c) peterodekerken, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1289577,
+  "sci": "Charminetta wilhelminae",
+  "en": "Pygmy Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pygmy_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177666889/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1289574,
+  "sci": "Charmosynopsis toxopei",
+  "en": "Blue-fronted Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-fronted_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/709704162/medium.jpg",
+   "credit": "no rights reserved, uploaded by James Eaton (cc0) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19280,
+  "sci": "Tanygnathus gramineus",
+  "en": "Black-lored Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-lored_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/95667363/medium.jpg",
+   "credit": "(c) Marie Tarrant, some rights reserved (CC BY-NC), uploaded by Marie Tarrant (cc-by-nc) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1505881,
+  "sci": "Psephotellus pulcherrimus",
+  "en": "Paradise Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Paradise_parrot",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159073716/medium.jpg",
+   "credit": "(c) Bowerbirdaus, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1289569,
+  "sci": "Vini rubrigularis",
+  "en": "Red-chinned Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-chinned_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/302383858/medium.jpeg",
+   "credit": "(c) Jay VanderGaast, some rights reserved (CC BY-NC-ND), uploaded by Jay VanderGaast (cc-by-nc-nd) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1583077,
+  "sci": "Vini margarethae",
+  "en": "Duchess Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Duchess_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/191385033/medium.jpg",
+   "credit": "(c) Vertebrate Zoology Curator, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19054,
+  "sci": "Poicephalus crassus",
+  "en": "Niam-Niam Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Niam-Niam_parrot",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/462106226/medium.png",
+   "credit": "(c) \nCallan Cohen, Claire Spottiswoode, and Julian Francis, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 19293,
+  "sci": "Micropsitta meeki",
+  "en": "Meek's Pygmy-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Meek's_pygmy_parrot",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 19023,
+  "sci": "Ara tricolor",
+  "en": "Cuban Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cuban_macaw",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157808037/medium.jpg",
+   "credit": "(c) Etemenanki3, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 509538,
+  "sci": "Psittacara labati",
+  "en": "Guadeloupe Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Guadeloupe_parakeet",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 774506,
+  "sci": "Vini sinotoi",
+  "en": "Sinoto's Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sinoto's_lorikeet",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 984733,
+  "sci": "Cyanoramphus subflavescens",
+  "en": "Lord Howe Parakeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lord_Howe_parakeet",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 1649789,
+  "sci": "Psittacula bensoni",
+  "en": "Mauritius Gray Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mascarene_grey_parakeet",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/412799855/medium.jpg",
+   "credit": "(c) FunkMonk, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 93795,
+  "sci": "Amazona martinicana",
+  "en": "Martinique Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Martinique_amazon",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 1508501,
+  "sci": "Tanygnathus everetti",
+  "en": "Blue-backed Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-backed_parrot",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 18932,
+  "sci": "Cyanoramphus ulietanus",
+  "en": "Raiatea Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Society_parakeet",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159025597/medium.jpg",
+   "credit": "(c) Mr intelo, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18909,
+  "sci": "Psittacula exsul",
+  "en": "Newton's Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Newton's_parakeet",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 18910,
+  "sci": "Psittacula wardi",
+  "en": "Seychelles Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Seychelles_parakeet",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/146760/medium.jpg",
+   "credit": "(c) Biodiversity Heritage Library, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 93796,
+  "sci": "Amazona violacea",
+  "en": "Guadeloupe Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Guadeloupe_amazon",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 18953,
+  "sci": "Prioniturus verticalis",
+  "en": "Blue-winged Racquet-tail",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-winged_racket-tail",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 18949,
+  "sci": "Lorius albidinucha",
+  "en": "White-naped Lory",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-naped_lory",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 18972,
+  "sci": "Loriculus tener",
+  "en": "Green-fronted Hanging-Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bismarck_hanging_parrot",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 543393,
+  "sci": "Ara autochthones",
+  "en": "St. Croix Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Saint_Croix_macaw",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 372555,
+  "sci": "Eclectus infectus",
+  "en": "Oceanic Eclectus",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Oceanic_eclectus_parrot",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473044920/medium.png",
+   "credit": "(c) solidstatesystem, osa oikeuksista pidätetään (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 104810,
+  "sci": "Lophopsittacus mauritianus",
+  "en": "Broad-billed Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Broad-billed_parrot",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/146770/medium.jpg",
+   "credit": "(c) Biodiversity Heritage Library, osa oikeuksista pidätetään (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1506167,
+  "sci": "Eclectus riedeli",
+  "en": "Tanimbar Eclectus",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Tanimbar_eclectus",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 774507,
+  "sci": "Vini vidivici",
+  "en": "Conquered Lorikeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Conquered_lorikeet",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/297211257/medium.jpg",
+   "credit": "(c) FunkMonk, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1289568,
+  "sci": "Vini palmarum",
+  "en": "Palm Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Palm_lorikeet",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/69541250/medium.jpg",
+   "credit": "(c) Auckland Museum, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 1289567,
+  "sci": "Vini amabilis",
+  "en": "Red-throated Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-throated_lorikeet",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 1289570,
+  "sci": "Vini meeki",
+  "en": "Meek's Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Meek's_lorikeet",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 1369131,
+  "sci": "Vini diadema",
+  "en": "New Caledonian Lorikeet",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/New_Caledonian_lorikeet",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 18926,
+  "sci": "Cyanoramphus zealandicus",
+  "en": "Black-fronted Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Black-fronted_parakeet",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 1584076,
+  "sci": "Nannopsittacus nigrifrons",
+  "en": "Black-fronted Fig Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Black-fronted_fig_parrot",
+  "extinct": false,
+  "photo": null
+ },
+ {
+  "taxon_id": 19217,
+  "sci": "Mascarinus mascarinus",
+  "en": "Mascarene Parrot",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Mascarene_parrot",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/132991/medium.jpg",
+   "credit": "(c) Biodiversity Heritage Library, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 18942,
+  "sci": "Nestor productus",
+  "en": "Norfolk Island Kaka",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Norfolk_kaka",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 18939,
+  "sci": "Anodorhynchus glaucus",
+  "en": "Glaucous Macaw",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Glaucous_macaw",
+  "extinct": false,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157592801/medium.jpg",
+   "credit": "(c) Rama, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 631775,
+  "sci": "Nestor chathamensis",
+  "en": "Chatham Island Kaka",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Chatham_kaka",
+  "extinct": true,
+  "photo": null
+ },
+ {
+  "taxon_id": 1535108,
+  "sci": "Necropsittacus rodricanus",
+  "en": "Rodrigues Parrot",
+  "ko": null,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Rodrigues_parrot",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/146769/medium.jpg",
+   "credit": "(c) Biodiversity Heritage Library, some rights reserved (CC BY-NC-SA) (cc-by-nc-sa) / iNaturalist"
+  }
+ },
+ {
+  "taxon_id": 558485,
+  "sci": "Psittacara maugei",
+  "en": "Puerto Rican Parakeet",
+  "ko": null,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Puerto_Rican_parakeet",
+  "extinct": true,
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158988240/medium.jpeg",
+   "credit": "(c) Souancé, 1856, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  }
+ }
+]

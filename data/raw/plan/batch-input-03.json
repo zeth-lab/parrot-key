@@ -1,0 +1,322 @@
+[
+ {
+  "id": "brotogeris-tirica",
+  "sci": "Brotogeris tirica",
+  "en": "Plain Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Plain_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158896391/medium.jpg",
+   "credit": "(c) Luiz Carlos  Rocha, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The plain parakeet is 23 to 25 cm (9.1 to 9.8 in) long and weighs about 63 g (2.2 oz). Adults have an essentially all green body, though their nape has a bluish tinge and their undersides have a yellowish one. Their shoulder is bronzy or brownish green and their flight feathers and the underside of their tail are bluish green. Their bill is pinkish with a paler base. Immature birds are similar to adults but with less blue in the wings and a shorter tail. The population in São Paulo state has many individuals with a blue mutation."
+ },
+ {
+  "id": "psittacula-cyanocephala",
+  "sci": "Psittacula cyanocephala",
+  "en": "Plum-headed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Plum-headed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/349177488/medium.jpg",
+   "credit": "(c) Hari K  Patibanda, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 37.0,
+  "desc_thin": false,
+  "description": "The plum-headed parakeet is a mainly green parrot, 33–37 cm (13–15 in) long with a weight of 55–85 g (1.9–3.0 oz). Its tail has a length of up to 22 cm (8.7 in). The male has a red head which shades to purple-blue on the back of the crown, nape and cheeks, while the female has a blueish-gray head. There is a narrow black neck collar with verdigris below on the nape and a black chin stripe that extends from the lower mandible. There is a red shoulder patch and the rump and tail are bluish-green, the latter tipped white. The upper mandible is orangish-yellow, and the lower mandible is dark. The female has a dull bluish grey head and lacks the black and verdigris collar, which is replaced by yellow. The upper-mandible is corn-yellow and there is no black chin stripe or red shoulder patch. Immature birds have a green head and both mandibles are yellowish. The dark head is acquired after a year. The delicate bluish red appearance resembling the bloom of a peach is produced by a combination of blue from the optical effects produced by the rami of the feather and a red pigment in the barbules.\nSome authors have considered the species to have two subspecies, the nominate from peninsular India (type locality restricted to Gingee) and the population from the foothills of the Himalayas as bengalensis on the basis of the colour of the head in the male which is more red and less blue. Newer works consider the species to be monotypic.\nThe different head colour and the white tip to the tail distinguish this species from the similar blossom-headed parakeet (P. roseata). The shoulder patch is maroon coloured and the shorter tail is tipped yellow in P. roseata.\nA supposed species of parakeet, the so-called intermediate parakeet Psittacula intermedia is thought to be a hybrid of this and the slaty-headed parakeet (P. himalayana)."
+ },
+ {
+  "id": "cyanoliseus-patagonus",
+  "sci": "Cyanoliseus patagonus",
+  "en": "Burrowing Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Burrowing_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/79627019/medium.jpg",
+   "credit": "(c) jose_canas_fotografia, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 52.0,
+  "desc_thin": false,
+  "description": "Adults measure 39–52 cm in length, with a wingspan of 23–25 cm and a long, graduated tail that can range from 21 to 26 cm. Burrowing parrots are slightly sexually dimorphic, with males being slightly larger and weighing approximately 253-340 g, while females weigh 227-304 g, making it the largest member of the group of New World parakeet species commonly known as conures.\nThe burrowing parrot is a distinctive parrot; it has a bare, white eye ring and post-ocular patch, its head and upper back are olive-brown, and its throat and breast are grey-brown with a whitish pectoral marking, which is variable and rarely extends across the whole breast. The lower thighs and the center of the abdomen are orange-red, and it is thought that the extent and hue of the red plumage indicates the quality of the individual as a breeding partner and parent. The lower back, upper thighs, rump, vent and flanks are yellow, and the wing coverts olive green. The tail is olive green with a blue caste when viewed from above and brown from below. The burrowing parrot has a grey bill and yellow-white iris with pink legs. Immature birds look like adults but with a horn coloured upper mandible patch and a pale grey iris.\nWhile both sexes look visually similar to the human eye, the burrowing parrot is sexually dichromatic. Males tend to have significantly redder and larger abdominal red patches, and both sexes look different under UV light, with males have brighter green feathers and females having brighter blue feathers."
+ },
+ {
+  "id": "psittacara-finschi",
+  "sci": "Psittacara finschi",
+  "en": "Crimson-fronted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Finsch's_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172916437/medium.jpg",
+   "credit": "(c) Lydia Cox, some rights reserved (CC BY-NC), uploaded by Lydia Cox (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "Finsch's parakeet is about 28 cm (11 in) long and weighs 135 to 175 g (4.8 to 6.2 oz). The sexes are alike. Adults are mostly green that is yellowish on their underparts. They have a red forehead (the \"front\" of their alternate English name) and some red flecks elsewhere on their head. The edge of their wing and their outer underwing coverts are also red, often with an orange tinge. Their greater underwing coverts are yellow. The undersides of their flight feathers and tail are olive yellow. Their thighs usually have some red. Their eye is orange surrounded by bare white skin and their bill is horn colored. \nJuveniles resemble adults, but have little or no red on the head and none on the thighs. Their eyes are gray."
+ },
+ {
+  "id": "zanda-latirostris",
+  "sci": "Zanda latirostris",
+  "en": "Carnaby's Black Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Carnaby's_black_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/287180277/medium.jpg",
+   "credit": "(c) John Bromilow, some rights reserved (CC BY-NC), uploaded by John Bromilow (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 58.0,
+  "desc_thin": false,
+  "description": "Carnaby's black cockatoo is 53–58 cm (21–23 in) in length with a 110 cm (43 in) wingspan, and weighs 520–790 grams. It is mostly greyish black, with narrow light grey scalloping produced by narrow off white margins at the tips of dark feathers. The scalloping is more prominent on the neck. It has a crest of 2.5–3 cm (0.98–1.18 in) long feathers on its head that form a short crest that can be raised and lowered, and a prominent off-white patch of feathers on its cheek. Its lateral tail feathers are white with black tips, and the central tail feathers all black. The irises are dark brown and the legs brown-grey. Its beak is shorter and broader than that of the closely related and similar Baudin's black cockatoo; the two are often difficult to distinguish in the field.\nThe adult male has a dark grey beak and pink eye-rings. The adult female has a bone-coloured beak, grey eye-rings and ear patches that are whiter and more distinctive than those of the male. The feathers of its underparts and underwing coverts have larger white margins than those of the male, leading to a more barred or scalloped pattern to its plumage. Its legs and feet are a little lighter than those of the male. Moulting appears to take place in stages in late summer—some time between January or February and April or May, and is poorly understood.\nJuveniles have a bone-coloured beak, grey eye-rings, and less white in the tail feathers. They can also be distinguished by their constant begging calls. It is not possible to tell the sexes apart until the male's bill begins to darken. This begins when the male is around one year old, and is complete some time after two years of age."
+ },
+ {
+  "id": "platycercus-caledonicus",
+  "sci": "Platycercus caledonicus",
+  "en": "Green Rosella",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Green_rosella",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/53221261/medium.jpg",
+   "credit": "(c) Shane Walker, some rights reserved (CC BY), uploaded by Shane Walker (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 36.0,
+  "desc_thin": false,
+  "description": "The green rosella is the largest member of the rosella genus. Measuring from 29 to 36 cm (11 to 14 in) in length, an adult has long narrow wings with a wingspan of 44–54 cm (17–21 in), and a long tail with twelve feathers, the central two of which are wider. The adult male is heavier, averaging around 150 g (5.3 oz) to the female's 120 g (4.2 oz), and has a larger bill.\nThe adult green rosella has a yellow head and underparts with blue cheeks and red band on the forehead and upper lores. The yellow feathers of the forecrown, lower lores, cheeks, chest and thighs can have red markings, while the yellow feathers of the sides and rear of the head and neck, and the underparts have dark brown bases. The edges of the feathers on the underparts can be pale brown, resulting in a faint scalloping, which disappears with wear. Some of the yellow feathers of the nape have white bases and when worn, the bird can have a whitish patch on their nape. The yellow of the back of the head merges indistinctly into the dark plumage of the hindneck, mantle and back, which is black or dark brown with green margins. The feathers of the shoulders are blackish with yellow tips. These margins and tips are often worn by the finish of breeding season, leaving the plumage more solid black. The blue-violet feathers of the chin, throat and cheeks have brown-black bases. The blackish plumage of the back extends to the rump, and the long tail is dark green with brown shafts and dark blue outer feathers and tips. The wings are mostly black and green, with violet-blue marginal coverts, primary coverts, and alula, and blue-tinted dark brown primaries and outer secondaries. Underneath the feathers of the wings are dark brown with blue-violet tips. The iris is brown with a dark grey orbital ring, and the bill is pale-grey, with a dark grey cere. The legs are grey. The yellow plumage of the female is duller and more likely marked with red than that of the male, and the green edges to the black plumage of the upperparts are more prominent.\nYoung birds leaving the nest have juvenile plumage in their first year of life. Juveniles have a dark green head and neck, upperparts and underparts. The feathers all have dark brown bases. The wings are predominantly dark brown and black with a blue sheen. The wings and tail are shorter than those of adult birds. The bill may have a buff sheen. They have an under-wing stripe, which is not present in the adults. Moulting generally takes place between January and April for birds of all ages. Juvenile birds then adopt immature plumage, which is similar but with patches of yellow feathers on the underparts of adult plumage as well as some adult-coloured wing feathers. Some green juvenile feathers remain until the bird is in its second year of age, though are very worn by this time."
+ },
+ {
+  "id": "forpus-xanthopterygius",
+  "sci": "Forpus xanthopterygius",
+  "en": "Cobalt-rumped Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blue-winged_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/384587/medium.JPG",
+   "credit": "(c) Carmelo López Abad, some rights reserved (CC BY-NC), uploaded by Carmelo López Abad (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The cobalt-rumped parrotlet (Forpus xanthopterygius) or blue-winged parrotlet is a species of parrot in the family Psittacidae. \nThere are two subspecies: Salvadori's cobalt-rumped parrotlet (F. x. flavescens) and Hellmayr's cobalt-rumped parrotlet (F. x. flavissimus)."
+ },
+ {
+  "id": "pionus-senilis",
+  "sci": "Pionus senilis",
+  "en": "White-crowned Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/White-crowned_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/250092444/medium.jpg",
+   "credit": "(c) Dean Thompson, some rights reserved (CC BY-NC), uploaded by Dean Thompson (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "The white-crowned parrot is a medium-sized parrot of about 24cm in length. It has a broad body and a short tail, with a dark brown iris and brownish-pink eye ring. The bill is yellowish with a slight green coloration. Its forehead, crown and lores are pure white with white patch on chin and center of throat. The belly is mainly green; the basal colors of feathers on the breast are green with dark blue and purplish-blue tips, and light blue at the subterminal band. This scaly effect is also apparent in the feathers on cheeks and hindneck that are basally green with light bluish-green and purplish-blue at the subterminal band. The mantle and back are soft and shiny in a reddish brown color, with green scapulars that are reddish and yellowish-brown on tips and outer webs. They have violet blue primary coverts and green greater coverts; the lesser and median coverts are reddish-brown with paler tips which gives the wing a spotty appearance. The rump and upper tail coverts are brighter green with red undertail coverts. The upper wing is covered in brown patches and pale bluish-green in underwing. The physical attributes in both sexes are similar. The juvenile has head, hindneck, and breast covered in green, with light yellowish cheeks and crown. The white-crowned parrot is widely sympatric across Mexico and western Panama. Similar species include the brown-hooded parrot (Pyrillia haematotis); it has a brown head and white lores, but no white crown, nor red undertail coverts. Its body is mainly green with visible red axillaries during flight, rapid wingbeats, and a high-pitched voice. Another species, the blue-headed parrot (Pionus menstruus) is mainly green with a bright blue head and neck, red undertail coverts, and yellowish wing coverts. The white-crowned parrot has a fast wingbeat and climbs onto branches whilst feeding. They are often in pairs or small flocks except during breeding seasons. They are very cautious and will fly away while screeching loudly when approached. Their harsh voice will screech like kreeek-kreeek or kree-ah-kee-ah during flight, but can become unnoticeable and silent in the tree canopy."
+ },
+ {
+  "id": "aprosmictus-erythropterus",
+  "sci": "Aprosmictus erythropterus",
+  "en": "Red-winged Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-winged_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159014131/medium.jpg",
+   "credit": "(c) KityKat79, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "cyanoramphus-novaezelandiae",
+  "sci": "Cyanoramphus novaezelandiae",
+  "en": "Red-crowned Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-crowned_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/409524714/medium.jpg",
+   "credit": "(c) Oscar Thomas, some rights reserved (CC BY-NC), uploaded by Oscar Thomas (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "=== Adults ===\n\nRed-crowned parakeets are green parrots with large tails. They are easiest to identify by their bright yellow-green plumage, and crimson forehead, lores, eye-stripes and front of the crown. They also have red patches on either sides of the rump. While they are flying, their dark blue outerwing can be visible. Red-crowned parakeets have grey or pale brown legs and feet. Their bills are white to grey with a black tip.\n\n\n=== Females ===\nFemales are slightly smaller with a yellow stripe on the underwing. Their bill is also smaller and narrower.\n\n\n=== Juveniles ===\nJuvenile red-crowned parakeets look similar to adults. However, their bill has a slight pinkish tinge. Moreover, the iris of young parakeets starts off as dull black or brown, and becomes increasingly red as they age. Juvenile males also sport a stripe under the wing like the females.\n\n\n=== Measurements ===\n\n\n=== Vocalisations ===\nRed-crowned parakeets can be recognised by their soft, musical, chattering calls. These vocalisations are stronger and lower-pitched than the yellow-crowned parakeet's. During flight and take off, they also emit a ki-ki-ki-ki-ki or kek-kik-kek sound."
+ },
+ {
+  "id": "pionus-maximiliani",
+  "sci": "Pionus maximiliani",
+  "en": "Scaly-headed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scaly-headed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/314019219/medium.jpg",
+   "credit": "(c) David Rodriguez, some rights reserved (CC BY-NC), uploaded by David Rodriguez (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 29.0,
+  "desc_thin": false,
+  "description": "The scaly-headed parrot is 25 to 29 cm (9.8 to 11 in) long and weighs 233 to 293 g (8.2 to 10 oz). Adults of the nominate subspecies P. m. maximiliani have a blackish brown forehead and mid-crown. Their rest of their head, their nape, and their upper back are dark greenish bronze; the feathers have darker edges that give the eponymous scaly effect. Their eye has arcs of bare white skin above and below. Their lower back and wings are dull green with lighter scaling. Their throat and upper breast are dull blue that becomes yellowish green on the belly. Their undertail coverts and base of the tail are red. The inner tail feathers are green and the outer ones blue. Immature birds have a paler green head and less blue on the breast than adults.\nSubspecies P. m. melanoblepharus is larger than the nominate; its green areas and the blue breast are darker and the skin around the eye is dark. P. m. siy is also darker than the nominate, with a reddish purple chin and throat. P. m. lacerus is like siy but larger and has more, and more intense, blue on the breast."
+ },
+ {
+  "id": "diopsittaca-nobilis",
+  "sci": "Diopsittaca nobilis",
+  "en": "Red-shouldered Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-shouldered_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157826775/medium.jpg",
+   "credit": "(c) Diego Torres Silvestre, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "The red-shouldered macaw, at 30 cm (12 in) long and 165 g (5.8 oz), is the smallest of all the macaws. Like all macaws, it has a long narrow tail and a large head. It has bright green feathers on the body, with dark or slate blue feathers on the head just above the beak. The wings and tail have feathers that are bright green above and olive-green below. The leading edges of the wings, especially on the underside, are red.  (These red feathers appear at puberty.) Their eyes are orange, and the skin around the eyes is white without feathers, just as in the larger macaws. This bare patch of facial skin is smaller in proportion to the head than the one seen in most larger macaws. The Hahn's macaw and noble macaw can be distinguished by the upper mandible, which is black in the Hahn's macaw and horn-colored in the noble macaw.\nTheir natural vocalizations are more akin to screeches than they are to whistles."
+ },
+ {
+  "id": "ara-ambiguus",
+  "sci": "Ara ambiguus",
+  "en": "Great Green Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Great_green_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/251572277/medium.jpeg",
+   "credit": "(c) Walter Welss, some rights reserved (CC BY-NC), uploaded by Walter Welss (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 90.0,
+  "desc_thin": false,
+  "description": "Great green macaws are the largest parrots in their natural range, the second heaviest macaw species (although they are relatively shorter tailed than other large macaws such as the red-and-green macaw and are thus somewhat shorter), and the third heaviest parrot species in the world. This species averages 85–90 cm (33.5–35.5 in) in length and 1.3 kg (2.9 lb) in weight. They are mainly green and have a reddish forehead and pale blue lower back, rump and upper tail feathers. The tail is brownish-red tipped with very pale blue. The bare facial skin is patterned with lines of small dark feathers, which are reddish in older and female parrots. Juveniles have grey-coloured eyes instead of black, are duller in colour and have shorter tails which are tipped in yellow.\nThe main morphological distinction with the subspecies guayaquilensis is that this bird has a smaller, narrower bill.\nThe great green macaw appears superficially similar to, and may easily be confused with, the military macaw where their ranges overlap."
+ },
+ {
+  "id": "forpus-coelestis",
+  "sci": "Forpus coelestis",
+  "en": "Pacific Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pacific_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138583603/medium.jpeg",
+   "credit": "(c) Nelson Apolo, some rights reserved (CC BY-NC), uploaded by Nelson Apolo (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 14.0,
+  "desc_thin": false,
+  "description": "The Pacific parrotlet (Forpus coelestis) is a small green parrot originating in South America. A typical specimen is 11–14 centimetres (4.3–5.5 in) long and typically weighs 30 grams or more.  Wild Pacific parrotlets are green with a dusty grey cast over the body, a bright green mask and a pinkish beak.  Legs and feet are pinkish-grey. Pacific parrotlets are sexually dimorphic:  males possess shades of blue on their wings.  Blue can vary in intensity from a bright cobalt blue to a pale, almost lavender shade of blue on American birds; the blue is almost non-existent on marbled birds, only being visible on the underside of the wing right on the joint. Male parrotlets also have blue streaks behind the eyes which is often referred to as \"eyeshadow;\" as well as blue rumps. Female parrotlets have no blue on the wings whatsoever but can have blue eye streaks as well as a blue rump.\n\nParrotlets are often referred to as pocket parrots because of their size; but they are known for their larger-than-life personalities and feisty attitudes. They are solitary birds in captivity due to their aggressive behavior towards other birds when confined, so it is not suggested to house one with conspecifics unless ample space is available.  Pet parrotlets should never be kept with other bird species due to the likelihood of aggression.\nAlthough the base, or wild-type color of parrotlets is green, they also come in a rainbow of mutations : American Yellow, Green Marbled, American Yellow Marbled, Green Fallow, Green Fallow Marbled, American Yellow Fallow, American Yellow Marbled Fallow, Blue, American White, Blue Marbled, American White Marbled, Blue Fallow, American White Fallow, Blue Marbled Fallow, American White Marbled Fallow, Turquoise, American Turquoise, Turquoise Marbled, American Turquoise Marbled, Turquoise Fallow, American Turquoise Fallow, Turquoise Fallow Marbled, American Turquoise Fallow Marbled, Grey, American Grey, Grey Marbled, American Grey Marbled, Grey Fallow, American Grey Fallow, Grey Fallow Marbled, American Grey Fallow Marbled, Albino, Lutino Creamino, Cinnamon, Misty, Dark Factor, and Pied. \"Dilute\" is a term not used in parrotlets. \"Pastel\" was previously a term used for edging on the feathers and wings; however, the preferred term is Marbled."
+ },
+ {
+  "id": "aratinga-weddellii",
+  "sci": "Aratinga weddellii",
+  "en": "Dusky-headed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Dusky-headed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/272358567/medium.jpeg",
+   "credit": "(c) Edison Araguillin, some rights reserved (CC BY-NC), uploaded by Edison Araguillin (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 28.0,
+  "desc_thin": false,
+  "description": "The dusky-headed parakeet (Aratinga weddellii), also known as Weddell's conure or dusky-headed conure in aviculture, is a small green Neotropical parrot with dusty grey head found in wooded habitats in the western Amazon basin of South America. Its range extends from southeastern Colombia south through eastern Ecuador, eastern Peru, and southwest Amazonian Brazil, to central Bolivia. It prefers semiopen habitats such as várzea, forest edge, and forest remnants, but can also be found in coffee plantations. It is generally common and its habitat preference makes it less vulnerable than many other Amazonian species. Consequently, it is considered to be of least concern by BirdLife International and IUCN.\nThis long-tailed species is generally green in color (both lutino and blue mutations are rare, but do exist in captivity) with a gray-brown head, a blue-tipped tail, and remiges that are dark gray from below, mainly blue from above. The bill is black, and it has a broad, bare, white (sometimes yellow-tinged) eye-ring. With a typical length of 25–28 cm (10–11 in) and a weight around 100 grams, it is slightly smaller than the sun conure. Many people call these conures mini-macaws because they have skin near their beaks and eyes, similar to the macaw.\nIt is social, and usually found in pairs or small groups. It may even flock with different species of conures. When food is plentiful, it may form flocks of up to 100 members. It eats fruit, seeds, and flowers, and searches decaying w"
+ },
+ {
+  "id": "amazona-auropalliata",
+  "sci": "Amazona auropalliata",
+  "en": "Yellow-naped Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Yellow-naped_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6012624/medium.jpeg",
+   "credit": "(c) elizabeth1, some rights reserved (CC BY-NC), uploaded by elizabeth1 (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The yellow-naped amazon is distinguished by its green forehead and crown and a yellow band across the lower nape (back part of neck) and hindneck. The eyes are orange, beak is dark gray and is paler towards the base of the upper mandible. The feet are also dark gray.\nYellow-naped amazons inhabit dry forest and mangrove habitat of the tropics, and nest in naturally occurring cavities  Although yellow-naped amazons will not excavate cavities, they will chew the entrance. The parrots will nest in a wide variety of trees, although dead Coyols (palm trees) are one preferred species. During the breeding season, pairs are monogamous, and pairs defend small breeding territories around the nest by duetting with their partners. Breeding success is low (89%), and the majority of nests fail due to poaching \nThe vocal behavior of yellow-naped amazons has been more extensively studied than in any other wild parrot. Yellow-naped amazons, like all parrots, exhibit vocal learning behavior in the wild. This behavior manifests in the form of vocal dialects, in which the repertoire of calls that parrots vocalize change at discrete geographic boundaries, similar to how humans have different languages or dialects. These dialects also are meaningful to the parrots; they are less responsive to calls that are not their own dialect. Dialects are also stable over long periods of time.\nMated pairs of yellow-naped amazons also duet together on their territories in highly complex ways; they produce precisely coordinated and synchronized sequences of calls. These duets are organized by syntactic rules, in which the order and structure of notes changes in predetermined but flexible ways. Neighboring pairs of birds will counter-duet, in which pairs will rapidly exchange duets. This behavior appears similar to the counter-singing observed in male songbirds. These displays will at times become so heated that physical fights will occur at territory boundaries, although these are rare."
+ },
+ {
+  "id": "cacatua-sulphurea",
+  "sci": "Cacatua sulphurea",
+  "en": "Yellow-crested Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-crested_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/179243597/medium.jpg",
+   "credit": "(c) Mehd Halaouate, some rights reserved (CC BY-NC), uploaded by Mehd Halaouate (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The yellow-crested cockatoo (Cacatua sulphurea) also known as the lesser sulphur-crested cockatoo, is a medium-sized (about 34-cm-long) cockatoo with white plumage, bluish-white bare orbital skin, grey feet, a black bill, and a retractile yellow or orange crest. The sexes are similar.\nThe yellow-crested cockatoo is found in wooded and cultivated areas of East Timor and Indonesia's islands of Sulawesi and the Lesser Sundas. It is easily confused with the larger and more common sulphur-crested cockatoo, which has a more easterly distribution and can be distinguished by the lack of pale yellow coloring on its cheeks (although some sulphur-cresteds develop yellowish patches). Also, the yellow-crested cockatoo's crest is a brighter color, closer to orange. Endemic to Sumba, the citron-crested cockatoo, previously considered a subspecies of the yellow-crested cockatoo, is also similar, but presents with an orange crest.\nThe yellow-crested cockatoo's diet consists mainly of seeds, buds, fruits, nuts, and herbaceous plants."
+ },
+ {
+  "id": "enicognathus-ferrugineus",
+  "sci": "Enicognathus ferrugineus",
+  "en": "Austral Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Austral_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/198371508/medium.jpeg",
+   "credit": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "purpureicephalus-spurius",
+  "sci": "Purpureicephalus spurius",
+  "en": "Red-capped Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-capped_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/55463036/medium.jpg",
+   "credit": "(c) Jenny Donald, some rights reserved (CC BY-NC), uploaded by Jenny Donald (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 38.0,
+  "desc_thin": false,
+  "description": "The red-capped parrot has a long bill and bright, clear patterned plumage, variously described as magnificent, gaudy, or clownishly coloured. Measuring 34–38 cm (13.5–15 in) in length with a 42–48 cm (16.5–19 in) wingspan, and weighing 105–125 g (3.7–4.4 oz), an adult red-capped parrot is a distinctive and easily recognised medium-sized parrot. The adult male has a crimson forehead and crown, which extends from the gape or base of the lower mandible through the eye and grey-brown lores. Its hindneck and cheeks are green, and its ear coverts are more yellow-green. In March and April, the crown feathers and ear coverts of birds with new plumage can have fine black edging. The feathers of the head, back and underparts, have grey bases that are generally hidden. The upperparts, including the wings, are dark green, the rump yellow-green, and the tail is green with a dark blue tip. The underparts are purplish-blue, the flanks green and red, and the iris dark brown with a dark grey eye ring. The bill is pale blue-grey with a dark grey tip, its upper mandible elongated to a slender hook.\n\nThe colouring of the female is similar to, though slightly duller than that of the male; the red of its plumage is not as intense and its red flanks are spotted with some green and yellow. Its breast is a more greyish shade of violet than purple. In flight, it has a whitish stripe visible on the underside of the wing. Female birds have white spots on seven or more underwing feathers,  although a few of both sexes lack spots entirely. Birds with white spots on fewer than seven wing feathers can be either female or subadult male. The male has a slightly wider and flatter head, noticeable when birds are compared directly with each other, as well as longer wings and tail. Adult moulting takes place in the Southern Hemisphere summer and autumn. The red-capped parrot perches and walks with a distinctive upright posture.\nJuveniles have greenish plumage overall, before beginning their first moult around August. Their subsequent plumage much more closely resembles that of adult birds. The faintly seen markings of the adult pattern begin as a dark green crown, with a reddish frontal band, the grey-violet of the female breast, and red underparts mottled green. The bill is more orange, but turns the pale blue-grey of adult birds by two to five months of age. Juvenile birds with white spots on ten or fewer feathers on the wing undersurface are male, while those with more cannot be sexed. Male subadults often have residual white spots on their wing feathers.\nThe rapidly repeated contact call has been transcribed as krukk-rak or crrr-uk, while the alarm call consists of a series of high-pitched loud notes. Male birds chatter loudly when agitated or marking their nest territory, but, unlike rosellas, not while feeding. Nestlings and fledglings up to two weeks post leaving the nest make a high-pitched two-syllable food begging call."
+ },
+ {
+  "id": "psephotellus-varius",
+  "sci": "Psephotellus varius",
+  "en": "Mulga Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mulga_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/175496368/medium.jpg",
+   "credit": "(c) Kym Nicolson, some rights reserved (CC BY), uploaded by Kym Nicolson (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "The Mulga Parrot measures about 27–32 cm (10.5–12.5 in) in length with a 30–42 cm (12–16.5 in) wingspan, and it weighs 50–60 g (1.8–2.1 oz), the mulga parrot is a medium-sized parrot of slim build and long tail. The species is sexually dimorphic, the sexes differing markedly in plumage. The male mulga parrot is multicolored, from which the alternate common name many-coloured parrot is derived. It is a bright green overall, with a bluish tinge on the neck and above the eye, and paler on the breast. The rump is light green.  The forehead is yellow and there is a red patch on the back of the head. The lower belly and thighs are yellowish marked with orange-red and the wings greenish apart from the yellow median wing coverts and blue outer webs of primaries. The long tail is an assortment of colours: the two long central feathers are dark blue tinged with green, the outer feathers are blue shading to white and there is some red on the upper tail coverts. Its bill is a blue-grey edged with black, and iris is brown. The female is duller overall, with an olive-brown head and chest, duller yellow forehead and red patch on the back of the head, and pale green belly, and more brown-grey bill. It sometimes also has a red shoulder."
+ }
+]

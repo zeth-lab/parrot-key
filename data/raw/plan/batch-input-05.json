@@ -1,0 +1,322 @@
+[
+ {
+  "id": "pyrilia-haematotis",
+  "sci": "Pyrilia haematotis",
+  "en": "Brown-hooded Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-hooded_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64607161/medium.jpg",
+   "credit": "(c) Anneke Jonker, some rights reserved (CC BY-NC), uploaded by Anneke Jonker (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The brown-hooded parrot is 21 to 23 cm (8.3 to 9.1 in) long and weighs 145 to 150 g (5.1 to 5.3 oz). Adults have a reddish brown crown, ear coverts, and throat, a pinkish red patch behind the eye, and white nares and eye ring. Their nape and breast are dull olive-yellow and their flanks red. Most of the rest of their body is green, with blue on the wing edge, blackish blue on the flight feathers, and blue on the tips of the tail feathers. Subspecies P. h. coccinicollaris adds some pinkish red below the dark throat that sometimes extends around the neck. Immature birds are much like adults but with a paler head, no red patch behind the eye, and a greener breast."
+ },
+ {
+  "id": "psitteuteles-porphyrocephalus",
+  "sci": "Psitteuteles porphyrocephalus",
+  "en": "Purple-crowned Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Purple-crowned_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29673329/medium.jpg",
+   "credit": "(c) Alan Melville, some rights reserved (CC BY-NC-ND), uploaded by Alan Melville (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 15.0,
+  "desc_thin": false,
+  "description": "Measuring around 15 cm (6 in) long, the male purple-crowned lorikeet is a small lorikeet with a dark purple crown, a yellow-orange forehead and ear-coverts, deepening to orange lores, and green upperparts, tinted bronze on the mantle and nape. The chin, chest and belly are a conspicuous powder blue, while the thighs and under-tail coverts are yellowish-green. The green tail has some orange-red coloration at the bases of the lateral feathers. The large crimson patches under the wings are visible when the bird is in flight. The small beak is black, the iris brown and the feet grey. The female is similar but has a darker iris, paler ear coverts and lacks the crimson patches. Immature birds are duller and lack the purple crown.\nIts call is a high-pitched loud tsit, as well as chattering while eating in treetops. Its call is lower pitched than the little lorikeet but higher than the musk lorikeet."
+ },
+ {
+  "id": "trichoglossus-rubritorquis",
+  "sci": "Trichoglossus rubritorquis",
+  "en": "Red-collared Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Red-collared_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10151673/medium.jpg",
+   "credit": "(c) Tan Kok Hui, some rights reserved (CC BY-NC), uploaded by Tan Kok Hui (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 26.0,
+  "desc_thin": false,
+  "description": "The red-collared lorikeet measures around 26 centimetres (10 in) long. The feathers of the head and throat are dark brown with blue shafts. There is an orange-red band on the back of the neck. The chest is orange with red. The base of the hindneck is dark blue. The wings are green. The bill is red. The legs and feet are grey-brown. The sexes are similar in plumage while the juvenile has duller plumage and a dark bill.\nThe red-collared lorikeet is distinguished from the rainbow lorikeet by the latter's green rather than red nape, the lack of a blue mantle and more yellow-green underparts. The two may both occur where their ranges abut east of the Gulf of Carpentaria."
+ },
+ {
+  "id": "forpus-passerinus",
+  "sci": "Forpus passerinus",
+  "en": "Green-rumped Parrotlet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Green-rumped_parrotlet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/65615037/medium.jpeg",
+   "credit": "(c) Nelson Wisnik, some rights reserved (CC BY-NC), uploaded by Nelson Wisnik (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 12.0,
+  "desc_thin": false,
+  "description": "The green-rumped parrotlet is 12 cm (4.7 in) long and weighs 20–28 g (0.71–0.99 oz). The plumage mainly bright green with duller/grayer napes. The eyes are dark brown and beaks and feet are light peach. Green-rumped parrotlets exhibit sexual dimorphism: males have purplish-blue primaries, secondaries, and coverts, with bright turquoise feathers on the leading edges of their wings; females lack blue but have more yellow-green on the head. Like all parrots, green-rumped parrotlets exhibit zygodactyly, meaning two toes face forward and two face backward. Juveniles look like adults.\nThe male of subspecies F. p. cyanophanes has more extensive purple-blue markings that form an obvious patch on the closed wing. The male of F. p. viridissimus has darker purple-blue markings on the secondaries. The male of F. p. cyanochlorus has darker purple-blue markings than the nominate species; the female is brighter yellow-green. The male of F. p. deliciosus compared to the nominate has the back and rump that is brighter emerald green that is tinted with pale blue; the primaries and secondaries pale blue with purple-blue near feather shafts. The forehead of the female is more yellow."
+ },
+ {
+  "id": "zanda-baudinii",
+  "sci": "Zanda baudinii",
+  "en": "Baudin's Black Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Baudin's_black_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/321031882/medium.jpg",
+   "credit": "(c) wacrakey, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 56.0,
+  "desc_thin": false,
+  "description": "Baudin's black cockatoo is about 56 cm (22 in) long. It is mostly dark-grey with narrow vague light-grey scalloping, which is produced by narrow pale-grey margins at the tip of dark-grey feathers. It has a crest of short feathers on its head, and it has whitish patches of feathers that cover its ears. Its lateral tail feathers are white with black tips, and the central tail feathers are all black. The irises are dark brown and the legs are brown-grey. Its beak is longer and narrower than that of the closely related and similar Carnaby's black cockatoo.\nThe adult male has a dark grey beak and pink eye-rings. The adult female has a bone coloured beak, grey eye-rings, and its ear patches are paler than that of the male. Juveniles have a bone coloured beak, grey eye-rings, and have less white in the tail feathers.\nOne individual had reached an age of 47 years by 1996."
+ },
+ {
+  "id": "poicephalus-cryptoxanthus",
+  "sci": "Poicephalus cryptoxanthus",
+  "en": "Brown-headed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Brown-headed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/410668181/medium.jpg",
+   "credit": "(c) lance_robinson, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The general plumage colour is green, indeed Sinclair et al., (1993) describe the species as \"the greenest parrot of the sub-region\". The under wing coverts are bright yellow, although the extent of this is variable. It is from this yellow that the specific name derives, kryptos being Greek for hidden or concealed and xanthos meaning yellow.\nThe rump is very bright, almost metallic green. As is the margins of the feathers on the underparts, with this coloration becoming more pronounced towards the vent and thighs. The neck is grey-brown merging to brown on the head but merging to greenish on the mantle. On some individuals, some random yellow feathers are visible on the head, neck and wings. Why these occur is unknown but it has been proposed that these may result from over-vigorous preening by parents.\nThe tail is edged olive-brown and tipped green. The iris is greenish yellow (Maclean 1993) or yellow (Forshaw 1989) and the legs and feet are blackish grey. The bill is dark, almost black above, merging to whitish below. The immature is always described as \"duller than the adult and yellowish below\" (for example, Maclean 1993). The flight is described as \"fast and direct\" (Forshaw 1989)."
+ },
+ {
+  "id": "polytelis-anthopeplus",
+  "sci": "Polytelis anthopeplus",
+  "en": "Regent Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Regent_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/335751119/medium.jpg",
+   "credit": "(c) Matt Campbell, some rights reserved (CC BY-NC), uploaded by Matt Campbell (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 42.0,
+  "desc_thin": false,
+  "description": "A yellowish-green parrot, long and slender, with similar patterning exhibited by the sexes. They are between 14½–16½\" (37–42 cm) in length and weigh four ounces.  The female is generally more green, the male much yellower.  The tail feathers above are dark blue-green, those beneath are black.  The male is generally yellow, with several shades on the head; its back is generally a collection of colorful shades of green; its beak generally red.\nImmature birds, like the female, are duller in colour than males."
+ },
+ {
+  "id": "aratinga-jandaya",
+  "sci": "Aratinga jandaya",
+  "en": "Jandaya Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Jandaya_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/163703172/medium.jpeg",
+   "credit": "(c) Lucas C. Marinho, some rights reserved (CC BY-NC), uploaded by Lucas C. Marinho (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "psilopsiagon-aymara",
+  "sci": "Psilopsiagon aymara",
+  "en": "Gray-hooded Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Grey-hooded_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1152855/medium.jpg",
+   "credit": "(c) Nicolas Olejnik, some rights reserved (CC BY), uploaded by Nicolas Olejnik (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": 20.0,
+  "desc_thin": false,
+  "description": "The grey-hooded parakeet is a small, slender parakeet growing to a length of about 20 cm (8 in). The upper parts are green and the flanks and underwing coverts are greenish-yellow. The forehead and crown are brownish-grey, and the chin, throat and breast are whitish-grey, sometimes with a bluish tinge at the side of the breast. The belly is green with a bluish tinge. The upper side of the long, narrow, pointed tail is green and the underside is grey. The beak is flesh-coloured, the iris is brown and the legs and feet are brownish-grey. The sexes are similar in appearance, but the male often has a more vivid grey breast, and immature birds have shorter tails."
+ },
+ {
+  "id": "aratinga-auricapillus",
+  "sci": "Aratinga auricapillus",
+  "en": "Golden-capped Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-capped_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118279128/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 30.0,
+  "desc_thin": false,
+  "description": "It is 30 cm (12 in) long and mostly green with a black beak, white eyerings, orange-red belly, and red face fading to yellow over the crown. Juvenile members of the A. auricapillus group develop their yellow head markings and red coloration on the lower body in adulthood. The approximate weight for golden-capped parakeets is 4.9-5.25 oz."
+ },
+ {
+  "id": "eupsittula-cactorum",
+  "sci": "Eupsittula cactorum",
+  "en": "Cactus Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Caatinga_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/141276572/medium.jpg",
+   "credit": "(c) Breno Farias, some rights reserved (CC BY-NC), uploaded by Breno Farias (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The Caatinga parakeet is about 25 cm (9.8 in) long. The sexes are alike. Adults of the nominate subspecies have a pale brown forecrown, cheeks, throat, sides of the neck, and breast. Bare whitish skin surrounds their eye. Their belly and vent area are yellow-orange. Their nape, ear coverts, upperparts, and tail are green. Their wings are mostly green with bluish flight feathers. Immature birds are similar to adults but have a completely green crown and duller underparts. Subspecies E. c. caixana has the same plumage pattern as the nominate but is overall paler."
+ },
+ {
+  "id": "cacatua-goffiniana",
+  "sci": "Cacatua goffiniana",
+  "en": "Tanimbar Corella",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tanimbar_corella",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/337787529/medium.jpeg",
+   "credit": "no rights reserved, uploaded by James Eaton (cc0) / iNaturalist"
+  },
+  "size_cm_hint": 31.0,
+  "desc_thin": false,
+  "description": "Tanimbar corellas weigh, on average, about 250 g (9 oz) for females and 300 g (11 oz) for males. They are about 31 cm (12 in) from head to tail.\nLike all members of the family Cacatuidae, the Tanimbar corella is crested, meaning it has a collection of feathers on its head that it can raise or lower. Its body is mainly covered with white feathers, with salmon- or pink-coloured feathers between the beak and eyes. The deeper (proximal) parts of the crest feathers and neck feathers are also a salmon colour, but the coloration here is hidden by the white colour of the more superficial (distal) areas of these feathers. The underside of its wing and tail feathers exhibit a yellowish tinge. The beak is pale grey and the eye colour is brown in females and black in males. The males are slightly larger, but otherwise look similar to the females.\nIn captivity, Tanimbar corellas live up to 30 years, making them one of the shorter-lived cockatoo species."
+ },
+ {
+  "id": "probosciger-aterrimus",
+  "sci": "Probosciger aterrimus",
+  "en": "Palm Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Palm_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/256916871/medium.jpg",
+   "credit": "(c) Mark Simpson, some rights reserved (CC BY-NC), uploaded by Mark Simpson (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 60.0,
+  "desc_thin": false,
+  "description": "The palm cockatoo is 55 to 60 cm (22 to 24 in) in length and weighs 910–1,200 g (2.01–2.65 lb). It may be the largest cockatoo species and largest parrot in Australia, although large races of yellow-tailed black cockatoos and sulphur-crested cockatoos broadly overlap in size. It is a distinctive bird with a large crest and has one of the largest bills of any parrot (only the hyacinth macaw's is larger). This powerful bill enables palm cockatoos not only to eat very hard nuts and seeds, but also enables males to break off thick (about 1 in (2.5 cm)) sticks from live trees to use for a drumming display. The male has a larger beak than the female. The beak is unusual, as the lower and upper mandibles do not meet for much of its length, allowing the tongue to hold a nut against the top mandible while the lower mandible works to open it. The palm cockatoo also has a distinctive red cheek patch that changes colour when the bird is alarmed or excited.\nThe  races P. a. goliath and P. a. stenolophus are larger than the nominate subspecies. The race stenolophus also has narrower crest feathers.\n\n\n=== Vocalisation ===\n\nThe vocalizations of palm cockatoos are similar to those of most wild parrots, but they have also been shown to produce a variety of additional syllables in display and exchange with neighbouring individuals. These additional syllables are mainly produced by males and are often combined to form long, complex sequences. In a population in the Iron Range, 30 different syllables were distinguished. The palm cockatoos from the east have different call types from the ones from other areas, due to their long term isolation."
+ },
+ {
+  "id": "psittacara-wagleri",
+  "sci": "Psittacara wagleri",
+  "en": "Scarlet-fronted Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Scarlet-fronted_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60173896/medium.jpg",
+   "credit": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 40.0,
+  "desc_thin": false,
+  "description": "The scarlet-fronted parakeet is 34 to 40 cm (13 to 16 in) long and weighs 162 to 217 g (5.7 to 7.7 oz). The sexes are alike. Adults are generally green that is yellower on the underparts; some have red speckles on their throat. Their English name comes from their red forehead and the front part of their crown. The undersides of their flight feathers and tail are olive-yellow. Their iris is pale gray surrounded by bare gray skin, their bill horn colored, and their legs and feet brownish. Subspecies P. w. transilis is overall somewhat smaller and darker than the nominate, and the red on its crown does not extend as far to the rear. Immature birds resemble adults but with less red on their head."
+ },
+ {
+  "id": "cyclopsitta-diophthalma",
+  "sci": "Cyclopsitta diophthalma",
+  "en": "Double-eyed Fig Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Double-eyed_fig_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/599926690/medium.jpg",
+   "credit": "(c) Owen Lishmund, some rights reserved (CC BY-NC), uploaded by Owen Lishmund (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 14.0,
+  "desc_thin": false,
+  "description": "The double-eyed fig parrot (Cyclopsitta diophthalma), also known as the blue-faced fig parrot, red-faced fig parrot, dwarf fig parrot, and the two-eyed fig parrot, primarily inhabits forests on New Guinea and nearby islands, but is also found in isolated communities along the tropical Australian coast, east of the Great Dividing Range. With an average total length of about 14 cm (5+1⁄2 in), it is the smallest parrot in Australia.\nMost subspecies of the double-eyed fig parrot are sexually dimorphic, with males having more red (less silvery and blue) to the face than the females. It is predominantly green with a very short tail, a disproportionately large head and bill, and red and blue facial markings. Its name is derived from a blue spot on the lores, which in New Guinean birds is roughly the same size as the eyes.\nAlthough assessed as of Least Concern by the IUCN, certain subspecies are under threat. Coxen's fig parrot (C. d. coxeni) is of one Australia's rarest and least known birds, having been recorded on fewer than 200 occasions since being described by Gould in 1866. It is classified as Endangered in Queensland (Nature Conservation Act 1992), New South Wales (New South Wales Threatened Species Conservation Act 1995), and also nationally in Australia (Environment Protection and Biodiversity Conservation Act 1999) as it has declined due, at least in part, to the clearing of lowland subtropical rainforest over its range."
+ },
+ {
+  "id": "amazona-vinacea",
+  "sci": "Amazona vinacea",
+  "en": "Vinaceous-breasted Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vinaceous-breasted_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/258128302/medium.jpg",
+   "credit": "(c) sobania, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 36.0,
+  "desc_thin": false,
+  "description": "The vinaceous-breasted amazon is 30 to 36 cm (12 to 14 in) long. It is mostly green, with red lores and forehead, a turquoise nape, and a lilac breast. Its carpal edge, speculum, and base of the outer tail feathers are red. Its primaries have blue to black ends. Its bill has a rosy pink to red base and a horn-colored tip. Its iris is red-orange to chestnut surrounded by pale gray skin and its legs and feet are gray."
+ },
+ {
+  "id": "psittacara-strenuus",
+  "sci": "Psittacara strenuus",
+  "en": "Pacific Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Pacific_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177135578/medium.jpg",
+   "credit": "(c) Don Marsille, some rights reserved (CC BY-NC), uploaded by Don Marsille (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 32.0,
+  "desc_thin": false,
+  "description": "The Pacific parakeet is about 32 cm (13 in) long. The sexes are alike. Adults are generally olive green which is slightly yellowish on the underparts; some have red speckles on their neck. The undersides of their flight feathers and tail are olive-yellow. Their iris is orange-red surrounded by bare pale beige skin, their bill horn colored, and their legs and feet are brownish."
+ },
+ {
+  "id": "cyanoramphus-auriceps",
+  "sci": "Cyanoramphus auriceps",
+  "en": "Yellow-crowned Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-crowned_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57107378/medium.jpeg",
+   "credit": "(c) Ben Weatherley, some rights reserved (CC BY-NC), uploaded by Ben Weatherley (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "Yellow-crowned parakeets are 23 cm long and primarily bright green. They have a red band fronting their eponymous golden crown. Their wings, when spread in flight, are bluish purple. Their eyes are either orange or red and their bill is grey.\nThe males of this species are larger than the females. The females can also be distinguished from males as their bills are disproportionally smaller."
+ },
+ {
+  "id": "amazona-leucocephala",
+  "sci": "Amazona leucocephala",
+  "en": "Cuban Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Cuban_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/16664274/medium.jpg",
+   "credit": "(c) mamu_man, some rights reserved (CC BY-NC), uploaded by mamu_man (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "psittacula-columboides",
+  "sci": "Psittacula columboides",
+  "en": "Malabar Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Blue-winged_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/107007214/medium.jpeg",
+   "credit": "(c) Manuel Ruedi, some rights reserved (CC BY-NC), uploaded by Manuel Ruedi (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The blue-winged parakeet is bluish grey with a long yellow-tipped tail. The black neck ring is complete in both males and females. The male has a bluish-green lower edge to the black collar and the upper mandible is red with a white tip while the female has an all black bill and has only the black collar. The female looks similar to the female of the plum-headed parakeet which however can be told apart by its broad yellow collar. Flocks move through the forest while calling out in a series of screeching keek-keek-keek calls.\nThey breed in the dry season after the northeast Monsoon and the chicks fledge before the southwest Monsoon in June. They nest in holes in trees (often tall Mesua ferrea species), especially old woodpecker and barbet nests. The birds begin breeding in December and eggs are laid in December and January. The usual clutch was 4 eggs which hatch after about 23 days. The female initially broods with the male bringing food and later the male takes over. The chicks fledge in about a month and leave the nest. Chicks are sometimes trapped for trade. Individuals have been observed feeding on the leaves of Loranthus longiflorus.\nThe closest living relative of this species is Layard's parakeet which is endemic to Sri Lanka."
+ }
+]

@@ -1,0 +1,322 @@
+[
+ {
+  "id": "psitteuteles-pusillus",
+  "sci": "Psitteuteles pusillus",
+  "en": "Little Lorikeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Little_lorikeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91942214/medium.jpeg",
+   "credit": "(c) Anthony Katon, some rights reserved (CC BY-NC), uploaded by Anthony Katon (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 15.0,
+  "desc_thin": false,
+  "description": "Measuring 15 cm (5.9 in) in length, the male and female are similarly coloured, although the latter is a little duller. The crown, lores and throat are red, the nape and shoulder bronze-coloured and the remainder of the plumage green. The belly is paler and yellow-green. In adults, the bill is black and the iris golden in colour. Immature individuals have a paler orange face and a brown iris and bill."
+ },
+ {
+  "id": "neophema-pulchella",
+  "sci": "Neophema pulchella",
+  "en": "Turquoise Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Turquoise_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30680196/medium.jpg",
+   "credit": "(c) David McCorquodale, some rights reserved (CC BY-NC), uploaded by David McCorquodale (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 22.0,
+  "desc_thin": false,
+  "description": "Ranging from 20 to 22 cm (8–83⁄4 in) long with a 32 cm (12+1⁄2 in) wingspan, the turquoise parrot is a small and slightly built parrot weighing around 40 g (1+1⁄2 oz). Both sexes have predominantly green upperparts and yellow underparts. The male has a bright turquoise-blue face which is darkest on the crown and slightly paler on the lores, cheeks and ear coverts. The neck and upperparts are grass-green, and the tail is grass-green with yellow borders. The wing appears bright blue with a darker leading edge when folded, with a band of red on the shoulder. The underparts are bright yellow, slightly greenish on the breast and neck. Some males have orange patches on the belly, which may extend to the breast. When extended, the wing is dark blue with red on the trailing edge on the upper surface, and black with dark blue leading coverts underneath. The upper mandible of the bill is black and may or may not fade to grey at the base, while the lower mandible is cream with a grey border in the mouth. The cere and orbital eye-ring are grey and the iris is dark brown. The legs and feet are grey.\nGenerally duller and paler, the female has a more uniform and paler blue face, with highly contrasting cream bare skin around the eye. It lacks the red shoulder band, and the blue shoulder markings are darker and less distinct. The throat and chest are pale green and the belly is yellow. The upper mandible is paler brown-grey with a darker tip, and has been recorded as black while nesting. The lower mandible is pale grey to almost white. When flying, the female has a broad white bar visible on the underwing.\nJuvenile birds of both sexes have less extensive blue on their faces, the coloration not extending past the eye. The upperparts resemble those of the adult female. Both sexes have the white wing-stripe, which disappears with maturity in males. The immature male has a red patch on the wing and may also have an orange wash on the belly."
+ },
+ {
+  "id": "pionus-sordidus",
+  "sci": "Pionus sordidus",
+  "en": "Red-billed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-billed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54296584/medium.jpg",
+   "credit": "(c) Felipe Campos, some rights reserved (CC BY-NC), uploaded by Felipe Campos (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 29.0,
+  "desc_thin": false,
+  "description": "The red-billed parrot is 27 to 29 cm (11 to 11 in) long and weighs about 272 g (9.6 oz). All of the subspecies have the eponymous red bill. Adults of the nominate subspecies P. s. sordidus have a dull green head whose feathers have dull blue edges; their eye is surrounded by bare grayish skin. Their back, wings, and inner tail feathers are olive green; their outer tail feathers are blue. Their upper breast is dull blue that becomes buff-olive with a pink tinge on the belly. Their undertail coverts are red. Immature birds have a green head and breast and yellowish green undertail coverts.\nSubspecies P. s. antelius is paler than the nominate and has very little blue on the breast. P. s. saturatus is darker than the nominate and P. s. ponsi is darker than saturatus. Subspecies P. s. corallinus is larger and greener than the nominate, and its mantle and back have gray and blue tinges. P. s. mindoensis is similar to corallinus but somewhat yellower."
+ },
+ {
+  "id": "psittacula-himalayana",
+  "sci": "Psittacula himalayana",
+  "en": "Slaty-headed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Slaty-headed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/159251764/medium.jpg",
+   "credit": "(c) Koshy Koshy, some rights reserved (CC BY) (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Adults of both sexes have green (tinted with blue) feathers on most of their body. It has a dark grey (slate colored) head with a light blue tint where head meets the neck. Males feature dark maroon patches on inner wing coverts. Females do not feature these maroon  patches. Males have long central tail feathers which are shorter in female birds. The tail is green at base and becomes deep blue and widely tipped with bright yellow. The parakeet features a bright red-orange upper mandible with a pale yellow lower. It also has a pale yellow eye."
+ },
+ {
+  "id": "brotogeris-sanctithomae",
+  "sci": "Brotogeris sanctithomae",
+  "en": "Tui Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Tui_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158896010/medium.jpg",
+   "credit": "(c) Félix Uribe, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 19.0,
+  "desc_thin": false,
+  "description": "The tui parakeet is 17 to 19 cm (6.7 to 7.5 in) long and weighs an average of 59 g (2.1 oz). Adults are mostly green that is yellower on the rump and underparts. They have yellow lores and forehead and a bluish tinge on the face. Their primaries are a darker green than the body and bluish on their underside. Their bill is brown. Subspecies B. s. takatsukasae differs from the nominate only by adding a yellow streak behind the eye. Immature birds are essentially the same as adults."
+ },
+ {
+  "id": "primolius-auricollis",
+  "sci": "Primolius auricollis",
+  "en": "Yellow-collared Macaw",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Golden-collared_macaw",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/92152569/medium.jpg",
+   "credit": "(c) doug_clarke, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 38.0,
+  "desc_thin": false,
+  "description": "It has a total length of about 38 cm (15 in), of which almost half is tail feathers. The general plumage is green, with a distinct yellow collar that is broadest on the back of the neck. The yellow collar develops as the bird ages, with more vibrant colors found in mature birds. The front and crown is brownish black. The remiges and primary coverts are blue and the long, pointed tail has a red base, a narrow green center and a blue tip. The underside of the tail and flight feathers are greenish-yellow, similar to that of several other small macaws such as the blue-winged and red-bellied macaw. The legs are a dull pinkish color, and the iris is reddish to dull yellow. It has extensive bare white facial skin and the heavy bill is black, often tipped pale grey."
+ },
+ {
+  "id": "loriculus-beryllinus",
+  "sci": "Loriculus beryllinus",
+  "en": "Sri Lanka Hanging-Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Sri_Lanka_hanging_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/95897071/medium.jpg",
+   "credit": "(c) Ravisara Jayamanna, some rights reserved (CC BY-NC), uploaded by Ravisara Jayamanna (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 13.0,
+  "desc_thin": false,
+  "description": "The Sri Lanka hanging parrot is a small hanging parrot that is 13 cm long with a short tail. The adult has a red crown and rump. The nape and back have on orange tint. The chin and throat are pale blue. The beak is red and the irises are white.\nImmature birds lack the orange hue to the back, have a duller rump, and have only a hint of orange on the crown. They have a faint blue throat.  They have orange beaks and brown irises."
+ },
+ {
+  "id": "amazona-festiva",
+  "sci": "Amazona festiva",
+  "en": "Festive Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Festive_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/130246133/medium.jpeg",
+   "credit": "(c) Edwin Múnera Chavarría, some rights reserved (CC BY-NC), uploaded by Edwin Múnera Chavarría (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The subspecies bodini has more red to the forecrown and more blue to the face than the nominate. In flight, both subspecies show deep blue outer wings (outer webs of the primaries and the primary coverts) and a red rump, but the latter is reduced in juveniles."
+ },
+ {
+  "id": "neophema-petrophila",
+  "sci": "Neophema petrophila",
+  "en": "Rock Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rock_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/278320126/medium.jpg",
+   "credit": "(c) Tom Hunt, some rights reserved (CC BY-NC), uploaded by Tom Hunt (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 24.0,
+  "desc_thin": false,
+  "description": "Ranging from 22 to 24 cm (8+3⁄4 to 9+1⁄2 in) long with a 33–34 cm (13–13+1⁄2 in) wingspan, the rock parrot is a small and slightly built parrot weighing around 50–60 g (1+3⁄4–2 oz). The sexes are similar in appearance, with predominantly olive-brown upperparts including the head and neck, and more yellowish underparts. A dark blue band runs across the upper forehead between the eyes, bordered above by a thin light blue line that extends behind the eyes and below by a thicker light blue band across the lower forehead. The forecheeks and lores are light blue. In the adult female, the dark blue band is slightly duller and there is less blue on the face. The wings are predominantly olive, and display a two-toned blue leading edge when folded. The primary flight feathers are black with dark blue edges, while the inner wing feathers are olive. The tail is turquoise edged with yellow on its upper surface. The breast, flanks and abdomen are more olive-yellow, becoming more yellow towards the vent. The bases of the feathers on the head and body are grey, apart from those on the nape, which are white. These are not normally visible. The bill is black with pale highlights on both mandibles, the cere is black. The orbital eye-ring is grey and the iris is dark brown. The legs and feet are dark grey, with a pink tinge on the soles and rear of the tarsi. Subspecies zietzi has paler and more yellowish plumage overall, though is of a similar size. Its plumage darkens with wear, and may be indistinguishable from the nominate subspecies when old.\nJuveniles are a duller, darker olive all over and either lack or have indistinct blue frontal bands. Their primary flight feathers have yellow fringes. They have a yellowish or orange bill initially, which turns brown by ten weeks of age. Juvenile females have pale oval spots on their fourth to eighth primary flight feathers. They moult from juvenile to immature plumage when a few months old. Immature males and females closely resemble adults, though have worn-looking flight feathers. They then moult into adult plumage when they are twelve months old.\nThe rock parrot can be confused with the elegant parrot in Western Australia, or blue-winged parrot in South Australia, both of which have similar (though brighter) olive plumage. These two species also have yellow lores and the latter has much bluer wings. The orange-bellied parrot has brighter green plumage and green-yellow lores."
+ },
+ {
+  "id": "cacatua-moluccensis",
+  "sci": "Cacatua moluccensis",
+  "en": "Salmon-crested Cockatoo",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Salmon-crested_cockatoo",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263625646/medium.jpg",
+   "credit": "(c) Kyle Pearce, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "amazona-xantholora",
+  "sci": "Amazona xantholora",
+  "en": "Yellow-lored Amazon",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yucatan_amazon",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2291842/medium.JPG",
+   "credit": "(c) J. Ismael Arellano Ciau, some rights reserved (CC BY-NC), uploaded by J. Ismael Arellano Ciau (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": true,
+  "description": ""
+ },
+ {
+  "id": "pyrilia-pulchra",
+  "sci": "Pyrilia pulchra",
+  "en": "Rose-faced Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Rose-faced_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/471658689/medium.jpeg",
+   "credit": "(c) Alexandre Terrigeol, some rights reserved (CC BY-NC-ND), uploaded by Alexandre Terrigeol (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 23.0,
+  "desc_thin": false,
+  "description": "The rose-faced parrot is 21.5 to 23 cm (8.5 to 9.1 in) long. Adults have a reddish brown crown and are pinkish rose from their lores across most of their face. Their nape and breast are dull olive-yellow. Most of the rest of their body is green, with orange and yellow on the bend of the wing, mostly black flight feathers, and blue on the tips of the tail feathers. Their bill is pale creamy whitish. Immature birds are much like adults but with limited rose on the face."
+ },
+ {
+  "id": "rhynchopsitta-terrisi",
+  "sci": "Rhynchopsitta terrisi",
+  "en": "Maroon-fronted Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Maroon-fronted_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249378304/medium.jpg",
+   "credit": "(c) Leonardo Guzmán, some rights reserved (CC BY-NC-ND), uploaded by Leonardo Guzmán (cc-by-nc-nd) / iNaturalist"
+  },
+  "size_cm_hint": 45.0,
+  "desc_thin": false,
+  "description": "The maroon-fronted parrot is a large mostly green parrot which measures 40–45 cm (16–18 in) in length and weighs 390–470 g (14–17 oz). The adults have a dark maroon brow which extends over the rim of bare yellow skin that surrounds the eyes. They have a brighter red at the bend of the wing. The tail is long and pointed. The underside of the wings are blackish. The juvenile has a pale beak, whitish eye-rings, and lack the dark maroon stripe over each eye."
+ },
+ {
+  "id": "geoffroyus-geoffroyi",
+  "sci": "Geoffroyus geoffroyi",
+  "en": "Red-cheeked Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-cheeked_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/360987940/medium.jpeg",
+   "credit": "(c) Abu Hamas, some rights reserved (CC BY-SA), uploaded by Abu Hamas (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "Both the male and female red-cheeked parrot have predominantly bright green plumage and a stocky body with a short tail. The adult male has pink-tinged red cheeks and face with a blue-mauve back of head and crown, chestnut wing coverts, blue under wing, and a coral-pink upper mandible. The female has a brown head and more olive-brown cheeks and throat, and all brown-grey bill. Juveniles also have the olive tinge, but their heads are more green. All red-cheeked parrots have yellow eyes.  Their beaks are designed for eating seeds and fruit. Their swift and direct flight pattern is distinct and similar to that of a starling. Their call is \"metallic\". Typical body dimensions are: height 250 mm (9.8 in), length 203 mm (8.0 in), and wing span 135 to 155 mm (5.3–6.1 in)."
+ },
+ {
+  "id": "enicognathus-leptorhynchus",
+  "sci": "Enicognathus leptorhynchus",
+  "en": "Slender-billed Parakeet",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Slender-billed_parakeet",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29552701/medium.jpeg",
+   "credit": "(c) Alexander Görlt, some rights reserved (CC BY-NC), uploaded by Alexander Görlt (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 40.0,
+  "desc_thin": false,
+  "description": "The slender-billed parakeet is about 40 cm (16 in) long. The species' English name comes from its greatly elongated mandible. The sexes are the same. Adults have a red forehead and lores in an otherwise yellow-green face. Their upperparts are dull green. Their underparts are yellowish green with a reddish patch on the belly. Their tail is also reddish; their wings are mostly green with bluish green primaries. Immature birds are similar to adults but are a darker green and have whitish skin around the eye."
+ },
+ {
+  "id": "deroptyus-accipitrinus",
+  "sci": "Deroptyus accipitrinus",
+  "en": "Red-fan Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Red-fan_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64881892/medium.jpg",
+   "credit": "(c) Frank Dietze, some rights reserved (CC BY), uploaded by Frank Dietze (cc-by) / iNaturalist"
+  },
+  "size_cm_hint": null,
+  "desc_thin": false,
+  "description": "The red-fan parrot possesses elongated neck feathers that can be raised to form an elaborate fan, which greatly increases the bird's apparent size, and is possibly used when threatened. It generally lives in undisturbed forest, feeding in the canopy on fruits. It has a dark brown face with white streaks, bare black patch round its brown eye, green wings, flanks and tail and red and blue barred breast."
+ },
+ {
+  "id": "alipiopsitta-xanthops",
+  "sci": "Alipiopsitta xanthops",
+  "en": "Yellow-faced Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-faced_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/275319999/medium.jpg",
+   "credit": "(c) abelardomendesjr, some rights reserved (CC BY-NC), uploaded by abelardomendesjr (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 27.0,
+  "desc_thin": false,
+  "description": "Measuring about 27 cm (11 in) in length, the yellow-faced parrot has a stocky body and short tail. It is a predominantly green and yellow-plumaged bird that in adults has a yellow crown, lores, cheeks and auriculars. The rest of the head, upperparts and chest are green with some yellowish-green scalloping. The sides of the belly are often mottled orange and yellow, and the belly is often yellow. However, there are significant variations in the amount of yellow to the underparts, and some show virtually none. The wings are predominantly green, occasionally with some yellow spots. There is blue edging on the primary coverts. The central feathers of the short tail are green, while the lateral ones are more yellow-green and have orange-red bases. The bill is yellowish-horn with a dark culmen, the cere is pinkish, and the iris is yellow. The legs are light grey. There is no sexual dimorphism; the male and female are alike in plumage and size. Immatures have less yellow to the head."
+ },
+ {
+  "id": "neopsephotus-bourkii",
+  "sci": "Neopsephotus bourkii",
+  "en": "Bourke's Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Bourke's_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/264897644/medium.jpg",
+   "credit": "(c) JJ Harrison, some rights reserved (CC BY-SA) (cc-by-sa) / iNaturalist"
+  },
+  "size_cm_hint": 18.0,
+  "desc_thin": false,
+  "description": "Bourke's parrot is a relatively small species. They tend to vary between 18 cm and 23 cm in length with a tail length of approximately 9 cm. The females of the species tend to be slightly smaller than the males: males of the species weigh between 47 g and 49 g whilst females weigh between 41 g and 49 g. Both sexes look very similar until the age of nine months, after which they come into full plumage colour. In the wild, Bourke's parakeets display an overall brown colouration with a pink abdomen, pinkish breast and a blue rump. The legs are dark-brown, with zygodactyl toes. The bill is yellowish-brown. The adult male has a blue forehead while the adult female has a little or no blue on the forehead. Bourke's parrot's feathers help it blend in with the reddish soil of its arid home.\nThe bird's call has been described as a \"soft twitter\". Other sounds made by Bourke's parrot go \"chu-vee\", \"chirrup chirrup\", or when alarmed, \"kik-kik-kik\"."
+ },
+ {
+  "id": "pionites-leucogaster",
+  "sci": "Pionites leucogaster",
+  "en": "White-bellied Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Green-thighed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/432053134/medium.jpg",
+   "credit": "(c) Luciano Bernardes, some rights reserved (CC BY-NC), uploaded by Luciano Bernardes (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 25.0,
+  "desc_thin": false,
+  "description": "The white-bellied parrot is 23 to 25 cm (9.1 to 9.8 in) long and weighs about 155 g (5.5 oz). It is a chunky, short-tailed parrot. The sexes are the same. Adults of the nominate subspecies P. l. leucogaster have  mostly yellow heads with orange crowns and napes. Their upperparts are mostly dull green with a bright green rump. Their throat, the sides of their neck, their breast, and their vent are yellow. Also, their lower breast and belly are white with bright green thigh feathers. Their wing is mostly dull green with reddish-orange axillaries and dark blue primaries. Their tail is bright green. Furthermore, their bill is pale horn colored with a bright pinkish cere, their iris reddish brown, and their legs and feet bright pink. Immature birds are similar to adults but with a brownish crown and nape.\nSubspecies P. l. xanthomerius has an apricot-orange crown and nape, yellow thigh feathers, and blackish legs and feet. P. l. xanthurus also has an apricot-orange crown and nape and yellow thigh feathers. Its tail is yellow. It has the same pinkish legs and feet as the nominate. Both of these subspecies intergrade with each other and with the nominate.\nThe white breast feathers of the white-bellied parrot are often stained a chestnut brown (or \"isobel\") color. This may be due to tannin staining, as result of their particular affinity for bathing by rubbing their bodies against wet leaves and other plant matter. The head and nape plumage of the white-bellied parrot has been observed to fluoresce strongly under ultraviolet light."
+ },
+ {
+  "id": "rhynchopsitta-pachyrhyncha",
+  "sci": "Rhynchopsitta pachyrhyncha",
+  "en": "Thick-billed Parrot",
+  "ko": null,
+  "koMissing": true,
+  "extinct": false,
+  "wikipedia_url": "http://en.wikipedia.org/wiki/Thick-billed_parrot",
+  "photo": {
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/102436108/medium.jpg",
+   "credit": "(c) Hennie Cuper, some rights reserved (CC BY-NC) (cc-by-nc) / iNaturalist"
+  },
+  "size_cm_hint": 38.0,
+  "desc_thin": false,
+  "description": "The thick-billed parrot is a medium-sized, bright green parrot with a large black bill and red forecrown, shoulder and thighs. Adult eyes are amber, while juveniles have brown eyes. The rest of the bird is bright green. Thick-billed parrots show red shoulders and leading edge on the underwing, followed by a blackish green stripe, then a yellow stripe, followed by the remaining underwing showing dark green. The tail is black. It is 38 cm (15 in) long and weighs 315–370 g (11.1–13.1 oz). Thick-billed parrots have lived up to 33 years in captivity. It is similar in appearance to the military macaw (Ara militaris), which is larger with a proportionally longer tail and blue flight feathers and rump, and the lilac-crowned amazon (Amazona finschi). Note that these are not the phylogenetically closest relatives – see Taxonomy.\nThe voice of the thick-billed parrot resembles a high-pitched macaw and includes a variety of harsh, rolling calls described as similar to human laughter. Although readily becoming hand-tame, the species is nervous and difficult to breed in captivity, with very low reproduction rates. Captive birds are fair voice mimics and can learn a few phrases and words. However, their piercing calls and comparatively duller coloration has prevented them from becoming popular pet trade birds, and currently there is little demand for them as illegally wild-caught or captive bred birds.\nLike other parrots, they manipulate their food by holding it with one foot. Highly social, they may feed each other food stored in their crop (a pouch in the throat), and spend their free time preening each other. Groups of over 1,000 birds in one place are known from historical records."
+ }
+]
