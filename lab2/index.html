@@ -53,6 +53,28 @@ body.on-cover .brand{visibility:hidden}
 .cover .fan{position:absolute; left:0; top:0; bottom:0; width:50vw; z-index:1; opacity:.9}
 @media (max-width:760px){ .cover .fan{width:auto; right:0; top:auto; height:40svh} }
 
+
+/* 표지 앵무새 */
+.perch{position:absolute; right:-7vw; bottom:-14svh; height:min(84svh,900px); aspect-ratio:700/1244; z-index:1; pointer-events:none}
+.perch svg{width:100%; height:100%; overflow:visible}
+.perch .pb{transition:transform .9s cubic-bezier(.3,1.35,.5,1), opacity .3s; transform-box:view-box; transform-origin:350px 760px}
+.perch .pb.away{transform:translateY(-130vh); opacity:0; transition:none}
+.perch .pb.fly{transform:translate(55vw,-110vh) rotate(-24deg); transition:transform 1.3s cubic-bezier(.5,0,.8,.4), opacity 1.3s}
+.perch .pb.flip{transform:scaleX(-1)}
+.perch .pb.shake{animation:shake .14s 7 linear}
+.perch .pb.hop{animation:hop2 .4s ease}
+@keyframes shake{0%,100%{transform:translateX(0) rotate(0)} 25%{transform:translateX(-6px) rotate(-1.4deg)} 75%{transform:translateX(6px) rotate(1.4deg)}}
+@keyframes hop2{0%,100%{transform:translateY(0)} 45%{transform:translateY(-34px)}}
+.perch .hitbird{pointer-events:visiblePainted; cursor:pointer}
+.perch .lid{transform:scaleY(0); transform-box:view-box; transform-origin:241px 84px; animation:lid 5s infinite}
+.perch .happy{opacity:0; transition:opacity .15s}
+.perch.tickle .happy{opacity:1}
+.perch.tickle .lid{animation:none; transform:scaleY(1)}
+.peek{position:fixed; z-index:3; width:clamp(150px,18vw,260px); aspect-ratio:380/330; pointer-events:none;
+  transition:transform .6s cubic-bezier(.3,1.3,.5,1)}
+.peek svg{width:100%; height:100%; overflow:visible}
+@media (max-width:760px){ .perch{right:-22vw; height:46svh; bottom:-12svh} .cover .inner{margin-top:-26svh} }
+
 /* ── 질문 화면: 세 영역 ── */
 .q{display:grid; min-height:calc(100svh - 102px)}
 .zone-fig{position:relative}
@@ -318,7 +340,7 @@ const RFOCUS = { all:[0,0,700,1244], crown:[170,0,250,130], forehead:[110,30,130
   throat:[160,180,180,130], collar:[160,180,180,130], breast:[120,220,240,260], belly:[150,460,250,240], back:[290,80,180,180],
   wing:[320,220,250,540], tail:[320,740,230,504], beak:[80,70,150,170], eyeskin:[200,40,90,90], crest:[200,-30,260,170] };
 (function defs(){
-  const m = ["all", "branch", "feet", ...RPARTS].map(k => `<mask id="bm-${k}" maskUnits="userSpaceOnUse" x="0" y="0" width="${BW}" height="${BH}"><image href="bird/m-${k}.png" width="${BW}" height="${BH}"/></mask>`).join("");
+  const m = ["all", "branch", "feet", "bird", ...RPARTS].map(k => `<mask id="bm-${k}" maskUnits="userSpaceOnUse" x="0" y="0" width="${BW}" height="${BH}"><image href="bird/m-${k}.png" width="${BW}" height="${BH}"/></mask>`).join("");
   document.body.insertAdjacentHTML("afterbegin", `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>${m}
     <pattern id="bp-barred" width="22" height="16" patternUnits="userSpaceOnUse"><path d="M0 11 Q11 3 22 11" fill="none" stroke="rgba(0,0,0,.45)" stroke-width="3"/></pattern>
     <pattern id="bp-scaled" width="24" height="20" patternUnits="userSpaceOnUse"><path d="M0 20 A12 12 0 0 1 24 20" fill="none" stroke="rgba(0,0,0,.4)" stroke-width="2.5"/></pattern></defs></svg>`);
@@ -482,15 +504,85 @@ const S = { view:"cover", answers:[], rejected:new Set(), declined:new Set(), de
 
 
 /* ───────── 표지 ───────── */
+const BRANCH_D = "M26 604 C120 620 260 665 400 712 C480 738 560 768 640 792 L636 806 C560 798 480 776 400 752 C260 712 120 682 40 640 C24 632 20 612 26 604 Z";
+const BRANCH_GRAIN = "M70 622 C120 636 160 648 200 660 M300 692 C350 706 390 720 430 731 M480 752 C520 764 560 776 600 788";
+function coverBirdSVG(){
+  return `<svg viewBox="0 0 700 1244" aria-hidden="true">
+    <path d="${BRANCH_D}" fill="#141413" stroke="#fff" stroke-width="5" stroke-linejoin="round"/>
+    <path d="${BRANCH_GRAIN}" fill="none" stroke="#fff" stroke-width="2.5" opacity=".6" stroke-linecap="round"/>
+    <g class="pb away">
+      <rect class="hitbird" width="700" height="1244" fill="#000" mask="url(#bm-bird)"/>
+      <image href="bird/line-bird.png" width="700" height="1244"/>
+      <g class="lid"><ellipse cx="241" cy="84" rx="21" ry="20" fill="#000"/><path d="M220 86 Q241 98 262 86" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/></g>
+      <g class="happy"><ellipse cx="241" cy="84" rx="22" ry="21" fill="#000"/><path d="M222 90 Q241 70 260 90" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/></g>
+    </g></svg>`;
+}
+function peekSVG(){ // 머리만 잘라낸 그림
+  return `<svg viewBox="90 0 380 330" aria-hidden="true"><rect width="700" height="1244" fill="#000" mask="url(#bm-bird)"/><image href="bird/line-bird.png" width="700" height="1244"/>
+    <g class="lid" style="transform-box:view-box;transform-origin:241px 84px;animation:lid 2.4s infinite"><ellipse cx="241" cy="84" rx="21" ry="20" fill="#000"/><path d="M220 86 Q241 98 262 86" fill="none" stroke="#fff" stroke-width="4"/></g></svg>`;
+}
+let coverRun = 0;
 function renderCover(){
   $v.innerHTML = `<section class="screen cover"><div class="inner">
     <h1>앵무새 도감</h1><p>이름을 몰라도 괜찮아요. 깃털을 골라 찾는 ${SP.length}종의 앵무새</p>
     <div class="choices">
       <button class="big solid" id="toFind">찾기<small>사진 속 새를 보며 깃털 고르기</small></button>
       <button class="big" id="toBrowse">도감 ${SP.length}종<small>이름으로 둘러보기</small></button>
-    </div></div></section>`;
+    </div></div>
+    <div class="perch" id="perch">${coverBirdSVG()}</div></section>`;
   document.getElementById("toFind").onclick = resetFind;
   document.getElementById("toBrowse").onclick = () => nav("browse");
+  coverPlay(++coverRun);
+}
+async function coverPlay(run){
+  const alive = () => run === coverRun && S.view === "cover";
+  const perch = document.getElementById("perch"), pb = perch.querySelector(".pb");
+  const sleep = async ms => { await wait(ms); return alive(); };
+  let lastMove = Date.now(), tickling = false;
+  const onMove = () => { lastMove = Date.now(); };
+  addEventListener("pointermove", onMove);
+  perch.querySelector(".hitbird").addEventListener("pointerenter", async () => {
+    if (tickling || !pb.classList.contains("on")) return; tickling = true; lastMove = Date.now();
+    perch.classList.add("tickle"); pb.classList.add("shake"); await wait(1050);
+    perch.classList.remove("tickle"); pb.classList.remove("shake"); tickling = false;
+  });
+  const cleanup = () => { removeEventListener("pointermove", onMove); document.querySelectorAll(".peek").forEach(n => n.remove()); };
+  while (alive()) {
+    // 1) 화면 구석에서 고개를 내밀었다 사라지기 (세 번)
+    for (let k = 0; k < 3; k++) {
+      const edge = ["left", "right", "top", "bottom"][Math.floor(Math.random() * 4)];
+      const el = document.createElement("div"); el.className = "peek"; el.innerHTML = peekSVG(); document.body.appendChild(el);
+      const w = el.getBoundingClientRect().width, h = el.getBoundingClientRect().height, r = Math.random();
+      let hide, show;
+      if (edge === "right") { Object.assign(el.style, { right:"0", top:(10 + r * 60) + "vh" }); hide = `translateX(${w}px)`; show = `translateX(${w * .25}px)`; }
+      if (edge === "left") { Object.assign(el.style, { left:"0", top:(10 + r * 60) + "vh" }); hide = `translateX(-${w}px) scaleX(-1)`; show = `translateX(-${w * .25}px) scaleX(-1)`; }
+      if (edge === "top") { Object.assign(el.style, { top:"0", left:(10 + r * 70) + "vw" }); hide = `translateY(-${h}px) rotate(180deg)`; show = `translateY(-${h * .3}px) rotate(180deg)`; }
+      if (edge === "bottom") { Object.assign(el.style, { bottom:"0", left:(10 + r * 70) + "vw" }); hide = `translateY(${h}px) rotate(-12deg)`; show = `translateY(${h * .2}px) rotate(-12deg)`; }
+      el.style.transition = "none"; el.style.transform = hide; void el.offsetWidth; el.style.transition = "";
+      el.style.transform = show;
+      if (!await sleep(1500)) { cleanup(); return; }
+      el.style.transform = hide;
+      if (!await sleep(700)) { cleanup(); return; }
+      el.remove();
+      if (!await sleep(400)) { cleanup(); return; }
+    }
+    // 2) 빈 나뭇가지로 돌아와 앉기
+    pb.classList.remove("fly"); pb.classList.add("away"); void pb.getBoundingClientRect();
+    pb.classList.remove("away"); pb.classList.add("on");
+    lastMove = Date.now();
+    // 3) 가만히 있으면 두리번거리다 날아감
+    while (alive()) {
+      if (!await sleep(500)) { cleanup(); return; }
+      if (tickling || Date.now() - lastMove < 6500) continue;
+      for (let t = 0; t < 2; t++) { pb.classList.add("flip"); if (!await sleep(700)) { cleanup(); return; } pb.classList.remove("flip"); if (!await sleep(650)) { cleanup(); return; } }
+      if (Date.now() - lastMove < 2000) continue;              // 그 사이 마우스가 움직이면 그대로 앉아 있음
+      pb.classList.add("hop"); if (!await sleep(400)) { cleanup(); return; }
+      pb.classList.remove("hop", "on"); pb.classList.add("fly");
+      if (!await sleep(2600)) { cleanup(); return; }
+      break;
+    }
+  }
+  cleanup();
 }
 
 /* ───────── 찾기 ───────── */
