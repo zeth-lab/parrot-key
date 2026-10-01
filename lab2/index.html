@@ -203,6 +203,7 @@ body.on-cover .brand{visibility:hidden}
 .result .photo figcaption{position:absolute; left:12px; right:12px; bottom:10px; font-size:11px; color:rgba(255,255,255,.7); font-weight:500; text-shadow:0 1px 6px #000}
 .panel{display:grid; gap:14px}
 .panel .ask{margin:0; color:var(--dim)}
+.panel .intro{margin:0; max-width:34em; font-size:clamp(15px,1.25vw,18px); font-weight:500; line-height:1.65; color:var(--ink); opacity:.9}
 .panel h1{margin:0; font-weight:900; font-size:clamp(44px,6.5vw,96px); line-height:1; letter-spacing:-.04em}
 .aka{margin:0; color:var(--dim); font-weight:500; line-height:1.6}
 .badge{display:inline-block; padding:2px 10px; border-radius:999px; background:var(--soft2); font-size:12px; margin-right:6px; color:var(--ink)}
@@ -876,6 +877,67 @@ function bindStars(root){
   });
 }
 
+/* ───────── 이름 아래 짧은 소개 ───────── */
+// 잘 알려진 종은 직접 쓴 소개, 나머지는 그 종의 데이터(사는 곳·크기·눈에 띄는 색)로 두 문장을 만든다
+const INTRO = {
+  "Melopsittacus undulatus":"세계에서 가장 많이 기르는 앵무새예요. 야생에서는 오스트레일리아 내륙의 메마른 땅을 큰 무리로 날아다니며 풀씨를 찾아요. 파랑·노랑 사랑앵무는 사람이 길러 만든 색이고, 야생 사랑앵무는 연두색이에요.",
+  "Nymphicus hollandicus":"노란 얼굴에 주황색 뺨, 머리 위로 솟은 볏이 트레이드마크예요. 코카투 무리에서 가장 작은 새로, 휘파람으로 노래를 따라 부르는 걸 좋아해요.",
+  "Psittacus erithacus":"수수한 회색 몸에 새빨간 꼬리를 가진 아프리카의 앵무예요. 말을 흉내 내는 능력과 지능이 뛰어나기로 유명해서, 단어의 뜻을 이해하는지 알아보는 연구에 자주 등장해요.",
+  "Ara macao":"빨강·노랑·파랑이 선명하게 이어지는 중남미의 큰 마코앵무예요. 몸길이의 절반 가까이가 긴 꼬리이고, 짝을 지어 열대우림 위를 날아다녀요.",
+  "Ara ararauna":"등은 파랑, 배는 노랑으로 깔끔하게 나뉜 마코앵무예요. 얼굴의 흰 맨살에 가는 깃털 줄이 있는데, 사람의 지문처럼 새마다 조금씩 달라요.",
+  "Cacatua galerita":"온몸이 흰색이고 머리 위에 노란 볏을 가진 큰 코카투예요. 시끄럽고 영리해서, 오스트레일리아 도시에서는 쓰레기통 뚜껑 여는 법을 서로 배워 퍼뜨린 것으로 알려져 있어요.",
+  "Eolophus roseicapilla":"분홍색 얼굴과 배, 회색 날개를 가진 오스트레일리아의 코카투예요. 들판에서 큰 무리를 지어 다니고, 거꾸로 매달리거나 빗속에서 노는 장난스러운 모습이 자주 보여요.",
+  "Strigops habroptilus":"날지 못하고 밤에 활동하는 뉴질랜드의 초록 앵무예요. 세계에서 가장 무거운 앵무새이고, 멸종 직전까지 갔다가 지금은 한 마리 한 마리 이름을 붙여 보호하고 있어요.",
+  "Nestor notabilis":"뉴질랜드 남섬의 눈 덮인 산에 사는 올리브색 앵무예요. 날개를 펴면 안쪽의 주황색이 드러나요. 호기심과 지능이 매우 높아 퍼즐을 풀고, 등산객의 가방이나 자동차를 뜯어보기도 해요.",
+  "Myiopsitta monachus":"회색 얼굴과 가슴, 초록 몸을 가진 남미의 작은 앵무예요. 나뭇가지로 여러 가족이 함께 쓰는 아파트 같은 둥지를 지어요. 기르던 새가 퍼져 세계 여러 도시에서 무리를 이루고 살아요.",
+  "Trichoglossus moluccanus":"파란 머리, 주황색 가슴, 초록 등으로 무지개처럼 화려한 로리킷이에요. 붓처럼 생긴 혀로 꽃꿀을 핥아 먹고, 오스트레일리아 동부의 도시 공원에서도 흔히 볼 수 있어요.",
+  "Psittacula krameri":"연두색 몸에 빨간 부리, 수컷은 목에 검은색과 분홍색 띠를 두른 앵무예요. 원래 남아시아와 아프리카에 살지만, 지금은 런던 같은 유럽 도시에서도 야생 무리를 볼 수 있어요.",
+  "Eclectus roratus":"수컷은 선명한 초록, 암컷은 빨강과 파랑이라 오랫동안 서로 다른 종으로 여겨졌던 앵무예요. 뉴기니와 주변 섬의 숲에 살아요.",
+  "Aratinga solstitialis":"온몸이 노랑과 주황으로 빛나는 남미의 작은 코뉴어예요. 무리 지어 시끄럽게 날아다니지만, 야생 개체는 많이 줄어 보호가 필요해요.",
+  "Anodorhynchus hyacinthinus":"온몸이 짙은 코발트 파랑이고 눈 둘레와 부리 아래만 노란, 몸길이로는 세계에서 가장 큰 앵무새예요. 거대한 부리로 아주 단단한 야자 열매도 깨 먹어요.",
+  "Cyanopsitta spixii":"회청색 몸을 가진 브라질의 마코앵무예요. 야생에서 한때 완전히 사라졌고, 사람이 길러 낸 새를 다시 자연으로 돌려보내는 노력이 이어지고 있어요.",
+  "Conuropsis carolinensis":"미국 동부에 살던 유일한 토종 앵무새로, 초록 몸에 노랑과 주황 머리를 가졌어요. 숲이 사라지고 사냥을 당하면서 20세기 초에 멸종했어요.",
+  "Probosciger aterrimus":"온몸이 검고 뺨에 빨간 맨살이 있는 커다란 코카투예요. 나뭇가지를 쥐고 나무를 두드려 소리를 내는, 북을 치는 새로 알려져 있어요.",
+  "Psittrichas fulgidus":"검은 몸에 빨간 배와 날개, 깃털 없는 얼굴이 독수리를 닮은 뉴기니의 앵무예요. 거의 무화과만 먹고 살아요.",
+  "Agapornis roseicollis":"분홍색 얼굴과 초록 몸을 가진 아프리카 남서부의 작은 앵무예요. 짝과 붙어 지내 '러브버드'로 불리고, 나무껍질 조각을 꽁지깃에 꽂아 둥지로 날라요.",
+  "Agapornis fischeri":"주황색 얼굴과 초록 몸, 눈 둘레의 흰 맨살 고리가 눈에 띄는 작은 모란앵무예요. 탄자니아의 사바나에서 짝이나 작은 무리로 지내요.",
+  "Agapornis personatus":"검은 얼굴과 노란 목, 눈 둘레의 흰 맨살 고리가 가면을 쓴 것처럼 보이는 모란앵무예요. 탄자니아의 사바나에 살아요."
+};
+// 받침이 있으면 a, 없으면 b
+const josa = (w, a, b) => { const c = w.charCodeAt(w.length - 1); return c >= 0xAC00 && c <= 0xD7A3 && (c - 0xAC00) % 28 ? a : b; };
+const CADJ = { g:"초록색", lg:"연두색", b:"파란", sb:"하늘색", y:"노란", o:"주황색", r:"빨간", p:"분홍색", v:"보라색", w:"흰", gr:"회색", k:"검은", br:"갈색" };
+function introOf(sp, A){
+  if (INTRO[sp.sci]) return INTRO[sp.sci];
+  A = A || Object.assign({}, sp.base, sp.looks[0]);
+  const where = (sp.region || "").replace(/\s*\([^)]*\)/g, "").replace(/\s*고유종/g, "").trim();
+  const cm = sp.sizeCm, size = cm < 20 ? "작은" : cm < 35 ? "중간 크기" : cm < 60 ? "큰" : "아주 큰", ex = !!sp.extinct;
+  const be = w => ex ? josa(w, "이었어요", "였어요") : josa(w, "이에요", "예요");
+  const KIND = { "로리·로리킷":"로리", "코카투(관앵무)":"코카투", "마코앵무":"마코앵무", "아마존앵무":"아마존앵무", "코뉴어":"코뉴어", "걸이앵무":"걸이앵무",
+    "피그미앵무":"피그미앵무", "무화과앵무":"무화과앵무", "땅앵무":"땅앵무", "모란앵무(러브버드)":"모란앵무" };
+  const kind = KIND[groupOf(sp).n] || "앵무";
+  const s1 = `${where ? where + (ex ? "에 살던 " : "에 사는 ") : ""}몸길이 약 ${cm}cm의 ${size} ${kind}${be(kind)}.`;
+  const main = Array.isArray(A.main) ? A.main[0] : null, items = [], byC = [];
+  [["crown","정수리"],["forehead","이마"],["face","얼굴"],["throat","목"],["breast","가슴"],["belly","배"],["wing","날개"],["tail","꼬리"]]
+    .forEach(([k, n]) => { if (!Array.isArray(A[k]) || A[k][0] === main || !CADJ[A[k][0]]) return;
+      const g = byC.find(x => x.c === A[k][0]); if (g) g.p.push(n); else byC.push({ c:A[k][0], p:[n] }); });
+  byC.slice(0, 2).forEach(({ c, p }) => { const ps = p.slice(0, 3); items.push(`${CADJ[c]} ${ps.length === 2 ? ps[0] + josa(ps[0], "과", "와") + " " + ps[1] : ps.join("·")}`); });
+  if (Array.isArray(A.cheek) && CADJ[A.cheek[0]]) items.push(`뺨의 ${CADJ[A.cheek[0]].replace(/색$/, "")} 점`);
+  if (Array.isArray(A.collar) && CADJ[A.collar[0]]) items.push(`목의 ${CADJ[A.collar[0]].replace(/색$/, "")} 띠`);
+  if (A.crest) items.push("머리 위 볏");
+  if (A.eyeSkin === "face") items.push("얼굴의 넓은 맨살"); else if (A.eyeSkin === "ring") items.push("눈 둘레의 맨살 고리");
+  if (A.pattern === "barred") items.push("가로 줄무늬"); else if (A.pattern === "scaled") items.push("비늘 같은 무늬");
+  const top = items.slice(0, 3);
+  let s2 = "";
+  if (main && CADJ[main]) {
+    const body = `${CADJ[main]} 몸`;
+    if (top.length) { const last = top[top.length - 1]; s2 = ` ${body}에 ${top.join(", ")}${josa(last, "이", "가")} ${ex ? "눈에 띄었어요" : "눈에 띄어요"}.`; }
+    else s2 = ` 온몸이 거의 ${COLORS[main].ko}${be(COLORS[main].ko)}.`;
+  }
+  const s3 = sp.extinct ? " 지금은 멸종해서 볼 수 없어요." : "";
+  return s1 + s2 + s3;
+}
+
+
 /* ───────── 정답 확인 ───────── */
 function photoFigure(sp){
   const u = photo(sp, "large");
@@ -946,6 +1008,7 @@ function renderResult(top, asked){
     <div class="panel rise">
       <p class="ask">질문 ${asked}개 · 이 새가 맞나요?</p>
       <h1>${esc(nameOf(sp))}</h1>
+      <p class="intro">${esc(introOf(sp, Object.assign({}, sp.base, top.look || {})))}</p>
       ${starBtn(sp)}
       <p class="aka">${sp.extinct ? `<span class="badge red">멸종</span>` : ""}${ll ? `<span class="badge">${esc(ll)}</span>` : ""}${esc(sp.en)}<br><span class="sci">${esc(sp.sci)}</span></p>
       <div class="btns">
