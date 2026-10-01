@@ -17599,12 +17599,17 @@ window.SPECIES = [
    "throat": [
     "b"
    ],
-   "collar": "none",
+   "collar": [
+    "lg",
+    "y"
+   ],
    "breast": [
     "o",
     "y"
    ],
-   "belly": null,
+   "belly": [
+    "g"
+   ],
    "back": [
     "g"
    ],
@@ -17614,7 +17619,10 @@ window.SPECIES = [
    "tail": [
     "g"
    ],
-   "beak": null,
+   "beak": [
+    "r",
+    "o"
+   ],
    "eyeSkin": "none",
    "crest": false,
    "tailShape": "long",
