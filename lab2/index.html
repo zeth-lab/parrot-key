@@ -101,10 +101,10 @@ body[data-layout="B"] .zone-opts{grid-column:3; height:calc(100svh - 110px); mar
 
 /* 그림 선택지 */
 .cards{position:absolute; inset:0; display:flex; flex-direction:column; justify-content:center; gap:14px}
-.card{display:grid; grid-template-columns:120px minmax(0,1fr); gap:16px; align-items:center; text-align:left; opacity:0; transform:translateX(-40px);
+.card{display:grid; grid-template-columns:170px minmax(0,1fr); gap:16px; align-items:center; text-align:left; opacity:0; transform:translateX(-40px);
   transition:opacity .5s ease, transform .6s cubic-bezier(.2,.8,.2,1)}
 .card.in{opacity:1; transform:none}
-.card svg{width:120px; height:120px; display:block}
+.card svg{width:170px; height:170px; display:block}
 .card b{font-size:20px; font-weight:900; display:block}
 .card span{color:var(--dim); font-weight:500; font-size:13px}
 .card:hover b{color:var(--hl)}
@@ -186,7 +186,7 @@ svg.bird .rg{transition:fill .35s, fill-opacity .35s}
 (function(){
 const { COLORS, QUESTIONS, QMAP, createEngine, valueOf, likelihood } = ParrotKey;
 const SP = window.SPECIES, KO = window.KO_NAMES || {};
-const eng = createEngine(SP, { opening:["main"], ease:{ size:0.3 } });
+const eng = createEngine(SP, { opening:["main"], ease:{ size:0.15 } });
 eng.looks.forEach(l => { if (l.sp.extinct) l.prior *= 0.25; });
 const $v = document.getElementById("view");
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
@@ -227,7 +227,7 @@ function birdSVG(a, o = {}){
   const A = Object.assign({ tailShape:"long", crest:false, eyeSkin:"none", pattern:"plain" }, a || {}, o.variant || {});
   const on = p => focus.includes(p) || focus.includes("all");
   const fill = (part, key) => neutral ? (on(part) ? paint : "transparent") : (Array.isArray(A[key || part]) ? hex(A[key || part][0]) : "#222");
-  const fo = part => neutral ? (on(part) ? (focus.includes("all") ? .35 : 1) : 0) : 1;
+  const fo = part => neutral ? (focus.includes("all") ? (part === "belly" ? .9 : 0) : (on(part) ? 1 : 0)) : 1;
   const rg = part => REG[part].replace("/>", ` class="rg" data-part="${part}" fill="${fill(part)}" fill-opacity="${fo(part)}"/>`);
   const tail = A.tailShape || "long";
   const crest = A.crest || (neutral && focus.includes("crest") && A.crest !== false && !o.variant);
@@ -340,13 +340,13 @@ function fanPositions(n, box, mode){
       out.push({ x, y:H - fh + fh * .08 + Math.abs(t - .5) * 30, w:fw, h:fh, rot });
     }
   } else if (mode === "B") { // 오른쪽 가장자리에서 펼쳐지는 부채 (스케치 3)
-    const fh = Math.min(W * 1.05, H * .95), fw = fh / 4.6;
+    const fh = Math.min(W * .9, H * .8), fw = fh / 4.6;
     for (let i = 0; i < n; i++) {
-      const t = n === 1 ? .5 : i / (n - 1), rot = -88 + t * 62;   // 위: 거의 수평, 아래: 비스듬히
-      out.push({ x:W - fw / 2 + 10, y:H * (.18 + t * .5) - fh, w:fw, h:fh, rot });
+      const t = n === 1 ? .5 : i / (n - 1), rot = -84 + t * 58;   // 위: 거의 수평, 아래: 비스듬히
+      out.push({ x:W - fw / 2 - 6, y:H * (.42 + t * .5) - fh, w:fw, h:fh, rot });
     }
   } else { // 사선을 따라 늘어선 깃털 (스케치 2)
-    const fw = Math.min(W / (n + 1.6), 96), fh = Math.min(H * .9, fw * 4.4);
+    const fw = Math.min(W / (n + 1.2), 130), fh = Math.min(H * .95, fw * 4.6);
     for (let i = 0; i < n; i++) {
       const t = n === 1 ? .5 : i / (n - 1), x = W * (.04 + t * .8), y = H - fh - t * H * .32 + H * .06;
       out.push({ x, y, w:fw, h:fh, rot:28 + t * 6 });
@@ -442,11 +442,11 @@ function renderFind(){
       el.className = "feather"; el.dataset.v = o.v; el.dataset.p = JSON.stringify(p);
       el.setAttribute("aria-label", o.label);
       Object.assign(el.style, { left:p.x + "px", top:p.y + "px", width:p.w + "px", height:p.h + "px" });
-      const labTop = mode === "B" ? "auto" : "-26px";
+      const labTop = "-26px";
       el.innerHTML = (o.v === "none"
         ? `<svg viewBox="0 0 62 304"><path d="M30 286 C22 250 9 175 12 95 C14 52 23 18 32 4 C41 18 50 52 51 98 C52 176 41 248 31 284 Z" fill="none" stroke="var(--dim)" stroke-width="1.4" stroke-dasharray="4 5"/></svg>`
         : featherSVG(hex(o.v), i + q.id.length)) +
-        `<span class="lab" style="top:${labTop};${mode === "B" ? "bottom:-24px;transform:translateX(-50%) rotate(" + (-p.rot) + "deg)" : ""}">${esc(o.label)}</span>`;
+        `<span class="lab" style="top:${labTop};transform:translateX(-50%) rotate(${-p.rot}deg)">${esc(o.label)}</span>`;
       el.onmouseenter = () => previewPart(svg, q.part.filter(x => x !== "all"), o.v === "none" ? "transparent" : hex(o.v));
       el.onfocus = el.onmouseenter;
       el.onmouseleave = () => previewPart(svg, q.part.filter(x => x !== "all"), "var(--hl)");
@@ -476,7 +476,7 @@ function optionArt(q, o){
   if (q.id === "pattern") { variant.pattern = o.v; part = "wing"; }
   if (q.id === "size") {
     const sc = { s:.42, m:.6, l:.8, xl:1 }[o.v];
-    return `<svg viewBox="0 0 120 120"><g transform="translate(${60 - 46 * sc} ${118 - 112 * sc}) scale(${sc * .64})">${birdSVG(Object.assign({}, base), {}).replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "")}</g><line x1="4" y1="118" x2="116" y2="118" stroke="var(--dim)"/></svg>`;
+    return `<svg viewBox="0 0 120 120"><g transform="translate(${60 - 46 * sc} ${118 - 112 * sc}) scale(${sc * .64})">${birdSVG(null, { neutral:true, focus:[] }).replace(/^<svg[^>]*>/, "").replace(/<\/svg>$/, "")}</g><line x1="4" y1="118" x2="116" y2="118" stroke="var(--dim)"/></svg>`;
   }
   const f = FOCUS[part === "all" ? "all" : part] || FOCUS.all, pad = part === "all" ? 0 : .5;
   const vb = [f[0] - f[2] * pad, f[1] - f[3] * pad, f[2] * (1 + 2 * pad), f[3] * (1 + 2 * pad)];
