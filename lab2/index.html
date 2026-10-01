@@ -279,6 +279,60 @@ svg.bird .focus-pulse{animation:focusPulse 1.5s ease-in-out infinite}
 @keyframes breathe{0%,100%{transform:scale(1,1)} 50%{transform:scale(1.008,1.018)}}
 @keyframes blink{0%,95%,100%{transform:scaleY(1)} 97%{transform:scaleY(.08)}}
 @keyframes hop{0%{transform:translateY(0)} 40%{transform:translateY(-10px)} 100%{transform:translateY(0)}}
+/* ── 종 상세: 화면보다 조금 작은 팝업, 위 사진 · 아래 정보 (스크롤 없이 한 화면) ── */
+.modal{position:fixed; inset:0; z-index:60; display:grid; place-items:center; pointer-events:none}
+.modal.open{pointer-events:auto}
+.mback{position:absolute; inset:0; background:rgba(0,0,0,.74); backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px); opacity:0; transition:opacity .3s}
+.modal.open .mback{opacity:1}
+.sheet{position:relative; width:min(1180px,92vw); height:min(90svh,860px); background:#0e0e0d; border:1px solid var(--soft2); border-radius:16px; overflow:hidden;
+  display:grid; grid-template-rows:41% minmax(0,1fr); opacity:0; transform:translateY(26px) scale(.97); transition:opacity .3s, transform .5s cubic-bezier(.2,1,.3,1)}
+.modal.open .sheet{opacity:1; transform:none}
+.mph{margin:0; position:relative; background:#121211; min-height:0}
+.mph img{width:100%; height:100%; object-fit:cover; object-position:center 32%; display:block}
+.mph .art{position:absolute; inset:5% 30%} .mph .art svg{width:100%; height:100%}
+.mph::after{content:""; position:absolute; left:0; right:0; bottom:0; height:45%; background:linear-gradient(rgba(14,14,13,0),#0e0e0d); pointer-events:none}
+.mph figcaption{position:absolute; right:14px; top:12px; z-index:2; max-width:60%; text-align:right; font-size:10px; color:rgba(255,255,255,.6); font-weight:500; text-shadow:0 1px 5px #000; padding-right:44px}
+.mclose{position:absolute; top:12px; right:12px; z-index:4; width:40px; height:40px; border-radius:50%; background:rgba(0,0,0,.6); font-size:24px; line-height:40px; text-align:center; font-weight:500}
+.mclose:hover{background:var(--ink); color:#000}
+.mbody{position:relative; z-index:2; min-height:0; margin-top:-56px; padding:0 clamp(18px,2.6vw,36px) clamp(16px,2.2vw,28px);
+  display:grid; grid-template-columns:minmax(0,.82fr) minmax(0,2.18fr); gap:clamp(18px,2.4vw,36px)}
+.mhead{display:grid; align-content:start; gap:10px; min-width:0}
+.mhead .ask{margin:0; color:var(--dim); font-size:13px; font-weight:500}
+.mhead h2{margin:0; font-weight:900; font-size:clamp(30px,3.3vw,50px); line-height:1.04; letter-spacing:-.035em}
+.mhead .aka{font-size:13px}
+.mlinks{display:flex; gap:14px; flex-wrap:wrap; font-size:13px; margin-top:4px}
+.tiles{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); grid-template-rows:repeat(2,minmax(0,1fr)) auto; gap:10px; min-height:0; padding-top:56px}
+.tile{background:var(--soft); border-radius:12px; padding:13px 15px; display:grid; align-content:start; gap:6px; min-height:0; overflow:hidden}
+.tile h3{margin:0; font-size:12px; color:var(--dim); font-weight:700; letter-spacing:.02em}
+.tile p{margin:0; font-size:14px; font-weight:500; line-height:1.55}
+.tile .num{font-size:24px; font-weight:900; letter-spacing:-.02em; line-height:1.1}
+.tile .num small{font-size:13px; font-weight:500; color:var(--dim); margin-left:6px}
+.tile .chips{display:flex; flex-wrap:wrap; gap:5px}
+.tile .chips span{padding:2px 9px; border-radius:999px; background:var(--soft2); font-size:12.5px; font-weight:700}
+.tile .chips i{width:9px; height:9px; border-radius:50%; display:inline-block; margin-right:4px; vertical-align:0}
+.tile .sim{color:var(--ink); border-bottom:1px solid var(--faint); font-weight:900}
+.tile .sim:hover{color:var(--hl); border-color:var(--hl)}
+.tile.ext{background:rgba(201,64,43,.18)}
+.mnote{grid-column:1/-1; margin:0; font-size:11px; color:var(--dim); font-weight:500; opacity:.8}
+@media (max-width:760px){
+  .sheet{width:94vw; height:92svh; grid-template-rows:30% minmax(0,1fr)}
+  .mbody{grid-template-columns:minmax(0,1fr); overflow-y:auto; margin-top:-36px; gap:14px}
+  .mbody{align-content:start}
+  .mhead{gap:8px}
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr)); grid-template-rows:none; grid-auto-rows:auto; padding-top:0; min-height:auto}
+  .tile{overflow:visible}
+  .tile.wide{grid-column:1/-1}
+  .tile .num{font-size:20px}
+  .tile .num small{display:block; margin:4px 0 0}
+}
+@media (min-width:761px) and (max-height:800px){
+  .sheet{grid-template-rows:30% minmax(0,1fr)}
+  .mbody{margin-top:-44px}
+  .tiles{padding-top:44px; gap:8px}
+  .tile{padding:10px 13px; gap:4px}
+  .tile p{font-size:13px; line-height:1.45}
+  .mhead h2{font-size:clamp(28px,3vw,40px)}
+}
 @media (prefers-reduced-motion: reduce){ *{transition:none!important; animation:none!important} }
 </style>
 </head>
@@ -987,7 +1041,126 @@ function renderDetail(){
   bindStars($v);
   $v.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => openDetail(+b.dataset.sp, S.from));
 }
-function openDetail(si, from, found){ S.detail = si; S.from = from; if (!found) S.foundAt = null; S.view = "detail"; render(); scrollTo(0, 0); }
+/* ───────── 종 상세 팝업 ───────── */
+// 먹이·지능은 같은 무리(속) 공통 특징으로 적는다 (종마다 자료가 고르지 않아서)
+const GROUPS = [
+  { g:"Trichoglossus Vini Lorius Chalcopsitta Psitteuteles Charmosyna Hypocharmosyna Neopsittacus Charmosynopsis Glossoptilus Charminetta Oreopsittacus", n:"로리·로리킷",
+    diet:"꽃꿀과 꽃가루, 부드러운 열매. 끝이 붓처럼 갈라진 혀로 꽃꿀을 핥아 먹어요.", smart:"호기심이 많고 장난을 좋아해요. 무리 지어 시끄럽게 날아다니며, 꽃이 핀 곳을 따라 옮겨 다녀요." },
+  { g:"Cacatua Eolophus Zanda Calyptorhynchus Callocephalon Probosciger", n:"코카투(관앵무)",
+    diet:"씨앗과 견과류, 땅속 뿌리와 알뿌리, 나무 속 애벌레.", smart:"앵무새 중에서도 머리가 좋은 무리예요. 도구를 쓰고 문제를 푸는 모습이 관찰됐고, 볏을 세우고 내리며 기분을 드러내요." },
+  { g:"Nymphicus", n:"왕관앵무",
+    diet:"땅에 떨어진 풀씨와 곡식.", smart:"휘파람과 멜로디를 잘 따라 해요. 볏의 모양으로 기분을 알 수 있어요." },
+  { g:"Ara Anodorhynchus Primolius Orthopsittaca Diopsittaca Cyanopsitta", n:"마코앵무",
+    diet:"야자 열매와 단단한 견과류, 씨앗, 열매. 강가의 진흙을 먹어 열매의 독을 줄이기도 해요.", smart:"커다란 부리로 아주 단단한 견과도 깨요. 사람 말을 따라 하고, 오래 살며 짝과 평생 함께 지내는 경우가 많아요." },
+  { g:"Amazona Alipiopsitta", n:"아마존앵무",
+    diet:"열매, 씨앗, 견과류, 꽃과 새싹.", smart:"사람 말과 소리를 잘 따라 하는 무리예요. 목소리가 크고 무리와 어울리기를 좋아해요." },
+  { g:"Psittacus", n:"회색앵무",
+    diet:"씨앗, 견과류, 열매 (기름야자 열매를 특히 좋아해요).", smart:"앵무새 가운데 지능이 가장 높은 편으로 알려져 있어요. 단어의 뜻과 색·모양을 구분한 연구가 유명해요." },
+  { g:"Poicephalus Coracopsis", n:"아프리카·마다가스카르 앵무",
+    diet:"씨앗, 열매, 꽃, 견과류.", smart:"영리하고 비교적 조용한 편이에요. 사람 말을 조금씩 따라 하기도 해요." },
+  { g:"Pyrrhura Psittacara Aratinga Eupsittula Thectocercus Cyanoliseus Guaruba Ognorhynchus Leptosittaca Enicognathus Rhynchopsitta Conuropsis Nannopsittacus", n:"코뉴어",
+    diet:"씨앗, 열매, 꽃, 견과류.", smart:"무리 지어 다니며 시끄럽게 울어요. 장난기가 많고 사람을 잘 따르는 편이에요." },
+  { g:"Forpus Brotogeris Touit Bolborhynchus Psilopsiagon Nannopsittaca", n:"작은 남미 앵무",
+    diet:"풀씨, 작은 열매, 꽃.", smart:"몸은 작지만 겁이 없고 활발해요. 짝과 붙어 다니는 경우가 많아요." },
+  { g:"Myiopsitta", n:"퀘이커앵무",
+    diet:"씨앗, 곡식, 열매, 새싹.", smart:"나뭇가지를 엮어 여러 가족이 함께 쓰는 커다란 둥지를 지어요. 이런 둥지를 짓는 앵무새는 드물어요. 사람 말도 잘 따라 해요." },
+  { g:"Pionus Pyrilia Pionites Hapalopsittaca Pionopsitta Graydidascalus Triclaria", n:"중남미 숲 앵무",
+    diet:"열매, 씨앗, 꽃.", smart:"비교적 차분하고 조용한 편이에요. 숲 위쪽에서 짝이나 작은 무리로 지내요." },
+  { g:"Deroptyus", n:"부채머리앵무",
+    diet:"열매, 씨앗, 꽃.", smart:"흥분하면 뒷머리 깃털을 부채처럼 활짝 펼쳐요." },
+  { g:"Psittacula Tanygnathus Prioniturus Geoffroyus Psittinus", n:"아시아 앵무",
+    diet:"씨앗, 열매, 꽃, 곡식.", smart:"사람 말을 잘 따라 하는 종이 많아요. 일부는 원래 살던 곳을 벗어나 세계 여러 도시에 퍼져 살아요." },
+  { g:"Eclectus", n:"뉴기니아앵무",
+    diet:"열매, 꽃, 씨앗, 새싹.", smart:"수컷은 초록, 암컷은 빨강과 파랑으로 암수 색이 완전히 달라서 한때 다른 종으로 여겨졌어요." },
+  { g:"Platycercus Barnardius Northiella Psephotus Psephotellus Neophema Neopsephotus Purpureicephalus Polytelis Alisterus Aprosmictus Cyanoramphus Eunymphicus Prosopeia Psittacella", n:"오세아니아 앵무",
+    diet:"풀씨와 씨앗, 열매, 새싹. 땅에서 먹이를 찾는 경우가 많아요.", smart:"휘파람과 노래 같은 소리를 잘 내요. 짝이나 작은 무리로 지내요." },
+  { g:"Melopsittacus", n:"사랑앵무",
+    diet:"땅에 떨어진 풀씨.", smart:"아주 많은 단어를 따라 한 기록이 있을 만큼 흉내를 잘 내요. 야생에서는 수백·수천 마리가 무리 지어 물을 찾아 옮겨 다녀요." },
+  { g:"Lathamus", n:"스위프트앵무",
+    diet:"유칼립투스 꽃꿀과 꽃가루, 작은 곤충.", smart:"해마다 바다를 건너 섬과 대륙 사이를 오가는, 철새 같은 앵무예요." },
+  { g:"Pezoporus", n:"땅앵무",
+    diet:"풀씨와 풀.", smart:"거의 날지 않고 풀숲 땅에서 살아요. 밤앵무는 밤에 활동해 보기 매우 어려워요." },
+  { g:"Agapornis", n:"모란앵무(러브버드)",
+    diet:"씨앗, 열매, 풀, 새싹.", smart:"짝과 붙어 지내 '사랑새'로 불려요. 나뭇잎을 꽁지 깃털에 꽂아 둥지 재료를 나르는 종도 있어요." },
+  { g:"Loriculus", n:"걸이앵무",
+    diet:"꽃꿀, 꽃, 부드러운 열매.", smart:"박쥐처럼 나뭇가지에 거꾸로 매달려 잠을 자요." },
+  { g:"Micropsitta", n:"피그미앵무",
+    diet:"나무껍질의 이끼와 균류(곰팡이), 작은 곤충.", smart:"세계에서 가장 작은 앵무새 무리예요. 딱따구리처럼 꼬리로 몸을 받치고 나무줄기를 타요." },
+  { g:"Cyclopsitta Bolbopsittacus", n:"무화과앵무",
+    diet:"무화과 같은 열매 속 씨앗.", smart:"작고 통통한 몸으로 열매를 쪼아 씨앗만 골라 먹어요. 썩은 나무에 굴을 파서 둥지를 만들어요." },
+  { g:"Nestor", n:"케아·카카",
+    diet:"뿌리, 열매, 꽃꿀, 나무 속 애벌레 등 거의 무엇이든 먹어요.", smart:"지능이 매우 높아 도구를 쓰고 퍼즐을 풀어요. 케아는 눈 덮인 산에 사는 앵무로, 호기심이 강해 자동차 부품을 뜯기도 해요." },
+  { g:"Strigops", n:"카카포",
+    diet:"풀, 씨앗, 열매, 특히 리무 나무 열매.", smart:"날지 못하고 밤에 활동하는, 세계에서 가장 무거운 앵무새예요. 한 마리 한 마리 이름을 붙여 보호하고 있어요." },
+  { g:"Psittrichas", n:"독수리앵무",
+    diet:"무화과 같은 부드러운 열매에 거의 의존해요.", smart:"얼굴에 깃털이 거의 없어 독수리를 닮았어요. 열매즙에 깃털이 엉기지 않게 진화한 것으로 여겨져요." },
+  { g:"Lophopsittacus Mascarinus Necropsittacus", n:"마스카렌 제도의 앵무",
+    diet:"기록이 거의 남아 있지 않아요 (씨앗과 열매로 추정).", smart:"사람이 섬에 들어온 뒤 사라져 그림과 뼈, 옛 기록으로만 전해져요." }
+];
+const GMAP = {}; GROUPS.forEach(G => G.g.split(" ").forEach(k => GMAP[k] = G));
+const GEN = { n:"앵무새", diet:"씨앗, 열매, 꽃.", smart:"앵무새는 새 가운데 지능이 높은 편이에요. 무리나 짝과 어울려 지내요." };
+const groupOf = sp => GMAP[sp.sci.split(" ")[0]] || GEN;
+// 데이터에서 눈에 띄는 특징을 골라 짧은 말로
+function featureChips(sp, A){
+  const cn = c => (COLORS[c] && COLORS[c].ko) || c, dot = c => hex(c) ? `<i style="background:${hex(c)}"></i>` : "";
+  const out = [];
+  if (Array.isArray(A.main)) out.push(`${dot(A.main[0])}몸 ${cn(A.main[0])}`);
+  [["crown","정수리"],["forehead","이마"],["face","얼굴"],["throat","목"],["breast","가슴"],["belly","배"],["wing","날개"],["tail","꼬리"]]
+    .filter(([k]) => Array.isArray(A[k]) && Array.isArray(A.main) && A[k][0] !== A.main[0]).slice(0, 3)
+    .forEach(([k, n]) => out.push(`${dot(A[k][0])}${n} ${cn(A[k][0])}`));
+  if (A.crest) out.push("머리에 볏");
+  if (Array.isArray(A.cheek)) out.push(`${dot(A.cheek[0])}뺨에 ${cn(A.cheek[0])} 점`);
+  if (Array.isArray(A.collar)) out.push(`${dot(A.collar[0])}목에 ${cn(A.collar[0])} 띠`);
+  if (A.eyeSkin === "face") out.push("얼굴에 넓은 맨살"); else if (A.eyeSkin === "ring") out.push("눈 둘레 맨살");
+  if (A.pattern === "barred") out.push("가로 줄무늬"); else if (A.pattern === "scaled") out.push("비늘 무늬");
+  if (A.tailShape === "long") out.push("긴 꼬리"); else if (A.tailShape === "short") out.push("짧은 꼬리");
+  if (sp.looks.length > 1) out.push(`모습 ${sp.looks.length}가지`);
+  return out.slice(0, 8);
+}
+function openDetail(si, from, found){
+  if (!found) S.foundAt = null;
+  const sp = SP[si], A = lookAttrs(sp, 0), G = groupOf(sp), u = photo(sp, "large"), sim = similar(si)[0];
+  let m = document.getElementById("modal");
+  if (!m) { m = document.createElement("div"); m.id = "modal"; m.className = "modal"; document.body.appendChild(m); }
+  const simTxt = sim ? `<p>헷갈리기 쉬운 새 <button class="sim" data-sp="${sim.j}">${esc(nameOf(SP[sim.j]))}</button>${sim.diffs.length ? ` — ${sim.diffs.slice(0, 1).map(d => `${SHORT[d.q.id]}: 이 새는 ${vtext(d.q, d.va)}, 저 새는 ${vtext(d.q, d.vb)}`).join("")}` : " — 거의 같아요"}</p>` : "";
+  const sparrow = (sp.sizeCm / 14);
+  m.innerHTML = `<div class="mback" data-close></div>
+    <article class="sheet" role="dialog" aria-modal="true" aria-label="${esc(nameOf(sp))}">
+      <button class="mclose" data-close aria-label="닫기">×</button>
+      <figure class="mph">${u ? `<img src="${esc(u)}" alt="${esc(nameOf(sp))}">` : `<div class="art">${birdSVG(A)}</div>`}${sp.photo && sp.photo.credit ? `<figcaption>사진 ${esc(sp.photo.credit)}</figcaption>` : ""}</figure>
+      <div class="mbody">
+        <div class="mhead">
+          ${S.foundAt != null ? `<p class="ask">질문 ${S.foundAt}개 만에 찾았어요</p>` : ""}
+          <h2>${esc(nameOf(sp))}</h2>
+          ${starBtn(sp)}
+          <p class="aka">${sp.extinct ? `<span class="badge red">멸종</span>` : ""}${esc(sp.en)}<br><span class="sci">${esc(sp.sci)}</span><br><span style="font-size:12px">${esc(G.n)} 무리</span></p>
+          <div class="mlinks">${sp.wikipedia_url ? `<a class="link" href="${esc(sp.wikipedia_url)}" target="_blank" rel="noopener">위키백과 ↗</a>` : ""}<a class="link" href="https://www.inaturalist.org/search?q=${encodeURIComponent(sp.sci)}" target="_blank" rel="noopener">관찰 기록 ↗</a></div>
+        </div>
+        <div class="tiles">
+          <section class="tile"><h3>사는 곳</h3><p>${esc(sp.region || "—")}</p></section>
+          <section class="tile"><h3>몸길이</h3><p class="num">약 ${sp.sizeCm}cm<small>참새의 ${sparrow < 1.15 ? "비슷한 크기" : `약 ${sparrow.toFixed(1)}배`}</small></p></section>
+          <section class="tile wide${sp.extinct ? " ext" : ""}"><h3>개체 수 · 보전 상태</h3>${sp.extinct ? `<p class="num">멸종</p><p>더 이상 살아 있는 개체가 없어요.</p>` : `<p>야생 개체 수와 위기 등급은 IUCN 적색목록에서 확인할 수 있어요.</p><p><a class="link" href="https://www.iucnredlist.org/search?query=${encodeURIComponent(sp.sci)}" target="_blank" rel="noopener">적색목록에서 보기 ↗</a></p>`}</section>
+          <section class="tile wide"><h3>먹이</h3><p>${esc(G.diet)}</p></section>
+          <section class="tile wide"><h3>지능 · 특기</h3><p>${esc(G.smart)}</p></section>
+          <section class="tile wide"><h3>구별 포인트</h3><div class="chips">${featureChips(sp, A).map(t => `<span>${t}</span>`).join("")}</div>${simTxt}</section>
+          <p class="mnote">먹이와 지능·특기는 같은 무리(속)의 공통 특징이에요.</p>
+        </div>
+      </div>
+    </article>`;
+  document.body.style.overflow = "hidden";
+  requestAnimationFrame(() => requestAnimationFrame(() => m.classList.add("open")));
+  bindStars(m);
+  m.querySelectorAll("[data-close]").forEach(b => b.onclick = closeDetail);
+  m.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => openDetail(+b.dataset.sp, from));
+  setTimeout(() => { const c = m.querySelector(".mclose"); c && c.focus({ preventScroll:true }); }, 50);
+}
+function closeDetail(){
+  const m = document.getElementById("modal"); if (!m || !m.classList.contains("open")) return;
+  m.classList.remove("open"); document.body.style.overflow = "";
+  if (S.view === "browse" && document.getElementById("bgrid")) fillBrowse();   // 별을 바꿨으면 목록 순서·리본 갱신
+  setTimeout(() => { if (!m.classList.contains("open")) m.innerHTML = ""; }, 400);
+}
+addEventListener("keydown", e => { if (e.key === "Escape") closeDetail(); });
 
 /* ───────── 이동 ───────── */
 function nav(v){ S.view = v; render(); scrollTo(0, 0); }
