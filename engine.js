@@ -125,6 +125,7 @@
   // ── 데이터 펼치기: 종 → 모습 목록 ──
   // fix: 사진 재검증 결과 (COLOR_FIX[종id][모습label|"*"][부위] = {색: 비율})
   const COLOR_PARTS = ["main", "crown", "forehead", "face", "throat", "breast", "belly", "back", "wing", "tail", "beak", "crestColor"];
+  const FIX_TRUST = { keep: 0.5 };   // 보정이 주된 색을 바꿀 때 원래 라벨을 남기는 비율
   function buildLooks(species, fix) {
     fix = fix || {};
     const looks = [];
@@ -136,7 +137,16 @@
         const W = {};
         COLOR_PARTS.forEach(k => { W[k] = toWeights(a[k]); });
         ["cheek", "collar"].forEach(k => { W[k] = toWeights(a[k]); });
-        [F["*"], F[l.label]].forEach(f => { if (f) Object.keys(f).forEach(k => { W[k] = f[k]; }); });
+        // 사진 재검증 결과 병합: 주된 색이 같으면 보정값을 그대로, 다르면 원래 라벨과 반반 섞는다
+        // (자동 판정이 사진 조명에 끌려갔을 가능성 → 두 출처를 모두 '그럴 수 있는 색'으로 남긴다)
+        [F["*"], F[l.label]].forEach(f => { if (f) Object.keys(f).forEach(k => {
+          const nw = f[k], ow = W[k];
+          if (!ow || ow === "none" || typeof nw !== "object") { W[k] = nw; return; }
+          const top = o => Object.keys(o).reduce((a, c) => o[c] > o[a] ? c : a);
+          if (top(ow) === top(nw)) { W[k] = nw; return; }
+          const m = {}; for (const c in ow) m[c] = (m[c] || 0) + ow[c] * FIX_TRUST.keep; for (const c in nw) m[c] = (m[c] || 0) + nw[c] * (1 - FIX_TRUST.keep);
+          W[k] = m;
+        }); });
         looks.push({ si, li, sp, label: l.label, a, W, prior: 1 / (species.length * n) });
       });
     });
