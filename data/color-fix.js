@@ -19,11 +19,38 @@ window.COLOR_FIX = {
    }
   }
  },
+ "agapornis-taranta": {
+  "*": {
+   "wing": {
+    "g": 0.65,
+    "k": 0.35
+   }
+  }
+ },
+ "alipiopsitta-xanthops": {
+  "*": {
+   "throat": {
+    "y": 1
+   },
+   "beak": {
+    "gr": 0.5,
+    "p": 0.5
+   }
+  }
+ },
  "amazona-agilis": {
   "*": {
    "beak": {
     "gr": 0.8,
     "w": 0.2
+   }
+  }
+ },
+ "amazona-brasiliensis": {
+  "*": {
+   "crown": {
+    "v": 0.45,
+    "g": 0.55
    }
   }
  },
@@ -41,6 +68,18 @@ window.COLOR_FIX = {
    "face": {
     "b": 0.6,
     "p": 0.4
+   }
+  }
+ },
+ "amazona-festiva": {
+  "*": {
+   "face": {
+    "g": 0.7,
+    "b": 0.3
+   },
+   "beak": {
+    "gr": 0.5,
+    "k": 0.5
    }
   }
  },
@@ -133,6 +172,23 @@ window.COLOR_FIX = {
    }
   }
  },
+ "amazona-rhodocorytha": {
+  "*": {
+   "crown": {
+    "b": 0.5,
+    "g": 0.35,
+    "r": 0.15
+   }
+  }
+ },
+ "amazona-ventralis": {
+  "*": {
+   "throat": {
+    "g": 0.85,
+    "w": 0.15
+   }
+  }
+ },
  "amazona-vinacea": {
   "*": {
    "tail": {
@@ -206,12 +262,50 @@ window.COLOR_FIX = {
    }
   }
  },
+ "aratinga-auricapillus": {
+  "*": {
+   "face": {
+    "g": 0.8,
+    "r": 0.2
+   },
+   "tail": {
+    "g": 0.7,
+    "b": 0.3
+   }
+  }
+ },
  "bluefrontedamazon": {
   "*": {
    "wing": {
     "g": 0.65,
     "r": 0.2,
     "b": 0.15
+   }
+  }
+ },
+ "bolbopsittacus-lunulatus": {
+  "*": {
+   "belly": {
+    "g": 0.65,
+    "y": 0.35
+   },
+   "tail": {
+    "g": 0.7,
+    "gr": 0.3
+   }
+  },
+  "수컷": {
+   "throat": {
+    "b": 0.55,
+    "g": 0.45
+   }
+  }
+ },
+ "brotogeris-chrysoptera": {
+  "*": {
+   "beak": {
+    "w": 0.6,
+    "p": 0.4
    }
   }
  },
@@ -228,6 +322,18 @@ window.COLOR_FIX = {
    "wing": {
     "g": 0.7,
     "y": 0.3
+   }
+  }
+ },
+ "cacatua-moluccensis": {
+  "*": {
+   "crown": {
+    "w": 0.7,
+    "p": 0.3
+   },
+   "breast": {
+    "w": 0.65,
+    "p": 0.35
    }
   }
  },
@@ -311,6 +417,60 @@ window.COLOR_FIX = {
    }
   }
  },
+ "coracopsis-nigra": {
+  "*": {
+   "main": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "crown": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "forehead": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "face": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "throat": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "breast": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "belly": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "back": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "wing": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "tail": {
+    "br": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   }
+  }
+ },
  "cyanoliseus-patagonus": {
   "*": {
    "wing": {
@@ -372,6 +532,22 @@ window.COLOR_FIX = {
    }
   }
  },
+ "cyclopsitta-diophthalma": {
+  "*": {
+   "forehead": {
+    "r": 0.5,
+    "o": 0.5
+   },
+   "throat": {
+    "b": 1
+   },
+   "belly": {
+    "g": 0.6,
+    "y": 0.25,
+    "b": 0.15
+   }
+  }
+ },
  "diopsittaca-nobilis": {
   "*": {
    "crown": {
@@ -388,6 +564,19 @@ window.COLOR_FIX = {
    }
   }
  },
+ "enicognathus-leptorhynchus": {
+  "*": {
+   "face": {
+    "g": 1
+   },
+   "throat": {
+    "g": 1
+   },
+   "breast": {
+    "g": 1
+   }
+  }
+ },
  "eupsittula-aurea": {
   "*": {
    "face": {
@@ -397,6 +586,39 @@ window.COLOR_FIX = {
    "throat": {
     "g": 0.6,
     "ol": 0.4
+   }
+  }
+ },
+ "eupsittula-cactorum": {
+  "*": {
+   "crown": {
+    "ol": 0.6,
+    "br": 0.4
+   },
+   "forehead": {
+    "ol": 0.6,
+    "br": 0.4
+   },
+   "face": {
+    "gr": 0.5,
+    "ol": 0.5
+   },
+   "throat": {
+    "ol": 0.5,
+    "gr": 0.5
+   },
+   "breast": {
+    "y": 0.5,
+    "ol": 0.3,
+    "gr": 0.2
+   },
+   "belly": {
+    "y": 0.6,
+    "g": 0.4
+   },
+   "beak": {
+    "p": 0.7,
+    "gr": 0.3
    }
   }
  },
@@ -544,11 +766,43 @@ window.COLOR_FIX = {
    }
   }
  },
+ "leptosittaca-branickii": {
+  "*": {
+   "beak": {
+    "gr": 0.55,
+    "k": 0.45
+   }
+  }
+ },
  "lineolated": {
   "*": {
    "beak": {
     "p": 0.7,
     "w": 0.3
+   }
+  }
+ },
+ "loriculus-beryllinus": {
+  "*": {
+   "beak": {
+    "o": 0.65,
+    "r": 0.35
+   }
+  }
+ },
+ "loriculus-philippensis": {
+  "*": {
+   "throat": {
+    "b": 0.85,
+    "g": 0.15
+   },
+   "back": {
+    "g": 0.65,
+    "r": 0.35
+   },
+   "beak": {
+    "o": 0.65,
+    "r": 0.35
    }
   }
  },
@@ -689,6 +943,18 @@ window.COLOR_FIX = {
    }
   }
  },
+ "neopsephotus-bourkii": {
+  "*": {
+   "tail": {
+    "b": 0.6,
+    "k": 0.4
+   },
+   "belly": {
+    "p": 0.5,
+    "sb": 0.5
+   }
+  }
+ },
  "nestor-meridionalis": {
   "*": {
    "main": {
@@ -738,6 +1004,32 @@ window.COLOR_FIX = {
    }
   }
  },
+ "ognorhynchus-icterotis": {
+  "*": {
+   "forehead": {
+    "k": 0.65,
+    "y": 0.35
+   },
+   "face": {
+    "y": 0.55,
+    "g": 0.45
+   }
+  }
+ },
+ "pionopsitta-pileata": {
+  "*": {
+   "belly": {
+    "g": 0.7,
+    "y": 0.3
+   }
+  },
+  "암컷": {
+   "breast": {
+    "g": 0.75,
+    "y": 0.25
+   }
+  }
+ },
  "pionus-chalcopterus": {
   "*": {
    "wing": {
@@ -772,6 +1064,36 @@ window.COLOR_FIX = {
    "breast": {
     "b": 0.6,
     "v": 0.4
+   }
+  }
+ },
+ "pionus-tumultuosus": {
+  "*": {
+   "crown": {
+    "br": 0.4,
+    "r": 0.35,
+    "w": 0.25
+   },
+   "forehead": {
+    "br": 0.4,
+    "r": 0.35,
+    "w": 0.25
+   },
+   "face": {
+    "br": 0.4,
+    "r": 0.35,
+    "w": 0.25
+   },
+   "throat": {
+    "v": 0.55,
+    "gr": 0.45
+   },
+   "breast": {
+    "v": 0.5,
+    "g": 0.5
+   },
+   "wing": {
+    "g": 1
    }
   }
  },
@@ -847,6 +1169,18 @@ window.COLOR_FIX = {
    }
   }
  },
+ "platycercus-venustus": {
+  "*": {
+   "wing": {
+    "b": 0.6,
+    "k": 0.4
+   },
+   "tail": {
+    "b": 0.75,
+    "r": 0.25
+   }
+  }
+ },
  "poicephalus-cryptoxanthus": {
   "*": {
    "crown": {
@@ -914,6 +1248,63 @@ window.COLOR_FIX = {
    }
   }
  },
+ "poicephalus-rueppellii": {
+  "*": {
+   "crown": {
+    "gr": 0.45,
+    "k": 0.35,
+    "y": 0.2
+   },
+   "forehead": {
+    "y": 0.45,
+    "gr": 0.35,
+    "k": 0.2
+   },
+   "face": {
+    "gr": 0.55,
+    "k": 0.45
+   },
+   "throat": {
+    "gr": 0.55,
+    "k": 0.45
+   },
+   "breast": {
+    "gr": 0.55,
+    "k": 0.45
+   },
+   "belly": {
+    "gr": 0.5,
+    "y": 0.35,
+    "k": 0.15
+   }
+  }
+ },
+ "poicephalus-rufiventris": {
+  "*": {
+   "belly": {
+    "g": 0.6,
+    "o": 0.4
+   }
+  }
+ },
+ "polytelis-anthopeplus": {
+  "수컷": {
+   "wing": {
+    "g": 0.45,
+    "r": 0.25,
+    "k": 0.3
+   }
+  }
+ },
+ "primolius-auricollis": {
+  "*": {
+   "wing": {
+    "g": 0.6,
+    "b": 0.3,
+    "r": 0.1
+   }
+  }
+ },
  "primolius-couloni": {
   "*": {
    "face": {
@@ -932,6 +1323,34 @@ window.COLOR_FIX = {
     "g": 0.45,
     "y": 0.4,
     "ol": 0.15
+   }
+  }
+ },
+ "probosciger-aterrimus": {
+  "*": {
+   "main": {
+    "k": 0.6,
+    "gr": 0.4
+   },
+   "breast": {
+    "k": 0.55,
+    "gr": 0.45
+   },
+   "belly": {
+    "k": 0.55,
+    "gr": 0.45
+   },
+   "back": {
+    "k": 0.6,
+    "gr": 0.4
+   },
+   "wing": {
+    "k": 0.65,
+    "gr": 0.35
+   },
+   "beak": {
+    "gr": 0.5,
+    "w": 0.5
    }
   }
  },
@@ -1034,6 +1453,30 @@ window.COLOR_FIX = {
    }
   }
  },
+ "psilopsiagon-aymara": {
+  "*": {
+   "face": {
+    "w": 0.85,
+    "gr": 0.15
+   },
+   "belly": {
+    "g": 0.6,
+    "y": 0.4
+   },
+   "beak": {
+    "br": 0.7,
+    "gr": 0.3
+   }
+  }
+ },
+ "psittacara-chloropterus": {
+  "*": {
+   "beak": {
+    "w": 0.55,
+    "gr": 0.45
+   }
+  }
+ },
  "psittacara-erythrogenys": {
   "*": {
    "face": {
@@ -1108,6 +1551,15 @@ window.COLOR_FIX = {
    "wing": {
     "g": 0.75,
     "y": 0.25
+   }
+  }
+ },
+ "psittacula-columboides": {
+  "*": {
+   "back": {
+    "tl": 0.5,
+    "b": 0.3,
+    "gr": 0.2
    }
   }
  },
@@ -1402,6 +1854,23 @@ window.COLOR_FIX = {
    }
   }
  },
+ "pyrrhura-griseipectus": {
+  "*": {
+   "face": {
+    "w": 0.55,
+    "gr": 0.45
+   },
+   "breast": {
+    "gr": 0.5,
+    "r": 0.35,
+    "w": 0.15
+   },
+   "tail": {
+    "r": 0.75,
+    "br": 0.25
+   }
+  }
+ },
  "pyrrhura-lepida": {
   "*": {
    "face": {
@@ -1561,6 +2030,17 @@ window.COLOR_FIX = {
    }
   }
  },
+ "tanygnathus-lucionensis": {
+  "*": {
+   "crown": {
+    "g": 1
+   },
+   "beak": {
+    "r": 0.6,
+    "o": 0.4
+   }
+  }
+ },
  "touit-batavicus": {
   "*": {
    "breast": {
@@ -1717,6 +2197,25 @@ window.COLOR_FIX = {
    }
   }
  },
+ "trichoglossus-rubritorquis": {
+  "*": {
+   "crown": {
+    "b": 1
+   },
+   "forehead": {
+    "b": 1
+   },
+   "face": {
+    "b": 1
+   },
+   "throat": {
+    "b": 1
+   },
+   "back": {
+    "g": 1
+   }
+  }
+ },
  "vini-peruviana": {
   "*": {
    "main": {
@@ -1743,11 +2242,71 @@ window.COLOR_FIX = {
    }
   }
  },
+ "vini-solitaria": {
+  "*": {
+   "forehead": {
+    "k": 0.85,
+    "r": 0.15
+   },
+   "crown": {
+    "k": 0.85,
+    "g": 0.15
+   },
+   "belly": {
+    "g": 0.55,
+    "r": 0.45
+   }
+  }
+ },
  "vini-ultramarina": {
   "*": {
    "belly": {
     "w": 0.7,
     "b": 0.3
+   }
+  }
+ },
+ "zanda-baudinii": {
+  "*": {
+   "main": {
+    "k": 0.5,
+    "br": 0.5
+   },
+   "crown": {
+    "k": 0.5,
+    "br": 0.5
+   },
+   "forehead": {
+    "k": 0.5,
+    "br": 0.5
+   },
+   "face": {
+    "k": 0.5,
+    "br": 0.5
+   },
+   "throat": {
+    "k": 0.5,
+    "br": 0.5
+   },
+   "breast": {
+    "k": 0.5,
+    "br": 0.5
+   },
+   "belly": {
+    "k": 0.5,
+    "br": 0.5
+   },
+   "back": {
+    "k": 0.5,
+    "br": 0.5
+   },
+   "wing": {
+    "k": 0.4,
+    "br": 0.6
+   },
+   "crestColor": {
+    "k": 0.5,
+    "br": 0.5
    }
   }
  },
