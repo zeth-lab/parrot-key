@@ -1,0 +1,502 @@
+{
+ "agapornis-lilianae": [
+  68538931,
+  130963663,
+  151697905
+ ],
+ "amazona-finschi": [
+  1775304,
+  60635036,
+  197432300
+ ],
+ "amazona-leucocephala": [
+  58942286,
+  266973238,
+  213582838
+ ],
+ "amazona-lilacina": [
+  64596678,
+  54691784,
+  226310930
+ ],
+ "amazona-versicolor": [
+  368109,
+  338968970,
+  6113377
+ ],
+ "amazona-vinacea": [
+  134227815,
+  137262549,
+  148893745
+ ],
+ "amazona-xantholora": [
+  337903359,
+  318452591,
+  1377863
+ ],
+ "ara-glaucogularis": [
+  183897244,
+  133348483,
+  194197339
+ ],
+ "ara-militaris": [
+  33414305,
+  180732611,
+  30022454
+ ],
+ "aratinga-weddellii": [
+  148147181,
+  265308089,
+  67049032
+ ],
+ "barnardius-zonarius": [
+  351500491,
+  35835636,
+  147070836
+ ],
+ "blueyellowmacaw": [
+  64767076,
+  77108333,
+  107645634
+ ],
+ "brotogeris-cyanoptera": [
+  333753265,
+  231684603,
+  216433623
+ ],
+ "brotogeris-jugularis": [
+  17335637,
+  2648517,
+  23087989
+ ],
+ "brotogeris-tirica": [
+  14206122,
+  237179026,
+  16916699
+ ],
+ "budgerigar": [
+  135085000,
+  17352804,
+  105763599
+ ],
+ "caique": [
+  232360352,
+  103689561,
+  220783101
+ ],
+ "cockatiel": [
+  300326037,
+  71718359,
+  17317876
+ ],
+ "crimsonrosella": [
+  9720184,
+  294834758,
+  140347914
+ ],
+ "cyanoliseus-patagonus": [
+  56187290,
+  251325175,
+  108184028
+ ],
+ "cyanoramphus-cookii": [
+  230283866,
+  229202566,
+  45848230
+ ],
+ "cyanoramphus-saisseti": [
+  44308242,
+  318821775,
+  246754799
+ ],
+ "cyanoramphus-unicolor": [
+  78695059,
+  248028209,
+  365400315
+ ],
+ "diopsittaca-nobilis": [
+  80016676,
+  396821452,
+  253471058
+ ],
+ "eupsittula-aurea": [
+  281859052,
+  292981103,
+  30334596
+ ],
+ "eupsittula-canicularis": [
+  18461698,
+  70760166,
+  134641028
+ ],
+ "eupsittula-nana": [
+  458153,
+  339194730,
+  258410053
+ ],
+ "eupsittula-pertinax": [
+  263293786,
+  57269849,
+  297965355
+ ],
+ "fischers": [
+  20931681,
+  6532806,
+  255705817
+ ],
+ "forpus-coelestis": [
+  131784921,
+  222635441,
+  117185581
+ ],
+ "forpus-cyanopygius": [
+  73149701,
+  21053292,
+  324902154
+ ],
+ "forpus-modestus": [
+  50915108,
+  181471551,
+  18090654
+ ],
+ "forpus-passerinus": [
+  9144755,
+  151787,
+  74374057
+ ],
+ "forpus-spengeli": [
+  246017006,
+  133692519,
+  124764501
+ ],
+ "forpus-xanthopterygius": [
+  18471437,
+  259341462,
+  76365277
+ ],
+ "geoffroyus-geoffroyi": [
+  173549415,
+  274657650,
+  121972555
+ ],
+ "greenwingmacaw": [
+  4378113,
+  16170665,
+  7715819
+ ],
+ "kea": [
+  103356401,
+  107591414,
+  34230917
+ ],
+ "lineolated": [
+  157155426,
+  5038356,
+  82085296
+ ],
+ "loriculus-stigmatus": [
+  141880540,
+  103896145,
+  314274365
+ ],
+ "lorius-lory": [
+  403340022,
+  105424657,
+  406060109
+ ],
+ "neophema-chrysogaster": [
+  120494776,
+  35401645,
+  125926195
+ ],
+ "neophema-chrysostoma": [
+  181012150,
+  144529576,
+  214759904
+ ],
+ "neophema-elegans": [
+  230193299,
+  295296228,
+  231150153
+ ],
+ "neophema-petrophila": [
+  363936426,
+  331772042,
+  96756792
+ ],
+ "neophema-pulchella": [
+  19894054,
+  316150028,
+  249225634
+ ],
+ "neophema-splendida": [
+  15123362,
+  84801435,
+  188962214
+ ],
+ "northiella-haematogaster": [
+  310421887,
+  90006580,
+  78810386
+ ],
+ "orthopsittaca-manilatus": [
+  43966764,
+  69997957,
+  67813110
+ ],
+ "pionus-chalcopterus": [
+  36322116,
+  25045275,
+  132734875
+ ],
+ "pionus-fuscus": [
+  289125642,
+  306440328,
+  287163214
+ ],
+ "pionus-maximiliani": [
+  405790388,
+  253434264,
+  233791173
+ ],
+ "pionus-sordidus": [
+  110417615,
+  42394966,
+  37454988
+ ],
+ "platycercus-caledonicus": [
+  79139488,
+  143631396,
+  339126952
+ ],
+ "platycercus-icterotis": [
+  231171346,
+  201235278,
+  25048495
+ ],
+ "poicephalus-cryptoxanthus": [
+  66832723,
+  120385460,
+  336580611
+ ],
+ "poicephalus-meyeri": [
+  131767601,
+  193476308,
+  383862367
+ ],
+ "primolius-couloni": [
+  101587614,
+  241325468,
+  12143473
+ ],
+ "prosopeia-tabuensis": [
+  38030672,
+  263161918,
+  46019632
+ ],
+ "psephotellus-dissimilis": [
+  227957222,
+  145419877,
+  331367842
+ ],
+ "psephotellus-varius": [
+  305467758,
+  104700703,
+  313746451
+ ],
+ "psephotus-haematonotus": [
+  35942833,
+  248868460,
+  141498548
+ ],
+ "psilopsiagon-aurifrons": [
+  253823971,
+  108460662,
+  204438494
+ ],
+ "psittacara-brevipes": [
+  25410514,
+  25582274,
+  22713076
+ ],
+ "psittacara-euops": [
+  304201303,
+  147776022,
+  34311248
+ ],
+ "psittacara-finschi": [
+  21280184,
+  327725666,
+  51594585
+ ],
+ "psittacara-frontatus": [
+  191140266,
+  326912547,
+  37556658
+ ],
+ "psittacara-holochlorus": [
+  201276152,
+  122994324,
+  98840936
+ ],
+ "psittacara-leucophthalmus": [
+  104644724,
+  328974005,
+  336720356
+ ],
+ "psittacara-strenuus": [
+  146397927,
+  109612752,
+  190789383
+ ],
+ "psittacara-wagleri": [
+  144726256,
+  12845772,
+  150764218
+ ],
+ "psittacella-brehmii": [
+  6505873,
+  144671814,
+  28814613
+ ],
+ "psittacula-cyanocephala": [
+  63639039,
+  306445191,
+  213673805
+ ],
+ "psittacula-himalayana": [
+  28925282,
+  331718050,
+  56726734
+ ],
+ "psittacula-roseata": [
+  314067451,
+  177797086,
+  148582144
+ ],
+ "psittacus-timneh": [
+  109657704,
+  148334252,
+  67098430
+ ],
+ "psitteuteles-porphyrocephalus": [
+  66505425,
+  180574938,
+  195545612
+ ],
+ "psitteuteles-pusillus": [
+  347223399,
+  74323766,
+  391255775
+ ],
+ "psitteuteles-versicolor": [
+  58807974,
+  48096242,
+  35931757
+ ],
+ "psittinus-cyanurus": [
+  2441593,
+  187795635,
+  109028653
+ ],
+ "pyrilia-barrabandi": [
+  125270601,
+  300487308,
+  321408425
+ ],
+ "pyrilia-haematotis": [
+  2643924,
+  42302688,
+  40756720
+ ],
+ "pyrilia-pulchra": [
+  217634603,
+  180060369,
+  222875158
+ ],
+ "pyrilia-pyrilia": [
+  66426379,
+  292769314,
+  246718530
+ ],
+ "pyrrhura-amazonum": [
+  19159132,
+  8600307,
+  220063742
+ ],
+ "pyrrhura-cruentata": [
+  186427768,
+  204285730,
+  194363107
+ ],
+ "pyrrhura-devillei": [
+  198172437,
+  213561006,
+  198172438
+ ],
+ "pyrrhura-frontalis": [
+  137954728,
+  44404121,
+  12698901
+ ],
+ "pyrrhura-hoffmanni": [
+  40545304,
+  85487641,
+  344685941
+ ],
+ "pyrrhura-leucotis": [
+  342990998,
+  95920939,
+  212704892
+ ],
+ "pyrrhura-melanura": [
+  98491901,
+  13819657,
+  232387720
+ ],
+ "pyrrhura-perlata": [
+  73696591,
+  74077507,
+  205016219
+ ],
+ "pyrrhura-picta": [
+  19534160,
+  151508315,
+  103215463
+ ],
+ "rhynchopsitta-pachyrhyncha": [
+  59241153,
+  31024646,
+  122208042
+ ],
+ "rhynchopsitta-terrisi": [
+  145201094,
+  14734373,
+  15510839
+ ],
+ "sunconure": [
+  59650568,
+  94766985,
+  99867278
+ ],
+ "tanygnathus-megalorynchos": [
+  106671187,
+  258790888,
+  157844069
+ ],
+ "thectocercus-acuticaudatus": [
+  190989429,
+  198784972,
+  258785963
+ ],
+ "touit-surdus": [
+  130814024,
+  133656886,
+  203967033
+ ],
+ "trichoglossus-euteles": [
+  127630893,
+  230451232,
+  133127072
+ ]
+}
