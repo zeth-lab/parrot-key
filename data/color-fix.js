@@ -1244,8 +1244,8 @@ window.COLOR_FIX = {
  "nannopsittaca-panychlora": {
   "*": {
    "main": {
-    "g": 0.7,
-    "lg": 0.3
+    "g": 0.8,
+    "lg": 0.2
    },
    "crown": {
     "g": 0.8,
