@@ -526,7 +526,7 @@ function spotLayers(part){
   // 깃털에 마우스를 올리면 이 자리에 그 색이 칠해진다
   const prev = shape ? shape.replace(/fill="FILL"/g, 'fill="transparent"').replace(/stroke="FILL"/g, 'stroke="none"').replace(/<(ellipse|path)/, `<$1 class="spot-prev" data-part="${part}"`)
     : `<rect class="spot-prev" data-part="${part}" width="${BW}" height="${BH}" fill="transparent" mask="url(#bm-${part})"/>`;
-  const edge = shape ? shape.replace(/fill="FILL"/g, 'fill="none"').replace(/stroke="FILL"/g, 'stroke="none"').replace(/<(ellipse|path)/, '<$1 stroke="var(--hl)" stroke-width="7" stroke-dasharray="14 10"') : "";
+  const edge = shape ? shape.replace(/fill="FILL"/g, 'fill="none"').replace(/stroke="FILL"/g, 'stroke="none"').replace(/<(ellipse|path)/, '<$1 stroke="#fff" stroke-width="7" stroke-dasharray="14 10"') : "";
   return {
     under:`${prev}<g class="spot-fill">${fill}</g>`,
     over:`<rect class="spot-dim" x="-400" y="-400" width="${BW + 800}" height="${BH + 800}" fill="#000" mask="url(#bi-${part})"/>${edge ? `<g class="spot-edge">${edge}</g>` : ""}`
@@ -617,9 +617,11 @@ function zoomTo(svg, part, ms = 900){
 // 깃털에 마우스를 올리면 그림의 부위가 그 색으로 미리 칠해진다
 function previewPart(svg, parts, color){
   if (!svg) return;
+  // 마우스를 떼면 원래 색으로 되돌린다 (예전엔 강조색 노랑이 남아, 볏처럼 이미 칠해진 부위가 노랗게 보였다)
   parts.forEach(p => svg.querySelectorAll(`[data-part="${p}"]`).forEach(n => {
-    if (n.getAttribute("stroke") && n.getAttribute("fill") === "none") n.setAttribute("stroke", color || "var(--hl)");
-    else n.setAttribute("fill", color || (n.classList.contains("spot-prev") ? "transparent" : "var(--hl)"));
+    const attr = n.getAttribute("stroke") && n.getAttribute("fill") === "none" ? "stroke" : "fill";
+    if (n.dataset.orig == null) n.dataset.orig = n.getAttribute(attr) || "";
+    n.setAttribute(attr, color || n.dataset.orig);
   }));
 }
 
@@ -864,7 +866,7 @@ function answersToAttrs(answers){
     if (ans === "skip") return;
     const q = QMAP[qid];
     if (qid === "crest") { A.crest = ans === "yes"; return; }
-    if (qid === "crestColor") { if (ans !== "none") A.crestColor = [ans]; return; }
+    if (qid === "crestColor") { if (ans !== "none") { A.crestColor = [ans]; A.crest = true; } else A.crest = false; return; }
     if (qid === "eyeSkin") { A.eyeSkin = ans; return; }
     if (qid === "pattern") { A.pattern = ans; return; }
     if (q.kind === "color" || q.kind === "colorOrNone") { if (ans !== "none") A[qid] = [ans]; }
