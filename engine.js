@@ -125,7 +125,7 @@
   // ── 데이터 펼치기: 종 → 모습 목록 ──
   // fix: 사진 재검증 결과 (COLOR_FIX[종id][모습label|"*"][부위] = {색: 비율})
   const COLOR_PARTS = ["main", "crown", "forehead", "face", "throat", "breast", "belly", "back", "wing", "tail", "beak", "crestColor"];
-  const FIX_TRUST = { keep: 0.5 };   // 보정이 주된 색을 바꿀 때 원래 라벨을 남기는 비율
+  const FIX_TRUST = { keep: 0.5, near: 0.25 };   // 보정이 주된 색을 바꿀 때 원래 라벨을 남기는 비율
   function buildLooks(species, fix, manual) {
     fix = fix || {}; manual = manual || {};
     const looks = [];
@@ -143,7 +143,9 @@
           const nw = f[k], ow = W[k];
           if (!ow || ow === "none" || typeof nw !== "object") { W[k] = nw; return; }
           const top = o => Object.keys(o).reduce((a, c) => o[c] > o[a] ? c : a);
-          if (top(ow) === top(nw)) { W[k] = nw; return; }
+          // 주된 색이 같거나 '바로 옆 색'(갈색→올리브, 노랑→주황 등)으로 다듬은 것이면 보정을 그대로 믿는다.
+          // 멀리 떨어진 색으로 바뀐 경우(갈색→초록 등)만 원래 라벨과 섞는다
+          if (top(ow) === top(nw) || colorSim(top(ow), top(nw)) >= FIX_TRUST.near) { W[k] = nw; return; }
           const m = {}; for (const c in ow) m[c] = (m[c] || 0) + ow[c] * FIX_TRUST.keep; for (const c in nw) m[c] = (m[c] || 0) + nw[c] * (1 - FIX_TRUST.keep);
           W[k] = m;
         }); });

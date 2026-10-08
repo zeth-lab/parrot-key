@@ -384,6 +384,11 @@ const { COLORS, QUESTIONS, QMAP, createEngine, valueOf, likelihood } = ParrotKey
 const SP = window.SPECIES, KO = window.KO_NAMES || {};
 const eng = createEngine(SP, { opening:["main"], ease:{ size:0.15 } });
 eng.looks.forEach(l => { if (l.sp.extinct) l.prior *= 0.25; });
+// 소개 글·그림에도 보정된 색을 쓴다: 엔진의 색 비율에서 20% 이상인 색을 많은 순으로
+eng.looks.forEach(l => { const L = l.sp.looks[l.li];
+  Object.entries(l.W).forEach(([k, w]) => { if (!w || w === "none" || typeof w !== "object") return;
+    const arr = Object.entries(w).filter(([, p]) => p >= .2).sort((a, b) => b[1] - a[1]).map(([c]) => c);
+    if (arr.length) { L[k] = arr; l.a[k] = arr; } }); });
 const $v = document.getElementById("view");
 const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
 const hex = c => (COLORS[c] || {}).hex;
