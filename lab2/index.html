@@ -1142,17 +1142,18 @@ function renderCompare(list){
     </div>
     <div class="cgrid">${list.map(c => { const A = Object.assign({}, c.species.base, c.look ? c.look.a : {}); const ll = c.look ? lookLabel(c.species, c.look.label) : "";
       return `<button class="cc" data-sp="${c.si}"><span class="ph">${photo(c.species, "medium") ? `<img src="${esc(photo(c.species, "medium"))}" alt="" loading="lazy">` : birdSVG(A)}</span>
-      <b>${esc(nameOf(c.species))}</b><span>${ll ? esc(ll) + " · " : ""}${esc(featureLine(A))}</span></button>`; }).join("")}</div>
+      <b>${esc(nameOf(c.species))}</b><span>${ll ? esc(ll) + " · " : ""}${esc(featureLine(A, c.species))}</span></button>`; }).join("")}</div>
   </section>`;
   document.getElementById("continue").onclick = () => render();
   $v.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => { const si = +b.dataset.sp, top = eng.ranking(S.answers, S.rejected).list.find(c => c.si === si); renderResult(top, S.answers.length); });
 }
 // 후보끼리 구별되는 특징 한 줄 (사진만으로 헷갈릴 때)
-function featureLine(A){
+function featureLine(A, sp){
   const c = k => Array.isArray(A[k]) && COLORS[A[k][0]] ? COLORS[A[k][0]].ko : null, out = [];
+  const cm = A.sizeCm || (sp && sp.sizeCm); if (cm) out.push("몸길이 " + cm + "cm");   // 크기 차이가 크면 사진보다 먼저 눈에 들어온다
   if (c("forehead")) out.push("이마 " + c("forehead")); if (c("face")) out.push("얼굴 " + c("face"));
   if (c("breast")) out.push("가슴 " + c("breast")); if (c("tail")) out.push("꼬리 " + c("tail"));
-  return out.slice(0, 3).join(" · ");
+  return out.slice(0, 4).join(" · ");
 }
 function renderCandidates(top){
   S.declined.add(top.si); S.rejected.add(top.si);
