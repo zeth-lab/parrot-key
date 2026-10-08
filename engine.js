@@ -126,11 +126,11 @@
   // fix: 사진 재검증 결과 (COLOR_FIX[종id][모습label|"*"][부위] = {색: 비율})
   const COLOR_PARTS = ["main", "crown", "forehead", "face", "throat", "breast", "belly", "back", "wing", "tail", "beak", "crestColor"];
   const FIX_TRUST = { keep: 0.5 };   // 보정이 주된 색을 바꿀 때 원래 라벨을 남기는 비율
-  function buildLooks(species, fix) {
-    fix = fix || {};
+  function buildLooks(species, fix, manual) {
+    fix = fix || {}; manual = manual || {};
     const looks = [];
     species.forEach((sp, si) => {
-      const n = sp.looks.length, F = fix[sp.id] || {};
+      const n = sp.looks.length, F = fix[sp.id] || {}, MF = manual[sp.id] || {};
       sp.looks.forEach((l, li) => {
         const a = Object.assign({}, sp.base, l);
         a.size = sizeBucket(a.sizeCm || sp.sizeCm);
@@ -147,6 +147,7 @@
           const m = {}; for (const c in ow) m[c] = (m[c] || 0) + ow[c] * FIX_TRUST.keep; for (const c in nw) m[c] = (m[c] || 0) + nw[c] * (1 - FIX_TRUST.keep);
           W[k] = m;
         }); });
+        [MF["*"], MF[l.label]].forEach(f => { if (f) Object.assign(W, f); });   // 사람이 확정한 값은 그대로
         looks.push({ si, li, sp, label: l.label, a, W, prior: 1 / (species.length * n) });
       });
     });
@@ -203,7 +204,7 @@
     opts = opts || {};
     const opening = opts.opening || OPENING;
     const ease = Object.assign({}, EASE, opts.ease || {});
-    const looks = buildLooks(species, opts.fix || root.COLOR_FIX);
+    const looks = buildLooks(species, opts.fix || root.COLOR_FIX, opts.manual || root.COLOR_FIX_MANUAL);
     const N = species.length;
     // 우도 표를 미리 만든다: LT[질문][모습][선택지]
     const LT = {}, OI = {};

@@ -4,7 +4,7 @@
 globalThis.window = globalThis;
 const path = require("path");
 require("../data/species.js");
-try { require("../data/color-fix.js"); } catch (e) {}
+try { require("../data/color-fix.js"); require("../data/color-fix-manual.js"); } catch (e) {}
 const engFile = process.argv[2] || "../engine.js", mode = process.argv[3] || "new", reps = +(process.argv[4] || 2);
 require("../engine.js"); const NK = globalThis.ParrotKey;
 const truthEngine = NK.createEngine(SPECIES, { fix: globalThis.COLOR_FIX || {} });
