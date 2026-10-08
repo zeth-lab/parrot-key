@@ -1,0 +1,2082 @@
+{
+ "note": "1순위: 설명에 중간색 단어가 있는 종, 2순위: 나머지",
+ "first": [
+  [
+   "budgerigar",
+   "Melopsittacus undulatus",
+   "cobalt,olive"
+  ],
+  [
+   "cockatiel",
+   "Nymphicus hollandicus",
+   "olive"
+  ],
+  [
+   "fischers",
+   "Agapornis fischeri",
+   "olive"
+  ],
+  [
+   "blueyellowmacaw",
+   "Ara ararauna",
+   "aqua"
+  ],
+  [
+   "greenwingmacaw",
+   "Ara chloropterus",
+   "teal"
+  ],
+  [
+   "sunconure",
+   "Aratinga solstitialis",
+   "olive"
+  ],
+  [
+   "crimsonrosella",
+   "Platycercus elegans",
+   "olive"
+  ],
+  [
+   "caique",
+   "Pionites melanocephalus",
+   "olive"
+  ],
+  [
+   "lineolated",
+   "Bolborhynchus lineola",
+   "olive"
+  ],
+  [
+   "kea",
+   "Nestor notabilis",
+   "olive"
+  ],
+  [
+   "psephotus-haematonotus",
+   "Psephotus haematonotus",
+   "olive"
+  ],
+  [
+   "psittacara-leucophthalmus",
+   "Psittacara leucophthalmus",
+   "olive"
+  ],
+  [
+   "brotogeris-jugularis",
+   "Brotogeris jugularis",
+   "olive"
+  ],
+  [
+   "barnardius-zonarius",
+   "Barnardius zonarius",
+   "turquoise"
+  ],
+  [
+   "eupsittula-canicularis",
+   "Eupsittula canicularis",
+   "cyanoramphus"
+  ],
+  [
+   "eupsittula-nana",
+   "Eupsittula nana",
+   "olive"
+  ],
+  [
+   "eupsittula-pertinax",
+   "Eupsittula pertinax",
+   "olive,buff"
+  ],
+  [
+   "ara-militaris",
+   "Ara militaris",
+   "slate"
+  ],
+  [
+   "thectocercus-acuticaudatus",
+   "Thectocercus acuticaudatus",
+   "maroon"
+  ],
+  [
+   "eupsittula-aurea",
+   "Eupsittula aurea",
+   "olive"
+  ],
+  [
+   "amazona-finschi",
+   "Amazona finschi",
+   "lilac,maroon"
+  ],
+  [
+   "pyrrhura-frontalis",
+   "Pyrrhura frontalis",
+   "maroon"
+  ],
+  [
+   "psittacara-holochlorus",
+   "Psittacara holochlorus",
+   "olive"
+  ],
+  [
+   "brotogeris-tirica",
+   "Brotogeris tirica",
+   "bronzy"
+  ],
+  [
+   "psittacula-cyanocephala",
+   "Psittacula cyanocephala",
+   "maroon"
+  ],
+  [
+   "cyanoliseus-patagonus",
+   "Cyanoliseus patagonus",
+   "olive"
+  ],
+  [
+   "psittacara-finschi",
+   "Psittacara finschi",
+   "olive"
+  ],
+  [
+   "platycercus-caledonicus",
+   "Platycercus caledonicus",
+   "buff"
+  ],
+  [
+   "forpus-xanthopterygius",
+   "Forpus xanthopterygius",
+   "cobalt"
+  ],
+  [
+   "pionus-maximiliani",
+   "Pionus maximiliani",
+   "bronze"
+  ],
+  [
+   "diopsittaca-nobilis",
+   "Diopsittaca nobilis",
+   "slate,olive"
+  ],
+  [
+   "forpus-coelestis",
+   "Forpus coelestis",
+   "cobalt,turquoise"
+  ],
+  [
+   "aratinga-weddellii",
+   "Aratinga weddellii",
+   "dusky"
+  ],
+  [
+   "psephotellus-varius",
+   "Psephotellus varius",
+   "olive"
+  ],
+  [
+   "orthopsittaca-manilatus",
+   "Orthopsittaca manilatus",
+   "maroon,olive"
+  ],
+  [
+   "platycercus-icterotis",
+   "Platycercus icterotis",
+   "buff,olive,slate"
+  ],
+  [
+   "neophema-elegans",
+   "Neophema elegans",
+   "olive"
+  ],
+  [
+   "pionus-chalcopterus",
+   "Pionus chalcopterus",
+   "bronze"
+  ],
+  [
+   "brotogeris-cyanoptera",
+   "Brotogeris cyanoptera",
+   "cobalt,cyanoptera"
+  ],
+  [
+   "forpus-cyanopygius",
+   "Forpus cyanopygius",
+   "cyanopygius,turquoise"
+  ],
+  [
+   "poicephalus-meyeri",
+   "Poicephalus meyeri",
+   "turquoise"
+  ],
+  [
+   "northiella-haematogaster",
+   "Northiella haematogaster",
+   "olive"
+  ],
+  [
+   "neophema-chrysostoma",
+   "Neophema chrysostoma",
+   "olive,ultramarine,turquoise,slate"
+  ],
+  [
+   "pyrilia-haematotis",
+   "Pyrilia haematotis",
+   "olive"
+  ],
+  [
+   "psitteuteles-porphyrocephalus",
+   "Psitteuteles porphyrocephalus",
+   "bronze"
+  ],
+  [
+   "forpus-passerinus",
+   "Forpus passerinus",
+   "turquoise,cyanophanes,cyanochlorus"
+  ],
+  [
+   "poicephalus-cryptoxanthus",
+   "Poicephalus cryptoxanthus",
+   "olive"
+  ],
+  [
+   "psittacara-wagleri",
+   "Psittacara wagleri",
+   "olive"
+  ],
+  [
+   "amazona-vinacea",
+   "Amazona vinacea",
+   "turquoise,lilac"
+  ],
+  [
+   "psittacara-strenuus",
+   "Psittacara strenuus",
+   "olive"
+  ],
+  [
+   "amazona-leucocephala",
+   "Amazona leucocephala",
+   "olive"
+  ],
+  [
+   "psitteuteles-pusillus",
+   "Psitteuteles pusillus",
+   "bronze"
+  ],
+  [
+   "neophema-pulchella",
+   "Neophema pulchella",
+   "turquoise"
+  ],
+  [
+   "pionus-sordidus",
+   "Pionus sordidus",
+   "olive,buff"
+  ],
+  [
+   "psittacula-himalayana",
+   "Psittacula himalayana",
+   "slate,maroon"
+  ],
+  [
+   "neophema-petrophila",
+   "Neophema petrophila",
+   "olive,turquoise"
+  ],
+  [
+   "amazona-xantholora",
+   "Amazona xantholora",
+   "dusky"
+  ],
+  [
+   "pyrilia-pulchra",
+   "Pyrilia pulchra",
+   "olive"
+  ],
+  [
+   "rhynchopsitta-terrisi",
+   "Rhynchopsitta terrisi",
+   "maroon"
+  ],
+  [
+   "geoffroyus-geoffroyi",
+   "Geoffroyus geoffroyi",
+   "mauve,olive"
+  ],
+  [
+   "rhynchopsitta-pachyrhyncha",
+   "Rhynchopsitta pachyrhyncha",
+   "lilac"
+  ],
+  [
+   "pyrrhura-hoffmanni",
+   "Pyrrhura hoffmanni",
+   "olive"
+  ],
+  [
+   "pyrilia-barrabandi",
+   "Pyrilia barrabandi",
+   "olive"
+  ],
+  [
+   "pyrrhura-melanura",
+   "Pyrrhura melanura",
+   "maroon,buffy,dusky"
+  ],
+  [
+   "psittacula-roseata",
+   "Psittacula roseata",
+   "cyanocephala"
+  ],
+  [
+   "lorius-lory",
+   "Lorius lory",
+   "cyanuchen"
+  ],
+  [
+   "psephotellus-dissimilis",
+   "Psephotellus dissimilis",
+   "turquoise,olive"
+  ],
+  [
+   "psilopsiagon-aurifrons",
+   "Psilopsiagon aurifrons",
+   "buff"
+  ],
+  [
+   "psitteuteles-versicolor",
+   "Psitteuteles versicolor",
+   "mauve"
+  ],
+  [
+   "agapornis-lilianae",
+   "Agapornis lilianae",
+   "olive"
+  ],
+  [
+   "pyrrhura-leucotis",
+   "Pyrrhura leucotis",
+   "maroon,buff"
+  ],
+  [
+   "psittacara-frontatus",
+   "Psittacara frontatus",
+   "olive"
+  ],
+  [
+   "pionus-fuscus",
+   "Pionus fuscus",
+   "dusky"
+  ],
+  [
+   "neophema-chrysogaster",
+   "Neophema chrysogaster",
+   "olive"
+  ],
+  [
+   "ara-glaucogularis",
+   "Ara glaucogularis",
+   "turquoise"
+  ],
+  [
+   "loriculus-stigmatus",
+   "Loriculus stigmatus",
+   "maroon"
+  ],
+  [
+   "psittinus-cyanurus",
+   "Psittinus cyanurus",
+   "cyanurus"
+  ],
+  [
+   "pyrrhura-amazonum",
+   "Pyrrhura amazonum",
+   "buff,maroon"
+  ],
+  [
+   "primolius-couloni",
+   "Primolius couloni",
+   "olive,maroon"
+  ],
+  [
+   "pyrrhura-cruentata",
+   "Pyrrhura cruentata",
+   "olive"
+  ],
+  [
+   "forpus-modestus",
+   "Forpus modestus",
+   "dusky"
+  ],
+  [
+   "pyrrhura-picta",
+   "Pyrrhura picta",
+   "maroon,buff"
+  ],
+  [
+   "psittacara-brevipes",
+   "Psittacara brevipes",
+   "olive"
+  ],
+  [
+   "trichoglossus-euteles",
+   "Trichoglossus euteles",
+   "olive"
+  ],
+  [
+   "cyanoramphus-cookii",
+   "Cyanoramphus cookii",
+   "cyanoramphus"
+  ],
+  [
+   "psittacus-timneh",
+   "Psittacus timneh",
+   "maroon"
+  ],
+  [
+   "cyanoramphus-unicolor",
+   "Cyanoramphus unicolor",
+   "cyanoramphus"
+  ],
+  [
+   "prosopeia-tabuensis",
+   "Prosopeia tabuensis",
+   "maroon"
+  ],
+  [
+   "neophema-splendida",
+   "Neophema splendida",
+   "cobalt,turquoise"
+  ],
+  [
+   "pyrrhura-devillei",
+   "Pyrrhura devillei",
+   "maroon,olive"
+  ],
+  [
+   "forpus-spengeli",
+   "Forpus spengeli",
+   "turquoise"
+  ],
+  [
+   "psittacara-euops",
+   "Psittacara euops",
+   "olive"
+  ],
+  [
+   "amazona-versicolor",
+   "Amazona versicolor",
+   "maroon"
+  ],
+  [
+   "amazona-lilacina",
+   "Amazona lilacina",
+   "lilacine,lilac"
+  ],
+  [
+   "tanygnathus-megalorynchos",
+   "Tanygnathus megalorynchos",
+   "olive"
+  ],
+  [
+   "pyrrhura-perlata",
+   "Pyrrhura perlata",
+   "buff,turquoise,cobalt"
+  ],
+  [
+   "touit-surdus",
+   "Touit surdus",
+   "olive,dusky"
+  ],
+  [
+   "pyrilia-pyrilia",
+   "Pyrilia pyrilia",
+   "olive,dusky"
+  ],
+  [
+   "cyanoramphus-saisseti",
+   "Cyanoramphus saisseti",
+   "cyanoramphus"
+  ],
+  [
+   "psittacella-brehmii",
+   "Psittacella brehmii",
+   "olive"
+  ],
+  [
+   "pyrrhura-orcesi",
+   "Pyrrhura orcesi",
+   "buff,maroon,dusky"
+  ],
+  [
+   "amazona-diadema",
+   "Amazona diadema",
+   "dusky"
+  ],
+  [
+   "amazona-agilis",
+   "Amazona agilis",
+   "dusky"
+  ],
+  [
+   "hapalopsittaca-fuertesi",
+   "Hapalopsittaca fuertesi",
+   "olive"
+  ],
+  [
+   "pyrrhura-lucianii",
+   "Pyrrhura lucianii",
+   "buff,dusky,maroon"
+  ],
+  [
+   "touit-huetii",
+   "Touit huetii",
+   "olive"
+  ],
+  [
+   "pyrilia-caica",
+   "Pyrilia caica",
+   "olive"
+  ],
+  [
+   "pyrrhura-albipectus",
+   "Pyrrhura albipectus",
+   "dusky"
+  ],
+  [
+   "pyrrhura-roseifrons",
+   "Pyrrhura roseifrons",
+   "maroon,buff,buffy,dusky"
+  ],
+  [
+   "amazona-guildingii",
+   "Amazona guildingii",
+   "bronze"
+  ],
+  [
+   "bolborhynchus-orbygnesius",
+   "Bolborhynchus orbygnesius",
+   "teal"
+  ],
+  [
+   "touit-batavicus",
+   "Touit batavicus",
+   "dusky"
+  ],
+  [
+   "poicephalus-flavifrons",
+   "Poicephalus flavifrons",
+   "olive"
+  ],
+  [
+   "forpus-xanthops",
+   "Forpus xanthops",
+   "olive"
+  ],
+  [
+   "chalcopsitta-fuscata",
+   "Chalcopsitta fuscata",
+   "dusky"
+  ],
+  [
+   "pyrrhura-lepida",
+   "Pyrrhura lepida",
+   "buff,cobalt,slate"
+  ],
+  [
+   "hapalopsittaca-amazonina",
+   "Hapalopsittaca amazonina",
+   "buffy,olive"
+  ],
+  [
+   "prioniturus-flavicans",
+   "Prioniturus flavicans",
+   "olive"
+  ],
+  [
+   "pyrrhura-pfrimeri",
+   "Pyrrhura pfrimeri",
+   "maroon"
+  ],
+  [
+   "touit-dilectissimus",
+   "Touit dilectissimus",
+   "bronze"
+  ],
+  [
+   "pyrrhura-emma",
+   "Pyrrhura emma",
+   "olive,dusky"
+  ],
+  [
+   "trichoglossus-reticulatus",
+   "Trichoglossus reticulatus",
+   "indigo"
+  ],
+  [
+   "cyclopsitta-desmarestii",
+   "Cyclopsitta desmarestii",
+   "turquoise"
+  ],
+  [
+   "amazona-dufresniana",
+   "Amazona dufresniana",
+   "dusky"
+  ],
+  [
+   "vini-peruviana",
+   "Vini peruviana",
+   "ultramarine"
+  ],
+  [
+   "touit-purpuratus",
+   "Touit purpuratus",
+   "olive,dusky"
+  ],
+  [
+   "trichoglossus-rubiginosus",
+   "Trichoglossus rubiginosus",
+   "maroon,olive"
+  ],
+  [
+   "micropsitta-pusio",
+   "Micropsitta pusio",
+   "buff"
+  ],
+  [
+   "cyanoramphus-hochstetteri",
+   "Cyanoramphus hochstetteri",
+   "cyanoramphus"
+  ],
+  [
+   "cyanoramphus-forbesi",
+   "Cyanoramphus forbesi",
+   "cyanoramphus"
+  ],
+  [
+   "neopsittacus-pullicauda",
+   "Neopsittacus pullicauda",
+   "olive"
+  ],
+  [
+   "nannopsittacus-melanogenia",
+   "Nannopsittacus melanogenia",
+   "dusky"
+  ],
+  [
+   "glossoptilus-goldiei",
+   "Glossoptilus goldiei",
+   "mauve"
+  ],
+  [
+   "northiella-narethae",
+   "Northiella narethae",
+   "olive"
+  ],
+  [
+   "pyrilia-vulturina",
+   "Pyrilia vulturina",
+   "olive"
+  ],
+  [
+   "touit-costaricensis",
+   "Touit costaricensis",
+   "bronze"
+  ],
+  [
+   "trichoglossus-cyanogenius",
+   "Trichoglossus cyanogenius",
+   "cyanogenius"
+  ],
+  [
+   "trichoglossus-histrio",
+   "Trichoglossus histrio",
+   "indigo"
+  ],
+  [
+   "hapalopsittaca-melanotis",
+   "Hapalopsittaca melanotis",
+   "buff"
+  ],
+  [
+   "vini-ultramarina",
+   "Vini ultramarina",
+   "ultramarine"
+  ],
+  [
+   "touit-stictopterus",
+   "Touit stictopterus",
+   "dusky"
+  ],
+  [
+   "charmosyna-josefinae",
+   "Charmosyna josefinae",
+   "dusky"
+  ],
+  [
+   "geoffroyus-simplex",
+   "Geoffroyus simplex",
+   "lilac"
+  ],
+  [
+   "psittacella-madaraszi",
+   "Psittacella madaraszi",
+   "olive"
+  ],
+  [
+   "tanygnathus-gramineus",
+   "Tanygnathus gramineus",
+   "turquoise"
+  ],
+  [
+   "psephotellus-pulcherrimus",
+   "Psephotellus pulcherrimus",
+   "turquoise,aqua"
+  ],
+  [
+   "vini-margarethae",
+   "Vini margarethae",
+   "mauve,dusky"
+  ],
+  [
+   "amazona-martinicana",
+   "Amazona martinicana",
+   "slate"
+  ],
+  [
+   "cyanoramphus-ulietanus",
+   "Cyanoramphus ulietanus",
+   "olive"
+  ],
+  [
+   "psittacula-exsul",
+   "Psittacula exsul",
+   "slatey"
+  ],
+  [
+   "psittacula-wardi",
+   "Psittacula wardi",
+   "maroon"
+  ],
+  [
+   "amazona-violacea",
+   "Amazona violacea",
+   "slate"
+  ],
+  [
+   "vini-diadema",
+   "Vini diadema",
+   "olive"
+  ],
+  [
+   "cyanoramphus-zealandicus",
+   "Cyanoramphus zealandicus",
+   "cyanoramphus"
+  ],
+  [
+   "mascarinus-mascarinus",
+   "Mascarinus mascarinus",
+   "lilac,buffon"
+  ],
+  [
+   "nestor-productus",
+   "Nestor productus",
+   "olive"
+  ],
+  [
+   "anodorhynchus-glaucus",
+   "Anodorhynchus glaucus",
+   "turquoise"
+  ]
+ ],
+ "then": [
+  [
+   "rosyfaced",
+   "Agapornis roseicollis",
+   ""
+  ],
+  [
+   "scarletmacaw",
+   "Ara macao",
+   ""
+  ],
+  [
+   "hyacinth",
+   "Anodorhynchus hyacinthinus",
+   ""
+  ],
+  [
+   "africangrey",
+   "Psittacus erithacus",
+   ""
+  ],
+  [
+   "greencheek",
+   "Pyrrhura molinae",
+   ""
+  ],
+  [
+   "monk",
+   "Myiopsitta monachus",
+   ""
+  ],
+  [
+   "sulphurcrested",
+   "Cacatua galerita",
+   ""
+  ],
+  [
+   "umbrella",
+   "Cacatua alba",
+   ""
+  ],
+  [
+   "galah",
+   "Eolophus roseicapilla",
+   ""
+  ],
+  [
+   "redtailblack",
+   "Calyptorhynchus banksii",
+   ""
+  ],
+  [
+   "eclectus",
+   "Eclectus roratus",
+   ""
+  ],
+  [
+   "ringneck",
+   "Psittacula krameri",
+   ""
+  ],
+  [
+   "rainbowlorikeet",
+   "Trichoglossus moluccanus",
+   ""
+  ],
+  [
+   "bluefrontedamazon",
+   "Amazona aestiva",
+   ""
+  ],
+  [
+   "senegal",
+   "Poicephalus senegalus",
+   ""
+  ],
+  [
+   "kakapo",
+   "Strigops habroptilus",
+   ""
+  ],
+  [
+   "platycercus-eximius",
+   "Platycercus eximius",
+   ""
+  ],
+  [
+   "alisterus-scapularis",
+   "Alisterus scapularis",
+   ""
+  ],
+  [
+   "zanda-funerea",
+   "Zanda funerea",
+   ""
+  ],
+  [
+   "cacatua-sanguinea",
+   "Cacatua sanguinea",
+   ""
+  ],
+  [
+   "amazona-viridigenalis",
+   "Amazona viridigenalis",
+   ""
+  ],
+  [
+   "callocephalon-fimbriatum",
+   "Callocephalon fimbriatum",
+   ""
+  ],
+  [
+   "amazona-autumnalis",
+   "Amazona autumnalis",
+   ""
+  ],
+  [
+   "amazona-albifrons",
+   "Amazona albifrons",
+   ""
+  ],
+  [
+   "cacatua-tenuirostris",
+   "Cacatua tenuirostris",
+   ""
+  ],
+  [
+   "nestor-meridionalis",
+   "Nestor meridionalis",
+   ""
+  ],
+  [
+   "trichoglossus-concinnus",
+   "Trichoglossus concinnus",
+   ""
+  ],
+  [
+   "aratinga-nenday",
+   "Aratinga nenday",
+   ""
+  ],
+  [
+   "brotogeris-chiriri",
+   "Brotogeris chiriri",
+   ""
+  ],
+  [
+   "platycercus-adscitus",
+   "Platycercus adscitus",
+   ""
+  ],
+  [
+   "psittacula-eupatria",
+   "Psittacula eupatria",
+   ""
+  ],
+  [
+   "pionus-menstruus",
+   "Pionus menstruus",
+   ""
+  ],
+  [
+   "calyptorhynchus-lathami",
+   "Calyptorhynchus lathami",
+   ""
+  ],
+  [
+   "psittacara-mitratus",
+   "Psittacara mitratus",
+   ""
+  ],
+  [
+   "psittacara-erythrogenys",
+   "Psittacara erythrogenys",
+   ""
+  ],
+  [
+   "psittacula-alexandri",
+   "Psittacula alexandri",
+   ""
+  ],
+  [
+   "amazona-ochrocephala",
+   "Amazona ochrocephala",
+   ""
+  ],
+  [
+   "amazona-amazonica",
+   "Amazona amazonica",
+   ""
+  ],
+  [
+   "trichoglossus-chlorolepidotus",
+   "Trichoglossus chlorolepidotus",
+   ""
+  ],
+  [
+   "amazona-oratrix",
+   "Amazona oratrix",
+   ""
+  ],
+  [
+   "amazona-farinosa",
+   "Amazona farinosa",
+   ""
+  ],
+  [
+   "ara-severus",
+   "Ara severus",
+   ""
+  ],
+  [
+   "forpus-conspicillatus",
+   "Forpus conspicillatus",
+   ""
+  ],
+  [
+   "zanda-latirostris",
+   "Zanda latirostris",
+   ""
+  ],
+  [
+   "pionus-senilis",
+   "Pionus senilis",
+   ""
+  ],
+  [
+   "aprosmictus-erythropterus",
+   "Aprosmictus erythropterus",
+   ""
+  ],
+  [
+   "cyanoramphus-novaezelandiae",
+   "Cyanoramphus novaezelandiae",
+   ""
+  ],
+  [
+   "ara-ambiguus",
+   "Ara ambiguus",
+   ""
+  ],
+  [
+   "amazona-auropalliata",
+   "Amazona auropalliata",
+   ""
+  ],
+  [
+   "cacatua-sulphurea",
+   "Cacatua sulphurea",
+   ""
+  ],
+  [
+   "enicognathus-ferrugineus",
+   "Enicognathus ferrugineus",
+   ""
+  ],
+  [
+   "purpureicephalus-spurius",
+   "Purpureicephalus spurius",
+   ""
+  ],
+  [
+   "psittacula-longicauda",
+   "Psittacula longicauda",
+   ""
+  ],
+  [
+   "loriculus-vernalis",
+   "Loriculus vernalis",
+   ""
+  ],
+  [
+   "cacatua-leadbeateri",
+   "Cacatua leadbeateri",
+   ""
+  ],
+  [
+   "polytelis-swainsonii",
+   "Polytelis swainsonii",
+   ""
+  ],
+  [
+   "brotogeris-versicolurus",
+   "Brotogeris versicolurus",
+   ""
+  ],
+  [
+   "agapornis-personatus",
+   "Agapornis personatus",
+   ""
+  ],
+  [
+   "primolius-maracana",
+   "Primolius maracana",
+   ""
+  ],
+  [
+   "lathamus-discolor",
+   "Lathamus discolor",
+   ""
+  ],
+  [
+   "loriculus-galgulus",
+   "Loriculus galgulus",
+   ""
+  ],
+  [
+   "eclectus-polychloros",
+   "Eclectus polychloros",
+   ""
+  ],
+  [
+   "trichoglossus-haematodus",
+   "Trichoglossus haematodus",
+   ""
+  ],
+  [
+   "trichoglossus-rubritorquis",
+   "Trichoglossus rubritorquis",
+   ""
+  ],
+  [
+   "zanda-baudinii",
+   "Zanda baudinii",
+   ""
+  ],
+  [
+   "polytelis-anthopeplus",
+   "Polytelis anthopeplus",
+   ""
+  ],
+  [
+   "aratinga-jandaya",
+   "Aratinga jandaya",
+   ""
+  ],
+  [
+   "psilopsiagon-aymara",
+   "Psilopsiagon aymara",
+   ""
+  ],
+  [
+   "aratinga-auricapillus",
+   "Aratinga auricapillus",
+   ""
+  ],
+  [
+   "eupsittula-cactorum",
+   "Eupsittula cactorum",
+   ""
+  ],
+  [
+   "cacatua-goffiniana",
+   "Cacatua goffiniana",
+   ""
+  ],
+  [
+   "probosciger-aterrimus",
+   "Probosciger aterrimus",
+   ""
+  ],
+  [
+   "cyclopsitta-diophthalma",
+   "Cyclopsitta diophthalma",
+   ""
+  ],
+  [
+   "cyanoramphus-auriceps",
+   "Cyanoramphus auriceps",
+   ""
+  ],
+  [
+   "psittacula-columboides",
+   "Psittacula columboides",
+   ""
+  ],
+  [
+   "brotogeris-sanctithomae",
+   "Brotogeris sanctithomae",
+   ""
+  ],
+  [
+   "primolius-auricollis",
+   "Primolius auricollis",
+   ""
+  ],
+  [
+   "loriculus-beryllinus",
+   "Loriculus beryllinus",
+   ""
+  ],
+  [
+   "amazona-festiva",
+   "Amazona festiva",
+   ""
+  ],
+  [
+   "cacatua-moluccensis",
+   "Cacatua moluccensis",
+   ""
+  ],
+  [
+   "enicognathus-leptorhynchus",
+   "Enicognathus leptorhynchus",
+   ""
+  ],
+  [
+   "deroptyus-accipitrinus",
+   "Deroptyus accipitrinus",
+   ""
+  ],
+  [
+   "alipiopsitta-xanthops",
+   "Alipiopsitta xanthops",
+   ""
+  ],
+  [
+   "neopsephotus-bourkii",
+   "Neopsephotus bourkii",
+   ""
+  ],
+  [
+   "pionites-leucogaster",
+   "Pionites leucogaster",
+   ""
+  ],
+  [
+   "agapornis-canus",
+   "Agapornis canus",
+   ""
+  ],
+  [
+   "tanygnathus-lucionensis",
+   "Tanygnathus lucionensis",
+   ""
+  ],
+  [
+   "poicephalus-rufiventris",
+   "Poicephalus rufiventris",
+   ""
+  ],
+  [
+   "coracopsis-vasa",
+   "Coracopsis vasa",
+   ""
+  ],
+  [
+   "psittacara-chloropterus",
+   "Psittacara chloropterus",
+   ""
+  ],
+  [
+   "guaruba-guarouba",
+   "Guaruba guarouba",
+   ""
+  ],
+  [
+   "loriculus-philippensis",
+   "Loriculus philippensis",
+   ""
+  ],
+  [
+   "amazona-mercenarius",
+   "Amazona mercenarius",
+   ""
+  ],
+  [
+   "amazona-ventralis",
+   "Amazona ventralis",
+   ""
+  ],
+  [
+   "psittacula-calthrapae",
+   "Psittacula calthrapae",
+   ""
+  ],
+  [
+   "brotogeris-pyrrhoptera",
+   "Brotogeris pyrrhoptera",
+   ""
+  ],
+  [
+   "platycercus-venustus",
+   "Platycercus venustus",
+   ""
+  ],
+  [
+   "amazona-vittata",
+   "Amazona vittata",
+   ""
+  ],
+  [
+   "brotogeris-chrysoptera",
+   "Brotogeris chrysoptera",
+   ""
+  ],
+  [
+   "amazona-brasiliensis",
+   "Amazona brasiliensis",
+   ""
+  ],
+  [
+   "ognorhynchus-icterotis",
+   "Ognorhynchus icterotis",
+   ""
+  ],
+  [
+   "graydidascalus-brachyurus",
+   "Graydidascalus brachyurus",
+   ""
+  ],
+  [
+   "leptosittaca-branickii",
+   "Leptosittaca branickii",
+   ""
+  ],
+  [
+   "ara-rubrogenys",
+   "Ara rubrogenys",
+   ""
+  ],
+  [
+   "coracopsis-nigra",
+   "Coracopsis nigra",
+   ""
+  ],
+  [
+   "amazona-rhodocorytha",
+   "Amazona rhodocorytha",
+   ""
+  ],
+  [
+   "pionus-tumultuosus",
+   "Pionus tumultuosus",
+   ""
+  ],
+  [
+   "cacatua-pastinator",
+   "Cacatua pastinator",
+   ""
+  ],
+  [
+   "amazona-barbadensis",
+   "Amazona barbadensis",
+   ""
+  ],
+  [
+   "bolbopsittacus-lunulatus",
+   "Bolbopsittacus lunulatus",
+   ""
+  ],
+  [
+   "vini-solitaria",
+   "Vini solitaria",
+   ""
+  ],
+  [
+   "agapornis-taranta",
+   "Agapornis taranta",
+   ""
+  ],
+  [
+   "pezoporus-wallicus",
+   "Pezoporus wallicus",
+   ""
+  ],
+  [
+   "forpus-crassirostris",
+   "Forpus crassirostris",
+   ""
+  ],
+  [
+   "poicephalus-rueppellii",
+   "Poicephalus rueppellii",
+   ""
+  ],
+  [
+   "amazona-collaria",
+   "Amazona collaria",
+   ""
+  ],
+  [
+   "pyrrhura-griseipectus",
+   "Pyrrhura griseipectus",
+   ""
+  ],
+  [
+   "cyanoramphus-malherbi",
+   "Cyanoramphus malherbi",
+   ""
+  ],
+  [
+   "pionopsitta-pileata",
+   "Pionopsitta pileata",
+   ""
+  ],
+  [
+   "psittacula-derbiana",
+   "Psittacula derbiana",
+   ""
+  ],
+  [
+   "amazona-tucumana",
+   "Amazona tucumana",
+   ""
+  ],
+  [
+   "myiopsitta-luchsi",
+   "Myiopsitta luchsi",
+   ""
+  ],
+  [
+   "anodorhynchus-leari",
+   "Anodorhynchus leari",
+   ""
+  ],
+  [
+   "agapornis-pullarius",
+   "Agapornis pullarius",
+   ""
+  ],
+  [
+   "poicephalus-robustus",
+   "Poicephalus robustus",
+   ""
+  ],
+  [
+   "poicephalus-fuscicollis",
+   "Poicephalus fuscicollis",
+   ""
+  ],
+  [
+   "psephotellus-chrysopterygius",
+   "Psephotellus chrysopterygius",
+   ""
+  ],
+  [
+   "trichoglossus-borneus",
+   "Trichoglossus borneus",
+   ""
+  ],
+  [
+   "prosopeia-personata",
+   "Prosopeia personata",
+   ""
+  ],
+  [
+   "amazona-pretrei",
+   "Amazona pretrei",
+   ""
+  ],
+  [
+   "lorius-garrulus",
+   "Lorius garrulus",
+   ""
+  ],
+  [
+   "psittacula-finschii",
+   "Psittacula finschii",
+   ""
+  ],
+  [
+   "amazona-arausiaca",
+   "Amazona arausiaca",
+   ""
+  ],
+  [
+   "pyrrhura-calliptera",
+   "Pyrrhura calliptera",
+   ""
+  ],
+  [
+   "tanygnathus-sumatranus",
+   "Tanygnathus sumatranus",
+   ""
+  ],
+  [
+   "psittrichas-fulgidus",
+   "Psittrichas fulgidus",
+   ""
+  ],
+  [
+   "eunymphicus-cornutus",
+   "Eunymphicus cornutus",
+   ""
+  ],
+  [
+   "trichoglossus-squamatus",
+   "Trichoglossus squamatus",
+   ""
+  ],
+  [
+   "polytelis-alexandrae",
+   "Polytelis alexandrae",
+   ""
+  ],
+  [
+   "triclaria-malachitacea",
+   "Triclaria malachitacea",
+   ""
+  ],
+  [
+   "coracopsis-barklyi",
+   "Coracopsis barklyi",
+   ""
+  ],
+  [
+   "poicephalus-gulielmi",
+   "Poicephalus gulielmi",
+   ""
+  ],
+  [
+   "pyrrhura-viridicata",
+   "Pyrrhura viridicata",
+   ""
+  ],
+  [
+   "cacatua-ducorpsii",
+   "Cacatua ducorpsii",
+   ""
+  ],
+  [
+   "pyrrhura-rupicola",
+   "Pyrrhura rupicola",
+   ""
+  ],
+  [
+   "alisterus-amboinensis",
+   "Alisterus amboinensis",
+   ""
+  ],
+  [
+   "trichoglossus-capistratus",
+   "Trichoglossus capistratus",
+   ""
+  ],
+  [
+   "hypocharmosyna-placentis",
+   "Hypocharmosyna placentis",
+   ""
+  ],
+  [
+   "chalcopsitta-cardinalis",
+   "Chalcopsitta cardinalis",
+   ""
+  ],
+  [
+   "loriculus-pusillus",
+   "Loriculus pusillus",
+   ""
+  ],
+  [
+   "psittacula-eques",
+   "Psittacula eques",
+   ""
+  ],
+  [
+   "prioniturus-platurus",
+   "Prioniturus platurus",
+   ""
+  ],
+  [
+   "cacatua-haematuropygia",
+   "Cacatua haematuropygia",
+   ""
+  ],
+  [
+   "lorius-chlorocercus",
+   "Lorius chlorocercus",
+   ""
+  ],
+  [
+   "lorius-hypoinochrous",
+   "Lorius hypoinochrous",
+   ""
+  ],
+  [
+   "trichoglossus-ornatus",
+   "Trichoglossus ornatus",
+   ""
+  ],
+  [
+   "agapornis-nigrigenis",
+   "Agapornis nigrigenis",
+   ""
+  ],
+  [
+   "touit-melanonotus",
+   "Touit melanonotus",
+   ""
+  ],
+  [
+   "bolborhynchus-ferrugineifrons",
+   "Bolborhynchus ferrugineifrons",
+   ""
+  ],
+  [
+   "prioniturus-platenae",
+   "Prioniturus platenae",
+   ""
+  ],
+  [
+   "prosopeia-splendens",
+   "Prosopeia splendens",
+   ""
+  ],
+  [
+   "charmosyna-stellae",
+   "Charmosyna stellae",
+   ""
+  ],
+  [
+   "loriculus-exilis",
+   "Loriculus exilis",
+   ""
+  ],
+  [
+   "cacatua-citrinocristata",
+   "Cacatua citrinocristata",
+   ""
+  ],
+  [
+   "trichoglossus-meyeri",
+   "Trichoglossus meyeri",
+   ""
+  ],
+  [
+   "chalcopsitta-atra",
+   "Chalcopsitta atra",
+   ""
+  ],
+  [
+   "prioniturus-luconensis",
+   "Prioniturus luconensis",
+   ""
+  ],
+  [
+   "micropsitta-keiensis",
+   "Micropsitta keiensis",
+   ""
+  ],
+  [
+   "cacatua-ophthalmica",
+   "Cacatua ophthalmica",
+   ""
+  ],
+  [
+   "trichoglossus-johnstoniae",
+   "Trichoglossus johnstoniae",
+   ""
+  ],
+  [
+   "trichoglossus-iris",
+   "Trichoglossus iris",
+   ""
+  ],
+  [
+   "amazona-kawalli",
+   "Amazona kawalli",
+   ""
+  ],
+  [
+   "prioniturus-discurus",
+   "Prioniturus discurus",
+   ""
+  ],
+  [
+   "geoffroyus-heteroclitus",
+   "Geoffroyus heteroclitus",
+   ""
+  ],
+  [
+   "micropsitta-bruijnii",
+   "Micropsitta bruijnii",
+   ""
+  ],
+  [
+   "lorius-domicella",
+   "Lorius domicella",
+   ""
+  ],
+  [
+   "vini-australis",
+   "Vini australis",
+   ""
+  ],
+  [
+   "hapalopsittaca-pyrrhops",
+   "Hapalopsittaca pyrrhops",
+   ""
+  ],
+  [
+   "vini-kuhlii",
+   "Vini kuhlii",
+   ""
+  ],
+  [
+   "oreopsittacus-arfaki",
+   "Oreopsittacus arfaki",
+   ""
+  ],
+  [
+   "neopsittacus-musschenbroekii",
+   "Neopsittacus musschenbroekii",
+   ""
+  ],
+  [
+   "charmosyna-papou",
+   "Charmosyna papou",
+   ""
+  ],
+  [
+   "chalcopsitta-scintillata",
+   "Chalcopsitta scintillata",
+   ""
+  ],
+  [
+   "alisterus-chloropterus",
+   "Alisterus chloropterus",
+   ""
+  ],
+  [
+   "loriculus-amabilis",
+   "Loriculus amabilis",
+   ""
+  ],
+  [
+   "conuropsis-carolinensis",
+   "Conuropsis carolinensis",
+   ""
+  ],
+  [
+   "aprosmictus-jonquillaceus",
+   "Aprosmictus jonquillaceus",
+   ""
+  ],
+  [
+   "pyrrhura-caeruleiceps",
+   "Pyrrhura caeruleiceps",
+   ""
+  ],
+  [
+   "nannopsittaca-dachilleae",
+   "Nannopsittaca dachilleae",
+   ""
+  ],
+  [
+   "loriculus-sclateri",
+   "Loriculus sclateri",
+   ""
+  ],
+  [
+   "micropsitta-geelvinkiana",
+   "Micropsitta geelvinkiana",
+   ""
+  ],
+  [
+   "psittacella-modesta",
+   "Psittacella modesta",
+   ""
+  ],
+  [
+   "eclectus-cornelia",
+   "Eclectus cornelia",
+   ""
+  ],
+  [
+   "trichoglossus-forsteni",
+   "Trichoglossus forsteni",
+   ""
+  ],
+  [
+   "amazona-imperialis",
+   "Amazona imperialis",
+   ""
+  ],
+  [
+   "agapornis-swindernianus",
+   "Agapornis swindernianus",
+   ""
+  ],
+  [
+   "cyclopsitta-salvadorii",
+   "Cyclopsitta salvadorii",
+   ""
+  ],
+  [
+   "pyrrhura-hoematotis",
+   "Pyrrhura hoematotis",
+   ""
+  ],
+  [
+   "nannopsittacus-gulielmitertii",
+   "Nannopsittacus gulielmitertii",
+   ""
+  ],
+  [
+   "eunymphicus-uvaeensis",
+   "Eunymphicus uvaeensis",
+   ""
+  ],
+  [
+   "loriculus-aurantiifrons",
+   "Loriculus aurantiifrons",
+   ""
+  ],
+  [
+   "psittacella-picta",
+   "Psittacella picta",
+   ""
+  ],
+  [
+   "chalcopsitta-duivenbodei",
+   "Chalcopsitta duivenbodei",
+   ""
+  ],
+  [
+   "loriculus-catamene",
+   "Loriculus catamene",
+   ""
+  ],
+  [
+   "aratinga-maculata",
+   "Aratinga maculata",
+   ""
+  ],
+  [
+   "prioniturus-waterstradti",
+   "Prioniturus waterstradti",
+   ""
+  ],
+  [
+   "micropsitta-finschii",
+   "Micropsitta finschii",
+   ""
+  ],
+  [
+   "trichoglossus-weberi",
+   "Trichoglossus weberi",
+   ""
+  ],
+  [
+   "cyanopsitta-spixii",
+   "Cyanopsitta spixii",
+   ""
+  ],
+  [
+   "charmosynopsis-pulchella",
+   "Charmosynopsis pulchella",
+   ""
+  ],
+  [
+   "cyclopsitta-edwardsii",
+   "Cyclopsitta edwardsii",
+   ""
+  ],
+  [
+   "pyrilia-aurantiocephala",
+   "Pyrilia aurantiocephala",
+   ""
+  ],
+  [
+   "trichoglossus-flavoviridis",
+   "Trichoglossus flavoviridis",
+   ""
+  ],
+  [
+   "loriculus-bonapartei",
+   "Loriculus bonapartei",
+   ""
+  ],
+  [
+   "prioniturus-mada",
+   "Prioniturus mada",
+   ""
+  ],
+  [
+   "psittinus-abbotti",
+   "Psittinus abbotti",
+   ""
+  ],
+  [
+   "pyrrhura-subandina",
+   "Pyrrhura subandina",
+   ""
+  ],
+  [
+   "trichoglossus-rosenbergii",
+   "Trichoglossus rosenbergii",
+   ""
+  ],
+  [
+   "coracopsis-sibilans",
+   "Coracopsis sibilans",
+   ""
+  ],
+  [
+   "vini-stepheni",
+   "Vini stepheni",
+   ""
+  ],
+  [
+   "pezoporus-occidentalis",
+   "Pezoporus occidentalis",
+   ""
+  ],
+  [
+   "trichoglossus-semilarvatus",
+   "Trichoglossus semilarvatus",
+   ""
+  ],
+  [
+   "pyrrhura-rhodocephala",
+   "Pyrrhura rhodocephala",
+   ""
+  ],
+  [
+   "nannopsittaca-panychlora",
+   "Nannopsittaca panychlora",
+   ""
+  ],
+  [
+   "prioniturus-mindorensis",
+   "Prioniturus mindorensis",
+   ""
+  ],
+  [
+   "loriculus-camiguinensis",
+   "Loriculus camiguinensis",
+   ""
+  ],
+  [
+   "pyrrhura-egregia",
+   "Pyrrhura egregia",
+   ""
+  ],
+  [
+   "psittacula-caniceps",
+   "Psittacula caniceps",
+   ""
+  ],
+  [
+   "hypocharmosyna-rubronotata",
+   "Hypocharmosyna rubronotata",
+   ""
+  ],
+  [
+   "prioniturus-montanus",
+   "Prioniturus montanus",
+   ""
+  ],
+  [
+   "loriculus-flosculus",
+   "Loriculus flosculus",
+   ""
+  ],
+  [
+   "charmosyna-multistriata",
+   "Charmosyna multistriata",
+   ""
+  ],
+  [
+   "charminetta-wilhelminae",
+   "Charminetta wilhelminae",
+   ""
+  ],
+  [
+   "charmosynopsis-toxopei",
+   "Charmosynopsis toxopei",
+   ""
+  ],
+  [
+   "vini-rubrigularis",
+   "Vini rubrigularis",
+   ""
+  ],
+  [
+   "poicephalus-crassus",
+   "Poicephalus crassus",
+   ""
+  ],
+  [
+   "micropsitta-meeki",
+   "Micropsitta meeki",
+   ""
+  ],
+  [
+   "ara-tricolor",
+   "Ara tricolor",
+   ""
+  ],
+  [
+   "psittacara-labati",
+   "Psittacara labati",
+   ""
+  ],
+  [
+   "vini-sinotoi",
+   "Vini sinotoi",
+   ""
+  ],
+  [
+   "cyanoramphus-subflavescens",
+   "Cyanoramphus subflavescens",
+   ""
+  ],
+  [
+   "psittacula-bensoni",
+   "Psittacula bensoni",
+   ""
+  ],
+  [
+   "tanygnathus-everetti",
+   "Tanygnathus everetti",
+   ""
+  ],
+  [
+   "prioniturus-verticalis",
+   "Prioniturus verticalis",
+   ""
+  ],
+  [
+   "lorius-albidinucha",
+   "Lorius albidinucha",
+   ""
+  ],
+  [
+   "loriculus-tener",
+   "Loriculus tener",
+   ""
+  ],
+  [
+   "ara-autochthones",
+   "Ara autochthones",
+   ""
+  ],
+  [
+   "eclectus-infectus",
+   "Eclectus infectus",
+   ""
+  ],
+  [
+   "lophopsittacus-mauritianus",
+   "Lophopsittacus mauritianus",
+   ""
+  ],
+  [
+   "eclectus-riedeli",
+   "Eclectus riedeli",
+   ""
+  ],
+  [
+   "vini-vidivici",
+   "Vini vidivici",
+   ""
+  ],
+  [
+   "vini-palmarum",
+   "Vini palmarum",
+   ""
+  ],
+  [
+   "vini-amabilis",
+   "Vini amabilis",
+   ""
+  ],
+  [
+   "vini-meeki",
+   "Vini meeki",
+   ""
+  ],
+  [
+   "nannopsittacus-nigrifrons",
+   "Nannopsittacus nigrifrons",
+   ""
+  ],
+  [
+   "nestor-chathamensis",
+   "Nestor chathamensis",
+   ""
+  ],
+  [
+   "necropsittacus-rodricanus",
+   "Necropsittacus rodricanus",
+   ""
+  ],
+  [
+   "psittacara-maugei",
+   "Psittacara maugei",
+   ""
+  ]
+ ]
+}
