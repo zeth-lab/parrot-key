@@ -420,8 +420,8 @@ window.COLOR_FIX = {
  "coracopsis-nigra": {
   "*": {
    "main": {
-    "br": 0.45,
-    "gr": 0.35,
+    "br": 0.5,
+    "gr": 0.3,
     "k": 0.2
    },
    "crown": {
@@ -2269,8 +2269,8 @@ window.COLOR_FIX = {
  "zanda-baudinii": {
   "*": {
    "main": {
-    "k": 0.5,
-    "br": 0.5
+    "k": 0.6,
+    "br": 0.4
    },
    "crown": {
     "k": 0.5,
