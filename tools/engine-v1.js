@@ -7,77 +7,35 @@
   3) 다음 질문은 "답을 듣고 나면 후보가 가장 많이 줄어드는" 질문을 고른다 (기대 정보량).
 */
 (function (root) {
-  // 기준색 16개. 깃털 부채에 이 순서대로 펼친다 (이웃한 깃털 = 비슷한 색)
   const COLORS = {
-    w:  { ko: "흰색",   hex: "#f6f4ee" },
-    gr: { ko: "회색",   hex: "#9b9e9a" },
-    k:  { ko: "검정",   hex: "#2b2a28" },
-    br: { ko: "갈색",   hex: "#8b5b3c" },
-    ol: { ko: "올리브", hex: "#7d8538" },
-    g:  { ko: "초록",   hex: "#3d8a4c" },
-    lg: { ko: "연두",   hex: "#9cc43f" },
-    y:  { ko: "노랑",   hex: "#f1c533" },
-    o:  { ko: "주황",   hex: "#ea8a2d" },
-    r:  { ko: "빨강",   hex: "#cf3b2e" },
-    p:  { ko: "분홍",   hex: "#ef9db4" },
-    v:  { ko: "보라",   hex: "#7556a3" },
-    nv: { ko: "남색",   hex: "#25336e" },
-    b:  { ko: "파랑",   hex: "#2c5cb0" },
-    sb: { ko: "하늘",   hex: "#7cbbe2" },
-    tl: { ko: "청록",   hex: "#1f978c" }
+    g:  { ko: "초록", hex: "#3d8a4c" },
+    lg: { ko: "연두", hex: "#9cc43f" },
+    b:  { ko: "파랑", hex: "#2c5cb0" },
+    sb: { ko: "하늘", hex: "#7cbbe2" },
+    y:  { ko: "노랑", hex: "#f1c533" },
+    o:  { ko: "주황", hex: "#ea8a2d" },
+    r:  { ko: "빨강", hex: "#cf3b2e" },
+    p:  { ko: "분홍", hex: "#ef9db4" },
+    v:  { ko: "보라", hex: "#7556a3" },
+    w:  { ko: "흰색", hex: "#f6f4ee" },
+    gr: { ko: "회색", hex: "#9b9e9a" },
+    k:  { ko: "검정", hex: "#2b2a28" },
+    br: { ko: "갈색", hex: "#8b5b3c" }
   };
-  const ALL = Object.keys(COLORS);
+  const ALL = ["g", "lg", "b", "sb", "y", "o", "r", "p", "v", "w", "gr", "k", "br"];
 
-  /* ── 색 지각 모델 ──
-     사람 눈에 맞춘 색 공간(OKLab)에서 거리를 잰다.
-     밝기(L) 차이는 조명·그늘 때문에 흔하므로 덜 따지고, 색상·채도 차이는 엄격하게 따진다.
-     "실제 색이 a인 부위를 보고 사람이 c를 고를 확률" = 선택지 전체에 대해 정규화한 가우시안. */
-  function hex2lab(h) {
-    const n = parseInt(h.slice(1), 16);
-    const lin = x => { x /= 255; return x <= 0.04045 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4); };
-    const r = lin(n >> 16), g = lin((n >> 8) & 255), b = lin(n & 255);
-    const l = Math.cbrt(0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b);
-    const m = Math.cbrt(0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b);
-    const s = Math.cbrt(0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b);
-    return [0.2104542553 * l + 0.7936177850 * m - 0.0040720468 * s,
-            1.9779984951 * l - 2.4285922050 * m + 0.4505937099 * s,
-            0.0259040371 * l + 0.7827717662 * m - 0.8086757660 * s];
+  // 사람들이 서로 헷갈려 부르는 색 쌍과 그 정도
+  const NEAR = {
+    "g|lg": 0.4, "b|sb": 0.4, "b|v": 0.25, "y|o": 0.35, "o|r": 0.35, "r|p": 0.3,
+    "p|v": 0.2, "w|gr": 0.3, "gr|k": 0.25, "k|br": 0.25, "br|o": 0.15, "g|b": 0.12,
+    "y|lg": 0.25, "w|y": 0.12, "sb|g": 0.1, "br|gr": 0.15, "r|br": 0.12, "w|p": 0.12
+  };
+  function colorSim(a, b) {
+    if (a === b) return 1;
+    return NEAR[a + "|" + b] || NEAR[b + "|" + a] || 0;
   }
-  const LAB = Object.fromEntries(ALL.map(c => [c, hex2lab(COLORS[c].hex)]));
-  const PERCEPT = { wL: 0.55, sigma: 0.08, lapse: 0.01, floor: 0.05, mode: "max" };   // tools/sim2.js 로 맞춘 값   // 밝기 가중, 허용폭, 아무렇게나 고를 확률
-  const chroma = A => Math.hypot(A[1], A[2]);
-  function percDist2(A, B) {
-    // 무채색끼리(흰·회·검)는 빛을 받으면 서로 넘나든다 → 밝기 차이를 더 봐준다
-    const wl = chroma(A) < 0.05 && chroma(B) < 0.05 ? PERCEPT.wL * 0.55 : PERCEPT.wL;
-    const dL = (A[0] - B[0]) * wl, da = A[1] - B[1], db = A[2] - B[2];
-    return dL * dL + da * da + db * db;
-  }
-  // 선택지 묶음마다 혼동 행렬을 한 번만 만든다
-  const confCache = new Map();
-  function confusion(opts) {
-    const key = opts.join(",");
-    if (confCache.has(key)) return confCache.get(key);
-    const M = {};
-    for (const a of ALL) {
-      const row = opts.map(c => Math.exp(-percDist2(LAB[a], LAB[c]) / (2 * PERCEPT.sigma * PERCEPT.sigma)));
-      const Z = row.reduce((x, y) => x + y, 0);
-      M[a] = Object.fromEntries(opts.map((c, i) => [c, (1 - PERCEPT.lapse) * row[i] / Z + PERCEPT.lapse / opts.length]));
-    }
-    confCache.set(key, M);
-    return M;
-  }
-  // 범주 라벨 배열 → 기준색 비율. 앞의 색일수록 넓게 보인다
-  const SPLIT = [[1], [0.65, 0.35], [0.55, 0.3, 0.15], [0.5, 0.25, 0.15, 0.1]];
-  function toWeights(v) {
-    if (v == null || v === "none") return v;
-    if (!Array.isArray(v)) return v;                       // 이미 {색: 비율}
-    const sp = SPLIT[Math.min(v.length, 4) - 1], w = {};
-    v.slice(0, 4).forEach((c, i) => { w[c] = (w[c] || 0) + sp[i]; });
-    return w;
-  }
-  // 옛 함수 이름 유지 (화면 코드에서 씀): 두 색이 얼마나 비슷하게 보이는지 0~1
-  function colorSim(a, b) { return Math.exp(-percDist2(LAB[a], LAB[b]) / (2 * PERCEPT.sigma * PERCEPT.sigma)); }
 
+  const FLOOR = 0.04;        // 아무리 안 맞아도 이 이하로는 안 떨어진다
   const UNKNOWN = 0.3;       // 데이터가 비어 있는 칸
 
   const opt = (v, label, sub) => ({ v, label, sub });
@@ -123,21 +81,14 @@
   function sizeBucket(cm) { return cm <= 20 ? "s" : cm < 35 ? "m" : cm < 55 ? "l" : "xl"; }
 
   // ── 데이터 펼치기: 종 → 모습 목록 ──
-  // fix: 사진 재검증 결과 (COLOR_FIX[종id][모습label|"*"][부위] = {색: 비율})
-  const COLOR_PARTS = ["main", "crown", "forehead", "face", "throat", "breast", "belly", "back", "wing", "tail", "beak", "crestColor"];
-  function buildLooks(species, fix) {
-    fix = fix || {};
+  function buildLooks(species) {
     const looks = [];
     species.forEach((sp, si) => {
-      const n = sp.looks.length, F = fix[sp.id] || {};
+      const n = sp.looks.length;
       sp.looks.forEach((l, li) => {
         const a = Object.assign({}, sp.base, l);
         a.size = sizeBucket(a.sizeCm || sp.sizeCm);
-        const W = {};
-        COLOR_PARTS.forEach(k => { W[k] = toWeights(a[k]); });
-        ["cheek", "collar"].forEach(k => { W[k] = toWeights(a[k]); });
-        [F["*"], F[l.label]].forEach(f => { if (f) Object.keys(f).forEach(k => { W[k] = f[k]; }); });
-        looks.push({ si, li, sp, label: l.label, a, W, prior: 1 / (species.length * n) });
+        looks.push({ si, li, sp, label: l.label, a, prior: 1 / (species.length * n) });
       });
     });
     return looks;
@@ -149,43 +100,24 @@
     if (qid === "crestColor") return a.crest ? (a.crestColor || a.crown || null) : "none";
     return a[qid] == null ? null : a[qid];
   }
-  // 색 질문용: 기준색 비율 {색: 비율} 또는 "none" 또는 null
-  function weightsOf(look, qid) {
-    if (qid === "crestColor") {
-      if (!look.a.crest) return "none";
-      return look.W.crestColor || look.W.crown || null;
-    }
-    return look.W[qid] == null ? null : look.W[qid];
-  }
-  const colorOptsOf = q => q._copts || (q._copts = q.options.map(o => o.v).filter(v => COLORS[v]));
 
-  // P(사용자가 ans를 고름 | 이 모습) — 선택지 전체에 대해 합이 1인 진짜 확률
   function likelihood(q, look, ans) {
+    const v = valueOf(look, q.id);
+    if (v == null) return UNKNOWN;
     let s = 0;
-    if (q.kind === "color" || q.kind === "colorOrNone") {
-      const v = weightsOf(look, q.id);
-      if (v == null) return UNKNOWN;
-      const opts = colorOptsOf(q), M = confusion(opts), hasNone = q.kind === "colorOrNone";
-      if (v === "none") s = ans === "none" ? 0.9 : 0.1 / opts.length;
-      else if (ans === "none") s = 0.06;
-      else if (PERCEPT.mode === "max") {
-        // 나열된 색 중 어느 것이든 말할 수 있다고 보고, 가장 잘 맞는 색으로 판단 (비율이 클수록 조금 더 믿음)
-        let top = 0; for (const c in v) top = Math.max(top, v[c]);
-        for (const c in v) { if (!M[c]) continue; const r = M[c][ans] / M[c][c] * (0.75 + 0.25 * v[c] / top); if (r > s) s = r; }
-        if (hasNone) s *= 0.94;
-      }
-      else { for (const c in v) s += v[c] * (M[c] ? M[c][ans] || 0 : 0); if (hasNone) s *= 0.94; }
+    if (q.kind === "color") {
+      v.forEach((c, i) => { s = Math.max(s, colorSim(ans, c) * (i === 0 ? 1 : 0.8)); });
+    } else if (q.kind === "colorOrNone") {
+      if (ans === "none") s = v === "none" ? 1 : 0.1;
+      else if (v === "none") s = 0;
+      else v.forEach((c, i) => { s = Math.max(s, colorSim(ans, c) * (i === 0 ? 1 : 0.8)); });
+    } else if (q.kind === "ordinal") {
+      const o = ORD[q.id], d = Math.abs(o.indexOf(ans) - o.indexOf(v));
+      s = d === 0 ? 1 : d === 1 ? 0.3 : 0;
     } else {
-      const v = valueOf(look, q.id);
-      if (v == null) return UNKNOWN;
-      if (q.kind === "ordinal") {
-        const o = ORD[q.id], d = Math.abs(o.indexOf(ans) - o.indexOf(v));
-        s = d === 0 ? 1 : d === 1 ? 0.3 : 0;
-      } else {
-        s = ans === v ? 1 : (CAT_NEAR[ans + "|" + v] || CAT_NEAR[v + "|" + ans] || 0);
-      }
+      s = ans === v ? 1 : (CAT_NEAR[ans + "|" + v] || CAT_NEAR[v + "|" + ans] || 0);
     }
-    return Math.max(PERCEPT.floor, s);
+    return Math.max(FLOOR, s);
   }
 
   // opts.opening: 처음에 고정으로 물을 질문 순서, opts.ease: 질문별 가산점 덮어쓰기
@@ -193,22 +125,15 @@
     opts = opts || {};
     const opening = opts.opening || OPENING;
     const ease = Object.assign({}, EASE, opts.ease || {});
-    const looks = buildLooks(species, opts.fix || root.COLOR_FIX);
+    const looks = buildLooks(species);
     const N = species.length;
-    // 우도 표를 미리 만든다: LT[질문][모습][선택지]
-    const LT = {}, OI = {};
-    for (const q of QUESTIONS) {
-      OI[q.id] = Object.fromEntries(q.options.map((o, k) => [o.v, k]));
-      LT[q.id] = looks.map(l => q.options.map(o => likelihood(q, l, o.v)));
-    }
-    const lik = (qid, i, ans) => { const k = OI[qid][ans]; return k == null ? likelihood(QMAP[qid], looks[i], ans) : LT[qid][i][k]; };
 
     function posterior(answers, rejected) {
-      const w = looks.map((l, i) => {
+      const w = looks.map(l => {
         let p = l.prior;
         for (const { qid, ans } of answers) {
           if (ans === "skip") continue;
-          p *= lik(qid, i, ans);
+          p *= likelihood(QMAP[qid], l, ans);
         }
         if (rejected && rejected.has(l.si)) p *= 0.02;
         return p;
@@ -250,7 +175,7 @@
       for (const q of QUESTIONS) {
         if (asked.has(q.id)) continue;
         // 각 모습이 각 답을 할 확률 (우도를 답들에 대해 정규화)
-        const L = LT[q.id];
+        const L = looks.map(l => q.options.map(o => likelihood(q, l, o.v)));
         const Zl = L.map(r => r.reduce((a, b) => a + b, 0));
         let expH = 0;
         q.options.forEach((o, oi) => {
@@ -268,8 +193,8 @@
       return best;
     }
 
-    return { looks, posterior, ranking, nextQuestion, species, lik };
+    return { looks, posterior, ranking, nextQuestion, species };
   }
 
-  root.ParrotKey = { COLORS, ALL, LAB, PERCEPT, QUESTIONS, QMAP, createEngine, likelihood, valueOf, weightsOf, colorSim, confusion, sizeBucket };
+  root.ParrotKey = { COLORS, ALL, QUESTIONS, QMAP, createEngine, likelihood, valueOf, sizeBucket };
 })(typeof window !== "undefined" ? window : globalThis);
