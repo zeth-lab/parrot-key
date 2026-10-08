@@ -375,6 +375,7 @@ svg.bird .spot-edge{animation:spotPulse 1.6s ease-in-out infinite}
 
 <script src="../data/species.js"></script>
 <script src="../data/names-ko.js"></script>
+<script src="../data/color-fix.js"></script>
 <script src="../engine.js"></script>
 <script>
 (function(){
@@ -872,6 +873,12 @@ function renderFind(){
     if (figSvg && !matchMedia("(prefers-reduced-motion: reduce)").matches) foundSequence(top, asked, figSvg); else renderResult(top, asked);
     return;
   }
+  // 후보가 2~3종으로 좁혀졌는데 확신이 부족하면: 질문을 더 하기보다 사진을 나란히 보여주고 고르게 한다
+  const close = R.list.filter(c => !S.declined.has(c.si)).slice(0, 3);
+  const mass = close.reduce((a, c) => a + c.p, 0);
+  if (asked >= 5 && close.length >= 2 && mass >= .8 && close[0].p < .62 && S.cmpAt !== asked && (S.cmpAt == null || asked - S.cmpAt >= 3)) {
+    S.cmpAt = asked; renderCompare(close.filter(c => c.p >= .05)); return;
+  }
   const q = next.q, opts = plausibleOptions(q), color = isColorQ(q);
   const focusPart = q.part.includes("all") ? "all" : q.part[0];
   const soFar = answersToAttrs(S.answers);
@@ -949,7 +956,7 @@ function trail(){
   return `<ul class="trail">${from ? `<li class="more" title="앞의 답 ${from}개">+${from}</li>` : ""}${S.answers.slice(from).map((a, j) => { const i = from + j, q = QMAP[a.qid];
     return `<li><button data-rm="${i}" title="이 답 지우기">${COLORS[a.ans] ? `<i style="background:${hex(a.ans)}"></i>` : ""}${SHORT[a.qid]} ${answerLabel(q, a.ans)} ×</button></li>`; }).join("")}</ul>`;
 }
-function resetFind(){ S.answers = []; S.rejected = new Set(); S.declined = new Set(); nav("find"); }
+function resetFind(){ S.answers = []; S.rejected = new Set(); S.declined = new Set(); S.cmpAt = null; nav("find"); }
 
 /* ───────── 북마크 (이 브라우저에 저장) ───────── */
 const BM_KEY = "parrot-key:bookmarks";
@@ -1117,6 +1124,29 @@ function renderResult(top, asked){
   document.getElementById("yes").onclick = resetFind;
   document.getElementById("no").onclick = () => renderCandidates(top);
   document.getElementById("more").onclick = () => { S.foundAt = asked; openDetail(top.si, "find", true); };
+}
+function renderCompare(list){
+  if (list.length < 2) { render(); return; }
+  $v.innerHTML = `<section class="screen">
+    <div class="panel rise" style="max-width:680px">
+      <p class="ask">질문 ${S.answers.length}개 · 거의 다 왔어요</p>
+      <h1 style="font-size:clamp(30px,4vw,52px)">이 중에 내가 있을까?</h1>
+      <p class="intro">사진을 보고 골라 주세요. 헷갈리면 질문을 계속할게요.</p>
+      <div class="row" style="display:flex;gap:10px;flex-wrap:wrap"><button class="big" id="continue">잘 모르겠어요 · 질문 계속하기</button></div>
+    </div>
+    <div class="cgrid">${list.map(c => { const A = Object.assign({}, c.species.base, c.look ? c.look.a : {}); const ll = c.look ? lookLabel(c.species, c.look.label) : "";
+      return `<button class="cc" data-sp="${c.si}"><span class="ph">${photo(c.species, "medium") ? `<img src="${esc(photo(c.species, "medium"))}" alt="" loading="lazy">` : birdSVG(A)}</span>
+      <b>${esc(nameOf(c.species))}</b><span>${ll ? esc(ll) + " · " : ""}${esc(featureLine(A))}</span></button>`; }).join("")}</div>
+  </section>`;
+  document.getElementById("continue").onclick = () => render();
+  $v.querySelectorAll("[data-sp]").forEach(b => b.onclick = () => { const si = +b.dataset.sp, top = eng.ranking(S.answers, S.rejected).list.find(c => c.si === si); renderResult(top, S.answers.length); });
+}
+// 후보끼리 구별되는 특징 한 줄 (사진만으로 헷갈릴 때)
+function featureLine(A){
+  const c = k => Array.isArray(A[k]) && COLORS[A[k][0]] ? COLORS[A[k][0]].ko : null, out = [];
+  if (c("forehead")) out.push("이마 " + c("forehead")); if (c("face")) out.push("얼굴 " + c("face"));
+  if (c("breast")) out.push("가슴 " + c("breast")); if (c("tail")) out.push("꼬리 " + c("tail"));
+  return out.slice(0, 3).join(" · ");
 }
 function renderCandidates(top){
   S.declined.add(top.si); S.rejected.add(top.si);

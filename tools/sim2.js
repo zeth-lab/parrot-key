@@ -73,18 +73,27 @@ let ok = 0, top1 = 0, top5 = 0, qsum = 0, n = 0; const failCount = {};
 for (let rep = 0; rep < reps; rep++) {
   seed = 1 + rep * 7777;
   E.looks.forEach((l, i) => {
-    const ans = []; let found = 0;
+    const ans = []; let found = 0, cmpAt = null;
     for (let s = 0; s < 18; s++) {
+      // 사진 비교 단계 (COMPARE=1): 후보 2~3종이면 사진을 보여주고, 정답이 있으면 85% 확률로 알아본다
+      if (process.env.COMPARE) {
+        const L = E.ranking(ans).list, close = L.slice(0, 3).filter(c => c.p >= .05), mass = L.slice(0, 3).reduce((a, c) => a + c.p, 0);
+        if (ans.length >= 5 && close.length >= 2 && mass >= .8 && L[0].p < .62 && (cmpAt == null || ans.length - cmpAt >= 3)) {
+          cmpAt = ans.length;
+          if (close.some(c => c.si === l.si) && R() < .85) { found = ans.length; break; }
+        }
+      }
       const nq = E.nextQuestion(ans); if (!nq) break;
       ans.push({ qid: nq.q.id, ans: answer(i, nq.q, ans) });
       const t = E.ranking(ans).list[0];
       if (s >= 2 && t.p >= 0.62) { found = s + 1; break; }
     }
     const list = E.ranking(ans).list, rank = list.findIndex(x => x.si === l.si) + 1;
-    n++; if (found && list[0].si === l.si) { ok++; qsum += found; } else failCount[l.sp.ko] = (failCount[l.sp.ko] || 0) + 1;
+    const hit = found && (process.env.COMPARE ? (list[0].si === l.si || cmpAt === found) : list[0].si === l.si);
+    n++; if (hit) { ok++; qsum += found; } else failCount[l.sp.ko] = (failCount[l.sp.ko] || 0) + 1;
     if (rank === 1) top1++; if (rank <= 5) top5++;
   });
 }
 const pct = x => (100 * x / n).toFixed(1) + "%";
-console.log(JSON.stringify({ err: ERR, perc: process.env.PERC || "", engine: path.basename(engFile), mode, runs: n, found_correct: pct(ok), top1: pct(top1), top5: pct(top5), avgQ: (qsum / Math.max(1, ok)).toFixed(1) }));
+console.log(JSON.stringify({ compare: !!process.env.COMPARE, err: ERR, perc: process.env.PERC || "", engine: path.basename(engFile), mode, runs: n, found_correct: pct(ok), top1: pct(top1), top5: pct(top5), avgQ: (qsum / Math.max(1, ok)).toFixed(1) }));
 if (process.argv[5] === "fails") console.log(Object.entries(failCount).sort((a, b) => b[1] - a[1]).slice(0, 30).map(x => x.join(":")).join("  "));
